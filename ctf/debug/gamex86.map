@@ -1,0 +1,2383 @@
+ gamex86
+
+ Timestamp is 607ac44c (Sat Apr 17 23:19:40 2021)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00038498H .text                   CODE
+ 0002:00000000 00000120H .idata$5                DATA
+ 0002:00000120 00000004H .CRT$XCA                DATA
+ 0002:00000124 00000004H .CRT$XCZ                DATA
+ 0002:00000128 00000004H .CRT$XIA                DATA
+ 0002:0000012c 00000004H .CRT$XIAA               DATA
+ 0002:00000130 00000004H .CRT$XIC                DATA
+ 0002:00000134 00000004H .CRT$XIZ                DATA
+ 0002:00000140 00006458H .rdata                  DATA
+ 0002:00006598 0000004dH .rdata$debug            DATA
+ 0002:000065f0 00000004H .rdata$sxdata           DATA
+ 0002:000065f4 00000004H .rtc$IAA                DATA
+ 0002:000065f8 00000004H .rtc$IZZ                DATA
+ 0002:000065fc 00000004H .rtc$TAA                DATA
+ 0002:00006600 00000004H .rtc$TZZ                DATA
+ 0002:00006608 00000084H .xdata$x                DATA
+ 0002:0000668c 00000028H .idata$2                DATA
+ 0002:000066b4 00000014H .idata$3                DATA
+ 0002:000066c8 00000120H .idata$4                DATA
+ 0002:000067e8 000003e6H .idata$6                DATA
+ 0002:00006bd0 00000049H .edata                  DATA
+ 0003:00000000 00001cc8H .data                   DATA
+ 0003:00001ce0 0000d490H .bss                    DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       _AI_SetSightClient         10001000 f   g_ai.obj
+ 0001:000000c0       _ai_move                   100010c0 f   g_ai.obj
+ 0001:000000f0       _ai_stand                  100010f0 f   g_ai.obj
+ 0001:00000340       _ai_walk                   10001340 f   g_ai.obj
+ 0001:00000440       _ai_charge                 10001440 f   g_ai.obj
+ 0001:000004e0       _ai_turn                   100014e0 f   g_ai.obj
+ 0001:00000540       _range                     10001540 f   g_ai.obj
+ 0001:000005e0       _visible                   100015e0 f   g_ai.obj
+ 0001:000006b0       _infront                   100016b0 f   g_ai.obj
+ 0001:00000750       _HuntTarget                10001750 f   g_ai.obj
+ 0001:00000820       _FoundTarget               10001820 f   g_ai.obj
+ 0001:000009e0       _FindTarget                100019e0 f   g_ai.obj
+ 0001:00000e90       _FacingIdeal               10001e90 f   g_ai.obj
+ 0001:00000ef0       _M_CheckAttack             10001ef0 f   g_ai.obj
+ 0001:000011f0       _ai_run_melee              100021f0 f   g_ai.obj
+ 0001:00001250       _ai_run_missile            10002250 f   g_ai.obj
+ 0001:000012b0       _ai_run_slide              100022b0 f   g_ai.obj
+ 0001:00001370       _ai_checkattack            10002370 f   g_ai.obj
+ 0001:00001780       _ai_run                    10002780 f   g_ai.obj
+ 0001:000021b0       _UpdateChaseCam            100031b0 f   g_chase.obj
+ 0001:00002690       _ChaseNext                 10003690 f   g_chase.obj
+ 0001:00002750       _ChasePrev                 10003750 f   g_chase.obj
+ 0001:00002810       _ClientTeam                10003810 f   g_cmds.obj
+ 0001:000028b0       _OnSameTeam                100038b0 f   g_cmds.obj
+ 0001:00002950       _SelectNextItem            10003950 f   g_cmds.obj
+ 0001:00002a40       _SelectPrevItem            10003a40 f   g_cmds.obj
+ 0001:00002b30       _ValidateSelectedItem      10003b30 f   g_cmds.obj
+ 0001:00002b70       _Cmd_Give_f                10003b70 f   g_cmds.obj
+ 0001:00003060       _Cmd_God_f                 10004060 f   g_cmds.obj
+ 0001:00003100       _Cmd_Notarget_f            10004100 f   g_cmds.obj
+ 0001:000031a0       _Cmd_Noclip_f              100041a0 f   g_cmds.obj
+ 0001:00003240       _Cmd_Use_f                 10004240 f   g_cmds.obj
+ 0001:00003300       _Cmd_Drop_f                10004300 f   g_cmds.obj
+ 0001:00003400       _Cmd_Inven_f               10004400 f   g_cmds.obj
+ 0001:00003510       _Cmd_InvUse_f              10004510 f   g_cmds.obj
+ 0001:000035c0       _Cmd_LastWeap_f            100045c0 f   g_cmds.obj
+ 0001:00003620       _Cmd_WeapPrev_f            10004620 f   g_cmds.obj
+ 0001:00003700       _Cmd_WeapNext_f            10004700 f   g_cmds.obj
+ 0001:000037e0       _Cmd_WeapLast_f            100047e0 f   g_cmds.obj
+ 0001:00003880       _Cmd_InvDrop_f             10004880 f   g_cmds.obj
+ 0001:00003910       _Cmd_Kill_f                10004910 f   g_cmds.obj
+ 0001:000039a0       _Cmd_PutAway_f             100049a0 f   g_cmds.obj
+ 0001:00003a10       _PlayerSort                10004a10 f   g_cmds.obj
+ 0001:00003a90       _Cmd_Players_f             10004a90 f   g_cmds.obj
+ 0001:00003c20       _Cmd_Wave_f                10004c20 f   g_cmds.obj
+ 0001:00003da0       _CheckFlood                10004da0 f   g_cmds.obj
+ 0001:00003f10       _Cmd_Say_f                 10004f10 f   g_cmds.obj
+ 0001:00004140       _ClientCommand             10005140 f   g_cmds.obj
+ 0001:00004780       _CanDamage                 10005780 f   g_combat.obj
+ 0001:00004ae0       _Killed                    10005ae0 f   g_combat.obj
+ 0001:00004c60       _SpawnDamage               10005c60 f   g_combat.obj
+ 0001:00004cd0       _M_ReactToDamage           10005cd0 f   g_combat.obj
+ 0001:00004f40       _CheckTeamDamage           10005f40 f   g_combat.obj
+ 0001:00004fb0       _T_Damage                  10005fb0 f   g_combat.obj
+ 0001:000059f0       _T_RadiusDamage            100069f0 f   g_combat.obj
+ 0001:00005b90       _stuffcmd                  10006b90 f   g_ctf.obj
+ 0001:00005bd0       _CTFSpawn                  10006bd0 f   g_ctf.obj
+ 0001:00005c70       _CTFInit                   10006c70 f   g_ctf.obj
+ 0001:00005d90       _CTFTeamName               10006d90 f   g_ctf.obj
+ 0001:00005dd0       _CTFOtherTeamName          10006dd0 f   g_ctf.obj
+ 0001:00005e10       _CTFOtherTeam              10006e10 f   g_ctf.obj
+ 0001:00005e50       _CTFAssignSkin             10006e50 f   g_ctf.obj
+ 0001:00005fa0       _CTFAssignTeam             10006fa0 f   g_ctf.obj
+ 0001:000060d0       _SelectCTFSpawnPoint       100070d0 f   g_ctf.obj
+ 0001:00006290       _CTFFragBonuses            10007290 f   g_ctf.obj
+ 0001:00006c10       _CTFCheckHurtCarrier       10007c10 f   g_ctf.obj
+ 0001:00006cb0       _CTFResetFlag              10007cb0 f   g_ctf.obj
+ 0001:00006d70       _CTFResetFlags             10007d70 f   g_ctf.obj
+ 0001:00006da0       _CTFPickup_Flag            10007da0 f   g_ctf.obj
+ 0001:00007270       _CTFDeadDropFlag           10008270 f   g_ctf.obj
+ 0001:000074d0       _CTFDrop_Flag              100084d0 f   g_ctf.obj
+ 0001:00007520       _CTFFlagSetup              10008520 f   g_ctf.obj
+ 0001:000077d0       _CTFEffects                100087d0 f   g_ctf.obj
+ 0001:000078e0       _CTFCalcScores             100088e0 f   g_ctf.obj
+ 0001:000079d0       _CTFID_f                   100089d0 f   g_ctf.obj
+ 0001:00007a40       _SetCTFStats               10008a40 f   g_ctf.obj
+ 0001:000082c0       _SP_info_player_team1      100092c0 f   g_ctf.obj
+ 0001:000082d0       _SP_info_player_team2      100092d0 f   g_ctf.obj
+ 0001:000082e0       _CTFPlayerResetGrapple     100092e0 f   g_ctf.obj
+ 0001:00008320       _CTFResetGrapple           10009320 f   g_ctf.obj
+ 0001:00008400       _CTFGrappleTouch           10009400 f   g_ctf.obj
+ 0001:00008620       _CTFGrappleDrawCable       10009620 f   g_ctf.obj
+ 0001:000087d0       _CTFGrapplePull            100097d0 f   g_ctf.obj
+ 0001:00008c80       _CTFFireGrapple            10009c80 f   g_ctf.obj
+ 0001:00008ea0       _CTFGrappleFire            10009ea0 f   g_ctf.obj
+ 0001:00009010       _CTFWeapon_Grapple_Fire    1000a010 f   g_ctf.obj
+ 0001:00009060       _CTFWeapon_Grapple         1000a060 f   g_ctf.obj
+ 0001:000091e0       _CTFTeam_f                 1000a1e0 f   g_ctf.obj
+ 0001:00009440       _CTFScoreboardMessage      1000a440 f   g_ctf.obj
+ 0001:00009df0       _CTFHasTech                1000adf0 f   g_ctf.obj
+ 0001:00009e50       _CTFWhat_Tech              1000ae50 f   g_ctf.obj
+ 0001:00009ed0       _CTFPickup_Tech            1000aed0 f   g_ctf.obj
+ 0001:00009fb0       _CTFDrop_Tech              1000afb0 f   g_ctf.obj
+ 0001:0000a110       _CTFDeadDropTech           1000b110 f   g_ctf.obj
+ 0001:0000a410       _CTFRespawnTech            1000b410 f   g_ctf.obj
+ 0001:0000a450       _CTFSetupTechSpawn         1000b450 f   g_ctf.obj
+ 0001:0000a520       _CTFResetTech              1000b520 f   g_ctf.obj
+ 0001:0000a5b0       _CTFApplyResistance        1000b5b0 f   g_ctf.obj
+ 0001:0000a680       _CTFApplyStrength          1000b680 f   g_ctf.obj
+ 0001:0000a6f0       _CTFApplyStrengthSound     1000b6f0 f   g_ctf.obj
+ 0001:0000a840       _CTFApplyHaste             1000b840 f   g_ctf.obj
+ 0001:0000a8b0       _CTFApplyHasteSound        1000b8b0 f   g_ctf.obj
+ 0001:0000a9b0       _CTFApplyRegeneration      1000b9b0 f   g_ctf.obj
+ 0001:0000abc0       _CTFHasRegeneration        1000bbc0 f   g_ctf.obj
+ 0001:0000ac30       _CTFSay_Team               1000bc30 f   g_ctf.obj
+ 0001:0000ba10       _SP_misc_ctf_banner        1000ca10 f   g_ctf.obj
+ 0001:0000bb00       _SP_misc_ctf_small_banner  1000cb00 f   g_ctf.obj
+ 0001:0000bba0       _CTFBeginElection          1000cba0 f   g_ctf.obj
+ 0001:0000bd40       _CTFResetAllPlayers        1000cd40 f   g_ctf.obj
+ 0001:0000bef0       _CTFAssignGhost            1000cef0 f   g_ctf.obj
+ 0001:0000c060       _CTFStartMatch             1000d060 f   g_ctf.obj
+ 0001:0000c240       _CTFEndMatch               1000d240 f   g_ctf.obj
+ 0001:0000c370       _CTFNextMap                1000d370 f   g_ctf.obj
+ 0001:0000c3b0       _CTFWinElection            1000d3b0 f   g_ctf.obj
+ 0001:0000c4b0       _CTFVoteYes                1000d4b0 f   g_ctf.obj
+ 0001:0000c5a0       _CTFVoteNo                 1000d5a0 f   g_ctf.obj
+ 0001:0000c670       _CTFReady                  1000d670 f   g_ctf.obj
+ 0001:0000c820       _CTFNotReady               1000d820 f   g_ctf.obj
+ 0001:0000c920       _CTFGhost                  1000d920 f   g_ctf.obj
+ 0001:0000cb10       _CTFMatchSetup             1000db10 f   g_ctf.obj
+ 0001:0000cb40       _CTFMatchOn                1000db40 f   g_ctf.obj
+ 0001:0000cb70       _CTFJoinTeam               1000db70 f   g_ctf.obj
+ 0001:0000ccb0       _CTFJoinTeam1              1000dcb0 f   g_ctf.obj
+ 0001:0000ccd0       _CTFJoinTeam2              1000dcd0 f   g_ctf.obj
+ 0001:0000ccf0       _CTFChaseCam               1000dcf0 f   g_ctf.obj
+ 0001:0000ce60       _CTFReturnToMain           1000de60 f   g_ctf.obj
+ 0001:0000ce90       _CTFRequestMatch           1000de90 f   g_ctf.obj
+ 0001:0000cf00       _CTFShowScores             1000df00 f   g_ctf.obj
+ 0001:0000cf50       _CTFUpdateJoinMenu         1000df50 f   g_ctf.obj
+ 0001:0000d380       _CTFOpenJoinMenu           1000e380 f   g_ctf.obj
+ 0001:0000d3f0       _CTFCredits                1000e3f0 f   g_ctf.obj
+ 0001:0000d430       _CTFStartClient            1000e430 f   g_ctf.obj
+ 0001:0000d4f0       _CTFObserver               1000e4f0 f   g_ctf.obj
+ 0001:0000d5c0       _CTFInMatch                1000e5c0 f   g_ctf.obj
+ 0001:0000d5f0       _CTFCheckRules             1000e5f0 f   g_ctf.obj
+ 0001:0000d920       _SP_trigger_teleport       1000e920 f   g_ctf.obj
+ 0001:0000dc80       _SP_info_teleport_destination 1000ec80 f   g_ctf.obj
+ 0001:0000dcb0       _CTFAdmin_SettingsApply    1000ecb0 f   g_ctf.obj
+ 0001:0000e210       _CTFAdmin_SettingsCancel   1000f210 f   g_ctf.obj
+ 0001:0000e250       _CTFAdmin_ChangeMatchLen   1000f250 f   g_ctf.obj
+ 0001:0000e2a0       _CTFAdmin_ChangeMatchSetupLen 1000f2a0 f   g_ctf.obj
+ 0001:0000e300       _CTFAdmin_ChangeMatchStartLen 1000f300 f   g_ctf.obj
+ 0001:0000e360       _CTFAdmin_ChangeWeapStay   1000f360 f   g_ctf.obj
+ 0001:0000e3a0       _CTFAdmin_ChangeInstantItems 1000f3a0 f   g_ctf.obj
+ 0001:0000e3e0       _CTFAdmin_ChangeQuadDrop   1000f3e0 f   g_ctf.obj
+ 0001:0000e420       _CTFAdmin_ChangeInstantWeap 1000f420 f   g_ctf.obj
+ 0001:0000e460       _CTFAdmin_ChangeMatchLock  1000f460 f   g_ctf.obj
+ 0001:0000e4a0       _CTFAdmin_UpdateSettings   1000f4a0 f   g_ctf.obj
+ 0001:0000e790       _CTFAdmin_Settings         1000f790 f   g_ctf.obj
+ 0001:0000e8d0       _CTFAdmin_MatchSet         1000f8d0 f   g_ctf.obj
+ 0001:0000e970       _CTFAdmin_MatchMode        1000f970 f   g_ctf.obj
+ 0001:0000e9d0       _CTFAdmin_Cancel           1000f9d0 f   g_ctf.obj
+ 0001:0000e9f0       _CTFOpenAdminMenu          1000f9f0 f   g_ctf.obj
+ 0001:0000eaa0       _CTFAdmin                  1000faa0 f   g_ctf.obj
+ 0001:0000ebe0       _CTFStats                  1000fbe0 f   g_ctf.obj
+ 0001:0000eed0       _CTFPlayerList             1000fed0 f   g_ctf.obj
+ 0001:0000f200       _CTFWarp                   10010200 f   g_ctf.obj
+ 0001:0000f400       _CTFBoot                   10010400 f   g_ctf.obj
+ 0001:0000f560       _Move_Done                 10010560 f   g_func.obj
+ 0001:0000f5b0       _Move_Final                100105b0 f   g_func.obj
+ 0001:0000f640       _Move_Begin                10010640 f   g_func.obj
+ 0001:0000f720       _Move_Calc                 10010720 f   g_func.obj
+ 0001:0000f880       _AngleMove_Done            10010880 f   g_func.obj
+ 0001:0000f8d0       _AngleMove_Final           100108d0 f   g_func.obj
+ 0001:0000f9c0       _AngleMove_Begin           100109c0 f   g_func.obj
+ 0001:0000faf0       _AngleMove_Calc            10010af0 f   g_func.obj
+ 0001:0000fb90       _plat_CalcAcceleratedMove  10010b90 f   g_func.obj
+ 0001:0000fcc0       _plat_Accelerate           10010cc0 f   g_func.obj
+ 0001:0000fed0       _Think_AccelMove           10010ed0 f   g_func.obj
+ 0001:0000ffc0       _plat_hit_top              10010fc0 f   g_func.obj
+ 0001:00010060       _plat_hit_bottom           10011060 f   g_func.obj
+ 0001:000100e0       _plat_go_down              100110e0 f   g_func.obj
+ 0001:00010180       _plat_go_up                10011180 f   g_func.obj
+ 0001:00010220       _plat_blocked              10011220 f   g_func.obj
+ 0001:00010300       _Use_Plat                  10011300 f   g_func.obj
+ 0001:00010330       _Touch_Plat_Center         10011330 f   g_func.obj
+ 0001:000103a0       _plat_spawn_inside_trigger 100113a0 f   g_func.obj
+ 0001:00010560       _SP_func_plat              10011560 f   g_func.obj
+ 0001:00010930       _rotating_blocked          10011930 f   g_func.obj
+ 0001:00010980       _rotating_touch            10011980 f   g_func.obj
+ 0001:00010a10       _rotating_use              10011a10 f   g_func.obj
+ 0001:00010ad0       _SP_func_rotating          10011ad0 f   g_func.obj
+ 0001:00010cc0       _button_done               10011cc0 f   g_func.obj
+ 0001:00010d10       _button_return             10011d10 f   g_func.obj
+ 0001:00010d70       _button_wait               10011d70 f   g_func.obj
+ 0001:00010e10       _button_fire               10011e10 f   g_func.obj
+ 0001:00010eb0       _button_use                10011eb0 f   g_func.obj
+ 0001:00010ee0       _button_touch              10011ee0 f   g_func.obj
+ 0001:00010f30       _button_killed             10011f30 f   g_func.obj
+ 0001:00010f80       _SP_func_button            10011f80 f   g_func.obj
+ 0001:00011320       _door_use_areaportals      10012320 f   g_func.obj
+ 0001:000113a0       _door_hit_top              100123a0 f   g_func.obj
+ 0001:00011460       _door_hit_bottom           10012460 f   g_func.obj
+ 0001:000114f0       _door_go_down              100124f0 f   g_func.obj
+ 0001:00011600       _door_go_up                10012600 f   g_func.obj
+ 0001:00011750       _door_use                  10012750 f   g_func.obj
+ 0001:00011830       _Touch_DoorTrigger         10012830 f   g_func.obj
+ 0001:000118e0       _Think_CalcMoveSpeed       100128e0 f   g_func.obj
+ 0001:00011a60       _Think_SpawnDoorTrigger    10012a60 f   g_func.obj
+ 0001:00011c10       _door_blocked              10012c10 f   g_func.obj
+ 0001:00011d50       _door_killed               10012d50 f   g_func.obj
+ 0001:00011dc0       _door_touch                10012dc0 f   g_func.obj
+ 0001:00011e60       _SP_func_door              10012e60 f   g_func.obj
+ 0001:000123d0       _SP_func_door_rotating     100133d0 f   g_func.obj
+ 0001:00012990       _SP_func_water             10013990 f   g_func.obj
+ 0001:00012da0       _train_blocked             10013da0 f   g_func.obj
+ 0001:00012e80       _train_wait                10013e80 f   g_func.obj
+ 0001:00013020       _train_next                10014020 f   g_func.obj
+ 0001:00013290       _train_resume              10014290 f   g_func.obj
+ 0001:00013370       _func_train_find           10014370 f   g_func.obj
+ 0001:000134a0       _train_use                 100144a0 f   g_func.obj
+ 0001:00013550       _SP_func_train             10014550 f   g_func.obj
+ 0001:000136e0       _trigger_elevator_use      100146e0 f   g_func.obj
+ 0001:00013790       _trigger_elevator_init     10014790 f   g_func.obj
+ 0001:00013860       _SP_trigger_elevator       10014860 f   g_func.obj
+ 0001:000138a0       _func_timer_think          100148a0 f   g_func.obj
+ 0001:00013910       _func_timer_use            10014910 f   g_func.obj
+ 0001:00013990       _SP_func_timer             10014990 f   g_func.obj
+ 0001:00013ac0       _func_conveyor_use         10014ac0 f   g_func.obj
+ 0001:00013b50       _SP_func_conveyor          10014b50 f   g_func.obj
+ 0001:00013c00       _door_secret_use           10014c00 f   g_func.obj
+ 0001:00013c60       _door_secret_move1         10014c60 f   g_func.obj
+ 0001:00013ca0       _door_secret_move2         10014ca0 f   g_func.obj
+ 0001:00013cd0       _door_secret_move3         10014cd0 f   g_func.obj
+ 0001:00013d20       _door_secret_move4         10014d20 f   g_func.obj
+ 0001:00013d50       _door_secret_move5         10014d50 f   g_func.obj
+ 0001:00013d90       _door_secret_move6         10014d90 f   g_func.obj
+ 0001:00013dc0       _door_secret_done          10014dc0 f   g_func.obj
+ 0001:00013e20       _door_secret_blocked       10014e20 f   g_func.obj
+ 0001:00013ef0       _door_secret_die           10014ef0 f   g_func.obj
+ 0001:00013f30       _SP_func_door_secret       10014f30 f   g_func.obj
+ 0001:000142a0       _use_killbox               100152a0 f   g_func.obj
+ 0001:000142c0       _SP_func_killbox           100152c0 f   g_func.obj
+ 0001:00014310       _GetItemByIndex            10015310 f   g_items.obj
+ 0001:00014340       _FindItemByClassname       10015340 f   g_items.obj
+ 0001:000143b0       _FindItem                  100153b0 f   g_items.obj
+ 0001:00014420       _DoRespawn                 10015420 f   g_items.obj
+ 0001:00014540       _SetRespawn                10015540 f   g_items.obj
+ 0001:000145c0       _Pickup_Powerup            100155c0 f   g_items.obj
+ 0001:00014790       _Drop_General              10015790 f   g_items.obj
+ 0001:00014800       _Pickup_Adrenaline         10015800 f   g_items.obj
+ 0001:000148b0       _Pickup_AncientHead        100158b0 f   g_items.obj
+ 0001:00014920       _Pickup_Bandolier          10015920 f   g_items.obj
+ 0001:00014b10       _Pickup_Pack               10015b10 f   g_items.obj
+ 0001:00014f60       _Use_Quad                  10015f60 f   g_items.obj
+ 0001:00015060       _Use_Breather              10016060 f   g_items.obj
+ 0001:00015110       _Use_Envirosuit            10016110 f   g_items.obj
+ 0001:000151c0       _Use_Invulnerability       100161c0 f   g_items.obj
+ 0001:000152a0       _Use_Silencer              100162a0 f   g_items.obj
+ 0001:00015320       _Pickup_Key                10016320 f   g_items.obj
+ 0001:000154b0       _Add_Ammo                  100164b0 f   g_items.obj
+ 0001:000155f0       _Pickup_Ammo               100165f0 f   g_items.obj
+ 0001:00015750       _Drop_Ammo                 10016750 f   g_items.obj
+ 0001:00015800       _MegaHealth_think          10016800 f   g_items.obj
+ 0001:000158d0       _Pickup_Health             100168d0 f   g_items.obj
+ 0001:00015a70       _ArmorIndex                10016a70 f   g_items.obj
+ 0001:00015af0       _Pickup_Armor              10016af0 f   g_items.obj
+ 0001:00015d30       _PowerArmorType            10016d30 f   g_items.obj
+ 0001:00015da0       _Use_PowerArmor            10016da0 f   g_items.obj
+ 0001:00015ea0       _Pickup_PowerArmor         10016ea0 f   g_items.obj
+ 0001:00015f90       _Drop_PowerArmor           10016f90 f   g_items.obj
+ 0001:00016000       _Touch_Item                10017000 f   g_items.obj
+ 0001:00016340       _Drop_Item                 10017340 f   g_items.obj
+ 0001:00016660       _Use_Item                  10017660 f   g_items.obj
+ 0001:000166f0       _droptofloor               100176f0 f   g_items.obj
+ 0001:00016a40       _PrecacheItem              10017a40 f   g_items.obj
+ 0001:00016c60       _SpawnItem                 10017c60 f   g_items.obj
+ 0001:00016f80       _SP_item_health            10017f80 f   g_items.obj
+ 0001:00017010       _SP_item_health_small      10018010 f   g_items.obj
+ 0001:000170b0       _SP_item_health_large      100180b0 f   g_items.obj
+ 0001:00017140       _SP_item_health_mega       10018140 f   g_items.obj
+ 0001:000171e0       _InitItems                 100181e0 f   g_items.obj
+ 0001:00017200       _SetItemNames              10018200 f   g_items.obj
+ 0001:00017300       _ShutdownGame              10018300 f   g_main.obj
+ 0001:00017340       _GetGameAPI                10018340 f   g_main.obj
+ 0001:00017410       _Sys_Error                 10018410 f   g_main.obj
+ 0001:00017480       _Com_Printf                10018480 f   g_main.obj
+ 0001:000174f0       _ClientEndServerFrames     100184f0 f   g_main.obj
+ 0001:00017570       _CreateTargetChangeLevel   10018570 f   g_main.obj
+ 0001:000175c0       _EndDMLevel                100185c0 f   g_main.obj
+ 0001:000177a0       _CheckDMRules              100187a0 f   g_main.obj
+ 0001:00017910       _ExitLevel                 10018910 f   g_main.obj
+ 0001:00017a10       _G_RunFrame                10018a10 f   g_main.obj
+ 0001:00017b70       _Use_Areaportal            10018b70 f   g_misc.obj
+ 0001:00017bc0       _SP_func_areaportal        10018bc0 f   g_misc.obj
+ 0001:00017bf0       _VelocityForDamage         10018bf0 f   g_misc.obj
+ 0001:00017cd0       _ClipGibVelocity           10018cd0 f   g_misc.obj
+ 0001:00017dd0       _gib_think                 10018dd0 f   g_misc.obj
+ 0001:00017e60       _gib_touch                 10018e60 f   g_misc.obj
+ 0001:00017f40       _gib_die                   10018f40 f   g_misc.obj
+ 0001:00017f60       _ThrowGib                  10018f60 f   g_misc.obj
+ 0001:00018210       _ThrowHead                 10019210 f   g_misc.obj
+ 0001:00018420       _ThrowClientHead           10019420 f   g_misc.obj
+ 0001:000185c0       _debris_die                100195c0 f   g_misc.obj
+ 0001:000185e0       _ThrowDebris               100195e0 f   g_misc.obj
+ 0001:00018800       _BecomeExplosion1          10019800 f   g_misc.obj
+ 0001:00018910       _BecomeExplosion2          10019910 f   g_misc.obj
+ 0001:00018970       _path_corner_touch         10019970 f   g_misc.obj
+ 0001:00018b80       _SP_path_corner            10019b80 f   g_misc.obj
+ 0001:00018c70       _point_combat_touch        10019c70 f   g_misc.obj
+ 0001:00018eb0       _SP_point_combat           10019eb0 f   g_misc.obj
+ 0001:00018f80       _TH_viewthing              10019f80 f   g_misc.obj
+ 0001:00019010       _SP_viewthing              1001a010 f   g_misc.obj
+ 0001:000190f0       _SP_info_null              1001a0f0 f   g_misc.obj
+ 0001:00019110       _SP_info_notnull           1001a110 f   g_misc.obj
+ 0001:00019180       _SP_light                  1001a180 f   g_misc.obj
+ 0001:000192c0       _func_wall_use             1001a2c0 f   g_misc.obj
+ 0001:00019360       _SP_func_wall              1001a360 f   g_misc.obj
+ 0001:000194c0       _func_object_touch         1001a4c0 f   g_misc.obj
+ 0001:00019530       _func_object_release       1001a530 f   g_misc.obj
+ 0001:00019560       _func_object_use           1001a560 f   g_misc.obj
+ 0001:000195c0       _SP_func_object            1001a5c0 f   g_misc.obj
+ 0001:00019770       _func_explosive_explode    1001a770 f   g_misc.obj
+ 0001:00019af0       _func_explosive_use        1001aaf0 f   g_misc.obj
+ 0001:00019b30       _func_explosive_spawn      1001ab30 f   g_misc.obj
+ 0001:00019b90       _SP_func_explosive         1001ab90 f   g_misc.obj
+ 0001:00019d00       _barrel_touch              1001ad00 f   g_misc.obj
+ 0001:00019da0       _barrel_explode            1001ada0 f   g_misc.obj
+ 0001:0001a800       _barrel_delay              1001b800 f   g_misc.obj
+ 0001:0001a850       _SP_misc_explobox          1001b850 f   g_misc.obj
+ 0001:0001aa00       _misc_blackhole_use        1001ba00 f   g_misc.obj
+ 0001:0001aa20       _misc_blackhole_think      1001ba20 f   g_misc.obj
+ 0001:0001aa80       _SP_misc_blackhole         1001ba80 f   g_misc.obj
+ 0001:0001ab60       _misc_eastertank_think     1001bb60 f   g_misc.obj
+ 0001:0001abd0       _SP_misc_eastertank        1001bbd0 f   g_misc.obj
+ 0001:0001acb0       _misc_easterchick_think    1001bcb0 f   g_misc.obj
+ 0001:0001ad20       _SP_misc_easterchick       1001bd20 f   g_misc.obj
+ 0001:0001adf0       _misc_easterchick2_think   1001bdf0 f   g_misc.obj
+ 0001:0001ae60       _SP_misc_easterchick2      1001be60 f   g_misc.obj
+ 0001:0001af30       _commander_body_think      1001bf30 f   g_misc.obj
+ 0001:0001afc0       _commander_body_use        1001bfc0 f   g_misc.obj
+ 0001:0001b030       _commander_body_drop       1001c030 f   g_misc.obj
+ 0001:0001b060       _SP_monster_commander_body 1001c060 f   g_misc.obj
+ 0001:0001b190       _misc_banner_think         1001c190 f   g_misc.obj
+ 0001:0001b1e0       _SP_misc_banner            1001c1e0 f   g_misc.obj
+ 0001:0001b270       _misc_deadsoldier_die      1001c270 f   g_misc.obj
+ 0001:0001b310       _SP_misc_deadsoldier       1001c310 f   g_misc.obj
+ 0001:0001b4c0       _misc_viper_use            1001c4c0 f   g_misc.obj
+ 0001:0001b510       _SP_misc_viper             1001c510 f   g_misc.obj
+ 0001:0001b690       _SP_misc_bigviper          1001c690 f   g_misc.obj
+ 0001:0001b740       _misc_viper_bomb_touch     1001c740 f   g_misc.obj
+ 0001:0001b7c0       _misc_viper_bomb_prethink  1001c7c0 f   g_misc.obj
+ 0001:0001b860       _misc_viper_bomb_use       1001c860 f   g_misc.obj
+ 0001:0001b970       _SP_misc_viper_bomb        1001c970 f   g_misc.obj
+ 0001:0001ba50       _misc_strogg_ship_use      1001ca50 f   g_misc.obj
+ 0001:0001baa0       _SP_misc_strogg_ship       1001caa0 f   g_misc.obj
+ 0001:0001bc30       _misc_satellite_dish_think 1001cc30 f   g_misc.obj
+ 0001:0001bc70       _misc_satellite_dish_use   1001cc70 f   g_misc.obj
+ 0001:0001bcb0       _SP_misc_satellite_dish    1001ccb0 f   g_misc.obj
+ 0001:0001bd60       _SP_light_mine1            1001cd60 f   g_misc.obj
+ 0001:0001bdb0       _SP_light_mine2            1001cdb0 f   g_misc.obj
+ 0001:0001be00       _SP_misc_gib_arm           1001ce00 f   g_misc.obj
+ 0001:0001bf30       _SP_misc_gib_leg           1001cf30 f   g_misc.obj
+ 0001:0001c060       _SP_misc_gib_head          1001d060 f   g_misc.obj
+ 0001:0001c190       _SP_target_character       1001d190 f   g_misc.obj
+ 0001:0001c1f0       _target_string_use         1001d1f0 f   g_misc.obj
+ 0001:0001c2e0       _SP_target_string          1001d2e0 f   g_misc.obj
+ 0001:0001c320       _func_clock_think          1001d320 f   g_misc.obj
+ 0001:0001c7e0       _func_clock_use            1001d7e0 f   g_misc.obj
+ 0001:0001c840       _SP_func_clock             1001d840 f   g_misc.obj
+ 0001:0001c980       _teleporter_touch          1001d980 f   g_misc.obj
+ 0001:0001cb80       _SP_misc_teleporter        1001db80 f   g_misc.obj
+ 0001:0001cd40       _SP_misc_teleporter_dest   1001dd40 f   g_misc.obj
+ 0001:0001cde0       _monster_fire_bullet       1001dde0 f   g_monster.obj
+ 0001:0001ce60       _monster_fire_shotgun      1001de60 f   g_monster.obj
+ 0001:0001cee0       _monster_fire_blaster      1001dee0 f   g_monster.obj
+ 0001:0001cf60       _monster_fire_grenade      1001df60 f   g_monster.obj
+ 0001:0001cff0       _monster_fire_rocket       1001dff0 f   g_monster.obj
+ 0001:0001d080       _monster_fire_railgun      1001e080 f   g_monster.obj
+ 0001:0001d0f0       _monster_fire_bfg          1001e0f0 f   g_monster.obj
+ 0001:0001d170       _M_FlyCheck                1001e170 f   g_monster.obj
+ 0001:0001d2a0       _AttackFinished            1001e2a0 f   g_monster.obj
+ 0001:0001d2d0       _M_CheckGround             1001e2d0 f   g_monster.obj
+ 0001:0001d410       _M_CatagorizePosition      1001e410 f   g_monster.obj
+ 0001:0001d500       _M_WorldEffects            1001e500 f   g_monster.obj
+ 0001:0001d9e0       _M_droptofloor             1001e9e0 f   g_monster.obj
+ 0001:0001dae0       _M_SetEffects              1001eae0 f   g_monster.obj
+ 0001:0001dbc0       _M_MoveFrame               1001ebc0 f   g_monster.obj
+ 0001:0001ddc0       _monster_think             1001edc0 f   g_monster.obj
+ 0001:0001de30       _monster_use               1001ee30 f   g_monster.obj
+ 0001:0001dea0       _monster_triggered_spawn   1001eea0 f   g_monster.obj
+ 0001:0001df80       _monster_triggered_spawn_use 1001ef80 f   g_monster.obj
+ 0001:0001dfe0       _monster_triggered_start   1001efe0 f   g_monster.obj
+ 0001:0001e040       _monster_death_use         1001f040 f   g_monster.obj
+ 0001:0001e0f0       _monster_start             1001f0f0 f   g_monster.obj
+ 0001:0001e320       _monster_start_go          1001f320 f   g_monster.obj
+ 0001:0001e6c0       _walkmonster_start_go      1001f6c0 f   g_monster.obj
+ 0001:0001e7b0       _walkmonster_start         1001f7b0 f   g_monster.obj
+ 0001:0001e7e0       _flymonster_start_go       1001f7e0 f   g_monster.obj
+ 0001:0001e890       _flymonster_start          1001f890 f   g_monster.obj
+ 0001:0001e8d0       _swimmonster_start_go      1001f8d0 f   g_monster.obj
+ 0001:0001e940       _swimmonster_start         1001f940 f   g_monster.obj
+ 0001:0001e980       _SV_TestEntityPosition     1001f980 f   g_phys.obj
+ 0001:0001ea20       _SV_CheckVelocity          1001fa20 f   g_phys.obj
+ 0001:0001eac0       _SV_RunThink               1001fac0 f   g_phys.obj
+ 0001:0001eb50       _SV_Impact                 1001fb50 f   g_phys.obj
+ 0001:0001ebe0       _ClipVelocity              1001fbe0 f   g_phys.obj
+ 0001:0001ece0       _SV_FlyMove                1001fce0 f   g_phys.obj
+ 0001:0001f240       _SV_AddGravity             10020240 f   g_phys.obj
+ 0001:0001f280       _SV_PushEntity             10020280 f   g_phys.obj
+ 0001:0001f400       _SV_Push                   10020400 f   g_phys.obj
+ 0001:0001fab0       _SV_Physics_Pusher         10020ab0 f   g_phys.obj
+ 0001:0001fca0       _SV_Physics_None           10020ca0 f   g_phys.obj
+ 0001:0001fcc0       _SV_Physics_Noclip         10020cc0 f   g_phys.obj
+ 0001:0001fd50       _SV_Physics_Toss           10020d50 f   g_phys.obj
+ 0001:000200f0       _SV_AddRotationalFriction  100210f0 f   g_phys.obj
+ 0001:00020200       _SV_Physics_Step           10021200 f   g_phys.obj
+ 0001:00020690       _G_RunEntity               10021690 f   g_phys.obj
+ 0001:00020760       _InitGame                  10021760 f   g_save.obj
+ 0001:00020bd0       _WriteField1               10021bd0 f   g_save.obj
+ 0001:00020d10       _WriteField2               10021d10 f   g_save.obj
+ 0001:00020d80       _ReadField                 10021d80 f   g_save.obj
+ 0001:00020f20       _WriteClient               10021f20 f   g_save.obj
+ 0001:00020fe0       _ReadClient                10021fe0 f   g_save.obj
+ 0001:00021040       _WriteGame                 10022040 f   g_save.obj
+ 0001:00021150       _ReadGame                  10022150 f   g_save.obj
+ 0001:000212a0       _WriteEdict                100222a0 f   g_save.obj
+ 0001:00021350       _WriteLevelLocals          10022350 f   g_save.obj
+ 0001:00021410       _ReadEdict                 10022410 f   g_save.obj
+ 0001:00021470       _ReadLevelLocals           10022470 f   g_save.obj
+ 0001:000214d0       _WriteLevel                100224d0 f   g_save.obj
+ 0001:000215e0       _ReadLevel                 100225e0 f   g_save.obj
+ 0001:00021870       _ED_CallSpawn              10022870 f   g_spawn.obj
+ 0001:00021970       _ED_NewString              10022970 f   g_spawn.obj
+ 0001:00021a40       _ED_ParseField             10022a40 f   g_spawn.obj
+ 0001:00021bd0       _ED_ParseEdict             10022bd0 f   g_spawn.obj
+ 0001:00021d10       _G_FindTeams               10022d10 f   g_spawn.obj
+ 0001:00021eb0       _SpawnEntities             10022eb0 f   g_spawn.obj
+ 0001:00022220       _SP_worldspawn             10023220 f   g_spawn.obj
+ 0001:000228a0       _Svcmd_Test_f              100238a0 f   g_svcmds.obj
+ 0001:000228d0       _ServerCommand             100238d0 f   g_svcmds.obj
+ 0001:00022920       _Use_Target_Tent           10023920 f   g_target.obj
+ 0001:00022970       _SP_target_temp_entity     10023970 f   g_target.obj
+ 0001:00022990       _Use_Target_Speaker        10023990 f   g_target.obj
+ 0001:00022a40       _SP_target_speaker         10023a40 f   g_target.obj
+ 0001:00022b90       _Use_Target_Help           10023b90 f   g_target.obj
+ 0001:00022c00       _SP_target_help            10023c00 f   g_target.obj
+ 0001:00022c90       _use_target_secret         10023c90 f   g_target.obj
+ 0001:00022d00       _SP_target_secret          10023d00 f   g_target.obj
+ 0001:00022df0       _use_target_goal           10023df0 f   g_target.obj
+ 0001:00022e80       _SP_target_goal            10023e80 f   g_target.obj
+ 0001:00022f10       _target_explosion_explode  10023f10 f   g_target.obj
+ 0001:00022fd0       _use_target_explosion      10023fd0 f   g_target.obj
+ 0001:00023040       _SP_target_explosion       10024040 f   g_target.obj
+ 0001:00023070       _use_target_changelevel    10024070 f   g_target.obj
+ 0001:000231c0       _SP_target_changelevel     100241c0 f   g_target.obj
+ 0001:00023270       _use_target_splash         10024270 f   g_target.obj
+ 0001:00023340       _SP_target_splash          10024340 f   g_target.obj
+ 0001:000233a0       _use_target_spawner        100243a0 f   g_target.obj
+ 0001:00023490       _SP_target_spawner         10024490 f   g_target.obj
+ 0001:00023510       _use_target_blaster        10024510 f   g_target.obj
+ 0001:000235c0       _SP_target_blaster         100245c0 f   g_target.obj
+ 0001:00023660       _trigger_crosslevel_trigger_use 10024660 f   g_target.obj
+ 0001:000236a0       _SP_target_crosslevel_trigger 100246a0 f   g_target.obj
+ 0001:000236d0       _target_crosslevel_target_think 100246d0 f   g_target.obj
+ 0001:00023720       _SP_target_crosslevel_target 10024720 f   g_target.obj
+ 0001:00023790       _target_laser_think        10024790 f   g_target.obj
+ 0001:00023aa0       _target_laser_on           10024aa0 f   g_target.obj
+ 0001:00023b10       _target_laser_off          10024b10 f   g_target.obj
+ 0001:00023b60       _target_laser_use          10024b60 f   g_target.obj
+ 0001:00023bb0       _target_laser_start        10024bb0 f   g_target.obj
+ 0001:00023e00       _SP_target_laser           10024e00 f   g_target.obj
+ 0001:00023e40       _target_lightramp_think    10024e40 f   g_target.obj
+ 0001:00023f50       _target_lightramp_use      10024f50 f   g_target.obj
+ 0001:000240a0       _SP_target_lightramp       100250a0 f   g_target.obj
+ 0001:00024280       _target_earthquake_think   10025280 f   g_target.obj
+ 0001:00024430       _target_earthquake_use     10025430 f   g_target.obj
+ 0001:00024490       _SP_target_earthquake      10025490 f   g_target.obj
+ 0001:00024560       _InitTrigger               10025560 f   g_trigger.obj
+ 0001:000245e0       _multi_wait                100255e0 f   g_trigger.obj
+ 0001:00024600       _multi_trigger             10025600 f   g_trigger.obj
+ 0001:000246b0       _Use_Multi                 100256b0 f   g_trigger.obj
+ 0001:000246e0       _Touch_Multi               100256e0 f   g_trigger.obj
+ 0001:000247a0       _trigger_enable            100257a0 f   g_trigger.obj
+ 0001:000247e0       _SP_trigger_multiple       100257e0 f   g_trigger.obj
+ 0001:00024950       _SP_trigger_once           10025950 f   g_trigger.obj
+ 0001:00024a10       _trigger_relay_use         10025a10 f   g_trigger.obj
+ 0001:00024a30       _SP_trigger_relay          10025a30 f   g_trigger.obj
+ 0001:00024a50       _trigger_key_use           10025a50 f   g_trigger.obj
+ 0001:00024d20       _SP_trigger_key            10025d20 f   g_trigger.obj
+ 0001:00024e10       _trigger_counter_use       10025e10 f   g_trigger.obj
+ 0001:00024f20       _SP_trigger_counter        10025f20 f   g_trigger.obj
+ 0001:00024f70       _SP_trigger_always         10025f70 f   g_trigger.obj
+ 0001:00024fc0       _trigger_push_touch        10025fc0 f   g_trigger.obj
+ 0001:00025130       _SP_trigger_push           10026130 f   g_trigger.obj
+ 0001:000251a0       _hurt_use                  100261a0 f   g_trigger.obj
+ 0001:00025200       _hurt_touch                10026200 f   g_trigger.obj
+ 0001:00025320       _SP_trigger_hurt           10026320 f   g_trigger.obj
+ 0001:000253d0       _trigger_gravity_touch     100263d0 f   g_trigger.obj
+ 0001:00025400       _SP_trigger_gravity        10026400 f   g_trigger.obj
+ 0001:00025480       _trigger_monsterjump_touch 10026480 f   g_trigger.obj
+ 0001:00025530       _SP_trigger_monsterjump    10026530 f   g_trigger.obj
+ 0001:000255c0       _G_ProjectSource           100265c0 f   g_utils.obj
+ 0001:00025650       _G_Find                    10026650 f   g_utils.obj
+ 0001:000256e0       _findradius                100266e0 f   g_utils.obj
+ 0001:000257d0       _G_PickTarget              100267d0 f   g_utils.obj
+ 0001:00025880       _Think_Delay               10026880 f   g_utils.obj
+ 0001:000258c0       _G_UseTargets              100268c0 f   g_utils.obj
+ 0001:00025b80       _tv                        10026b80 f   g_utils.obj
+ 0001:00025bd0       _vtos                      10026bd0 f   g_utils.obj
+ 0001:00025c40       _G_SetMovedir              10026c40 f   g_utils.obj
+ 0001:00025cf0       _vectoyaw                  10026cf0 f   g_utils.obj
+ 0001:00025db0       _vectoangles               10026db0 f   g_utils.obj
+ 0001:00025f40       _G_CopyString              10026f40 f   g_utils.obj
+ 0001:00025f90       _G_InitEdict               10026f90 f   g_utils.obj
+ 0001:00025fe0       _G_Spawn                   10026fe0 f   g_utils.obj
+ 0001:000260d0       _G_FreeEdict               100270d0 f   g_utils.obj
+ 0001:00026160       _G_TouchTriggers           10027160 f   g_utils.obj
+ 0001:00026240       _G_TouchSolids             10027240 f   g_utils.obj
+ 0001:00026300       _KillBox                   10027300 f   g_utils.obj
+ 0001:000263d0       _fire_hit                  100273d0 f   g_weapon.obj
+ 0001:00026760       _fire_bullet               10027760 f   g_weapon.obj
+ 0001:00026e00       _fire_shotgun              10027e00 f   g_weapon.obj
+ 0001:00026e60       _blaster_touch             10027e60 f   g_weapon.obj
+ 0001:00026fb0       _fire_blaster              10027fb0 f   g_weapon.obj
+ 0001:00027390       _fire_grenade              10028390 f   g_weapon.obj
+ 0001:00027a10       _fire_grenade2             10028a10 f   g_weapon.obj
+ 0001:00027ce0       _rocket_touch              10028ce0 f   g_weapon.obj
+ 0001:00027ee0       _fire_rocket               10028ee0 f   g_weapon.obj
+ 0001:000280c0       _fire_rail                 100290c0 f   g_weapon.obj
+ 0001:000282b0       _bfg_explode               100292b0 f   g_weapon.obj
+ 0001:000284f0       _bfg_touch                 100294f0 f   g_weapon.obj
+ 0001:00028710       _bfg_think                 10029710 f   g_weapon.obj
+ 0001:00028a70       _fire_bfg                  10029a70 f   g_weapon.obj
+ 0001:00028c80       _M_CheckBottom             10029c80 f   m_move.obj
+ 0001:00028fa0       _SV_movestep               10029fa0 f   m_move.obj
+ 0001:000295b0       _M_ChangeYaw               1002a5b0 f   m_move.obj
+ 0001:000296c0       _SV_StepDirection          1002a6c0 f   m_move.obj
+ 0001:000297f0       _SV_FixCheckBottom         1002a7f0 f   m_move.obj
+ 0001:00029820       _SV_NewChaseDir            1002a820 f   m_move.obj
+ 0001:00029bf0       _SV_CloseEnough            1002abf0 f   m_move.obj
+ 0001:00029c80       _M_MoveToGoal              1002ac80 f   m_move.obj
+ 0001:00029d40       _M_walkmove                1002ad40 f   m_move.obj
+ 0001:00029dd0       _SP_info_player_start      1002add0 f   p_client.obj
+ 0001:00029f60       _SP_info_player_deathmatch 1002af60 f   p_client.obj
+ 0001:00029fa0       _SP_info_player_coop       1002afa0 f   p_client.obj
+ 0001:0002a250       _SP_info_player_intermission 1002b250 f   p_client.obj
+ 0001:0002a260       _player_pain               1002b260 f   p_client.obj
+ 0001:0002a270       _IsFemale                  1002b270 f   p_client.obj
+ 0001:0002a2d0       _ClientObituary            1002b2d0 f   p_client.obj
+ 0001:0002a830       _TossClientWeapon          1002b830 f   p_client.obj
+ 0001:0002aa40       _LookAtKiller              1002ba40 f   p_client.obj
+ 0001:0002abc0       _player_die                1002bbc0 f   p_client.obj
+ 0001:0002aff0       _InitClientPersistant      1002bff0 f   p_client.obj
+ 0001:0002b120       _InitClientResp            1002c120 f   p_client.obj
+ 0001:0002b1d0       _SaveClientData            1002c1d0 f   p_client.obj
+ 0001:0002b2c0       _FetchClientEntData        1002c2c0 f   p_client.obj
+ 0001:0002b350       _PlayersRangeFromSpot      1002c350 f   p_client.obj
+ 0001:0002b420       _SelectRandomDeathmatchSpawnPoint 1002c420 f   p_client.obj
+ 0001:0002b550       _SelectFarthestDeathmatchSpawnPoint 1002c550 f   p_client.obj
+ 0001:0002b5f0       _SelectDeathmatchSpawnPoint 1002c5f0 f   p_client.obj
+ 0001:0002b630       _SelectCoopSpawnPoint      1002c630 f   p_client.obj
+ 0001:0002b6e0       _SelectSpawnPoint          1002c6e0 f   p_client.obj
+ 0001:0002b880       _InitBodyQue               1002c880 f   p_client.obj
+ 0001:0002b8d0       _body_die                  1002c8d0 f   p_client.obj
+ 0001:0002b980       _CopyToBodyQue             1002c980 f   p_client.obj
+ 0001:0002bba0       _respawn                   1002cba0 f   p_client.obj
+ 0001:0002bc60       _PutClientInServer         1002cc60 f   p_client.obj
+ 0001:0002c340       _ClientBeginDeathmatch     1002d340 f   p_client.obj
+ 0001:0002c3f0       _ClientBegin               1002d3f0 f   p_client.obj
+ 0001:0002c570       _ClientUserinfoChanged     1002d570 f   p_client.obj
+ 0001:0002c760       _ClientConnect             1002d760 f   p_client.obj
+ 0001:0002c8d0       _ClientDisconnect          1002d8d0 f   p_client.obj
+ 0001:0002c9e0       _PM_trace                  1002d9e0 f   p_client.obj
+ 0001:0002ca80       _CheckBlock                1002da80 f   p_client.obj
+ 0001:0002cad0       _PrintPmove                1002dad0 f   p_client.obj
+ 0001:0002cb30       _ClientThink               1002db30 f   p_client.obj
+ 0001:0002d230       _ClientBeginServerFrame    1002e230 f   p_client.obj
+ 0001:0002d390       _MoveClientToIntermission  1002e390 f   p_hud.obj
+ 0001:0002d5b0       _BeginIntermission         1002e5b0 f   p_hud.obj
+ 0001:0002d8d0       _DeathmatchScoreboardMessage 1002e8d0 f   p_hud.obj
+ 0001:0002dd30       _DeathmatchScoreboard      1002ed30 f   p_hud.obj
+ 0001:0002dd70       _Cmd_Score_f               1002ed70 f   p_hud.obj
+ 0001:0002de40       _HelpComputer              1002ee40 f   p_hud.obj
+ 0001:0002df60       _Cmd_Help_f                1002ef60 f   p_hud.obj
+ 0001:0002e020       _G_SetStats                1002f020 f   p_hud.obj
+ 0001:0002e670       _PMenu_Open                1002f670 f   p_menu.obj
+ 0001:0002e820       _PMenu_Close               1002f820 f   p_menu.obj
+ 0001:0002e8f0       _PMenu_UpdateEntry         1002f8f0 f   p_menu.obj
+ 0001:0002e940       _PMenu_Do_Update           1002f940 f   p_menu.obj
+ 0001:0002ec10       _PMenu_Update              1002fc10 f   p_menu.obj
+ 0001:0002ecd0       _PMenu_Next                1002fcd0 f   p_menu.obj
+ 0001:0002ed90       _PMenu_Prev                1002fd90 f   p_menu.obj
+ 0001:0002ee60       _PMenu_Select              1002fe60 f   p_menu.obj
+ 0001:0002eee0       _PlayerTrail_Init          1002fee0 f   p_trail.obj
+ 0001:0002ef60       _PlayerTrail_Add           1002ff60 f   p_trail.obj
+ 0001:0002f060       _PlayerTrail_New           10030060 f   p_trail.obj
+ 0001:0002f090       _PlayerTrail_PickFirst     10030090 f   p_trail.obj
+ 0001:0002f170       _PlayerTrail_PickNext      10030170 f   p_trail.obj
+ 0001:0002f1f0       _PlayerTrail_LastSpot      100301f0 f   p_trail.obj
+ 0001:0002f220       _SV_CalcRoll               10030220 f   p_view.obj
+ 0001:0002f2e0       _P_DamageFeedback          100302e0 f   p_view.obj
+ 0001:0002f880       _SV_CalcViewOffset         10030880 f   p_view.obj
+ 0001:0002fcc0       _SV_CalcGunOffset          10030cc0 f   p_view.obj
+ 0001:0002ff10       _SV_AddBlend               10030f10 f   p_view.obj
+ 0001:0002ffb0       _SV_CalcBlend              10030fb0 f   p_view.obj
+ 0001:00030540       _P_FallingDamage           10031540 f   p_view.obj
+ 0001:00030800       _P_WorldEffects            10031800 f   p_view.obj
+ 0001:00031020       _G_SetClientEffects        10032020 f   p_view.obj
+ 0001:000311d0       _G_SetClientEvent          100321d0 f   p_view.obj
+ 0001:00031240       _G_SetClientSound          10032240 f   p_view.obj
+ 0001:000313e0       _G_SetClientFrame          100323e0 f   p_view.obj
+ 0001:00031660       _ClientEndServerFrame      10032660 f   p_view.obj
+ 0001:00031b70       _P_ProjectSource           10032b70 f   p_weapon.obj
+ 0001:00031bf0       _PlayerNoise               10032bf0 f   p_weapon.obj
+ 0001:00031ec0       _Pickup_Weapon             10032ec0 f   p_weapon.obj
+ 0001:000320e0       _ChangeWeapon              100330e0 f   p_weapon.obj
+ 0001:00032310       _NoAmmoWeaponChange        10033310 f   p_weapon.obj
+ 0001:000325f0       _Think_Weapon              100335f0 f   p_weapon.obj
+ 0001:000326c0       _Use_Weapon                100336c0 f   p_weapon.obj
+ 0001:000327d0       _Drop_Weapon               100337d0 f   p_weapon.obj
+ 0001:00032890       _Weapon_Generic            10033890 f   p_weapon.obj
+ 0001:00032ee0       _weapon_grenade_fire       10033ee0 f   p_weapon.obj
+ 0001:000330e0       _Weapon_Grenade            100340e0 f   p_weapon.obj
+ 0001:000334d0       _weapon_grenadelauncher_fire 100344d0 f   p_weapon.obj
+ 0001:000336a0       _Weapon_GrenadeLauncher    100346a0 f   p_weapon.obj
+ 0001:000336e0       _Weapon_RocketLauncher_Fire 100346e0 f   p_weapon.obj
+ 0001:000338d0       _Weapon_RocketLauncher     100348d0 f   p_weapon.obj
+ 0001:00033910       _Blaster_Fire              10034910 f   p_weapon.obj
+ 0001:00033aa0       _Weapon_Blaster_Fire       10034aa0 f   p_weapon.obj
+ 0001:00033b10       _Weapon_Blaster            10034b10 f   p_weapon.obj
+ 0001:00033b50       _Weapon_HyperBlaster_Fire  10034b50 f   p_weapon.obj
+ 0001:00033e30       _Weapon_HyperBlaster       10034e30 f   p_weapon.obj
+ 0001:00033e70       _Machinegun_Fire           10034e70 f   p_weapon.obj
+ 0001:00034320       _Weapon_Machinegun         10035320 f   p_weapon.obj
+ 0001:00034360       _Chaingun_Fire             10035360 f   p_weapon.obj
+ 0001:000348e0       _Weapon_Chaingun           100358e0 f   p_weapon.obj
+ 0001:00034920       _weapon_shotgun_fire       10035920 f   p_weapon.obj
+ 0001:00034b50       _Weapon_Shotgun            10035b50 f   p_weapon.obj
+ 0001:00034b90       _weapon_supershotgun_fire  10035b90 f   p_weapon.obj
+ 0001:00034df0       _Weapon_SuperShotgun       10035df0 f   p_weapon.obj
+ 0001:00034e30       _weapon_railgun_fire       10035e30 f   p_weapon.obj
+ 0001:00035010       _Weapon_Railgun            10036010 f   p_weapon.obj
+ 0001:00035050       _weapon_bfg_fire           10036050 f   p_weapon.obj
+ 0001:000352e0       _Weapon_BFG                100362e0 f   p_weapon.obj
+ 0001:00035320       _RotatePointAroundVector   10036320 f   q_shared.obj
+ 0001:00035560       _AngleVectors              10036560 f   q_shared.obj
+ 0001:00035750       _ProjectPointOnPlane       10036750 f   q_shared.obj
+ 0001:00035810       _PerpendicularVector       10036810 f   q_shared.obj
+ 0001:000358d0       _R_ConcatRotations         100368d0 f   q_shared.obj
+ 0001:00035a80       _R_ConcatTransforms        10036a80 f   q_shared.obj
+ 0001:00035cd0       _Q_fabs                    10036cd0 f   q_shared.obj
+ 0001:00035d00       _Q_ftol                    10036d00 f   q_shared.obj
+ 0001:00035d10       _LerpAngle                 10036d10 f   q_shared.obj
+ 0001:00035d70       _anglemod                  10036d70 f   q_shared.obj
+ 0001:00035db0       _BoxOnPlaneSide2           10036db0 f   q_shared.obj
+ 0001:00035ec0       _BoxOnPlaneSide            10036ec0 f   q_shared.obj
+ 0001:00036140       _ClearBounds               10037140 f   q_shared.obj
+ 0001:000361a0       _AddPointToBounds          100371a0 f   q_shared.obj
+ 0001:00036220       _VectorCompare             10037220 f   q_shared.obj
+ 0001:00036280       _VectorNormalize           10037280 f   q_shared.obj
+ 0001:00036320       _VectorNormalize2          10037320 f   q_shared.obj
+ 0001:000363c0       _VectorMA                  100373c0 f   q_shared.obj
+ 0001:00036410       __DotProduct               10037410 f   q_shared.obj
+ 0001:00036450       __VectorSubtract           10037450 f   q_shared.obj
+ 0001:000364a0       __VectorAdd                100374a0 f   q_shared.obj
+ 0001:000364f0       __VectorCopy               100374f0 f   q_shared.obj
+ 0001:00036530       _CrossProduct              10037530 f   q_shared.obj
+ 0001:000365a0       _VectorLength              100375a0 f   q_shared.obj
+ 0001:00036600       _VectorInverse             10037600 f   q_shared.obj
+ 0001:00036640       _VectorScale               10037640 f   q_shared.obj
+ 0001:00036680       _Q_log2                    10037680 f   q_shared.obj
+ 0001:000366b0       _COM_SkipPath              100376b0 f   q_shared.obj
+ 0001:00036700       _COM_StripExtension        10037700 f   q_shared.obj
+ 0001:00036750       _COM_FileExtension         10037750 f   q_shared.obj
+ 0001:000367f0       _COM_FileBase              100377f0 f   q_shared.obj
+ 0001:000368a0       _COM_FilePath              100378a0 f   q_shared.obj
+ 0001:00036910       _COM_DefaultExtension      10037910 f   q_shared.obj
+ 0001:00036980       _BigShort                  10037980 f   q_shared.obj
+ 0001:000369a0       _LittleShort               100379a0 f   q_shared.obj
+ 0001:000369c0       _BigLong                   100379c0 f   q_shared.obj
+ 0001:000369e0       _LittleLong                100379e0 f   q_shared.obj
+ 0001:00036a00       _BigFloat                  10037a00 f   q_shared.obj
+ 0001:00036a20       _LittleFloat               10037a20 f   q_shared.obj
+ 0001:00036a40       _ShortSwap                 10037a40 f   q_shared.obj
+ 0001:00036a80       _ShortNoSwap               10037a80 f   q_shared.obj
+ 0001:00036aa0       _LongSwap                  10037aa0 f   q_shared.obj
+ 0001:00036b10       _LongNoSwap                10037b10 f   q_shared.obj
+ 0001:00036b30       _FloatSwap                 10037b30 f   q_shared.obj
+ 0001:00036b70       _FloatNoSwap               10037b70 f   q_shared.obj
+ 0001:00036b90       _Swap_Init                 10037b90 f   q_shared.obj
+ 0001:00036c40       _va                        10037c40 f   q_shared.obj
+ 0001:00036c80       _COM_Parse                 10037c80 f   q_shared.obj
+ 0001:00036e00       _Com_PageInMemory          10037e00 f   q_shared.obj
+ 0001:00036e50       _Q_stricmp                 10037e50 f   q_shared.obj
+ 0001:00036e80       _Q_strncasecmp             10037e80 f   q_shared.obj
+ 0001:00036f10       _Q_strcasecmp              10037f10 f   q_shared.obj
+ 0001:00036f40       _Com_sprintf               10037f40 f   q_shared.obj
+ 0001:00036fd0       _Info_ValueForKey          10037fd0 f   q_shared.obj
+ 0001:00037140       _Info_RemoveKey            10038140 f   q_shared.obj
+ 0001:000372a0       _Info_Validate             100382a0 f   q_shared.obj
+ 0001:000372f0       _Info_SetValueForKey       100382f0 f   q_shared.obj
+ 0001:00037510       _rand                      10038510 f   MSVCRTD:MSVCR90D.dll
+ 0001:00037520       @__security_check_cookie@4 10038520 f   MSVCRTD:secchk.obj
+ 0001:00037530       __ftol2_sse                10038530 f   MSVCRTD:ftol2.obj
+ 0001:00037539       __ftol2_pentium4           10038539 f   MSVCRTD:ftol2.obj
+ 0001:0003754c       __ftol2_sse_excpt          1003854c f   MSVCRTD:ftol2.obj
+ 0001:00037566       __ftol2                    10038566 f   MSVCRTD:ftol2.obj
+ 0001:000375dc       _strcmp                    100385dc f   MSVCRTD:MSVCR90D.dll
+ 0001:000375e2       _sprintf                   100385e2 f   MSVCRTD:MSVCR90D.dll
+ 0001:000375e8       _strchr                    100385e8 f   MSVCRTD:MSVCR90D.dll
+ 0001:000375ee       _strcpy                    100385ee f   MSVCRTD:MSVCR90D.dll
+ 0001:000375f4       _atoi                      100385f4 f   MSVCRTD:MSVCR90D.dll
+ 0001:000375fa       _strcat                    100385fa f   MSVCRTD:MSVCR90D.dll
+ 0001:00037600       _strlen                    10038600 f   MSVCRTD:MSVCR90D.dll
+ 0001:00037606       _qsort                     10038606 f   MSVCRTD:MSVCR90D.dll
+ 0001:0003760c       _ceil                      1003860c f   MSVCRTD:MSVCR90D.dll
+ 0001:00037612       _memset                    10038612 f   MSVCRTD:MSVCR90D.dll
+ 0001:00037618       _strrchr                   10038618 f   MSVCRTD:MSVCR90D.dll
+ 0001:00037620       __chkstk                   10038620 f   MSVCRTD:chkstk.obj
+ 0001:00037620       __alloca_probe             10038620     MSVCRTD:chkstk.obj
+ 0001:0003764c       _fabs                      1003864c f   MSVCRTD:MSVCR90D.dll
+ 0001:00037652       _strncpy                   10038652 f   MSVCRTD:MSVCR90D.dll
+ 0001:00037658       _malloc                    10038658 f   MSVCRTD:MSVCR90D.dll
+ 0001:0003765e       _free                      1003865e f   MSVCRTD:MSVCR90D.dll
+ 0001:00037664       _strtok                    10038664 f   MSVCRTD:MSVCR90D.dll
+ 0001:0003766a       _floor                     1003866a f   MSVCRTD:MSVCR90D.dll
+ 0001:00037670       _sqrt                      10038670 f   MSVCRTD:MSVCR90D.dll
+ 0001:00037676       _memcpy                    10038676 f   MSVCRTD:MSVCR90D.dll
+ 0001:0003767c       _vsprintf                  1003867c f   MSVCRTD:MSVCR90D.dll
+ 0001:00037682       __localtime64              10038682 f   MSVCRTD:MSVCR90D.dll
+ 0001:00037688       __time64                   10038688 f   MSVCRTD:MSVCR90D.dll
+ 0001:0003768e       _fwrite                    1003868e f   MSVCRTD:MSVCR90D.dll
+ 0001:00037694       _fread                     10038694 f   MSVCRTD:MSVCR90D.dll
+ 0001:0003769a       _fclose                    1003869a f   MSVCRTD:MSVCR90D.dll
+ 0001:000376a0       _fopen                     100386a0 f   MSVCRTD:MSVCR90D.dll
+ 0001:000376a6       _atof                      100386a6 f   MSVCRTD:MSVCR90D.dll
+ 0001:000376ac       _sscanf                    100386ac f   MSVCRTD:MSVCR90D.dll
+ 0001:000376b2       _strstr                    100386b2 f   MSVCRTD:MSVCR90D.dll
+ 0001:000376b8       _atan2                     100386b8 f   MSVCRTD:MSVCR90D.dll
+ 0001:000376be       _strncmp                   100386be f   MSVCRTD:MSVCR90D.dll
+ 0001:000376c4       _sin                       100386c4 f   MSVCRTD:MSVCR90D.dll
+ 0001:000376ca       _cos                       100386ca f   MSVCRTD:MSVCR90D.dll
+ 0001:000376d0       _abs                       100386d0 f   MSVCRTD:MSVCR90D.dll
+ 0001:000376d6       _memcmp                    100386d6 f   MSVCRTD:MSVCR90D.dll
+ 0001:000376dc       __stricmp                  100386dc f   MSVCRTD:MSVCR90D.dll
+ 0001:00037770       __CRT_INIT@12              10038770 f   MSVCRTD:crtdll.obj
+ 0001:00037a80       _NtCurrentTeb              10038a80 f i MSVCRTD:crtdll.obj
+ 0001:00037a90       __DllMainCRTStartup@12     10038a90 f   MSVCRTD:crtdll.obj
+ 0001:00037c90       ___report_gsfailure        10038c90 f   MSVCRTD:gs_report.obj
+ 0001:00037da0       __get_sse2_info            10038da0 f   MSVCRTD:cpu_disp.obj
+ 0001:00037ed0       ___sse2_available_init     10038ed0 f   MSVCRTD:cpu_disp.obj
+ 0001:00037ef0       ___clean_type_info_names   10038ef0 f   MSVCRTD:tncleanup.obj
+ 0001:00037f10       __onexit                   10038f10 f   MSVCRTD:atonexit.obj
+ 0001:00038020       _atexit                    10039020 f   MSVCRTD:atonexit.obj
+ 0001:00038040       __RTC_Initialize           10039040 f   MSVCRTD:_initsect_.obj
+ 0001:00038070       __RTC_Terminate            10039070 f   MSVCRTD:_initsect_.obj
+ 0001:00038096       __encode_pointer           10039096 f   MSVCRTD:MSVCR90D.dll
+ 0001:0003809c       __malloc_dbg               1003909c f   MSVCRTD:MSVCR90D.dll
+ 0001:000380a2       __free_dbg                 100390a2 f   MSVCRTD:MSVCR90D.dll
+ 0001:000380a8       __encoded_null             100390a8 f   MSVCRTD:MSVCR90D.dll
+ 0001:000380ae       __decode_pointer           100390ae f   MSVCRTD:MSVCR90D.dll
+ 0001:000380b4       __CrtSetCheckCount         100390b4 f   MSVCRTD:MSVCR90D.dll
+ 0001:000380c0       __ValidateImageBase        100390c0 f   MSVCRTD:pesect.obj
+ 0001:00038120       __FindPESection            10039120 f   MSVCRTD:pesect.obj
+ 0001:000381a0       __IsNonwritableInCurrentImage 100391a0 f   MSVCRTD:pesect.obj
+ 0001:000382b2       __initterm                 100392b2 f   MSVCRTD:MSVCR90D.dll
+ 0001:000382b8       __initterm_e               100392b8 f   MSVCRTD:MSVCR90D.dll
+ 0001:000382be       __amsg_exit                100392be f   MSVCRTD:MSVCR90D.dll
+ 0001:000382d0       ___security_init_cookie    100392d0 f   MSVCRTD:gs_support.obj
+ 0001:000383ac       ___CppXcptFilter           100393ac f   MSVCRTD:MSVCR90D.dll
+ 0001:000383c0       _DllMain@12                100393c0 f   MSVCRTD:dllmain.obj
+ 0001:000383f0       __except_handler4          100393f0 f   MSVCRTD:chandler4gs.obj
+ 0001:0003841a       __crt_debugger_hook        1003941a f   MSVCRTD:MSVCR90D.dll
+ 0001:00038420       ___clean_type_info_names_internal 10039420 f   MSVCRTD:MSVCR90D.dll
+ 0001:00038426       __unlock                   10039426 f   MSVCRTD:MSVCR90D.dll
+ 0001:0003842c       ___dllonexit               1003942c f   MSVCRTD:MSVCR90D.dll
+ 0001:00038432       __lock                     10039432 f   MSVCRTD:MSVCR90D.dll
+ 0001:00038438       __except_handler4_common   10039438 f   MSVCRTD:MSVCR90D.dll
+ 0001:0003843e       _InterlockedExchange@8     1003943e f   kernel32:KERNEL32.dll
+ 0001:00038444       _Sleep@4                   10039444 f   kernel32:KERNEL32.dll
+ 0001:0003844a       _InterlockedCompareExchange@12 1003944a f   kernel32:KERNEL32.dll
+ 0001:00038450       _TerminateProcess@8        10039450 f   kernel32:KERNEL32.dll
+ 0001:00038456       _GetCurrentProcess@0       10039456 f   kernel32:KERNEL32.dll
+ 0001:0003845c       _UnhandledExceptionFilter@4 1003945c f   kernel32:KERNEL32.dll
+ 0001:00038462       _SetUnhandledExceptionFilter@4 10039462 f   kernel32:KERNEL32.dll
+ 0001:00038468       _IsDebuggerPresent@0       10039468 f   kernel32:KERNEL32.dll
+ 0001:0003846e       _QueryPerformanceCounter@4 1003946e f   kernel32:KERNEL32.dll
+ 0001:00038474       _GetTickCount@0            10039474 f   kernel32:KERNEL32.dll
+ 0001:0003847a       _GetCurrentThreadId@0      1003947a f   kernel32:KERNEL32.dll
+ 0001:00038480       _GetCurrentProcessId@0     10039480 f   kernel32:KERNEL32.dll
+ 0001:00038486       _GetSystemTimeAsFileTime@4 10039486 f   kernel32:KERNEL32.dll
+ 0001:0003848c       _DisableThreadLibraryCalls@4 1003948c f   kernel32:KERNEL32.dll
+ 0001:00038492       __strdup                   10039492 f   MSVCRTD:MSVCR90D.dll
+ 0002:00000000       __imp__GetSystemTimeAsFileTime@4 1003a000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__GetCurrentProcessId@0 1003a004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__GetCurrentThreadId@0 1003a008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__GetTickCount@0      1003a00c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__QueryPerformanceCounter@4 1003a010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__IsDebuggerPresent@0 1003a014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__SetUnhandledExceptionFilter@4 1003a018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__UnhandledExceptionFilter@4 1003a01c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__GetCurrentProcess@0 1003a020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__TerminateProcess@8  1003a024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__InterlockedCompareExchange@12 1003a028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__Sleep@4             1003a02c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__InterlockedExchange@8 1003a030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__DisableThreadLibraryCalls@4 1003a034     kernel32:KERNEL32.dll
+ 0002:00000038       \177KERNEL32_NULL_THUNK_DATA 1003a038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__free                1003a03c     MSVCRTD:MSVCR90D.dll
+ 0002:00000040       __imp__strtok              1003a040     MSVCRTD:MSVCR90D.dll
+ 0002:00000044       __imp__floor               1003a044     MSVCRTD:MSVCR90D.dll
+ 0002:00000048       __imp__sqrt                1003a048     MSVCRTD:MSVCR90D.dll
+ 0002:0000004c       __imp__memcpy              1003a04c     MSVCRTD:MSVCR90D.dll
+ 0002:00000050       __imp__vsprintf            1003a050     MSVCRTD:MSVCR90D.dll
+ 0002:00000054       __imp___localtime64        1003a054     MSVCRTD:MSVCR90D.dll
+ 0002:00000058       __imp___time64             1003a058     MSVCRTD:MSVCR90D.dll
+ 0002:0000005c       __imp__fwrite              1003a05c     MSVCRTD:MSVCR90D.dll
+ 0002:00000060       __imp__fread               1003a060     MSVCRTD:MSVCR90D.dll
+ 0002:00000064       __imp__fclose              1003a064     MSVCRTD:MSVCR90D.dll
+ 0002:00000068       __imp__fopen               1003a068     MSVCRTD:MSVCR90D.dll
+ 0002:0000006c       __imp__atof                1003a06c     MSVCRTD:MSVCR90D.dll
+ 0002:00000070       __imp__sscanf              1003a070     MSVCRTD:MSVCR90D.dll
+ 0002:00000074       __imp__strstr              1003a074     MSVCRTD:MSVCR90D.dll
+ 0002:00000078       __imp__atan2               1003a078     MSVCRTD:MSVCR90D.dll
+ 0002:0000007c       __imp__strncmp             1003a07c     MSVCRTD:MSVCR90D.dll
+ 0002:00000080       __imp__sin                 1003a080     MSVCRTD:MSVCR90D.dll
+ 0002:00000084       __imp__cos                 1003a084     MSVCRTD:MSVCR90D.dll
+ 0002:00000088       __imp__abs                 1003a088     MSVCRTD:MSVCR90D.dll
+ 0002:0000008c       __imp__malloc              1003a08c     MSVCRTD:MSVCR90D.dll
+ 0002:00000090       __imp__stricmp             1003a090     MSVCRTD:MSVCR90D.dll
+ 0002:00000090       __imp___stricmp            1003a090     MSVCRTD:MSVCR90D.dll
+ 0002:00000094       __imp___encode_pointer     1003a094     MSVCRTD:MSVCR90D.dll
+ 0002:00000098       __imp___malloc_dbg         1003a098     MSVCRTD:MSVCR90D.dll
+ 0002:0000009c       __imp___free_dbg           1003a09c     MSVCRTD:MSVCR90D.dll
+ 0002:000000a0       __imp___encoded_null       1003a0a0     MSVCRTD:MSVCR90D.dll
+ 0002:000000a4       __imp___decode_pointer     1003a0a4     MSVCRTD:MSVCR90D.dll
+ 0002:000000a8       __imp___CrtSetCheckCount   1003a0a8     MSVCRTD:MSVCR90D.dll
+ 0002:000000ac       __imp___initterm           1003a0ac     MSVCRTD:MSVCR90D.dll
+ 0002:000000b0       __imp___initterm_e         1003a0b0     MSVCRTD:MSVCR90D.dll
+ 0002:000000b4       __imp___amsg_exit          1003a0b4     MSVCRTD:MSVCR90D.dll
+ 0002:000000b8       __imp___adjust_fdiv        1003a0b8     MSVCRTD:MSVCR90D.dll
+ 0002:000000bc       __imp____CppXcptFilter     1003a0bc     MSVCRTD:MSVCR90D.dll
+ 0002:000000c0       __imp___crt_debugger_hook  1003a0c0     MSVCRTD:MSVCR90D.dll
+ 0002:000000c4       __imp____clean_type_info_names_internal 1003a0c4     MSVCRTD:MSVCR90D.dll
+ 0002:000000c8       __imp___unlock             1003a0c8     MSVCRTD:MSVCR90D.dll
+ 0002:000000cc       __imp____dllonexit         1003a0cc     MSVCRTD:MSVCR90D.dll
+ 0002:000000d0       __imp___lock               1003a0d0     MSVCRTD:MSVCR90D.dll
+ 0002:000000d4       __imp___onexit             1003a0d4     MSVCRTD:MSVCR90D.dll
+ 0002:000000d8       __imp___except_handler4_common 1003a0d8     MSVCRTD:MSVCR90D.dll
+ 0002:000000dc       __imp__strncpy             1003a0dc     MSVCRTD:MSVCR90D.dll
+ 0002:000000e0       __imp__fabs                1003a0e0     MSVCRTD:MSVCR90D.dll
+ 0002:000000e4       __imp__strrchr             1003a0e4     MSVCRTD:MSVCR90D.dll
+ 0002:000000e8       __imp__memset              1003a0e8     MSVCRTD:MSVCR90D.dll
+ 0002:000000ec       __imp__ceil                1003a0ec     MSVCRTD:MSVCR90D.dll
+ 0002:000000f0       __imp__qsort               1003a0f0     MSVCRTD:MSVCR90D.dll
+ 0002:000000f4       __imp__strlen              1003a0f4     MSVCRTD:MSVCR90D.dll
+ 0002:000000f8       __imp__strcat              1003a0f8     MSVCRTD:MSVCR90D.dll
+ 0002:000000fc       __imp__atoi                1003a0fc     MSVCRTD:MSVCR90D.dll
+ 0002:00000100       __imp__strcpy              1003a100     MSVCRTD:MSVCR90D.dll
+ 0002:00000104       __imp__strchr              1003a104     MSVCRTD:MSVCR90D.dll
+ 0002:00000108       __imp__sprintf             1003a108     MSVCRTD:MSVCR90D.dll
+ 0002:0000010c       __imp__strcmp              1003a10c     MSVCRTD:MSVCR90D.dll
+ 0002:00000110       __imp__memcmp              1003a110     MSVCRTD:MSVCR90D.dll
+ 0002:00000114       __imp__rand                1003a114     MSVCRTD:MSVCR90D.dll
+ 0002:00000118       __imp___strdup             1003a118     MSVCRTD:MSVCR90D.dll
+ 0002:00000118       __imp__strdup              1003a118     MSVCRTD:MSVCR90D.dll
+ 0002:0000011c       \177MSVCR90D_NULL_THUNK_DATA 1003a11c     MSVCRTD:MSVCR90D.dll
+ 0002:00000120       ___xc_a                    1003a120     MSVCRTD:cinitexe.obj
+ 0002:00000124       ___xc_z                    1003a124     MSVCRTD:cinitexe.obj
+ 0002:00000128       ___xi_a                    1003a128     MSVCRTD:cinitexe.obj
+ 0002:00000134       ___xi_z                    1003a134     MSVCRTD:cinitexe.obj
+ 0002:00000160       __real@40dfffc000000000    1003a160     g_ai.obj
+ 0002:00000168       __real@402e000000000000    1003a168     g_ai.obj
+ 0002:00000170       __real@00000000            1003a170     g_ai.obj
+ 0002:00000178       __real@0000000000000000    1003a178     g_ai.obj
+ 0002:00000180       __real@408f400000000000    1003a180     g_ai.obj
+ 0002:00000188       __real@407f400000000000    1003a188     g_ai.obj
+ 0002:00000190       __real@4054000000000000    1003a190     g_ai.obj
+ 0002:00000198       __real@3ff0000000000000    1003a198     g_ai.obj
+ 0002:000001a0       __real@3fd3333333333333    1003a1a0     g_ai.obj
+ 0002:000001a8       __real@3f800000            1003a1a8     g_ai.obj
+ 0002:000001ac       ??_C@_0CF@HHCKLLCG@?$CFs?5at?5?$CFs?0?5combattarget?5?$CFs?5not?5fo@ 1003a1ac     g_ai.obj
+ 0002:000001d4       ??_C@_0N@PALCLHFG@player_noise?$AA@ 1003a1d4     g_ai.obj
+ 0002:000001e4       ??_C@_0N@OANCMICM@target_actor?$AA@ 1003a1e4     g_ai.obj
+ 0002:000001f8       __real@4073b00000000000    1003a1f8     g_ai.obj
+ 0002:00000200       __real@4046800000000000    1003a200     g_ai.obj
+ 0002:00000208       __real@4000000000000000    1003a208     g_ai.obj
+ 0002:00000210       __real@3fe0000000000000    1003a210     g_ai.obj
+ 0002:00000218       __real@3ca3d70a            1003a218     g_ai.obj
+ 0002:0000021c       __real@3dcccccd            1003a21c     g_ai.obj
+ 0002:00000220       __real@3e4ccccd            1003a220     g_ai.obj
+ 0002:00000224       __real@3ecccccd            1003a224     g_ai.obj
+ 0002:00000228       __real@c2b40000            1003a228     g_ai.obj
+ 0002:0000022c       __real@42b40000            1003a22c     g_ai.obj
+ 0002:00000230       __real@4197d78400000000    1003a230     g_ai.obj
+ 0002:00000238       __real@4014000000000000    1003a238     g_ai.obj
+ 0002:00000240       __real@41800000            1003a240     g_ai.obj
+ 0002:00000244       __real@c1800000            1003a244     g_ai.obj
+ 0002:00000248       __real@4034000000000000    1003a248     g_ai.obj
+ 0002:00000250       __real@4050000000000000    1003a250     g_ai.obj
+ 0002:00000258       ??_C@_0CB@BLHIGJLC@xv?50?5yb?5?968?5string2?5?$CCChasing?5?$CFs?$CC@ 1003a258     g_chase.obj
+ 0002:00000280       __real@4076800000000000    1003a280     g_chase.obj
+ 0002:00000288       __real@40f0000000000000    1003a288     g_chase.obj
+ 0002:00000290       __real@4018000000000000    1003a290     g_chase.obj
+ 0002:00000298       __real@40000000            1003a298     g_chase.obj
+ 0002:000002a0       __real@4030000000000000    1003a2a0     g_chase.obj
+ 0002:000002a8       __real@c1f00000            1003a2a8     g_chase.obj
+ 0002:000002ac       __real@42600000            1003a2ac     g_chase.obj
+ 0002:000002b0       __real@404c000000000000    1003a2b0     g_chase.obj
+ 0002:000002b8       ??_C@_04NHPAFEHJ@skin?$AA@ 1003a2b8     g_cmds.obj
+ 0002:000002c0       ??_C@_0BB@MFPPLKBC@non?9pickup?5item?6?$AA@ 1003a2c0     g_cmds.obj
+ 0002:000002d4       ??_C@_0O@MELMCNGH@unknown?5item?6?$AA@ 1003a2d4     g_cmds.obj
+ 0002:000002e4       ??_C@_0N@EKCPIMMD@Power?5Shield?$AA@ 1003a2e4     g_cmds.obj
+ 0002:000002f4       ??_C@_0L@JHEFAAJO@Body?5Armor?$AA@ 1003a2f4     g_cmds.obj
+ 0002:00000300       ??_C@_0N@JIDPFJND@Combat?5Armor?$AA@ 1003a300     g_cmds.obj
+ 0002:00000310       ??_C@_0N@FBENBOF@Jacket?5Armor?$AA@ 1003a310     g_cmds.obj
+ 0002:00000320       ??_C@_05JJEJIJLL@armor?$AA@ 1003a320     g_cmds.obj
+ 0002:00000328       ??_C@_04PGKJFGNK@ammo?$AA@ 1003a328     g_cmds.obj
+ 0002:00000330       ??_C@_07PKKCMMCH@weapons?$AA@ 1003a330     g_cmds.obj
+ 0002:00000338       ??_C@_06KJINILIP@health?$AA@ 1003a338     g_cmds.obj
+ 0002:00000340       ??_C@_03NFKEKGGK@all?$AA@  1003a340     g_cmds.obj
+ 0002:00000348       ??_C@_0EG@GDMPDOEH@You?5must?5run?5the?5server?5with?5?8?$CLs@ 1003a348     g_cmds.obj
+ 0002:00000390       ??_C@_0M@MCLKHHDH@godmode?5ON?6?$AA@ 1003a390     g_cmds.obj
+ 0002:0000039c       ??_C@_0N@POKEKLLJ@godmode?5OFF?6?$AA@ 1003a39c     g_cmds.obj
+ 0002:000003ac       ??_C@_0N@OBJNJDJO@notarget?5ON?6?$AA@ 1003a3ac     g_cmds.obj
+ 0002:000003bc       ??_C@_0O@FBINJHBB@notarget?5OFF?6?$AA@ 1003a3bc     g_cmds.obj
+ 0002:000003cc       ??_C@_0L@MDMNIPJN@noclip?5ON?6?$AA@ 1003a3cc     g_cmds.obj
+ 0002:000003d8       ??_C@_0M@MIKGJGLH@noclip?5OFF?6?$AA@ 1003a3d8     g_cmds.obj
+ 0002:000003e4       ??_C@_0BB@IMJMOMPG@Out?5of?5item?3?5?$CFs?6?$AA@ 1003a3e4     g_cmds.obj
+ 0002:000003f8       ??_C@_0BF@OHMCMEFN@Item?5is?5not?5usable?4?6?$AA@ 1003a3f8     g_cmds.obj
+ 0002:00000410       ??_C@_0BC@LMBCLEDC@unknown?5item?3?5?$CFs?6?$AA@ 1003a410     g_cmds.obj
+ 0002:00000424       ??_C@_0BH@BAGCGBOH@Item?5is?5not?5dropable?4?6?$AA@ 1003a424     g_cmds.obj
+ 0002:0000043c       ??_C@_04NOMCNNAK@tech?$AA@ 1003a43c     g_cmds.obj
+ 0002:00000444       ??_C@_0BB@GDFGHJOB@No?5item?5to?5use?4?6?$AA@ 1003a444     g_cmds.obj
+ 0002:00000458       ??_C@_0BC@HJFCKGMO@No?5item?5to?5drop?4?6?$AA@ 1003a458     g_cmds.obj
+ 0002:0000046c       ??_C@_0P@JBNOEIOA@?$CFs?6?$CFi?5players?6?$AA@ 1003a46c     g_cmds.obj
+ 0002:0000047c       ??_C@_04MPPNMCOK@?4?4?4?6?$AA@ 1003a47c     g_cmds.obj
+ 0002:00000484       ??_C@_07GHEOODHC@?$CF3i?5?$CFs?6?$AA@ 1003a484     g_cmds.obj
+ 0002:0000048c       ??_C@_06JBJFPACP@point?6?$AA@ 1003a48c     g_cmds.obj
+ 0002:00000494       ??_C@_05GOPCDNJ@wave?6?$AA@ 1003a494     g_cmds.obj
+ 0002:0000049c       ??_C@_06PKMAMPMP@taunt?6?$AA@ 1003a49c     g_cmds.obj
+ 0002:000004a4       ??_C@_07ILGJIHKA@salute?6?$AA@ 1003a4a4     g_cmds.obj
+ 0002:000004ac       ??_C@_08BHFNLFCH@flipoff?6?$AA@ 1003a4ac     g_cmds.obj
+ 0002:000004b8       ??_C@_0DD@NDLICADG@Flood?5protection?3?5?5You?5can?8t?5tal@ 1003a4b8     g_cmds.obj
+ 0002:000004ec       ??_C@_0CE@GPOLBCJB@You?5can?8t?5talk?5for?5?$CFd?5more?5secon@ 1003a4ec     g_cmds.obj
+ 0002:00000510       ??_C@_02DKCKIIND@?$CFs?$AA@ 1003a510     g_cmds.obj
+ 0002:00000514       ??_C@_01EEMJAFIK@?6?$AA@   1003a514     g_cmds.obj
+ 0002:00000518       ??_C@_01CLKCMJKC@?5?$AA@   1003a518     g_cmds.obj
+ 0002:0000051c       ??_C@_04PFAOODAA@?$CFs?3?5?$AA@ 1003a51c     g_cmds.obj
+ 0002:00000524       ??_C@_06BGJAPNLA@?$CI?$CFs?$CJ?3?5?$AA@ 1003a524     g_cmds.obj
+ 0002:0000052c       ??_C@_08BDAIAION@observer?$AA@ 1003a52c     g_cmds.obj
+ 0002:00000538       ??_C@_0L@MBOKGAPE@playerlist?$AA@ 1003a538     g_cmds.obj
+ 0002:00000544       ??_C@_04LBLCPLHF@boot?$AA@ 1003a544     g_cmds.obj
+ 0002:0000054c       ??_C@_04IJPPGBJD@warp?$AA@ 1003a54c     g_cmds.obj
+ 0002:00000554       ??_C@_05BLKJBNOD@stats?$AA@ 1003a554     g_cmds.obj
+ 0002:0000055c       ??_C@_05JEBDMKHG@admin?$AA@ 1003a55c     g_cmds.obj
+ 0002:00000564       ??_C@_05IMCPNAJM@ghost?$AA@ 1003a564     g_cmds.obj
+ 0002:0000056c       ??_C@_08LJDKJCJK@notready?$AA@ 1003a56c     g_cmds.obj
+ 0002:00000578       ??_C@_05GLLMDLIO@ready?$AA@ 1003a578     g_cmds.obj
+ 0002:00000580       ??_C@_02KAJCLHKP@no?$AA@   1003a580     g_cmds.obj
+ 0002:00000584       ??_C@_03ICICOMAL@yes?$AA@  1003a584     g_cmds.obj
+ 0002:00000588       ??_C@_02EGCJHIOB@id?$AA@   1003a588     g_cmds.obj
+ 0002:0000058c       ??_C@_04KADBPNCB@team?$AA@ 1003a58c     g_cmds.obj
+ 0002:00000594       ??_C@_04LJEDCPFL@wave?$AA@ 1003a594     g_cmds.obj
+ 0002:0000059c       ??_C@_07PNDMKECN@putaway?$AA@ 1003a59c     g_cmds.obj
+ 0002:000005a4       ??_C@_04BJJEOANI@kill?$AA@ 1003a5a4     g_cmds.obj
+ 0002:000005ac       ??_C@_08PBGAMBND@weaplast?$AA@ 1003a5ac     g_cmds.obj
+ 0002:000005b8       ??_C@_08IJHOKAF@weapnext?$AA@ 1003a5b8     g_cmds.obj
+ 0002:000005c4       ??_C@_08DMEBPOGB@weapprev?$AA@ 1003a5c4     g_cmds.obj
+ 0002:000005d0       ??_C@_07JCLLAOBD@invdrop?$AA@ 1003a5d0     g_cmds.obj
+ 0002:000005d8       ??_C@_06CKANELLH@invuse?$AA@ 1003a5d8     g_cmds.obj
+ 0002:000005e0       ??_C@_08FIGEFPHN@invprevp?$AA@ 1003a5e0     g_cmds.obj
+ 0002:000005ec       ??_C@_08BCIPCMCI@invnextp?$AA@ 1003a5ec     g_cmds.obj
+ 0002:000005f8       ??_C@_08BHCFMJLK@invprevw?$AA@ 1003a5f8     g_cmds.obj
+ 0002:00000604       ??_C@_08FNMOLKOP@invnextw?$AA@ 1003a604     g_cmds.obj
+ 0002:00000610       ??_C@_07FMBGBNAB@invprev?$AA@ 1003a610     g_cmds.obj
+ 0002:00000618       ??_C@_07GIMAAJGF@invnext?$AA@ 1003a618     g_cmds.obj
+ 0002:00000620       ??_C@_05LMPCHJEA@inven?$AA@ 1003a620     g_cmds.obj
+ 0002:00000628       ??_C@_06IHODGGMJ@noclip?$AA@ 1003a628     g_cmds.obj
+ 0002:00000630       ??_C@_08HPLPOCJL@notarget?$AA@ 1003a630     g_cmds.obj
+ 0002:0000063c       ??_C@_03DKFAMNOH@god?$AA@  1003a63c     g_cmds.obj
+ 0002:00000640       ??_C@_04BMBHJADG@give?$AA@ 1003a640     g_cmds.obj
+ 0002:00000648       ??_C@_04PIONEEJD@drop?$AA@ 1003a648     g_cmds.obj
+ 0002:00000650       ??_C@_03MMGHDJKG@use?$AA@  1003a650     g_cmds.obj
+ 0002:00000654       ??_C@_04PCJFHION@help?$AA@ 1003a654     g_cmds.obj
+ 0002:0000065c       ??_C@_05DBKDOICH@score?$AA@ 1003a65c     g_cmds.obj
+ 0002:00000664       ??_C@_05FKGHNEPA@steam?$AA@ 1003a664     g_cmds.obj
+ 0002:0000066c       ??_C@_08NBFNGOHN@say_team?$AA@ 1003a66c     g_cmds.obj
+ 0002:00000678       ??_C@_03BANJEMDJ@say?$AA@  1003a678     g_cmds.obj
+ 0002:0000067c       ??_C@_07BCGOFIOM@players?$AA@ 1003a67c     g_cmds.obj
+ 0002:00000684       __real@3f000000            1003a684     g_combat.obj
+ 0002:00000688       ??_C@_0O@BANHFPFJ@monster_medic?$AA@ 1003a688     g_combat.obj
+ 0002:00000698       ??_C@_0N@ICCLPNEA@monster_jorg?$AA@ 1003a698     g_combat.obj
+ 0002:000006a8       ??_C@_0P@HOBKIEBL@monster_makron?$AA@ 1003a6a8     g_combat.obj
+ 0002:000006b8       ??_C@_0BC@CLNPJPIH@monster_supertank?$AA@ 1003a6b8     g_combat.obj
+ 0002:000006cc       ??_C@_0N@EKNLGII@monster_tank?$AA@ 1003a6cc     g_combat.obj
+ 0002:000006e0       __real@4008000000000000    1003a6e0     g_combat.obj
+ 0002:000006e8       ??_C@_0BD@FAFHPKHM@items?1protect4?4wav?$AA@ 1003a6e8     g_combat.obj
+ 0002:00000700       __real@4099000000000000    1003a700     g_combat.obj
+ 0002:00000708       __real@42480000            1003a708     g_combat.obj
+ 0002:00000710       __real@3fc999999999999a    1003a710     g_combat.obj
+ 0002:00000718       ??_C@_05KCAMIOGJ@Cells?$AA@ 1003a718     g_combat.obj
+ 0002:00000720       ??_C@_04DNCNJDPH@?5?7?6?$AN?$AA@ 1003a720     g_ctf.obj
+ 0002:00000728       ??_C@_08EEOHOBEO@Settings?$AA@ 1003a728     g_ctf.obj
+ 0002:00000734       ??_C@_0BF@MCLMFCCK@?$CKAdministration?5Menu?$AA@ 1003a734     g_ctf.obj
+ 0002:0000074c       ??_C@_06FMBNCPDL@Cancel?$AA@ 1003a74c     g_ctf.obj
+ 0002:00000754       ??_C@_05KHOEDHDN@Apply?$AA@ 1003a754     g_ctf.obj
+ 0002:0000075c       ??_C@_0P@ODCMEAJP@?$CKSettings?5Menu?$AA@ 1003a75c     g_ctf.obj
+ 0002:0000076c       ??_C@_0BA@MBOIECCN@No?5one?5to?5chase?$AA@ 1003a76c     g_ctf.obj
+ 0002:0000077c       ??_C@_06NAKGKPGG@v1?409b?$AA@ 1003a77c     g_ctf.obj
+ 0002:00000784       ??_C@_0BA@COAIGCDO@?$CITAB?5to?5Return?$CJ?$AA@ 1003a784     g_ctf.obj
+ 0002:00000794       ??_C@_0BB@JBMBOPCL@ESC?5to?5Exit?5Menu?$AA@ 1003a794     g_ctf.obj
+ 0002:000007a8       ??_C@_0BA@PJHNNIFM@ENTER?5to?5select?$AA@ 1003a7a8     g_ctf.obj
+ 0002:000007b8       ??_C@_0BL@MPIOBDPA@Use?5?$FL?5and?5?$FN?5to?5move?5cursor?$AA@ 1003a7b8     g_ctf.obj
+ 0002:000007d4       ??_C@_07GDHHDJMO@Credits?$AA@ 1003a7d4     g_ctf.obj
+ 0002:000007dc       ??_C@_0N@ENLGGODO@Chase?5Camera?$AA@ 1003a7dc     g_ctf.obj
+ 0002:000007ec       ??_C@_0P@NDKPKHLB@Join?5Blue?5Team?$AA@ 1003a7ec     g_ctf.obj
+ 0002:000007fc       ??_C@_0O@IIJKDMGG@Join?5Red?5Team?$AA@ 1003a7fc     g_ctf.obj
+ 0002:0000080c       ??_C@_0BE@PLLJNGML@Return?5to?5Main?5Menu?$AA@ 1003a80c     g_ctf.obj
+ 0002:00000820       ??_C@_0BJ@CDBGPKFG@Brian?5?8Whaleboy?8?5Cozzens?$AA@ 1003a820     g_ctf.obj
+ 0002:0000083c       ??_C@_0BJ@PEOLNIMC@?$CKOriginal?5CTF?5Art?5Design?$AA@ 1003a83c     g_ctf.obj
+ 0002:00000858       ??_C@_0BB@MGOBMBGB@Tom?5?8Bjorn?8?5Klok?$AA@ 1003a858     g_ctf.obj
+ 0002:0000086c       ??_C@_06IHBPMELB@?$CKSound?$AA@ 1003a86c     g_ctf.obj
+ 0002:00000874       ??_C@_0M@PDFIOC@Kevin?5Cloud?$AA@ 1003a874     g_ctf.obj
+ 0002:00000880       ??_C@_0BK@HDGLNOGH@Adrian?5Carmack?5Paul?5Steed?$AA@ 1003a880     g_ctf.obj
+ 0002:0000089c       ??_C@_04INCCAAND@?$CKArt?$AA@ 1003a89c     g_ctf.obj
+ 0002:000008a4       ??_C@_0M@EFNLAJIJ@Tim?5Willits?$AA@ 1003a8a4     g_ctf.obj
+ 0002:000008b0       ??_C@_0BB@LFNECJDK@Christian?5Antkow?$AA@ 1003a8b0     g_ctf.obj
+ 0002:000008c4       ??_C@_0O@GCGOCGMI@?$CKLevel?5Design?$AA@ 1003a8c4     g_ctf.obj
+ 0002:000008d4       ??_C@_0BD@NIEABIDI@Dave?5?8Zoid?8?5Kirsch?$AA@ 1003a8d4     g_ctf.obj
+ 0002:000008e8       ??_C@_0N@MDNGELAH@?$CKProgramming?$AA@ 1003a8e8     g_ctf.obj
+ 0002:000008f8       ??_C@_0BM@MKLKNDGP@?$CKThreeWave?5Capture?5the?5Flag?$AA@ 1003a8f8     g_ctf.obj
+ 0002:00000914       ??_C@_09CFHBGDJJ@?$CKQuake?5II?$AA@ 1003a914     g_ctf.obj
+ 0002:00000920       ??_C@_09KFKKKEIO@item_pack?$AA@ 1003a920     g_ctf.obj
+ 0002:0000092c       ??_C@_0P@DFANKJKD@item_bandolier?$AA@ 1003a92c     g_ctf.obj
+ 0002:0000093c       ??_C@_0BA@CDBGAOBB@item_adrenaline?$AA@ 1003a93c     g_ctf.obj
+ 0002:0000094c       ??_C@_0M@HBCGNAN@item_enviro?$AA@ 1003a94c     g_ctf.obj
+ 0002:00000958       ??_C@_0O@DCDPPGIP@item_breather?$AA@ 1003a958     g_ctf.obj
+ 0002:00000968       ??_C@_0O@FLANICCH@item_silencer?$AA@ 1003a968     g_ctf.obj
+ 0002:00000978       ??_C@_0BC@DFFIIEBP@item_armor_jacket?$AA@ 1003a978     g_ctf.obj
+ 0002:0000098c       ??_C@_0BC@FPPLPJIL@item_armor_combat?$AA@ 1003a98c     g_ctf.obj
+ 0002:000009a0       ??_C@_0BA@EKKMHIH@item_armor_body?$AA@ 1003a9a0     g_ctf.obj
+ 0002:000009b0       ??_C@_0BC@KPDANFEN@item_power_shield?$AA@ 1003a9b0     g_ctf.obj
+ 0002:000009c4       ??_C@_0BC@CHPJFABI@item_power_screen?$AA@ 1003a9c4     g_ctf.obj
+ 0002:000009d8       ??_C@_0P@ILAKNOAG@weapon_shotgun?$AA@ 1003a9d8     g_ctf.obj
+ 0002:000009e8       ??_C@_0BE@ECFDCKLO@weapon_supershotgun?$AA@ 1003a9e8     g_ctf.obj
+ 0002:000009fc       ??_C@_0BC@HHBNPFPN@weapon_machinegun?$AA@ 1003a9fc     g_ctf.obj
+ 0002:00000a10       ??_C@_0BH@DGCCJPLM@weapon_grenadelauncher?$AA@ 1003aa10     g_ctf.obj
+ 0002:00000a28       ??_C@_0BA@LGFCHAFP@weapon_chaingun?$AA@ 1003aa28     g_ctf.obj
+ 0002:00000a38       ??_C@_0BE@GABONANM@weapon_hyperblaster?$AA@ 1003aa38     g_ctf.obj
+ 0002:00000a4c       ??_C@_0BG@HJKONAJE@weapon_rocketlauncher?$AA@ 1003aa4c     g_ctf.obj
+ 0002:00000a64       ??_C@_0P@FEPBKEBF@weapon_railgun?$AA@ 1003aa64     g_ctf.obj
+ 0002:00000a74       ??_C@_0L@JBGNLNGG@weapon_bfg?$AA@ 1003aa74     g_ctf.obj
+ 0002:00000a80       ??_C@_0BF@ILDMGFED@item_invulnerability?$AA@ 1003aa80     g_ctf.obj
+ 0002:00000a98       ??_C@_09MDKNIFFH@item_quad?$AA@ 1003aa98     g_ctf.obj
+ 0002:00000aa4       ??_C@_0BA@KMIFCADF@item_flag_team2?$AA@ 1003aaa4     g_ctf.obj
+ 0002:00000ab4       ??_C@_0BA@IHKIHDPG@item_flag_team1?$AA@ 1003aab4     g_ctf.obj
+ 0002:00000ac4       ??_C@_0L@NNNIKNPL@item_tech4?$AA@ 1003aac4     g_ctf.obj
+ 0002:00000ad0       ??_C@_0L@JCJJDLDM@item_tech3?$AA@ 1003aad0     g_ctf.obj
+ 0002:00000adc       ??_C@_0L@ILICAKHN@item_tech2?$AA@ 1003aadc     g_ctf.obj
+ 0002:00000ae8       ??_C@_0L@KAKPFJLO@item_tech1?$AA@ 1003aae8     g_ctf.obj
+ 0002:00000af8       ??_C@_0CHB@EKMBKDAH@yb?7?924?5xv?70?5hnum?5xv?750?5pic?50?5if?5@ 1003aaf8     g_ctf.obj
+ 0002:00000d88       __real@404e000000000000    1003ad88     g_ctf.obj
+ 0002:00000d90       ??_C@_09LLDFCIFF@warp_list?$AA@ 1003ad90     g_ctf.obj
+ 0002:00000d9c       ??_C@_0CD@FGHIJJJM@q2ctf1?5q2ctf2?5q2ctf3?5q2ctf4?5q2ct@ 1003ad9c     g_ctf.obj
+ 0002:00000dc0       ??_C@_0P@DCIGPBFN@admin_password?$AA@ 1003adc0     g_ctf.obj
+ 0002:00000dd0       ??_C@_0P@BNJFMBJK@matchstarttime?$AA@ 1003add0     g_ctf.obj
+ 0002:00000de0       ??_C@_0P@MMEDNEHP@matchsetuptime?$AA@ 1003ade0     g_ctf.obj
+ 0002:00000df0       ??_C@_02PKFBJPLJ@10?$AA@   1003adf0     g_ctf.obj
+ 0002:00000df4       ??_C@_09BHGOPAJM@matchtime?$AA@ 1003adf4     g_ctf.obj
+ 0002:00000e00       ??_C@_02PIBHCBOA@20?$AA@   1003ae00     g_ctf.obj
+ 0002:00000e04       ??_C@_0BA@LDOLKNOJ@electpercentage?$AA@ 1003ae04     g_ctf.obj
+ 0002:00000e14       ??_C@_02KJEECOLK@66?$AA@   1003ae14     g_ctf.obj
+ 0002:00000e18       ??_C@_09PGIIHDIH@matchlock?$AA@ 1003ae18     g_ctf.obj
+ 0002:00000e24       ??_C@_0M@JBCOJJEE@competition?$AA@ 1003ae24     g_ctf.obj
+ 0002:00000e30       ??_C@_01GBGANLPD@0?$AA@    1003ae30     g_ctf.obj
+ 0002:00000e34       ??_C@_0O@NHBCIAND@ctf_forcejoin?$AA@ 1003ae34     g_ctf.obj
+ 0002:00000e42       ??_C@_00CNPNBAHC@?$AA@     1003ae42     g_ctf.obj
+ 0002:00000e44       ??_C@_03JHHHHEKD@ctf?$AA@  1003ae44     g_ctf.obj
+ 0002:00000e48       ??_C@_01HIHLOKLC@1?$AA@    1003ae48     g_ctf.obj
+ 0002:00000e4c       ??_C@_06FFFMOIMD@UKNOWN?$AA@ 1003ae4c     g_ctf.obj
+ 0002:00000e54       ??_C@_04CNFFLDFF@BLUE?$AA@ 1003ae54     g_ctf.obj
+ 0002:00000e5c       ??_C@_03FNPLCCOA@RED?$AA@  1003ae5c     g_ctf.obj
+ 0002:00000e60       ??_C@_05BMGBEOOC@?$CFs?2?$CFs?$AA@ 1003ae60     g_ctf.obj
+ 0002:00000e68       ??_C@_05OCGJKNNA@ctf_b?$AA@ 1003ae68     g_ctf.obj
+ 0002:00000e70       ??_C@_07MHLIEPKG@?$CFs?2?$CFs?$CFs?$AA@ 1003ae70     g_ctf.obj
+ 0002:00000e78       ??_C@_05KIKLLPIB@ctf_r?$AA@ 1003ae78     g_ctf.obj
+ 0002:00000e80       ??_C@_05HDPFGFDI@male?1?$AA@ 1003ae80     g_ctf.obj
+ 0002:00000e88       __real@47c34f80            1003ae88     g_ctf.obj
+ 0002:00000e8c       ??_C@_0BC@HGCGAIJA@info_player_team2?$AA@ 1003ae8c     g_ctf.obj
+ 0002:00000ea0       ??_C@_0BC@FNALFLFD@info_player_team1?$AA@ 1003aea0     g_ctf.obj
+ 0002:00000eb4       ??_C@_0CD@MGPKLCHJ@?$CFs?5defends?5the?5?$CFs?8s?5flag?5carrier@ 1003aeb4     g_ctf.obj
+ 0002:00000ed8       ??_C@_0BJ@NODEMPJJ@?$CFs?5defends?5the?5?$CFs?5flag?4?6?$AA@ 1003aed8     g_ctf.obj
+ 0002:00000ef4       ??_C@_0BJ@CGMMPEDN@?$CFs?5defends?5the?5?$CFs?5base?4?6?$AA@ 1003aef4     g_ctf.obj
+ 0002:00000f10       __real@4079000000000000    1003af10     g_ctf.obj
+ 0002:00000f18       ??_C@_0DJ@LIMCLEON@?$CFs?5defends?5?$CFs?8s?5flag?5carrier?5aga@ 1003af18     g_ctf.obj
+ 0002:00000f58       __real@4020000000000000    1003af58     g_ctf.obj
+ 0002:00000f60       ??_C@_0DD@MPBFDEFL@BONUS?3?5?$CFd?5points?5for?5fragging?5en@ 1003af60     g_ctf.obj
+ 0002:00000f94       ??_C@_0BF@IMAOIIBE@?$CFs?5got?5the?5?$CFs?5flag?$CB?6?$AA@ 1003af94     g_ctf.obj
+ 0002:00000fac       ??_C@_0BA@OLFLOKCE@ctf?1flagret?4wav?$AA@ 1003afac     g_ctf.obj
+ 0002:00000fbc       ??_C@_0BK@PIAMKGFB@?$CFs?5returned?5the?5?$CFs?5flag?$CB?6?$AA@ 1003afbc     g_ctf.obj
+ 0002:00000fd8       ??_C@_0DC@MKOKNBL@?$CFs?5gets?5an?5assist?5for?5fragging?5t@ 1003afd8     g_ctf.obj
+ 0002:0000100c       ??_C@_0CL@OOPCKBNB@?$CFs?5gets?5an?5assist?5for?5returning?5@ 1003b00c     g_ctf.obj
+ 0002:00001038       __real@4024000000000000    1003b038     g_ctf.obj
+ 0002:00001040       __real@c0a00000            1003b040     g_ctf.obj
+ 0002:00001044       ??_C@_0BA@DEJELNJE@ctf?1flagcap?4wav?$AA@ 1003b044     g_ctf.obj
+ 0002:00001054       ??_C@_0BK@DBFGMIGN@?$CFs?5captured?5the?5?$CFs?5flag?$CB?6?$AA@ 1003b054     g_ctf.obj
+ 0002:00001070       ??_C@_0CG@PMIHGLOD@Don?8t?5know?5what?5team?5the?5flag?5is@ 1003b070     g_ctf.obj
+ 0002:00001098       __real@403e000000000000    1003b098     g_ctf.obj
+ 0002:000010a0       ??_C@_0BG@KNEDCGDB@?$CFs?5lost?5the?5?$CFs?5flag?$CB?6?$AA@ 1003b0a0     g_ctf.obj
+ 0002:000010b8       __real@403c000000000000    1003b0b8     g_ctf.obj
+ 0002:000010c0       ??_C@_0BL@EJNDMGGL@The?5?$CFs?5flag?5has?5returned?$CB?6?$AA@ 1003b0c0     g_ctf.obj
+ 0002:000010dc       ??_C@_0BL@GMCOJNDL@Winners?5don?8t?5drop?5flags?4?6?$AA@ 1003b0dc     g_ctf.obj
+ 0002:000010f8       ??_C@_0BJ@OFCPHCJ@Only?5lusers?5drop?5flags?4?6?$AA@ 1003b0f8     g_ctf.obj
+ 0002:00001118       __real@3fb999999999999a    1003b118     g_ctf.obj
+ 0002:00001120       ??_C@_0CD@GFBCDJGK@CTFFlagSetup?3?5?$CFs?5startsolid?5at?5?$CF@ 1003b120     g_ctf.obj
+ 0002:00001144       __real@c3000000            1003b144     g_ctf.obj
+ 0002:00001148       __real@41700000            1003b148     g_ctf.obj
+ 0002:0000114c       __real@c1700000            1003b14c     g_ctf.obj
+ 0002:00001150       ??_C@_0BH@CGJMNBJI@players?1male?1flag2?4md2?$AA@ 1003b150     g_ctf.obj
+ 0002:00001168       ??_C@_0BH@KAAIKDDG@players?1male?1flag1?4md2?$AA@ 1003b168     g_ctf.obj
+ 0002:00001180       ??_C@_0CJ@LEKDAPLF@Activating?5player?5identication?5d@ 1003b180     g_ctf.obj
+ 0002:000011ac       ??_C@_0CI@FDLBLCLJ@Disabling?5player?5identication?5di@ 1003b1ac     g_ctf.obj
+ 0002:000011d4       ??_C@_06GIOCJNHM@i_ctfj?$AA@ 1003b1d4     g_ctf.obj
+ 0002:000011dc       ??_C@_07HACHBMHA@i_ctf2t?$AA@ 1003b1dc     g_ctf.obj
+ 0002:000011e4       ??_C@_07DKOFAOCB@i_ctf2d?$AA@ 1003b1e4     g_ctf.obj
+ 0002:000011ec       ??_C@_06BKIAEKCA@i_ctf2?$AA@ 1003b1ec     g_ctf.obj
+ 0002:000011f4       ??_C@_07HCGBKCCJ@i_ctf1t?$AA@ 1003b1f4     g_ctf.obj
+ 0002:000011fc       ??_C@_07DIKDLAHI@i_ctf1d?$AA@ 1003b1fc     g_ctf.obj
+ 0002:00001204       ??_C@_06DBKNBJOD@i_ctf1?$AA@ 1003b204     g_ctf.obj
+ 0002:0000120c       ??_C@_06IBKFPPIO@ctfsb2?$AA@ 1003b20c     g_ctf.obj
+ 0002:00001214       ??_C@_06KKIIKMEN@ctfsb1?$AA@ 1003b214     g_ctf.obj
+ 0002:00001220       __real@3feccccccccccccd    1003b220     g_ctf.obj
+ 0002:00001228       __real@44800000            1003b228     g_ctf.obj
+ 0002:0000122c       ??_C@_0BM@CKNFMFKK@weapons?1grapple?1grreset?4wav?$AA@ 1003b22c     g_ctf.obj
+ 0002:00001248       ??_C@_0BK@GMCIOFGJ@weapons?1grapple?1grhit?4wav?$AA@ 1003b248     g_ctf.obj
+ 0002:00001264       ??_C@_0BL@DONCICKG@weapons?1grapple?1grpull?4wav?$AA@ 1003b264     g_ctf.obj
+ 0002:00001280       __real@44228000            1003b280     g_ctf.obj
+ 0002:00001284       ??_C@_0BL@CMGDLMPE@weapons?1grapple?1grhang?4wav?$AA@ 1003b284     g_ctf.obj
+ 0002:000012a0       ??_C@_0BL@PBKOAFKK@weapons?1grapple?1grhurt?4wav?$AA@ 1003b2a0     g_ctf.obj
+ 0002:000012bc       ??_C@_0P@ECBCMLPF@weapon_grapple?$AA@ 1003b2bc     g_ctf.obj
+ 0002:000012cc       __real@c1200000            1003b2cc     g_ctf.obj
+ 0002:000012d0       ??_C@_0CF@DDDKNNKD@models?1weapons?1grapple?1hook?1tris@ 1003b2d0     g_ctf.obj
+ 0002:000012f8       ??_C@_0BL@NKPCCLGC@weapons?1grapple?1grfire?4wav?$AA@ 1003b2f8     g_ctf.obj
+ 0002:00001314       __real@bf800000            1003b314     g_ctf.obj
+ 0002:00001318       __real@c0000000            1003b318     g_ctf.obj
+ 0002:0000131c       __real@41000000            1003b31c     g_ctf.obj
+ 0002:00001320       __real@41c00000            1003b320     g_ctf.obj
+ 0002:00001324       ??_C@_0BM@HIFDAFI@?$CFs?5changed?5to?5the?5?$CFs?5team?4?6?$AA@ 1003b324     g_ctf.obj
+ 0002:00001340       ??_C@_0BI@HPBBNBP@?$CFs?5joined?5the?5?$CFs?5team?4?6?$AA@ 1003b340     g_ctf.obj
+ 0002:00001358       ??_C@_0CB@GPJJNKOC@You?5are?5already?5on?5the?5?$CFs?5team?4?6@ 1003b358     g_ctf.obj
+ 0002:0000137c       ??_C@_0BC@OMFKBNIC@Unknown?5team?5?$CFs?4?6?$AA@ 1003b37c     g_ctf.obj
+ 0002:00001390       ??_C@_04OBGPFBCN@blue?$AA@ 1003b390     g_ctf.obj
+ 0002:00001398       ??_C@_03FAAAOPJM@red?$AA@  1003b398     g_ctf.obj
+ 0002:0000139c       ??_C@_0CA@NEFMPLGC@Can?8t?5change?5teams?5in?5a?5match?4?6?$AA@ 1003b39c     g_ctf.obj
+ 0002:000013bc       ??_C@_0BJ@GKOICPAG@You?5are?5on?5the?5?$CFs?5team?4?6?$AA@ 1003b3bc     g_ctf.obj
+ 0002:000013d8       ??_C@_0CF@KDEDHPOF@xv?5168?5yv?5?$CFd?5string?5?$CC?4?4and?5?$CFd?5mo@ 1003b3d8     g_ctf.obj
+ 0002:00001400       ??_C@_0CD@MCAJPLKE@xv?58?5yv?5?$CFd?5string?5?$CC?4?4and?5?$CFd?5more@ 1003b400     g_ctf.obj
+ 0002:00001424       ??_C@_0BE@JOPGPLGA@ctf?5?$CFd?5?$CFd?5?$CFd?5?$CFd?5?$CFd?5?$AA@ 1003b424     g_ctf.obj
+ 0002:00001438       ??_C@_0CB@BIJDLJKD@xv?50?5yv?5?$CFd?5string2?5?$CCSpectators?$CC?5@ 1003b438     g_ctf.obj
+ 0002:0000145c       ??_C@_0BL@NDNLEHMF@xv?5216?5yv?5?$CFd?5picn?5sbfctf1?5?$AA@ 1003b45c     g_ctf.obj
+ 0002:00001478       ??_C@_0BF@EBGIOKAH@ctf?5160?5?$CFd?5?$CFd?5?$CFd?5?$CFd?5?$AA@ 1003b478     g_ctf.obj
+ 0002:00001490       ??_C@_0BK@KCKNKHOA@xv?556?5yv?5?$CFd?5picn?5sbfctf2?5?$AA@ 1003b490     g_ctf.obj
+ 0002:000014ac       ??_C@_0BD@DNEDBNDE@ctf?50?5?$CFd?5?$CFd?5?$CFd?5?$CFd?5?$AA@ 1003b4ac     g_ctf.obj
+ 0002:000014c0       ??_C@_0KF@OMOPLOPJ@if?524?5xv?58?5yv?58?5pic?524?5endif?5xv?5@ 1003b4c0     g_ctf.obj
+ 0002:00001568       ??_C@_0CB@FKCODOHP@You?5already?5have?5a?5TECH?5powerup?4@ 1003b568     g_ctf.obj
+ 0002:0000158c       ??_C@_0BH@IGAFCIL@info_player_deathmatch?$AA@ 1003b58c     g_ctf.obj
+ 0002:000015a4       __real@43960000            1003b5a4     g_ctf.obj
+ 0002:000015a8       __real@42c80000            1003b5a8     g_ctf.obj
+ 0002:000015ac       ??_C@_0O@OJKGONN@ctf?1tech1?4wav?$AA@ 1003b5ac     g_ctf.obj
+ 0002:000015bc       ??_C@_0O@IIAOBMHD@ctf?1tech2?4wav?$AA@ 1003b5bc     g_ctf.obj
+ 0002:000015cc       ??_C@_0P@DDCOALAM@ctf?1tech2x?4wav?$AA@ 1003b5cc     g_ctf.obj
+ 0002:000015dc       ??_C@_0O@EDFCMPNG@ctf?1tech3?4wav?$AA@ 1003b5dc     g_ctf.obj
+ 0002:000015ec       ??_C@_0O@FOFHPPGO@ctf?1tech4?4wav?$AA@ 1003b5ec     g_ctf.obj
+ 0002:000015fc       ??_C@_09KPPHJDDN@?$CI?$CFs?$CJ?3?5?$CFs?6?$AA@ 1003b5fc     g_ctf.obj
+ 0002:00001608       ??_C@_04BAIFLMGI@the?5?$AA@ 1003b608     g_ctf.obj
+ 0002:00001610       ??_C@_09MNFNEPEO@the?5blue?5?$AA@ 1003b610     g_ctf.obj
+ 0002:0000161c       ??_C@_08DMCFFHDC@the?5red?5?$AA@ 1003b61c     g_ctf.obj
+ 0002:00001628       ??_C@_05GMHKMALB@near?5?$AA@ 1003b628     g_ctf.obj
+ 0002:00001630       ??_C@_06NNDOMEMK@below?5?$AA@ 1003b630     g_ctf.obj
+ 0002:00001638       ??_C@_06IEMAPLDE@above?5?$AA@ 1003b638     g_ctf.obj
+ 0002:00001640       ??_C@_0O@KLJONDPH@in?5the?5water?5?$AA@ 1003b640     g_ctf.obj
+ 0002:00001650       ??_C@_07NOCAILAL@nowhere?$AA@ 1003b650     g_ctf.obj
+ 0002:00001658       __real@497423f0            1003b658     g_ctf.obj
+ 0002:0000165c       ??_C@_08JMFFONAL@no?5armor?$AA@ 1003b65c     g_ctf.obj
+ 0002:00001668       ??_C@_0P@KEHJCAKF@?$CFi?5units?5of?5?$CFs?$AA@ 1003b668     g_ctf.obj
+ 0002:00001678       ??_C@_04JMCMJBHB@and?5?$AA@ 1003b678     g_ctf.obj
+ 0002:00001680       ??_C@_0BC@MALEFEPD@?$CFs?5with?5?$CFi?5cells?5?$AA@ 1003b680     g_ctf.obj
+ 0002:00001694       ??_C@_0N@MCOGAJJG@Power?5Screen?$AA@ 1003b694     g_ctf.obj
+ 0002:000016a4       ??_C@_05KFKAILFP@cells?$AA@ 1003b6a4     g_ctf.obj
+ 0002:000016ac       ??_C@_09HHKJKBLK@?$CFi?5health?$AA@ 1003b6ac     g_ctf.obj
+ 0002:000016b8       ??_C@_04BBBDNBOK@dead?$AA@ 1003b6b8     g_ctf.obj
+ 0002:000016c0       ??_C@_0L@BOKPPNPB@no?5powerup?$AA@ 1003b6c0     g_ctf.obj
+ 0002:000016cc       ??_C@_06FFGHKALD@the?5?$CFs?$AA@ 1003b6cc     g_ctf.obj
+ 0002:000016d4       ??_C@_04CGFJFPFD@none?$AA@ 1003b6d4     g_ctf.obj
+ 0002:000016dc       ??_C@_06LIPPBLCP@no?5one?$AA@ 1003b6dc     g_ctf.obj
+ 0002:000016e4       ??_C@_05OMGAMCPJ@?5and?5?$AA@ 1003b6e4     g_ctf.obj
+ 0002:000016ec       ??_C@_02KEGNLNML@?0?5?$AA@ 1003b6ec     g_ctf.obj
+ 0002:000016f0       ??_C@_0BL@LFAJBBIP@models?1ctf?1banner?1tris?4md2?$AA@ 1003b6f0     g_ctf.obj
+ 0002:0000170c       ??_C@_0BM@LOODGOM@models?1ctf?1banner?1small?4md2?$AA@ 1003b70c     g_ctf.obj
+ 0002:00001728       ??_C@_0CH@EFHMGPBK@Votes?3?5?$CFd?5?5Needed?3?5?$CFd?5?5Time?5left@ 1003b728     g_ctf.obj
+ 0002:00001750       ??_C@_0CJ@DPEJPINE@Type?5YES?5or?5NO?5to?5vote?5on?5this?5r@ 1003b750     g_ctf.obj
+ 0002:0000177c       ??_C@_03OFAPEBGM@?$CFs?6?$AA@ 1003b77c     g_ctf.obj
+ 0002:00001780       __real@4059000000000000    1003b780     g_ctf.obj
+ 0002:00001788       ??_C@_0CC@LHNPHJHI@Not?5enough?5players?5for?5election?4@ 1003b788     g_ctf.obj
+ 0002:000017ac       ??_C@_0BP@LMCNCIGM@Election?5already?5in?5progress?4?6?$AA@ 1003b7ac     g_ctf.obj
+ 0002:000017d0       ??_C@_0EA@DHIGNNDD@Elections?5are?5disabled?0?5only?5an?5@ 1003b7d0     g_ctf.obj
+ 0002:00001810       ??_C@_0FF@DGJOICHE@If?5you?5lose?5connection?0?5you?5can?5@ 1003b810     g_ctf.obj
+ 0002:00001868       ??_C@_0CB@LIIGOHDJ@Your?5ghost?5code?5is?5?$CK?$CK?$CK?$CK?5?$CFd?5?$CK?$CK?$CK?$CK?6@ 1003b868     g_ctf.obj
+ 0002:0000188c       ??_C@_0DL@IPDDCIHP@?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?6?6MATCH?5HAS?5ST@ 1003b88c     g_ctf.obj
+ 0002:000018c8       ??_C@_0L@NJKCIKFF@TIE?5GAME?$CB?6?$AA@ 1003b8c8     g_ctf.obj
+ 0002:000018d4       ??_C@_0CP@BCNPBDIN@BLUE?5team?5won?5over?5the?5RED?5team?5@ 1003b8d4     g_ctf.obj
+ 0002:00001904       ??_C@_0CP@CIGDJDHD@RED?5team?5won?5over?5the?5BLUE?5team?5@ 1003b904     g_ctf.obj
+ 0002:00001934       ??_C@_0DB@LKKKHDFO@BLUE?5team?5won?5over?5the?5RED?5team?5@ 1003b934     g_ctf.obj
+ 0002:00001968       ??_C@_0DB@NNCNAGPB@RED?5team?5won?5over?5the?5BLUE?5team?5@ 1003b968     g_ctf.obj
+ 0002:0000199c       ??_C@_0CE@BPECOPIA@BLUE?5TEAM?3?5?5?$CFd?5captures?0?5?$CFd?5poin@ 1003b99c     g_ctf.obj
+ 0002:000019c0       ??_C@_0CD@OEFHDGJG@RED?5TEAM?3?5?5?$CFd?5captures?0?5?$CFd?5point@ 1003b9c0     g_ctf.obj
+ 0002:000019e4       ??_C@_0BC@KOBCEIIH@MATCH?5COMPLETED?$CB?6?$AA@ 1003b9e4     g_ctf.obj
+ 0002:000019f8       ??_C@_0BM@GEGAEPKH@?$CFs?5is?5warping?5to?5level?5?$CFs?4?6?$AA@ 1003b9f8     g_ctf.obj
+ 0002:00001a14       ??_C@_0DA@GBPDLBLC@Type?5?8admin?8?5to?5access?5the?5admin@ 1003ba14     g_ctf.obj
+ 0002:00001a44       ??_C@_0BJ@JLCNHAHA@?$CFs?5has?5become?5an?5admin?4?6?$AA@ 1003ba44     g_ctf.obj
+ 0002:00001a60       ??_C@_01FDFGLJHB@2?$AA@    1003ba60     g_ctf.obj
+ 0002:00001a64       ??_C@_0BO@NKFMIJLE@You?5can?8t?5vote?5for?5yourself?4?6?$AA@ 1003ba64     g_ctf.obj
+ 0002:00001a84       ??_C@_0BE@PDKLOEP@You?5already?5voted?4?6?$AA@ 1003ba84     g_ctf.obj
+ 0002:00001a98       ??_C@_0BN@MKFIAMI@No?5election?5is?5in?5progress?4?6?$AA@ 1003ba98     g_ctf.obj
+ 0002:00001ab8       ??_C@_0CM@PKMFKBOC@All?5players?5have?5commited?4?5?5Matc@ 1003bab8     g_ctf.obj
+ 0002:00001ae4       ??_C@_0O@IKHANLBB@?$CFs?5is?5ready?4?6?$AA@ 1003bae4     g_ctf.obj
+ 0002:00001af4       ??_C@_0BM@DPCPPKHD@You?5have?5already?5commited?4?6?$AA@ 1003baf4     g_ctf.obj
+ 0002:00001b10       ??_C@_0BN@NJNDNKOA@A?5match?5is?5not?5being?5setup?4?6?$AA@ 1003bb10     g_ctf.obj
+ 0002:00001b30       ??_C@_0CI@ICLPNPKA@Pick?5a?5team?5first?5?$CIhit?5?$DMTAB?$DO?5for@ 1003bb30     g_ctf.obj
+ 0002:00001b58       ??_C@_0P@IFDFLGKH@Match?5halted?4?6?$AA@ 1003bb58     g_ctf.obj
+ 0002:00001b68       ??_C@_0BI@BDMFLCPJ@?$CFs?5is?5no?5longer?5ready?4?6?$AA@ 1003bb68     g_ctf.obj
+ 0002:00001b80       ??_C@_0BH@BAOPFKKJ@You?5haven?8t?5commited?4?6?$AA@ 1003bb80     g_ctf.obj
+ 0002:00001b98       ??_C@_0BF@BAJLKCOM@Invalid?5ghost?5code?4?6?$AA@ 1003bb98     g_ctf.obj
+ 0002:00001bb0       ??_C@_0CE@NMBCLJGE@?$CFs?5has?5been?5reinstated?5to?5?$CFs?5tea@ 1003bbb0     g_ctf.obj
+ 0002:00001bd4       ??_C@_0DJ@GANAKNGE@Ghost?5code?5accepted?0?5your?5positi@ 1003bbd4     g_ctf.obj
+ 0002:00001c10       ??_C@_0BK@HOPFJIDA@No?5match?5is?5in?5progress?4?6?$AA@ 1003bc10     g_ctf.obj
+ 0002:00001c2c       ??_C@_0BO@JPNHAEHB@You?5are?5already?5in?5the?5game?4?6?$AA@ 1003bc2c     g_ctf.obj
+ 0002:00001c4c       ??_C@_0BG@IIKHNKA@Usage?3?5?5ghost?5?$DMcode?$DO?6?$AA@ 1003bc4c     g_ctf.obj
+ 0002:00001c68       ??_C@_0FF@GBFEJPDI@?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?6Type?5?$CCre@ 1003bc68     g_ctf.obj
+ 0002:00001cc0       ??_C@_0DA@CFGBLD@?$CFs?5has?5requested?5to?5switch?5to?5co@ 1003bcc0     g_ctf.obj
+ 0002:00001cf0       ??_C@_0O@MGFMKBOP@Request?5Match?$AA@ 1003bcf0     g_ctf.obj
+ 0002:00001d00       ??_C@_0BD@FJEDOBBC@?$CKMATCH?5IN?5PROGRESS?$AA@ 1003bd00     g_ctf.obj
+ 0002:00001d14       ??_C@_0BA@GAKJPJJK@?$CKMATCH?5STARTING?$AA@ 1003bd14     g_ctf.obj
+ 0002:00001d24       ??_C@_0BJ@PGKIELKO@?$CKMATCH?5SETUP?5IN?5PROGRESS?$AA@ 1003bd24     g_ctf.obj
+ 0002:00001d40       ??_C@_0P@FPCMNMPF@?5?5?$CI?$CFd?5players?$CJ?$AA@ 1003bd40     g_ctf.obj
+ 0002:00001d50       ??_C@_0BD@PCFDHBCL@Leave?5Chase?5Camera?$AA@ 1003bd50     g_ctf.obj
+ 0002:00001d64       ??_C@_0BF@LKGEEJJO@Join?5Blue?5MATCH?5Team?$AA@ 1003bd64     g_ctf.obj
+ 0002:00001d7c       ??_C@_0BE@LEJFLKMK@Join?5Red?5MATCH?5Team?$AA@ 1003bd7c     g_ctf.obj
+ 0002:00001d90       ??_C@_0BL@LMEDDPI@?5?5?$CIentry?5is?5not?5permitted?$CJ?$AA@ 1003bd90     g_ctf.obj
+ 0002:00001dac       ??_C@_0BA@NFMCPLBC@MATCH?5IS?5LOCKED?$AA@ 1003bdac     g_ctf.obj
+ 0002:00001dbc       ??_C@_0BO@FOFHJLNO@You?5are?5already?5an?5observer?4?6?$AA@ 1003bdbc     g_ctf.obj
+ 0002:00001ddc       ??_C@_0BD@OIIONCJC@Capturelimit?5hit?4?6?$AA@ 1003bddc     g_ctf.obj
+ 0002:00001df0       ??_C@_0BA@BEMMIFKK@?$CF02d?3?$CF02d?5MATCH?$AA@ 1003bdf0     g_ctf.obj
+ 0002:00001e00       ??_C@_0BG@HEMOMLMA@?$CF02d?3?$CF02d?5UNTIL?5START?$AA@ 1003be00     g_ctf.obj
+ 0002:00001e18       ??_C@_0BE@PLNOFNMN@SETUP?3?5?$CFd?5not?5ready?$AA@ 1003be18     g_ctf.obj
+ 0002:00001e2c       ??_C@_0BO@LEGEKGLC@?$CF02d?3?$CF02d?5SETUP?3?5?$CFd?5not?5ready?$AA@ 1003be2c     g_ctf.obj
+ 0002:00001e4c       ??_C@_0CM@LBCBKMBN@Election?5timed?5out?5and?5has?5been?5@ 1003be4c     g_ctf.obj
+ 0002:00001e78       ??_C@_0P@FILGHEJC@world?1hum1?4wav?$AA@ 1003be78     g_ctf.obj
+ 0002:00001e88       ??_C@_0BO@OLBFJAAM@teleporter?5without?5a?5target?4?6?$AA@ 1003be88     g_ctf.obj
+ 0002:00001ea8       __real@43480000            1003bea8     g_ctf.obj
+ 0002:00001eac       ??_C@_0BL@ENCKHHMD@Couldn?8t?5find?5destination?6?$AA@ 1003beac     g_ctf.obj
+ 0002:00001ec8       ??_C@_0BK@CJCNPBGF@?$CFs?5turned?5?$CFs?5match?5lock?4?6?$AA@ 1003bec8     g_ctf.obj
+ 0002:00001ee4       ??_C@_0M@PFBJEFDA@instantweap?$AA@ 1003bee4     g_ctf.obj
+ 0002:00001ef0       ??_C@_0BP@GCMGAGLB@?$CFs?5turned?5?$CFs?5instant?5weapons?4?6?$AA@ 1003bef0     g_ctf.obj
+ 0002:00001f10       ??_C@_0BJ@BAMDJJBD@?$CFs?5turned?5?$CFs?5quad?5drop?4?6?$AA@ 1003bf10     g_ctf.obj
+ 0002:00001f2c       ??_C@_0BN@PJMMCIIO@?$CFs?5turned?5?$CFs?5instant?5items?4?6?$AA@ 1003bf2c     g_ctf.obj
+ 0002:00001f4c       ??_C@_07GMGCLCAP@dmflags?$AA@ 1003bf4c     g_ctf.obj
+ 0002:00001f54       ??_C@_0BM@OOJICDLJ@?$CFs?5turned?5?$CFs?5weapons?5stay?4?6?$AA@ 1003bf54     g_ctf.obj
+ 0002:00001f70       ??_C@_03MCADLMAF@off?$AA@  1003bf70     g_ctf.obj
+ 0002:00001f74       ??_C@_02LIELOMNJ@on?$AA@   1003bf74     g_ctf.obj
+ 0002:00001f78       ??_C@_0DA@OOAPFMEB@?$CFs?5changed?5the?5match?5start?5time?5@ 1003bf78     g_ctf.obj
+ 0002:00001fa8       ??_C@_0DA@IMPAFGIC@?$CFs?5changed?5the?5match?5setup?5time?5@ 1003bfa8     g_ctf.obj
+ 0002:00001fd8       ??_C@_02DPKJAMEF@?$CFd?$AA@ 1003bfd8     g_ctf.obj
+ 0002:00001fdc       ??_C@_0CM@PKMDJCKB@?$CFs?5changed?5the?5match?5length?5to?5?$CF@ 1003bfdc     g_ctf.obj
+ 0002:00002008       ??_C@_0BE@BGBDJNKG@Match?5Lock?3?5?5?5?5?5?5?$CFs?$AA@ 1003c008     g_ctf.obj
+ 0002:0000201c       ??_C@_0BE@HDBENAC@Instant?5Weapons?3?5?$CFs?$AA@ 1003c01c     g_ctf.obj
+ 0002:00002030       ??_C@_0BE@DCFKAIPM@Quad?5Drop?3?5?5?5?5?5?5?5?$CFs?$AA@ 1003c030     g_ctf.obj
+ 0002:00002044       ??_C@_0BE@IFMAHBAN@Instant?5Items?3?5?5?5?$CFs?$AA@ 1003c044     g_ctf.obj
+ 0002:00002058       ??_C@_0BE@CAKNOKIA@Weapons?5Stay?3?5?5?5?5?$CFs?$AA@ 1003c058     g_ctf.obj
+ 0002:0000206c       ??_C@_02JINPPBEP@No?$AA@   1003c06c     g_ctf.obj
+ 0002:00002070       ??_C@_03CCLAEDDF@Yes?$AA@  1003c070     g_ctf.obj
+ 0002:00002074       ??_C@_0BK@BGBNJCHN@Match?5Start?5Len?3?5?$CF2d?5secs?$AA@ 1003c074     g_ctf.obj
+ 0002:00002090       ??_C@_0BK@HBJJCBBE@Match?5Setup?5Len?3?5?$CF2d?5mins?$AA@ 1003c090     g_ctf.obj
+ 0002:000020ac       ??_C@_0BK@BBPKDJNP@Match?5Len?3?5?5?5?5?5?5?5?$CF2d?5mins?$AA@ 1003c0ac     g_ctf.obj
+ 0002:000020c8       ??_C@_0CF@CEDPKGFO@Match?5has?5been?5forced?5to?5termina@ 1003c0c8     g_ctf.obj
+ 0002:000020f0       ??_C@_0CB@PFJBDHIO@Match?5has?5been?5forced?5to?5start?4?6@ 1003c0f0     g_ctf.obj
+ 0002:00002114       ??_C@_0BF@LPPILIGM@Switch?5to?5match?5mode?$AA@ 1003c114     g_ctf.obj
+ 0002:0000212c       ??_C@_0N@DGJEMPNF@Cancel?5match?$AA@ 1003c12c     g_ctf.obj
+ 0002:0000213c       ??_C@_0BC@CANPDKCH@Force?5start?5match?$AA@ 1003c13c     g_ctf.obj
+ 0002:00002150       ??_C@_0BP@IEIPBINA@?$CFs?5has?5requested?5admin?5rights?4?$AA@ 1003c150     g_ctf.obj
+ 0002:00002170       ??_C@_0N@IPKKOJCI@And?5more?4?4?4?6?$AA@ 1003c170     g_ctf.obj
+ 0002:00002180       ??_C@_0CJ@DHNNOCDK@?$CF3d?$HM?$CF?916?416s?$HM?$CF5d?$HM?$CF5d?$HM?$CF5d?$HM?$CF5d?$HM?$CF5d@ 1003c180     g_ctf.obj
+ 0002:000021ac       ??_C@_0DL@IKKELGHP@?5?5?$CD?$HMName?5?5?5?5?5?5?5?5?5?5?5?5?$HMScore?$HMKills@ 1003c1ac     g_ctf.obj
+ 0002:000021e8       ??_C@_0BK@FMPNHPLJ@No?5statistics?5available?4?6?$AA@ 1003c1e8     g_ctf.obj
+ 0002:00002204       ??_C@_0BC@CJIDGGAK@?$CFs?5is?5not?5ready?4?6?$AA@ 1003c204     g_ctf.obj
+ 0002:00002218       ??_C@_0CE@NMBGNCKD@?$CF3d?5?$CF?916?416s?5?$CF02d?3?$CF02d?5?$CF4d?5?$CF3d?$CFs@ 1003c218     g_ctf.obj
+ 0002:0000223c       ??_C@_0M@OIBEMEFA@?5?$CInotready?$CJ?$AA@ 1003c23c     g_ctf.obj
+ 0002:00002248       ??_C@_08JNCKLNGH@?5?$CIready?$CJ?$AA@ 1003c248     g_ctf.obj
+ 0002:00002254       ??_C@_08COLDGILI@?5?$CIadmin?$CJ?$AA@ 1003c254     g_ctf.obj
+ 0002:00002260       ??_C@_0CG@ELMLKPCM@?$CFs?5has?5requested?5warping?5to?5leve@ 1003c260     g_ctf.obj
+ 0002:00002288       ??_C@_0BE@PCBMLMGL@Unknown?5CTF?5level?4?6?$AA@ 1003c288     g_ctf.obj
+ 0002:0000229c       ??_C@_0BK@FOBFJDCI@Available?5levels?5are?3?5?$CFs?6?$AA@ 1003c29c     g_ctf.obj
+ 0002:000022b8       ??_C@_0BP@HEEJMPBD@Where?5do?5you?5want?5to?5warp?5to?$DP?6?$AA@ 1003c2b8     g_ctf.obj
+ 0002:000022d8       ??_C@_08DDBFBNCH@kick?5?$CFd?6?$AA@ 1003c2d8     g_ctf.obj
+ 0002:000022e4       ??_C@_0CG@DIJLKBBC@That?5player?5number?5is?5not?5connec@ 1003c2e4     g_ctf.obj
+ 0002:0000230c       ??_C@_0BI@HOHPOOF@Invalid?5player?5number?4?6?$AA@ 1003c30c     g_ctf.obj
+ 0002:00002324       ??_C@_0CE@OIOKIKGP@Specify?5the?5player?5number?5to?5kic@ 1003c324     g_ctf.obj
+ 0002:00002348       ??_C@_0BK@POGFPPEK@Who?5do?5you?5want?5to?5kick?$DP?6?$AA@ 1003c348     g_ctf.obj
+ 0002:00002364       ??_C@_0BH@EIBKFKMK@You?5are?5not?5an?5admin?4?6?$AA@ 1003c364     g_ctf.obj
+ 0002:0000237c       __real@41200000            1003c37c     g_func.obj
+ 0002:00002380       __real@c000000000000000    1003c380     g_func.obj
+ 0002:00002388       __real@4010000000000000    1003c388     g_func.obj
+ 0002:00002390       __real@40400000            1003c390     g_func.obj
+ 0002:00002398       __real@4039000000000000    1003c398     g_func.obj
+ 0002:000023a0       ??_C@_0BC@IGJNFFAK@plats?1pt1_end?4wav?$AA@ 1003c3a0     g_func.obj
+ 0002:000023b4       ??_C@_0BC@JANPHADB@plats?1pt1_mid?4wav?$AA@ 1003c3b4     g_func.obj
+ 0002:000023c8       ??_C@_0BD@FLJECOEK@plats?1pt1_strt?4wav?$AA@ 1003c3c8     g_func.obj
+ 0002:000023dc       __real@40a00000            1003c3dc     g_func.obj
+ 0002:000023e0       __real@41a00000            1003c3e0     g_func.obj
+ 0002:000023e4       __real@42200000            1003c3e4     g_func.obj
+ 0002:000023e8       ??_C@_0BD@BLOIHGDH@switches?1butn2?4wav?$AA@ 1003c3e8     g_func.obj
+ 0002:000023fc       ??_C@_0BA@GNFEIJEF@func_areaportal?$AA@ 1003c3fc     g_func.obj
+ 0002:0000240c       ??_C@_0BD@CAJBLNMK@func_door_rotating?$AA@ 1003c40c     g_func.obj
+ 0002:00002420       ??_C@_09KJCKJKEG@func_door?$AA@ 1003c420     g_func.obj
+ 0002:0000242c       ??_C@_0P@DEABNBPM@misc?1talk1?4wav?$AA@ 1003c42c     g_func.obj
+ 0002:0000243c       ??_C@_0O@JPPDMPEP@misc?1talk?4wav?$AA@ 1003c43c     g_func.obj
+ 0002:0000244c       ??_C@_0BC@BFNPLLAJ@doors?1dr1_end?4wav?$AA@ 1003c44c     g_func.obj
+ 0002:00002460       ??_C@_0BC@DJNJODC@doors?1dr1_mid?4wav?$AA@ 1003c460     g_func.obj
+ 0002:00002474       ??_C@_0BD@MCAODNBO@doors?1dr1_strt?4wav?$AA@ 1003c474     g_func.obj
+ 0002:00002488       ??_C@_0BP@IMJJGBDF@?$CFs?5at?5?$CFs?5with?5no?5distance?5set?6?$AA@ 1003c488     g_func.obj
+ 0002:000024a8       __real@bff0000000000000    1003c4a8     g_func.obj
+ 0002:000024b0       __real@41c80000            1003c4b0     g_func.obj
+ 0002:000024b4       ??_C@_0BD@IDICJJJL@world?1stp_watr?4wav?$AA@ 1003c4b4     g_func.obj
+ 0002:000024c8       ??_C@_0BD@FIFMLAEA@world?1mov_watr?4wav?$AA@ 1003c4c8     g_func.obj
+ 0002:000024dc       ??_C@_0CP@PCFHEGNI@connected?5teleport?5path_corners?0@ 1003c4dc     g_func.obj
+ 0002:0000250c       ??_C@_0BL@LBOCDBCB@train_next?3?5bad?5target?5?$CFs?6?$AA@ 1003c50c     g_func.obj
+ 0002:00002528       ??_C@_0CB@JPLGIHFI@train_find?3?5target?5?$CFs?5not?5found?6@ 1003c528     g_func.obj
+ 0002:0000254c       ??_C@_0BH@LKHANHBM@train_find?3?5no?5target?6?$AA@ 1003c54c     g_func.obj
+ 0002:00002564       ??_C@_0CD@BNKPEMCB@func_train?5without?5a?5target?5at?5?$CF@ 1003c564     g_func.obj
+ 0002:00002588       ??_C@_0CH@KPDIIPGA@elevator?5used?5with?5bad?5pathtarge@ 1003c588     g_func.obj
+ 0002:000025b0       ??_C@_0CC@LKIIFFGM@elevator?5used?5with?5no?5pathtarget@ 1003c5b0     g_func.obj
+ 0002:000025d4       ??_C@_0CL@PFPHCNHB@trigger_elevator?5target?5?$CFs?5is?5no@ 1003c5d4     g_func.obj
+ 0002:00002600       ??_C@_0L@PGCOCBM@func_train?$AA@ 1003c600     g_func.obj
+ 0002:0000260c       ??_C@_0CL@KCHDLKCC@trigger_elevator?5unable?5to?5find?5@ 1003c60c     g_func.obj
+ 0002:00002638       ??_C@_0CA@EJEALFPH@trigger_elevator?5has?5no?5target?6?$AA@ 1003c638     g_func.obj
+ 0002:00002658       ??_C@_0CF@GJKCPHON@func_timer?5at?5?$CFs?5has?5random?5?$DO?$DN?5w@ 1003c658     g_func.obj
+ 0002:00002680       ??_C@_07FDEGMJDB@AutoDoc?$AA@ 1003c680     g_items.obj
+ 0002:00002688       ??_C@_05FLCBNIDE@tech4?$AA@ 1003c688     g_items.obj
+ 0002:00002690       ??_C@_0CB@CHFNDEIH@models?1ctf?1regeneration?1tris?4md2@ 1003c690     g_items.obj
+ 0002:000026b4       ??_C@_0L@DPCGJPGG@Time?5Accel?$AA@ 1003c6b4     g_items.obj
+ 0002:000026c0       ??_C@_05BEGAEOPD@tech3?$AA@ 1003c6c0     g_items.obj
+ 0002:000026c8       ??_C@_0BK@HEAGFOPL@models?1ctf?1haste?1tris?4md2?$AA@ 1003c6c8     g_items.obj
+ 0002:000026e4       ??_C@_0BN@MLHGIEFD@ctf?1tech2?4wav?5ctf?1tech2x?4wav?$AA@ 1003c6e4     g_items.obj
+ 0002:00002704       ??_C@_0BA@PJINBOB@Power?5Amplifier?$AA@ 1003c704     g_items.obj
+ 0002:00002714       ??_C@_05NHLHPLC@tech2?$AA@ 1003c714     g_items.obj
+ 0002:0000271c       ??_C@_0BN@CCHNKLDI@models?1ctf?1strength?1tris?4md2?$AA@ 1003c71c     g_items.obj
+ 0002:0000273c       ??_C@_0BB@EPNEBAA@Disruptor?5Shield?$AA@ 1003c73c     g_items.obj
+ 0002:00002750       ??_C@_05CGFGCMHB@tech1?$AA@ 1003c750     g_items.obj
+ 0002:00002758       ??_C@_0BP@GJLNLHNI@models?1ctf?1resistance?1tris?4md2?$AA@ 1003c758     g_items.obj
+ 0002:00002778       ??_C@_09MDBFHCAB@Blue?5Flag?$AA@ 1003c778     g_items.obj
+ 0002:00002784       ??_C@_08GAOGPIJL@Red?5Flag?$AA@ 1003c784     g_items.obj
+ 0002:00002790       ??_C@_0P@GMOOFHJA@ctf?1flagtk?4wav?$AA@ 1003c790     g_items.obj
+ 0002:000027a0       ??_C@_0EM@MMOODBIH@items?1s_health?4wav?5items?1n_healt@ 1003c7a0     g_items.obj
+ 0002:000027ec       ??_C@_06GGDALCBD@Health?$AA@ 1003c7ec     g_items.obj
+ 0002:000027f4       ??_C@_08KOCOJGMK@i_health?$AA@ 1003c7f4     g_items.obj
+ 0002:00002800       ??_C@_0BB@LFGKDPKF@Airstrike?5Marker?$AA@ 1003c800     g_items.obj
+ 0002:00002814       ??_C@_0M@COAALNND@i_airstrike?$AA@ 1003c814     g_items.obj
+ 0002:00002820       ??_C@_0CC@EDMAHNAA@models?1items?1keys?1target?1tris?4md@ 1003c820     g_items.obj
+ 0002:00002844       ??_C@_0BF@LKLCDFKP@key_airstrike_target?$AA@ 1003c844     g_items.obj
+ 0002:0000285c       ??_C@_0BB@BEIANAMA@Commander?8s?5Head?$AA@ 1003c85c     g_items.obj
+ 0002:00002870       ??_C@_09OCFHFFHA@k_comhead?$AA@ 1003c870     g_items.obj
+ 0002:0000287c       ??_C@_0CH@LOJAMHI@models?1monsters?1commandr?1head?1tr@ 1003c87c     g_items.obj
+ 0002:000028a4       ??_C@_0BD@HOMFPECB@key_commander_head?$AA@ 1003c8a4     g_items.obj
+ 0002:000028b8       ??_C@_07PKAAMBGP@Red?5Key?$AA@ 1003c8b8     g_items.obj
+ 0002:000028c0       ??_C@_08FIHMCAFC@k_redkey?$AA@ 1003c8c0     g_items.obj
+ 0002:000028cc       ??_C@_0CD@PHJKAKAI@models?1items?1keys?1red_key?1tris?4m@ 1003c8cc     g_items.obj
+ 0002:000028f0       ??_C@_0M@BJMFLAJG@key_red_key?$AA@ 1003c8f0     g_items.obj
+ 0002:000028fc       ??_C@_08LFIKCPAN@Blue?5Key?$AA@ 1003c8fc     g_items.obj
+ 0002:00002908       ??_C@_09BALKLIMH@k_bluekey?$AA@ 1003c908     g_items.obj
+ 0002:00002914       ??_C@_0BP@BCIKHEC@models?1items?1keys?1key?1tris?4md2?$AA@ 1003c914     g_items.obj
+ 0002:00002934       ??_C@_0N@JBANOIPE@key_blue_key?$AA@ 1003c934     g_items.obj
+ 0002:00002944       ??_C@_0O@LFNIPBF@Security?5Pass?$AA@ 1003c944     g_items.obj
+ 0002:00002954       ??_C@_0L@HHDPBAHK@k_security?$AA@ 1003c954     g_items.obj
+ 0002:00002960       ??_C@_0CA@GOOIFIAP@models?1items?1keys?1pass?1tris?4md2?$AA@ 1003c960     g_items.obj
+ 0002:00002980       ??_C@_08PDAOPJLI@key_pass?$AA@ 1003c980     g_items.obj
+ 0002:0000298c       ??_C@_0N@HKLDIPIE@Data?5Spinner?$AA@ 1003c98c     g_items.obj
+ 0002:0000299c       ??_C@_0L@OGFGOF@k_dataspin?$AA@ 1003c99c     g_items.obj
+ 0002:000029a8       ??_C@_0CD@BIJLMBFK@models?1items?1keys?1spinner?1tris?4m@ 1003c9a8     g_items.obj
+ 0002:000029cc       ??_C@_0BB@FNPMLMDB@key_data_spinner?$AA@ 1003c9cc     g_items.obj
+ 0002:000029e0       ??_C@_0M@HPAKAFPE@Pyramid?5Key?$AA@ 1003c9e0     g_items.obj
+ 0002:000029ec       ??_C@_09CAFKGBCE@k_pyramid?$AA@ 1003c9ec     g_items.obj
+ 0002:000029f8       ??_C@_0CD@KEPLDGIA@models?1items?1keys?1pyramid?1tris?4m@ 1003c9f8     g_items.obj
+ 0002:00002a1c       ??_C@_0M@ODBNGMJE@key_pyramid?$AA@ 1003ca1c     g_items.obj
+ 0002:00002a28       ??_C@_0L@KMNDPKKG@Power?5Cube?$AA@ 1003ca28     g_items.obj
+ 0002:00002a34       ??_C@_0M@KLGEJJAH@k_powercube?$AA@ 1003ca34     g_items.obj
+ 0002:00002a40       ??_C@_0CB@EMGHIIGB@models?1items?1keys?1power?1tris?4md2@ 1003ca40     g_items.obj
+ 0002:00002a64       ??_C@_0P@EKJEOGCC@key_power_cube?$AA@ 1003ca64     g_items.obj
+ 0002:00002a74       ??_C@_07GINBKMFM@Data?5CD?$AA@ 1003ca74     g_items.obj
+ 0002:00002a7c       ??_C@_08DDFPKMPI@k_datacd?$AA@ 1003ca7c     g_items.obj
+ 0002:00002a88       ??_C@_0CD@PKHOENBE@models?1items?1keys?1data_cd?1tris?4m@ 1003ca88     g_items.obj
+ 0002:00002aac       ??_C@_0M@MODBNHAN@key_data_cd?$AA@ 1003caac     g_items.obj
+ 0002:00002ab8       ??_C@_09IGIMIJAM@Ammo?5Pack?$AA@ 1003cab8     g_items.obj
+ 0002:00002ac4       ??_C@_06DHLFCECJ@i_pack?$AA@ 1003cac4     g_items.obj
+ 0002:00002acc       ??_C@_0BL@FOPILGJA@models?1items?1pack?1tris?4md2?$AA@ 1003cacc     g_items.obj
+ 0002:00002ae8       ??_C@_09MHOBICHJ@Bandolier?$AA@ 1003cae8     g_items.obj
+ 0002:00002af4       ??_C@_0M@NPOPIHKG@p_bandolier?$AA@ 1003caf4     g_items.obj
+ 0002:00002b00       ??_C@_0BL@NEHDLLHJ@models?1items?1band?1tris?4md2?$AA@ 1003cb00     g_items.obj
+ 0002:00002b1c       ??_C@_0L@EFOCNJPA@Adrenaline?$AA@ 1003cb1c     g_items.obj
+ 0002:00002b28       ??_C@_0N@FDJGBILA@p_adrenaline?$AA@ 1003cb28     g_items.obj
+ 0002:00002b38       ??_C@_0BO@PJEEOAPJ@models?1items?1adrenal?1tris?4md2?$AA@ 1003cb38     g_items.obj
+ 0002:00002b58       ??_C@_0N@FFNGANKH@Ancient?5Head?$AA@ 1003cb58     g_items.obj
+ 0002:00002b68       ??_C@_07DMGFLEMB@i_fixme?$AA@ 1003cb68     g_items.obj
+ 0002:00002b70       ??_C@_0BN@DJDOIOCG@models?1items?1c_head?1tris?4md2?$AA@ 1003cb70     g_items.obj
+ 0002:00002b90       ??_C@_0BC@DBLBHOJJ@item_ancient_head?$AA@ 1003cb90     g_items.obj
+ 0002:00002ba4       ??_C@_0BB@MFNKKEON@Environment?5Suit?$AA@ 1003cba4     g_items.obj
+ 0002:00002bb8       ??_C@_0N@MKLDPFJD@p_envirosuit?$AA@ 1003cbb8     g_items.obj
+ 0002:00002bc8       ??_C@_0BN@HAMHPFKE@models?1items?1enviro?1tris?4md2?$AA@ 1003cbc8     g_items.obj
+ 0002:00002be8       ??_C@_0BB@PFKNILKM@items?1airout?4wav?$AA@ 1003cbe8     g_items.obj
+ 0002:00002bfc       ??_C@_0L@KEHHOOOM@Rebreather?$AA@ 1003cbfc     g_items.obj
+ 0002:00002c08       ??_C@_0N@LCADCPKM@p_rebreather?$AA@ 1003cc08     g_items.obj
+ 0002:00002c18       ??_C@_0BP@JFNBICOL@models?1items?1breather?1tris?4md2?$AA@ 1003cc18     g_items.obj
+ 0002:00002c38       ??_C@_08NFCGBGHE@Silencer?$AA@ 1003cc38     g_items.obj
+ 0002:00002c44       ??_C@_0L@GMGELOKD@p_silencer?$AA@ 1003cc44     g_items.obj
+ 0002:00002c50       ??_C@_0BP@PCLANHJM@models?1items?1silencer?1tris?4md2?$AA@ 1003cc50     g_items.obj
+ 0002:00002c70       ??_C@_0DI@BDJPBKFC@items?1protect?4wav?5items?1protect2@ 1003cc70     g_items.obj
+ 0002:00002ca8       ??_C@_0BA@KEGBBNCB@Invulnerability?$AA@ 1003cca8     g_items.obj
+ 0002:00002cb8       ??_C@_0BC@HNADLJFA@p_invulnerability?$AA@ 1003ccb8     g_items.obj
+ 0002:00002ccc       ??_C@_0BP@BOLAINGO@models?1items?1invulner?1tris?4md2?$AA@ 1003cccc     g_items.obj
+ 0002:00002cec       ??_C@_0DF@JKONNDED@items?1damage?4wav?5items?1damage2?4w@ 1003ccec     g_items.obj
+ 0002:00002d24       ??_C@_0M@KOJLOALK@Quad?5Damage?$AA@ 1003cd24     g_items.obj
+ 0002:00002d30       ??_C@_06KDPENMON@p_quad?$AA@ 1003cd30     g_items.obj
+ 0002:00002d38       ??_C@_0BP@EGOPGPGG@models?1items?1quaddama?1tris?4md2?$AA@ 1003cd38     g_items.obj
+ 0002:00002d58       ??_C@_0P@ODCNABJM@items?1pkup?4wav?$AA@ 1003cd58     g_items.obj
+ 0002:00002d68       ??_C@_07JHBOFLPA@a_slugs?$AA@ 1003cd68     g_items.obj
+ 0002:00002d70       ??_C@_0CI@CIJNAIBG@models?1items?1ammo?1slugs?1medium?1t@ 1003cd70     g_items.obj
+ 0002:00002d98       ??_C@_0L@JEFOIHIM@ammo_slugs?$AA@ 1003cd98     g_items.obj
+ 0002:00002da4       ??_C@_09CHKAAKKB@a_rockets?$AA@ 1003cda4     g_items.obj
+ 0002:00002db0       ??_C@_0CK@CHHDGKPE@models?1items?1ammo?1rockets?1medium@ 1003cdb0     g_items.obj
+ 0002:00002ddc       ??_C@_0N@CLEPKBOE@ammo_rockets?$AA@ 1003cddc     g_items.obj
+ 0002:00002dec       ??_C@_07LIJMMMOO@a_cells?$AA@ 1003cdec     g_items.obj
+ 0002:00002df4       ??_C@_0CI@IJMPBFEC@models?1items?1ammo?1cells?1medium?1t@ 1003cdf4     g_items.obj
+ 0002:00002e1c       ??_C@_0L@LLNMBAJC@ammo_cells?$AA@ 1003ce1c     g_items.obj
+ 0002:00002e28       ??_C@_09NLMDJGMP@a_bullets?$AA@ 1003ce28     g_items.obj
+ 0002:00002e34       ??_C@_0CK@BDIJNFC@models?1items?1ammo?1bullets?1medium@ 1003ce34     g_items.obj
+ 0002:00002e60       ??_C@_0N@NHCMDNIK@ammo_bullets?$AA@ 1003ce60     g_items.obj
+ 0002:00002e70       ??_C@_08ICDCHAKK@a_shells?$AA@ 1003ce70     g_items.obj
+ 0002:00002e7c       ??_C@_0CJ@NALPLFDI@models?1items?1ammo?1shells?1medium?1@ 1003ce7c     g_items.obj
+ 0002:00002ea8       ??_C@_0M@NLICANGB@ammo_shells?$AA@ 1003cea8     g_items.obj
+ 0002:00002eb8       ??_C@_0IM@FEFINFNK@sprites?1s_bfg1?4sp2?5sprites?1s_bfg@ 1003ceb8     g_items.obj
+ 0002:00002f44       ??_C@_06PNKEMFGD@BFG10K?$AA@ 1003cf44     g_items.obj
+ 0002:00002f4c       ??_C@_05BFJAEOEF@w_bfg?$AA@ 1003cf4c     g_items.obj
+ 0002:00002f54       ??_C@_0BO@MAPGMFDG@models?1weapons?1v_bfg?1tris?4md2?$AA@ 1003cf54     g_items.obj
+ 0002:00002f74       ??_C@_0BO@DNGPIBJB@models?1weapons?1g_bfg?1tris?4md2?$AA@ 1003cf74     g_items.obj
+ 0002:00002f94       ??_C@_0BD@IKLLMGKH@weapons?1rg_hum?4wav?$AA@ 1003cf94     g_items.obj
+ 0002:00002fa8       ??_C@_05INIOBJHH@Slugs?$AA@ 1003cfa8     g_items.obj
+ 0002:00002fb0       ??_C@_07NMJDHEIK@Railgun?$AA@ 1003cfb0     g_items.obj
+ 0002:00002fb8       ??_C@_09BKDDLBIF@w_railgun?$AA@ 1003cfb8     g_items.obj
+ 0002:00002fc4       ??_C@_0BP@PFLLGPBJ@models?1weapons?1v_rail?1tris?4md2?$AA@ 1003cfc4     g_items.obj
+ 0002:00002fe4       ??_C@_0BP@LNPEMABG@models?1weapons?1g_rail?1tris?4md2?$AA@ 1003cfe4     g_items.obj
+ 0002:00003008       ??_C@_0GE@JFMMPKJO@weapons?1hyprbu1a?4wav?5weapons?1hyp@ 1003d008     g_items.obj
+ 0002:0000306c       ??_C@_0N@FEGDLGNP@HyperBlaster?$AA@ 1003d06c     g_items.obj
+ 0002:0000307c       ??_C@_0P@CKAOHAME@w_hyperblaster?$AA@ 1003d07c     g_items.obj
+ 0002:0000308c       ??_C@_0CB@DCKIIDHD@models?1weapons?1v_hyperb?1tris?4md2@ 1003d08c     g_items.obj
+ 0002:000030b0       ??_C@_0CB@PDFJGJIK@models?1weapons?1g_hyperb?1tris?4md2@ 1003d0b0     g_items.obj
+ 0002:000030d8       ??_C@_0HN@DOACMBND@models?1objects?1rocket?1tris?4md2?5w@ 1003d0d8     g_items.obj
+ 0002:00003158       ??_C@_07MLLADOAB@Rockets?$AA@ 1003d158     g_items.obj
+ 0002:00003160       ??_C@_0BA@DJIGCIDL@Rocket?5Launcher?$AA@ 1003d160     g_items.obj
+ 0002:00003170       ??_C@_0M@JEKPKOFB@w_rlauncher?$AA@ 1003d170     g_items.obj
+ 0002:0000317c       ??_C@_0CB@JIFCFDIA@models?1weapons?1v_rocket?1tris?4md2@ 1003d17c     g_items.obj
+ 0002:000031a0       ??_C@_0CB@FJKDLJHJ@models?1weapons?1g_rocket?1tris?4md2@ 1003d1a0     g_items.obj
+ 0002:000031c8       ??_C@_0FP@FKCEKMLP@models?1objects?1grenade?1tris?4md2?5@ 1003d1c8     g_items.obj
+ 0002:00003228       ??_C@_0BB@GIEOMMBO@Grenade?5Launcher?$AA@ 1003d228     g_items.obj
+ 0002:0000323c       ??_C@_0M@FFCIOEPN@w_glauncher?$AA@ 1003d23c     g_items.obj
+ 0002:00003248       ??_C@_0CB@HLAKLEOF@models?1weapons?1v_launch?1tris?4md2@ 1003d248     g_items.obj
+ 0002:0000326c       ??_C@_0CB@LKPLFOBM@models?1weapons?1g_launch?1tris?4md2@ 1003d26c     g_items.obj
+ 0002:00003290       ??_C@_0GK@BEEBJLID@weapons?1hgrent1a?4wav?5weapons?1hgr@ 1003d290     g_items.obj
+ 0002:000032fc       ??_C@_08HOOJIBOO@grenades?$AA@ 1003d2fc     g_items.obj
+ 0002:00003308       ??_C@_08PMBIADEN@Grenades?$AA@ 1003d308     g_items.obj
+ 0002:00003314       ??_C@_0L@CKCCLAJB@a_grenades?$AA@ 1003d314     g_items.obj
+ 0002:00003320       ??_C@_0CB@PDLBDOPF@models?1weapons?1v_handgr?1tris?4md2@ 1003d320     g_items.obj
+ 0002:00003344       ??_C@_0CL@HCNIDAAD@models?1items?1ammo?1grenades?1mediu@ 1003d344     g_items.obj
+ 0002:00003370       ??_C@_0BB@NAHDCACP@misc?1am_pkup?4wav?$AA@ 1003d370     g_items.obj
+ 0002:00003384       ??_C@_0O@CMJIOKCF@ammo_grenades?$AA@ 1003d384     g_items.obj
+ 0002:00003398       ??_C@_0FF@ONCHJCOP@weapons?1chngnu1a?4wav?5weapons?1chn@ 1003d398     g_items.obj
+ 0002:000033f0       ??_C@_08NGGKJMFK@Chaingun?$AA@ 1003d3f0     g_items.obj
+ 0002:000033fc       ??_C@_0L@EGBDCBAO@w_chaingun?$AA@ 1003d3fc     g_items.obj
+ 0002:00003408       ??_C@_0CA@GFKMFAJL@models?1weapons?1v_chain?1tris?4md2?$AA@ 1003d408     g_items.obj
+ 0002:00003428       ??_C@_0CA@PFFLACKF@models?1weapons?1g_chain?1tris?4md2?$AA@ 1003d428     g_items.obj
+ 0002:00003448       ??_C@_0GJ@BGECOMIF@weapons?1machgf1b?4wav?5weapons?1mac@ 1003d448     g_items.obj
+ 0002:000034b4       ??_C@_07DHNDKCGP@Bullets?$AA@ 1003d4b4     g_items.obj
+ 0002:000034bc       ??_C@_0L@KDNGMPND@Machinegun?$AA@ 1003d4bc     g_items.obj
+ 0002:000034c8       ??_C@_0N@MINBAIML@w_machinegun?$AA@ 1003d4c8     g_items.obj
+ 0002:000034d8       ??_C@_0CA@NNHAEOIK@models?1weapons?1v_machn?1tris?4md2?$AA@ 1003d4d8     g_items.obj
+ 0002:000034f8       ??_C@_0CA@ENIHBMLE@models?1weapons?1g_machn?1tris?4md2?$AA@ 1003d4f8     g_items.obj
+ 0002:00003518       ??_C@_0BF@HILHCNHA@weapons?1sshotf1b?4wav?$AA@ 1003d518     g_items.obj
+ 0002:00003530       ??_C@_0O@DOMEOFGO@Super?5Shotgun?$AA@ 1003d530     g_items.obj
+ 0002:00003540       ??_C@_0L@KCJDGHOP@w_sshotgun?$AA@ 1003d540     g_items.obj
+ 0002:0000354c       ??_C@_0CB@MGHPGCPK@models?1weapons?1v_shotg2?1tris?4md2@ 1003d54c     g_items.obj
+ 0002:00003570       ??_C@_0CB@HIOIIAD@models?1weapons?1g_shotg2?1tris?4md2@ 1003d570     g_items.obj
+ 0002:00003594       ??_C@_0CK@PPKICAPE@weapons?1shotgf1b?4wav?5weapons?1sho@ 1003d594     g_items.obj
+ 0002:000035c0       ??_C@_06PBPEPGGL@Shells?$AA@ 1003d5c0     g_items.obj
+ 0002:000035c8       ??_C@_07DGIAOJJ@Shotgun?$AA@ 1003d5c8     g_items.obj
+ 0002:000035d0       ??_C@_09MFMIMLJG@w_shotgun?$AA@ 1003d5d0     g_items.obj
+ 0002:000035dc       ??_C@_0CA@DCNCBBPD@models?1weapons?1v_shotg?1tris?4md2?$AA@ 1003d5dc     g_items.obj
+ 0002:000035fc       ??_C@_0CA@KCCFEDMN@models?1weapons?1g_shotg?1tris?4md2?$AA@ 1003d5fc     g_items.obj
+ 0002:0000361c       ??_C@_0CF@LHPILFCC@weapons?1blastf1a?4wav?5misc?1lasfly@ 1003d61c     g_items.obj
+ 0002:00003644       ??_C@_07HHOBKAAD@Blaster?$AA@ 1003d644     g_items.obj
+ 0002:0000364c       ??_C@_09LBEBGFAM@w_blaster?$AA@ 1003d64c     g_items.obj
+ 0002:00003658       ??_C@_0CA@GPINJNLK@models?1weapons?1v_blast?1tris?4md2?$AA@ 1003d658     g_items.obj
+ 0002:00003678       ??_C@_0P@PPIDHAJM@weapon_blaster?$AA@ 1003d678     g_items.obj
+ 0002:00003688       ??_C@_0IH@OLCNABNC@weapons?1grapple?1grfire?4wav?5weapo@ 1003d688     g_items.obj
+ 0002:00003710       ??_C@_07MKHABLGK@Grapple?$AA@ 1003d710     g_items.obj
+ 0002:00003718       ??_C@_09MNANOGF@w_grapple?$AA@ 1003d718     g_items.obj
+ 0002:00003724       ??_C@_0CA@MEFACHEB@models?1weapons?1grapple?1tris?4md2?$AA@ 1003d724     g_items.obj
+ 0002:00003744       ??_C@_0BA@LHKOCMJI@misc?1w_pkup?4wav?$AA@ 1003d744     g_items.obj
+ 0002:00003754       ??_C@_0CA@CJEJDPKK@misc?1power2?4wav?5misc?1power1?4wav?$AA@ 1003d754     g_items.obj
+ 0002:00003774       ??_C@_0O@MIOGPCJD@i_powershield?$AA@ 1003d774     g_items.obj
+ 0002:00003784       ??_C@_0CD@IBHMOIFE@models?1items?1armor?1shield?1tris?4m@ 1003d784     g_items.obj
+ 0002:000037a8       ??_C@_0O@EACPHHMG@i_powerscreen?$AA@ 1003d7a8     g_items.obj
+ 0002:000037b8       ??_C@_0CD@JAECLDO@models?1items?1armor?1screen?1tris?4m@ 1003d7b8     g_items.obj
+ 0002:000037dc       ??_C@_0BC@DCHABHLP@misc?1ar3_pkup?4wav?$AA@ 1003d7dc     g_items.obj
+ 0002:000037f0       ??_C@_0M@PJIPIDNH@Armor?5Shard?$AA@ 1003d7f0     g_items.obj
+ 0002:000037fc       ??_C@_0CC@KPNNAAEJ@models?1items?1armor?1shard?1tris?4md@ 1003d7fc     g_items.obj
+ 0002:00003820       ??_C@_0BC@PDPOMIHP@misc?1ar2_pkup?4wav?$AA@ 1003d820     g_items.obj
+ 0002:00003834       ??_C@_0BB@DDGIAABK@item_armor_shard?$AA@ 1003d834     g_items.obj
+ 0002:00003848       ??_C@_0O@MCLEPEIO@i_jacketarmor?$AA@ 1003d848     g_items.obj
+ 0002:00003858       ??_C@_0CD@NHNMOHAK@models?1items?1armor?1jacket?1tris?4m@ 1003d858     g_items.obj
+ 0002:0000387c       ??_C@_0O@DLELGNAL@i_combatarmor?$AA@ 1003d87c     g_items.obj
+ 0002:0000388c       ??_C@_0CD@KINMJFLG@models?1items?1armor?1combat?1tris?4m@ 1003d88c     g_items.obj
+ 0002:000038b0       ??_C@_0M@HGHKDAIN@i_bodyarmor?$AA@ 1003d8b0     g_items.obj
+ 0002:000038bc       ??_C@_0CB@BPDEIBHJ@models?1items?1armor?1body?1tris?4md2@ 1003d8bc     g_items.obj
+ 0002:000038e0       ??_C@_0BC@GKBMKOHO@misc?1ar1_pkup?4wav?$AA@ 1003d8e0     g_items.obj
+ 0002:000038f4       ??_C@_0BB@MJBFKEFB@items?1damage?4wav?$AA@ 1003d8f4     g_items.obj
+ 0002:00003908       __real@4072c00000000000    1003d908     g_items.obj
+ 0002:00003910       ??_C@_0BC@GKJAAACG@items?1protect?4wav?$AA@ 1003d910     g_items.obj
+ 0002:00003924       __real@41f00000            1003d924     g_items.obj
+ 0002:00003928       ??_C@_07IOJHMCFF@blaster?$AA@ 1003d928     g_items.obj
+ 0002:00003930       ??_C@_0BA@IGCOCDJP@misc?1power1?4wav?$AA@ 1003d930     g_items.obj
+ 0002:00003940       ??_C@_0BL@GJELEHEF@No?5cells?5for?5power?5armor?4?6?$AA@ 1003d940     g_items.obj
+ 0002:0000395c       ??_C@_0BA@LKFBDB@misc?1power2?4wav?$AA@ 1003d95c     g_items.obj
+ 0002:0000396c       ??_C@_0BD@DLDFJCLH@items?1m_health?4wav?$AA@ 1003d96c     g_items.obj
+ 0002:00003980       ??_C@_0BD@OGKDELDC@items?1l_health?4wav?$AA@ 1003d980     g_items.obj
+ 0002:00003994       ??_C@_0BD@IGPPPOHJ@items?1n_health?4wav?$AA@ 1003d994     g_items.obj
+ 0002:000039a8       ??_C@_0BD@HFNEDINN@items?1s_health?4wav?$AA@ 1003d9a8     g_items.obj
+ 0002:000039bc       __real@3e800000            1003d9bc     g_items.obj
+ 0002:000039c0       __real@403d000000000000    1003d9c0     g_items.obj
+ 0002:000039c8       ??_C@_0CC@GJHMCBKA@droptofloor?3?5?$CFs?5startsolid?5at?5?$CFs@ 1003d9c8     g_items.obj
+ 0002:000039ec       ??_C@_03BIPDAGPI@pcx?$AA@  1003d9ec     g_items.obj
+ 0002:000039f0       ??_C@_03BICDMHKB@wav?$AA@  1003d9f0     g_items.obj
+ 0002:000039f4       ??_C@_03BOLABDLA@sp2?$AA@  1003d9f4     g_items.obj
+ 0002:000039f8       ??_C@_03LFFJDILA@md2?$AA@  1003d9f8     g_items.obj
+ 0002:000039fc       ??_C@_0CJ@CMOPAMCG@PrecacheItem?3?5?$CFs?5has?5bad?5precach@ 1003d9fc     g_items.obj
+ 0002:00003a28       ??_C@_0CF@FOELHBEA@?$CFs?5at?5?$CFs?5has?5invalid?5spawnflags?5@ 1003da28     g_items.obj
+ 0002:00003a50       ??_C@_0CF@DPBHFPFD@models?1items?1healing?1medium?1tris@ 1003da50     g_items.obj
+ 0002:00003a78       ??_C@_0CH@BOEPLDFH@models?1items?1healing?1stimpack?1tr@ 1003da78     g_items.obj
+ 0002:00003aa0       ??_C@_0CE@FIFNDAIL@models?1items?1healing?1large?1tris?4@ 1003daa0     g_items.obj
+ 0002:00003ac4       ??_C@_0BN@NDDLANPH@models?1items?1mega_h?1tris?4md2?$AA@ 1003dac4     g_items.obj
+ 0002:00003ae4       ??_C@_04KKMBMMPL@?5?0?6?$AN?$AA@ 1003dae4     g_main.obj
+ 0002:00003aec       ??_C@_0BI@EOKPGBAF@?$DN?$DN?$DN?$DN?5ShutdownGame?5?$DN?$DN?$DN?$DN?6?$AA@ 1003daec     g_main.obj
+ 0002:00003b04       ??_C@_0BD@JPGDDJOA@target_changelevel?$AA@ 1003db04     g_main.obj
+ 0002:00003b18       ??_C@_0BA@MLHIEJIN@Fraglimit?5hit?4?6?$AA@ 1003db18     g_main.obj
+ 0002:00003b28       ??_C@_0BA@HKMAEPKH@Timelimit?5hit?4?6?$AA@ 1003db28     g_main.obj
+ 0002:00003b38       ??_C@_0O@HEEKDEIC@gamemap?5?$CC?$CFs?$CC?6?$AA@ 1003db38     g_main.obj
+ 0002:00003b48       __real@3f99999a            1003db48     g_misc.obj
+ 0002:00003b4c       __real@3f333333            1003db4c     g_misc.obj
+ 0002:00003b50       __real@4069000000000000    1003db50     g_misc.obj
+ 0002:00003b58       __real@43fa0000            1003db58     g_misc.obj
+ 0002:00003b5c       __real@c3960000            1003db5c     g_misc.obj
+ 0002:00003b60       __real@c072c00000000000    1003db60     g_misc.obj
+ 0002:00003b68       ??_C@_0P@CPEHHFDK@misc?1fhit3?4wav?$AA@ 1003db68     g_misc.obj
+ 0002:00003b78       __real@4082c00000000000    1003db78     g_misc.obj
+ 0002:00003b80       __real@4040000000000000    1003db80     g_misc.obj
+ 0002:00003b88       ??_C@_0CD@HLNCNPLC@models?1objects?1gibs?1skull?1tris?4m@ 1003db88     g_misc.obj
+ 0002:00003bac       ??_C@_0CD@HCKFPPBD@models?1objects?1gibs?1head2?1tris?4m@ 1003dbac     g_misc.obj
+ 0002:00003bd0       ??_C@_06CEIDEADO@debris?$AA@ 1003dbd0     g_misc.obj
+ 0002:00003bd8       __real@c1000000            1003dbd8     g_misc.obj
+ 0002:00003bdc       ??_C@_0CG@DHHNMBFP@path_corner?5with?5no?5targetname?5a@ 1003dbdc     g_misc.obj
+ 0002:00003c04       ??_C@_0CD@PLMLCEEH@?$CFs?5at?5?$CFs?5target?5?$CFs?5does?5not?5exis@ 1003dc04     g_misc.obj
+ 0002:00003c28       ??_C@_0BP@FEIGKGKN@models?1objects?1banner?1tris?4md2?$AA@ 1003dc28     g_misc.obj
+ 0002:00003c48       __real@42000000            1003dc48     g_misc.obj
+ 0002:00003c4c       __real@c1c00000            1003dc4c     g_misc.obj
+ 0002:00003c50       ??_C@_0BD@PGLJCMDO@viewthing?5spawned?6?$AA@ 1003dc50     g_misc.obj
+ 0002:00003c64       ??_C@_01GOHFPIOK@m?$AA@    1003dc64     g_misc.obj
+ 0002:00003c68       ??_C@_01MCMALHOG@a?$AA@    1003dc68     g_misc.obj
+ 0002:00003c6c       ??_C@_0CD@KELHNDDM@func_wall?5START_ON?5without?5TOGGL@ 1003dc6c     g_misc.obj
+ 0002:00003c90       ??_C@_0CA@DBGCEAAA@models?1objects?1debris2?1tris?4md2?$AA@ 1003dc90     g_misc.obj
+ 0002:00003cb0       ??_C@_0CA@KIIACGAB@models?1objects?1debris1?1tris?4md2?$AA@ 1003dcb0     g_misc.obj
+ 0002:00003cd0       __real@43160000            1003dcd0     g_misc.obj
+ 0002:00003cd4       ??_C@_0CA@PAOMJPMA@models?1objects?1debris3?1tris?4md2?$AA@ 1003dcd4     g_misc.obj
+ 0002:00003cf8       __real@3ffc000000000000    1003dcf8     g_misc.obj
+ 0002:00003d00       __real@3ff8000000000000    1003dd00     g_misc.obj
+ 0002:00003d08       ??_C@_0CA@PFPFCJJJ@models?1objects?1barrels?1tris?4md2?$AA@ 1003dd08     g_misc.obj
+ 0002:00003d28       ??_C@_0BO@NLHBFFBJ@models?1objects?1black?1tris?4md2?$AA@ 1003dd28     g_misc.obj
+ 0002:00003d48       __real@42800000            1003dd48     g_misc.obj
+ 0002:00003d4c       __real@c2800000            1003dd4c     g_misc.obj
+ 0002:00003d50       ??_C@_0BO@DPNAMFOJ@models?1monsters?1tank?1tris?4md2?$AA@ 1003dd50     g_misc.obj
+ 0002:00003d70       __real@c2000000            1003dd70     g_misc.obj
+ 0002:00003d74       ??_C@_0BP@HMJEPPHN@models?1monsters?1bitch?1tris?4md2?$AA@ 1003dd74     g_misc.obj
+ 0002:00003d94       ??_C@_0O@DJDPKCLK@tank?1thud?4wav?$AA@ 1003dd94     g_misc.obj
+ 0002:00003da4       ??_C@_0O@HKHJDNEB@tank?1pain?4wav?$AA@ 1003dda4     g_misc.obj
+ 0002:00003db4       __real@42400000            1003ddb4     g_misc.obj
+ 0002:00003db8       ??_C@_0CC@LFFBKKFJ@models?1monsters?1commandr?1tris?4md@ 1003ddb8     g_misc.obj
+ 0002:00003ddc       ??_C@_0CF@PJDADFHM@models?1objects?1gibs?1sm_meat?1tris@ 1003dddc     g_misc.obj
+ 0002:00003e04       ??_C@_0BA@EBLEHMCC@misc?1udeath?4wav?$AA@ 1003de04     g_misc.obj
+ 0002:00003e14       ??_C@_0BO@PIKNOJKH@models?1deadbods?1dude?1tris?4md2?$AA@ 1003de14     g_misc.obj
+ 0002:00003e34       ??_C@_0BM@LBFMLNCD@models?1ships?1viper?1tris?4md2?$AA@ 1003de34     g_misc.obj
+ 0002:00003e50       ??_C@_0CD@NFOIMECA@misc_viper?5without?5a?5target?5at?5?$CF@ 1003de50     g_misc.obj
+ 0002:00003e74       ??_C@_0BP@CDJIEBPA@models?1ships?1bigviper?1tris?4md2?$AA@ 1003de74     g_misc.obj
+ 0002:00003e94       __real@42900000            1003de94     g_misc.obj
+ 0002:00003e98       __real@42f00000            1003de98     g_misc.obj
+ 0002:00003e9c       __real@43300000            1003de9c     g_misc.obj
+ 0002:00003ea0       __real@c2f00000            1003dea0     g_misc.obj
+ 0002:00003ea4       __real@c3300000            1003dea4     g_misc.obj
+ 0002:00003ea8       ??_C@_0L@BBGODCED@misc_viper?$AA@ 1003dea8     g_misc.obj
+ 0002:00003eb4       ??_C@_0BN@LHLKMFOO@models?1objects?1bomb?1tris?4md2?$AA@ 1003deb4     g_misc.obj
+ 0002:00003ed4       ??_C@_0BO@BEGPHLOK@models?1ships?1strogg1?1tris?4md2?$AA@ 1003ded4     g_misc.obj
+ 0002:00003ef4       ??_C@_0BL@FNNNHIIG@?$CFs?5without?5a?5target?5at?5?$CFs?6?$AA@ 1003def4     g_misc.obj
+ 0002:00003f10       ??_C@_0CC@GPMEMCM@models?1objects?1satellite?1tris?4md@ 1003df10     g_misc.obj
+ 0002:00003f34       __real@43000000            1003df34     g_misc.obj
+ 0002:00003f38       ??_C@_0CI@PFONCJLH@models?1objects?1minelite?1light1?1t@ 1003df38     g_misc.obj
+ 0002:00003f60       ??_C@_0CI@GMAPEPLG@models?1objects?1minelite?1light2?1t@ 1003df60     g_misc.obj
+ 0002:00003f88       ??_C@_0CB@JCKICOBC@models?1objects?1gibs?1arm?1tris?4md2@ 1003df88     g_misc.obj
+ 0002:00003fac       ??_C@_0CB@EPKLBCJL@models?1objects?1gibs?1leg?1tris?4md2@ 1003dfac     g_misc.obj
+ 0002:00003fd0       ??_C@_0CC@ODPBMPAP@models?1objects?1gibs?1head?1tris?4md@ 1003dfd0     g_misc.obj
+ 0002:00003ff4       ??_C@_0M@KMGPJKLD@?$CF2i?3?$CF2i?3?$CF2i?$AA@ 1003dff4     g_misc.obj
+ 0002:00004000       ??_C@_07NEOBLIHG@?$CF2i?3?$CF2i?$AA@ 1003e000     g_misc.obj
+ 0002:00004008       ??_C@_03NKIHJOPP@?$CF2i?$AA@ 1003e008     g_misc.obj
+ 0002:0000400c       ??_C@_0BI@BDGKKNFC@?$CFs?5with?5no?5count?5at?5?$CFs?6?$AA@ 1003e00c     g_misc.obj
+ 0002:00004024       ??_C@_0BJ@FEGPLCGP@?$CFs?5with?5no?5target?5at?5?$CFs?6?$AA@ 1003e024     g_misc.obj
+ 0002:00004040       ??_C@_0BA@DFNFDAIE@world?1amb10?4wav?$AA@ 1003e040     g_misc.obj
+ 0002:00004050       ??_C@_0BP@NPMJKCNC@models?1objects?1dmspot?1tris?4md2?$AA@ 1003e050     g_misc.obj
+ 0002:00004070       __real@40200000            1003e070     g_monster.obj
+ 0002:00004074       ??_C@_0BG@LPDKCMIA@infantry?1inflies1?4wav?$AA@ 1003e074     g_monster.obj
+ 0002:00004090       __real@3fe6666666666666    1003e090     g_monster.obj
+ 0002:00004098       __real@3fd0000000000000    1003e098     g_monster.obj
+ 0002:000040a0       __real@4036000000000000    1003e0a0     g_monster.obj
+ 0002:000040a8       __real@403a000000000000    1003e0a8     g_monster.obj
+ 0002:000040b0       ??_C@_0BD@EGCDAKFF@player?1watr_in?4wav?$AA@ 1003e0b0     g_monster.obj
+ 0002:000040c4       ??_C@_0BB@ILBEDPJJ@player?1lava2?4wav?$AA@ 1003e0c4     g_monster.obj
+ 0002:000040d8       ??_C@_0BB@NIAENDH@player?1lava1?4wav?$AA@ 1003e0d8     g_monster.obj
+ 0002:000040ec       ??_C@_0BE@DFJJKCCP@player?1watr_out?4wav?$AA@ 1003e0ec     g_monster.obj
+ 0002:00004100       __real@4022000000000000    1003e100     g_monster.obj
+ 0002:00004108       __real@4028000000000000    1003e108     g_monster.obj
+ 0002:00004110       __real@4070000000000000    1003e110     g_monster.obj
+ 0002:00004118       ??_C@_0BL@LKNPKACJ@?$CFs?5at?5?$CFs?5has?5bad?5item?3?5?$CFs?6?$AA@ 1003e118     g_monster.obj
+ 0002:00004134       ??_C@_0M@ONCHNMHP@path_corner?$AA@ 1003e134     g_monster.obj
+ 0002:00004140       __real@4cbebc20            1003e140     g_monster.obj
+ 0002:00004144       ??_C@_0BP@KOGNJPCB@?$CFs?5can?8t?5find?5target?5?$CFs?5at?5?$CFs?6?$AA@ 1003e144     g_monster.obj
+ 0002:00004164       ??_C@_0DP@DAKHKMMH@?$CFs?5at?5?$CI?$CFi?5?$CFi?5?$CFi?$CJ?5has?5a?5bad?5comba@ 1003e164     g_monster.obj
+ 0002:000041a4       ??_C@_0CG@JIOCFJMD@?$CFs?5at?5?$CFs?5has?5target?5with?5mixed?5t@ 1003e1a4     g_monster.obj
+ 0002:000041cc       ??_C@_0N@GEHAKDCL@point_combat?$AA@ 1003e1cc     g_monster.obj
+ 0002:000041dc       ??_C@_0BD@CDJNCMHM@?$CFs?5in?5solid?5at?5?$CFs?6?$AA@ 1003e1dc     g_monster.obj
+ 0002:000041f0       ??_C@_0BA@JGLONBEK@NULL?5ent?9?$DOthink?$AA@ 1003e1f0     g_phys.obj
+ 0002:00004200       __real@3f50624dd2f1a9fc    1003e200     g_phys.obj
+ 0002:00004208       __real@bfb999999999999a    1003e208     g_phys.obj
+ 0002:00004210       __real@3fc0000000000000    1003e210     g_phys.obj
+ 0002:00004218       ??_C@_0DB@KOGFPOLD@pushed_p?5?$DO?5?$CGpushed?$FLMAX_EDICTS?$FN?0?5@ 1003e218     g_phys.obj
+ 0002:0000424c       ??_C@_0BB@PJCBIEAN@misc?1h2ohit1?4wav?$AA@ 1003e24c     g_phys.obj
+ 0002:00004260       __real@3fc00000            1003e260     g_phys.obj
+ 0002:00004264       __real@42700000            1003e264     g_phys.obj
+ 0002:00004268       ??_C@_0P@JAAAJJJG@world?1land?4wav?$AA@ 1003e268     g_phys.obj
+ 0002:00004278       __real@40c00000            1003e278     g_phys.obj
+ 0002:0000427c       ??_C@_0BM@BJFGOKHH@SV_Physics?3?5bad?5movetype?5?$CFi?$AA@ 1003e27c     g_phys.obj
+ 0002:00004298       ??_C@_07MCHHMPMB@nextmap?$AA@ 1003e298     g_save.obj
+ 0002:000042a0       ??_C@_08OLPEAICL@maxpitch?$AA@ 1003e2a0     g_save.obj
+ 0002:000042ac       ??_C@_08DMBPLKGK@minpitch?$AA@ 1003e2ac     g_save.obj
+ 0002:000042b8       ??_C@_06LNKENLGF@maxyaw?$AA@ 1003e2b8     g_save.obj
+ 0002:000042c0       ??_C@_06LOFHDLCK@minyaw?$AA@ 1003e2c0     g_save.obj
+ 0002:000042c8       ??_C@_07FEFDPOOH@skyaxis?$AA@ 1003e2c8     g_save.obj
+ 0002:000042d0       ??_C@_09CKMNMJFK@skyrotate?$AA@ 1003e2d0     g_save.obj
+ 0002:000042dc       ??_C@_03BNEOMJOP@sky?$AA@  1003e2dc     g_save.obj
+ 0002:000042e0       ??_C@_07GFBFDLBM@gravity?$AA@ 1003e2e0     g_save.obj
+ 0002:000042e8       ??_C@_04NHONDGDE@item?$AA@ 1003e2e8     g_save.obj
+ 0002:000042f0       ??_C@_09NCNEHFEK@pausetime?$AA@ 1003e2f0     g_save.obj
+ 0002:000042fc       ??_C@_05GPLCCBII@noise?$AA@ 1003e2fc     g_save.obj
+ 0002:00004304       ??_C@_06LNLHEAAG@height?$AA@ 1003e304     g_save.obj
+ 0002:0000430c       ??_C@_08LHFODBFO@distance?$AA@ 1003e30c     g_save.obj
+ 0002:00004318       ??_C@_03MHHCOBAB@lip?$AA@  1003e318     g_save.obj
+ 0002:0000431c       ??_C@_03HBNNNHNM@map?$AA@  1003e31c     g_save.obj
+ 0002:00004320       ??_C@_0M@NKGAHMMH@attenuation?$AA@ 1003e320     g_save.obj
+ 0002:0000432c       ??_C@_06EMCPHFGM@volume?$AA@ 1003e32c     g_save.obj
+ 0002:00004334       ??_C@_04IJEANHEE@mass?$AA@ 1003e334     g_save.obj
+ 0002:0000433c       ??_C@_05FECBCJJD@angle?$AA@ 1003e33c     g_save.obj
+ 0002:00004344       ??_C@_06GNEAMJOC@angles?$AA@ 1003e344     g_save.obj
+ 0002:0000434c       ??_C@_03EMOFKE@dmg?$AA@    1003e34c     g_save.obj
+ 0002:00004350       ??_C@_05OEPGNJB@light?$AA@ 1003e350     g_save.obj
+ 0002:00004358       ??_C@_06OHLGPBPO@sounds?$AA@ 1003e358     g_save.obj
+ 0002:00004360       ??_C@_05IOMEMJEC@count?$AA@ 1003e360     g_save.obj
+ 0002:00004368       ??_C@_05IAKJCFIM@style?$AA@ 1003e368     g_save.obj
+ 0002:00004370       ??_C@_0M@JPINAPLF@move_angles?$AA@ 1003e370     g_save.obj
+ 0002:0000437c       ??_C@_0M@CFOBBKBA@move_origin?$AA@ 1003e37c     g_save.obj
+ 0002:00004388       ??_C@_06NLFCANPD@random?$AA@ 1003e388     g_save.obj
+ 0002:00004390       ??_C@_05EKJCMADO@delay?$AA@ 1003e390     g_save.obj
+ 0002:00004398       ??_C@_04PNOAOIAG@wait?$AA@ 1003e398     g_save.obj
+ 0002:000043a0       ??_C@_07ONPBMBOP@message?$AA@ 1003e3a0     g_save.obj
+ 0002:000043a8       ??_C@_0N@MPAHBIIA@combattarget?$AA@ 1003e3a8     g_save.obj
+ 0002:000043b8       ??_C@_0L@MEPFGHK@killtarget?$AA@ 1003e3b8     g_save.obj
+ 0002:000043c4       ??_C@_0M@OFLKPDOP@deathtarget?$AA@ 1003e3c4     g_save.obj
+ 0002:000043d0       ??_C@_0L@BBNLLJC@pathtarget?$AA@ 1003e3d0     g_save.obj
+ 0002:000043dc       ??_C@_0L@FEPNPAJD@targetname?$AA@ 1003e3dc     g_save.obj
+ 0002:000043e8       ??_C@_06JJLAMBGK@target?$AA@ 1003e3e8     g_save.obj
+ 0002:000043f0       ??_C@_05CCENJOKA@decel?$AA@ 1003e3f0     g_save.obj
+ 0002:000043f8       ??_C@_05PNMAPKLD@accel?$AA@ 1003e3f8     g_save.obj
+ 0002:00004400       ??_C@_05HJCMGBKF@speed?$AA@ 1003e400     g_save.obj
+ 0002:00004408       ??_C@_0L@HLIKNEFC@spawnflags?$AA@ 1003e408     g_save.obj
+ 0002:00004414       ??_C@_05NCCFOPHA@model?$AA@ 1003e414     g_save.obj
+ 0002:0000441c       ??_C@_06NHCMNMEH@origin?$AA@ 1003e41c     g_save.obj
+ 0002:00004424       ??_C@_09CNJINBGN@classname?$AA@ 1003e424     g_save.obj
+ 0002:00004430       ??_C@_0L@MPABLGFN@sv_maplist?$AA@ 1003e430     g_save.obj
+ 0002:0000443c       ??_C@_0BA@MBCGCMCD@flood_waitdelay?$AA@ 1003e43c     g_save.obj
+ 0002:0000444c       ??_C@_0BA@DIPJNHGP@flood_persecond?$AA@ 1003e44c     g_save.obj
+ 0002:0000445c       ??_C@_0L@LOFAJDDO@flood_msgs?$AA@ 1003e45c     g_save.obj
+ 0002:00004468       ??_C@_08OLILFFJP@bob_roll?$AA@ 1003e468     g_save.obj
+ 0002:00004474       ??_C@_09JBAGIIMJ@bob_pitch?$AA@ 1003e474     g_save.obj
+ 0002:00004480       ??_C@_06IKIBCIFG@bob_up?$AA@ 1003e480     g_save.obj
+ 0002:00004488       ??_C@_08GNJAFAHJ@run_roll?$AA@ 1003e488     g_save.obj
+ 0002:00004494       ??_C@_05ECMHBHBD@0?4005?$AA@ 1003e494     g_save.obj
+ 0002:0000449c       ??_C@_09NIOJNEIB@run_pitch?$AA@ 1003e49c     g_save.obj
+ 0002:000044a8       ??_C@_05NIGIBNE@0?4002?$AA@ 1003e4a8     g_save.obj
+ 0002:000044b0       ??_C@_0P@DNILDNPM@g_select_empty?$AA@ 1003e4b0     g_save.obj
+ 0002:000044c0       ??_C@_08NLHBPEGP@password?$AA@ 1003e4c0     g_save.obj
+ 0002:000044cc       ??_C@_0N@FCAHJCDA@capturelimit?$AA@ 1003e4cc     g_save.obj
+ 0002:000044dc       ??_C@_09KPHKOKCC@timelimit?$AA@ 1003e4dc     g_save.obj
+ 0002:000044e8       ??_C@_09GCIEGDDN@fraglimit?$AA@ 1003e4e8     g_save.obj
+ 0002:000044f4       ??_C@_0BE@EPEAEBMJ@Forcing?5deathmatch?4?$AA@ 1003e4f4     g_save.obj
+ 0002:00004508       ??_C@_0M@KCCINJFC@maxentities?$AA@ 1003e508     g_save.obj
+ 0002:00004514       ??_C@_04MJHCKDHM@1024?$AA@ 1003e514     g_save.obj
+ 0002:0000451c       ??_C@_05ODMCMJAJ@skill?$AA@ 1003e51c     g_save.obj
+ 0002:00004524       ??_C@_04OILOBHMB@coop?$AA@ 1003e524     g_save.obj
+ 0002:0000452c       ??_C@_0L@ILDAINPG@deathmatch?$AA@ 1003e52c     g_save.obj
+ 0002:00004538       ??_C@_0L@JKCONGEA@maxclients?$AA@ 1003e538     g_save.obj
+ 0002:00004544       ??_C@_01FAMBOPH@4?$AA@     1003e544     g_save.obj
+ 0002:00004548       ??_C@_08CLLHAKFA@gamedate?$AA@ 1003e548     g_save.obj
+ 0002:00004554       ??_C@_0M@EIPEKPPI@Apr?517?52021?$AA@ 1003e554     g_save.obj
+ 0002:00004560       ??_C@_08HCPAIKAO@gamename?$AA@ 1003e560     g_save.obj
+ 0002:0000456c       ??_C@_06LHNLGKIK@baseq2?$AA@ 1003e56c     g_save.obj
+ 0002:00004574       ??_C@_06LJMIHJCM@cheats?$AA@ 1003e574     g_save.obj
+ 0002:0000457c       ??_C@_09BJOAODLF@dedicated?$AA@ 1003e57c     g_save.obj
+ 0002:00004588       ??_C@_0L@FKMMBKBD@sv_gravity?$AA@ 1003e588     g_save.obj
+ 0002:00004594       ??_C@_03BAAJCDMO@800?$AA@  1003e594     g_save.obj
+ 0002:00004598       ??_C@_0P@FKNMIPLB@sv_maxvelocity?$AA@ 1003e598     g_save.obj
+ 0002:000045a8       ??_C@_04OJDKMIMG@2000?$AA@ 1003e5a8     g_save.obj
+ 0002:000045b0       ??_C@_0N@HHKMFLLL@sv_rollangle?$AA@ 1003e5b0     g_save.obj
+ 0002:000045c0       ??_C@_0N@FKKBBDIN@sv_rollspeed?$AA@ 1003e5c0     g_save.obj
+ 0002:000045d0       ??_C@_03HPLEMDKK@200?$AA@  1003e5d0     g_save.obj
+ 0002:000045d4       ??_C@_05DDHHGMA@gun_z?$AA@ 1003e5d4     g_save.obj
+ 0002:000045dc       ??_C@_05CIBKCFAD@gun_y?$AA@ 1003e5dc     g_save.obj
+ 0002:000045e4       ??_C@_05DBABBEEC@gun_x?$AA@ 1003e5e4     g_save.obj
+ 0002:000045ec       ??_C@_0BE@FJPAIEJO@?$DN?$DN?$DN?$DN?5InitGame?5?$DN?$DN?$DN?$DN?6?$AA@ 1003e5ec     g_save.obj
+ 0002:00004600       ??_C@_0BP@BPGEKJCD@WriteEdict?3?5unknown?5field?5type?$AA@ 1003e600     g_save.obj
+ 0002:00004620       ??_C@_0BO@NFGDAIEM@ReadEdict?3?5unknown?5field?5type?$AA@ 1003e620     g_save.obj
+ 0002:00004640       ??_C@_0BB@MAHHKGJO@Couldn?8t?5open?5?$CFs?$AA@ 1003e640     g_save.obj
+ 0002:00004654       ??_C@_02GMLFBBN@wb?$AA@    1003e654     g_save.obj
+ 0002:00004658       ??_C@_0CB@FAIBDIDB@Savegame?5from?5an?5older?5version?4?6@ 1003e658     g_save.obj
+ 0002:0000467c       ??_C@_02JDPG@rb?$AA@       1003e67c     g_save.obj
+ 0002:00004680       ??_C@_0BJ@BKFHCDJI@target_crosslevel_target?$AA@ 1003e680     g_save.obj
+ 0002:0000469c       ??_C@_0CB@CMNAMNJB@ReadLevel?3?5failed?5to?5read?5entnum@ 1003e69c     g_save.obj
+ 0002:000046c0       ??_C@_0CI@BNFLNLEB@ReadLevel?3?5function?5pointers?5hav@ 1003e6c0     g_save.obj
+ 0002:000046e8       ??_C@_0CB@CEEOCHOO@ReadLevel?3?5mismatched?5edict?5size@ 1003e6e8     g_save.obj
+ 0002:00004710       ??_C@_0BCJ@JPMOCBCL@yb?7?924?5xv?70?5hnum?5xv?750?5pic?50?5if?5@ 1003e710     g_spawn.obj
+ 0002:00004840       ??_C@_0BBF@LDPJPJDO@yb?7?924?5xv?70?5hnum?5xv?750?5pic?50?5if?5@ 1003e840     g_spawn.obj
+ 0002:00004958       ??_C@_0BC@MANHFPNC@misc_easterchick2?$AA@ 1003e958     g_spawn.obj
+ 0002:0000496c       ??_C@_0BB@KFOECOPP@misc_easterchick?$AA@ 1003e96c     g_spawn.obj
+ 0002:00004980       ??_C@_0BA@FGKFLEGC@misc_eastertank?$AA@ 1003e980     g_spawn.obj
+ 0002:00004990       ??_C@_0P@DPAKOFII@misc_blackhole?$AA@ 1003e990     g_spawn.obj
+ 0002:000049a0       ??_C@_0BK@MKBIJHGK@info_teleport_destination?$AA@ 1003e9a0     g_spawn.obj
+ 0002:000049bc       ??_C@_0BB@COMMHECA@trigger_teleport?$AA@ 1003e9bc     g_spawn.obj
+ 0002:000049d0       ??_C@_0BF@OMPOACGH@misc_teleporter_dest?$AA@ 1003e9d0     g_spawn.obj
+ 0002:000049e8       ??_C@_0BA@GCCAFNO@misc_teleporter?$AA@ 1003e9e8     g_spawn.obj
+ 0002:000049f8       ??_C@_0BB@FHGBEFIA@misc_strogg_ship?$AA@ 1003e9f8     g_spawn.obj
+ 0002:00004a0c       ??_C@_0O@MMKLPOBO@misc_bigviper?$AA@ 1003ea0c     g_spawn.obj
+ 0002:00004a1c       ??_C@_0BA@DOEKPPIF@misc_viper_bomb?$AA@ 1003ea1c     g_spawn.obj
+ 0002:00004a2c       ??_C@_0BB@BGPFENGK@misc_deadsoldier?$AA@ 1003ea2c     g_spawn.obj
+ 0002:00004a40       ??_C@_0O@LFJBFDBO@misc_gib_head?$AA@ 1003ea40     g_spawn.obj
+ 0002:00004a50       ??_C@_0N@NCHLLKCN@misc_gib_leg?$AA@ 1003ea50     g_spawn.obj
+ 0002:00004a60       ??_C@_0N@MDJHDPIP@misc_gib_arm?$AA@ 1003ea60     g_spawn.obj
+ 0002:00004a70       ??_C@_0BE@OJELGDAL@misc_satellite_dish?$AA@ 1003ea70     g_spawn.obj
+ 0002:00004a84       ??_C@_0BG@GCCDMKOD@misc_ctf_small_banner?$AA@ 1003ea84     g_spawn.obj
+ 0002:00004a9c       ??_C@_0BA@JIFPNKIE@misc_ctf_banner?$AA@ 1003ea9c     g_spawn.obj
+ 0002:00004aac       ??_C@_0M@JMLHEEML@misc_banner?$AA@ 1003eaac     g_spawn.obj
+ 0002:00004ab8       ??_C@_0O@JKMHCGDH@misc_explobox?$AA@ 1003eab8     g_spawn.obj
+ 0002:00004ac8       ??_C@_0N@FHKCBFMD@info_notnull?$AA@ 1003eac8     g_spawn.obj
+ 0002:00004ad8       ??_C@_0L@KLICIANB@func_group?$AA@ 1003ead8     g_spawn.obj
+ 0002:00004ae4       ??_C@_09MBOCECHK@info_null?$AA@ 1003eae4     g_spawn.obj
+ 0002:00004af0       ??_C@_0M@PDDBFOBH@light_mine2?$AA@ 1003eaf0     g_spawn.obj
+ 0002:00004afc       ??_C@_0M@NIBMANNE@light_mine1?$AA@ 1003eafc     g_spawn.obj
+ 0002:00004b08       ??_C@_09LBAMMFEL@viewthing?$AA@ 1003eb08     g_spawn.obj
+ 0002:00004b14       ??_C@_0L@BIFLFHPF@worldspawn?$AA@ 1003eb14     g_spawn.obj
+ 0002:00004b20       ??_C@_0O@EJABAMOH@target_string?$AA@ 1003eb20     g_spawn.obj
+ 0002:00004b30       ??_C@_0BB@DODGEGOG@target_character?$AA@ 1003eb30     g_spawn.obj
+ 0002:00004b44       ??_C@_0BC@GMCMLIAI@target_earthquake?$AA@ 1003eb44     g_spawn.obj
+ 0002:00004b58       ??_C@_0BB@IIPOHKKC@target_lightramp?$AA@ 1003eb58     g_spawn.obj
+ 0002:00004b6c       ??_C@_0M@EODOODOB@target_help?$AA@ 1003eb6c     g_spawn.obj
+ 0002:00004b78       ??_C@_0N@LGMMDFPN@target_laser?$AA@ 1003eb78     g_spawn.obj
+ 0002:00004b88       ??_C@_0BK@GLANCCOG@target_crosslevel_trigger?$AA@ 1003eb88     g_spawn.obj
+ 0002:00004ba4       ??_C@_0P@FEDMBCDM@target_blaster?$AA@ 1003eba4     g_spawn.obj
+ 0002:00004bb4       ??_C@_0P@IOHHMEAI@target_spawner?$AA@ 1003ebb4     g_spawn.obj
+ 0002:00004bc4       ??_C@_0O@FLJCGDBB@target_splash?$AA@ 1003ebc4     g_spawn.obj
+ 0002:00004bd4       ??_C@_0M@ENHMFKFK@target_goal?$AA@ 1003ebd4     g_spawn.obj
+ 0002:00004be0       ??_C@_0O@DGKJBNAG@target_secret?$AA@ 1003ebe0     g_spawn.obj
+ 0002:00004bf0       ??_C@_0BB@LGBADMN@target_explosion?$AA@ 1003ebf0     g_spawn.obj
+ 0002:00004c04       ??_C@_0P@MNJIBEAO@target_speaker?$AA@ 1003ec04     g_spawn.obj
+ 0002:00004c14       ??_C@_0BD@DGACDGJC@target_temp_entity?$AA@ 1003ec14     g_spawn.obj
+ 0002:00004c28       ??_C@_0BE@IFMGBJPE@trigger_monsterjump?$AA@ 1003ec28     g_spawn.obj
+ 0002:00004c3c       ??_C@_0BA@DKBEPDBD@trigger_gravity?$AA@ 1003ec3c     g_spawn.obj
+ 0002:00004c4c       ??_C@_0BB@CNOPFNG@trigger_elevator?$AA@ 1003ec4c     g_spawn.obj
+ 0002:00004c60       ??_C@_0BA@CMODADOH@trigger_counter?$AA@ 1003ec60     g_spawn.obj
+ 0002:00004c70       ??_C@_0M@LDBHCOLI@trigger_key?$AA@ 1003ec70     g_spawn.obj
+ 0002:00004c7c       ??_C@_0N@JFLGFCMM@trigger_hurt?$AA@ 1003ec7c     g_spawn.obj
+ 0002:00004c8c       ??_C@_0N@CCJDLJOF@trigger_push?$AA@ 1003ec8c     g_spawn.obj
+ 0002:00004c9c       ??_C@_0O@EDMANDO@trigger_relay?$AA@ 1003ec9c     g_spawn.obj
+ 0002:00004cac       ??_C@_0BB@LKHFHPEP@trigger_multiple?$AA@ 1003ecac     g_spawn.obj
+ 0002:00004cc0       ??_C@_0N@OOLDLEBF@trigger_once?$AA@ 1003ecc0     g_spawn.obj
+ 0002:00004cd0       ??_C@_0P@KDHOHKJL@trigger_always?$AA@ 1003ecd0     g_spawn.obj
+ 0002:00004ce0       ??_C@_0N@PCPEGGCN@func_killbox?$AA@ 1003ece0     g_spawn.obj
+ 0002:00004cf0       ??_C@_0P@LDEAPMDE@func_explosive?$AA@ 1003ecf0     g_spawn.obj
+ 0002:00004d00       ??_C@_0L@LNOJFPAO@func_timer?$AA@ 1003ed00     g_spawn.obj
+ 0002:00004d0c       ??_C@_0M@MIMFFAK@func_object?$AA@ 1003ed0c     g_spawn.obj
+ 0002:00004d18       ??_C@_09LILCIBKB@func_wall?$AA@ 1003ed18     g_spawn.obj
+ 0002:00004d24       ??_C@_0L@FOFOPPHM@func_clock?$AA@ 1003ed24     g_spawn.obj
+ 0002:00004d30       ??_C@_0O@MOHKEJIK@func_conveyor?$AA@ 1003ed30     g_spawn.obj
+ 0002:00004d40       ??_C@_0L@CGBMHOHE@func_water?$AA@ 1003ed40     g_spawn.obj
+ 0002:00004d4c       ??_C@_0O@JDFCILJF@func_rotating?$AA@ 1003ed4c     g_spawn.obj
+ 0002:00004d5c       ??_C@_0BB@DDGAHBMK@func_door_secret?$AA@ 1003ed5c     g_spawn.obj
+ 0002:00004d70       ??_C@_0M@PNMKBMEP@func_button?$AA@ 1003ed70     g_spawn.obj
+ 0002:00004d7c       ??_C@_09HCDLIOGG@func_plat?$AA@ 1003ed7c     g_spawn.obj
+ 0002:00004d88       ??_C@_0BJ@LMMLDPE@info_player_intermission?$AA@ 1003ed88     g_spawn.obj
+ 0002:00004da4       ??_C@_0BB@HKBBLLCA@info_player_coop?$AA@ 1003eda4     g_spawn.obj
+ 0002:00004db8       ??_C@_0BC@IHPKIKNE@info_player_start?$AA@ 1003edb8     g_spawn.obj
+ 0002:00004dcc       ??_C@_0BB@PBGAONGH@item_health_mega?$AA@ 1003edcc     g_spawn.obj
+ 0002:00004de0       ??_C@_0BC@JGDLKFIO@item_health_large?$AA@ 1003ede0     g_spawn.obj
+ 0002:00004df4       ??_C@_0BC@DOHAFEBI@item_health_small?$AA@ 1003edf4     g_spawn.obj
+ 0002:00004e08       ??_C@_0M@KCNAKNNL@item_health?$AA@ 1003ee08     g_spawn.obj
+ 0002:00004e14       ??_C@_0CC@JNJOINHG@?$CFs?5doesn?8t?5have?5a?5spawn?5function@ 1003ee14     g_spawn.obj
+ 0002:00004e38       ??_C@_0BO@DHDMOMEM@ED_CallSpawn?3?5NULL?5classname?6?$AA@ 1003ee38     g_spawn.obj
+ 0002:00004e58       ??_C@_0BD@EBFOBBIA@?$CFs?5is?5not?5a?5field?6?$AA@ 1003ee58     g_spawn.obj
+ 0002:00004e6c       ??_C@_08OEKJENGB@?$CFf?5?$CFf?5?$CFf?$AA@ 1003ee6c     g_spawn.obj
+ 0002:00004e78       ??_C@_0CL@FAMJKIML@ED_ParseEntity?3?5closing?5brace?5wi@ 1003ee78     g_spawn.obj
+ 0002:00004ea4       ??_C@_0CK@OCIHGENJ@ED_ParseEntity?3?5EOF?5without?5clos@ 1003eea4     g_spawn.obj
+ 0002:00004ed0       ??_C@_0BL@EIPAHDOP@?$CFi?5teams?5with?5?$CFi?5entities?6?$AA@ 1003eed0     g_spawn.obj
+ 0002:00004eec       ??_C@_0BH@CGIADMON@?$CFi?5entities?5inhibited?6?$AA@ 1003eeec     g_spawn.obj
+ 0002:00004f04       ??_C@_03KGNMPOHD@?$CK27?$AA@ 1003ef04     g_spawn.obj
+ 0002:00004f08       ??_C@_07KMMNMMFF@command?$AA@ 1003ef08     g_spawn.obj
+ 0002:00004f10       ??_C@_0CL@HKLEHAIH@ED_LoadFromFile?3?5found?5?$CFs?5when?5e@ 1003ef10     g_spawn.obj
+ 0002:00004f3c       ??_C@_02NJPGOMH@?$CFf?$AA@ 1003ef3c     g_spawn.obj
+ 0002:00004f40       ??_C@_0CF@FDHINAPJ@abcdefghijklmnopqrrqponmlkjihgfe@ 1003ef40     g_spawn.obj
+ 0002:00004f68       ??_C@_0BK@KOPHNNOA@mmamammmmammamamaaamammma?$AA@ 1003ef68     g_spawn.obj
+ 0002:00004f84       ??_C@_0BB@PBGKNKPK@aaaaaaaazzzzzzzz?$AA@ 1003ef84     g_spawn.obj
+ 0002:00004f98       ??_C@_0CL@JNLLPDGN@mmmaaammmaaammmabcdefaaaammmmabc@ 1003ef98     g_spawn.obj
+ 0002:00004fc4       ??_C@_0BN@HIBFHKHI@mmmaaaabcdefgmmmmaaaammmaamm?$AA@ 1003efc4     g_spawn.obj
+ 0002:00004fe4       ??_C@_0BC@KJNLDMIN@nmonqnmomnmomomno?$AA@ 1003efe4     g_spawn.obj
+ 0002:00004ff8       ??_C@_0CC@NMKOOBOD@jklmnopqrstuvwxyzyxwvutsrqponmlk@ 1003eff8     g_spawn.obj
+ 0002:0000501c       ??_C@_0N@OJLDIBEI@mamamamamama?$AA@ 1003f01c     g_spawn.obj
+ 0002:0000502c       ??_C@_0CD@OIDFFBDA@mmmmmaaaaammmmmaaaaaabcdefgabcde@ 1003f02c     g_spawn.obj
+ 0002:00005050       ??_C@_0DE@PNCJLGMH@abcdefghijklmnopqrstuvwxyzyxwvut@ 1003f050     g_spawn.obj
+ 0002:00005084       ??_C@_0BI@OMKFAIJM@mmnmmommommnonmmonqnmmo?$AA@ 1003f084     g_spawn.obj
+ 0002:0000509c       ??_C@_0CD@JNGPJEPP@models?1objects?1gibs?1chest?1tris?4m@ 1003f09c     g_spawn.obj
+ 0002:000050c0       ??_C@_0CD@HLEIMBME@models?1objects?1gibs?1bone2?1tris?4m@ 1003f0c0     g_spawn.obj
+ 0002:000050e4       ??_C@_0CC@LIIDDDAD@models?1objects?1gibs?1bone?1tris?4md@ 1003f0e4     g_spawn.obj
+ 0002:00005108       ??_C@_0BD@IKGKLGNJ@weapons?1noammo?4wav?$AA@ 1003f108     g_spawn.obj
+ 0002:0000511c       ??_C@_0BF@NLJOPKAO@player?1u_breath2?4wav?$AA@ 1003f11c     g_spawn.obj
+ 0002:00005134       ??_C@_0BF@FNAKIIKA@player?1u_breath1?4wav?$AA@ 1003f134     g_spawn.obj
+ 0002:0000514c       ??_C@_0BD@OGFNPMOP@player?1watr_un?4wav?$AA@ 1003f14c     g_spawn.obj
+ 0002:00005160       ??_C@_0BB@PKLNFNHA@player?1gasp2?4wav?$AA@ 1003f160     g_spawn.obj
+ 0002:00005174       ??_C@_0BB@HMCJCPNO@player?1gasp1?4wav?$AA@ 1003f174     g_spawn.obj
+ 0002:00005188       ??_C@_0P@EBDONHNP@?$CKpain100_2?4wav?$AA@ 1003f188     g_spawn.obj
+ 0002:00005198       ??_C@_0P@MHKKKFHB@?$CKpain100_1?4wav?$AA@ 1003f198     g_spawn.obj
+ 0002:000051a8       ??_C@_0O@HPJIFNDL@?$CKpain75_2?4wav?$AA@ 1003f1a8     g_spawn.obj
+ 0002:000051b8       ??_C@_0O@PJAMCPJF@?$CKpain75_1?4wav?$AA@ 1003f1b8     g_spawn.obj
+ 0002:000051c8       ??_C@_0O@BJIOHLNJ@?$CKpain50_2?4wav?$AA@ 1003f1c8     g_spawn.obj
+ 0002:000051d8       ??_C@_0O@JPBKAJHH@?$CKpain50_1?4wav?$AA@ 1003f1d8     g_spawn.obj
+ 0002:000051e8       ??_C@_0O@DFAPBIHE@?$CKpain25_2?4wav?$AA@ 1003f1e8     g_spawn.obj
+ 0002:000051f8       ??_C@_0O@LDJLGKNK@?$CKpain25_1?4wav?$AA@ 1003f1f8     g_spawn.obj
+ 0002:00005208       ??_C@_0L@FMHDEMAN@?$CKjump1?4wav?$AA@ 1003f208     g_spawn.obj
+ 0002:00005214       ??_C@_0L@IKICJGJE@?$CKgurp2?4wav?$AA@ 1003f214     g_spawn.obj
+ 0002:00005220       ??_C@_0L@MBGOEDK@?$CKgurp1?4wav?$AA@ 1003f220     g_spawn.obj
+ 0002:0000522c       ??_C@_0L@FNCDDLHE@?$CKfall2?4wav?$AA@ 1003f22c     g_spawn.obj
+ 0002:00005238       ??_C@_0L@NLLHEJNK@?$CKfall1?4wav?$AA@ 1003f238     g_spawn.obj
+ 0002:00005244       ??_C@_0M@FNDGBLBE@?$CKdeath4?4wav?$AA@ 1003f244     g_spawn.obj
+ 0002:00005250       ??_C@_0M@EADDCLKM@?$CKdeath3?4wav?$AA@ 1003f250     g_spawn.obj
+ 0002:0000525c       ??_C@_0M@ILGPPIAJ@?$CKdeath2?4wav?$AA@ 1003f25c     g_spawn.obj
+ 0002:00005268       ??_C@_0M@NPLIKKH@?$CKdeath1?4wav?$AA@ 1003f268     g_spawn.obj
+ 0002:00005274       ??_C@_0BD@NDPCIBNM@items?1respawn1?4wav?$AA@ 1003f274     g_spawn.obj
+ 0002:00005288       ??_C@_0P@OLLLDDME@misc?1pc_up?4wav?$AA@ 1003f288     g_spawn.obj
+ 0002:00005298       ??_C@_0P@JFJOOALD@player?1fry?4wav?$AA@ 1003f298     g_spawn.obj
+ 0002:000052a8       ??_C@_07LBEDOINA@field_3?$AA@ 1003f2a8     g_spawn.obj
+ 0002:000052b0       ??_C@_06EKCNODJK@i_help?$AA@ 1003f2b0     g_spawn.obj
+ 0002:000052b8       ??_C@_02IKAHHCAI@?$CFi?$AA@ 1003f2b8     g_spawn.obj
+ 0002:000052bc       ??_C@_06IGMIFNOM@unit1_?$AA@ 1003f2bc     g_spawn.obj
+ 0002:000052c4       ??_C@_0BA@HAKOACEM@Svcmd_Test_f?$CI?$CJ?6?$AA@ 1003f2c4     g_svcmds.obj
+ 0002:000052d4       ??_C@_0BN@MFKGNFML@Unknown?5server?5command?5?$CC?$CFs?$CC?6?$AA@ 1003f2d4     g_svcmds.obj
+ 0002:000052f4       ??_C@_04CEJDCDCH@test?$AA@ 1003f2f4     g_svcmds.obj
+ 0002:000052fc       ??_C@_06MKMJDPPC@?$CFs?4wav?$AA@ 1003f2fc     g_target.obj
+ 0002:00005304       ??_C@_04IBLEHOMF@?4wav?$AA@ 1003f304     g_target.obj
+ 0002:0000530c       ??_C@_0CI@PDDPEIGA@target_speaker?5with?5no?5noise?5set@ 1003f30c     g_target.obj
+ 0002:00005334       ??_C@_0BK@MKPELMH@?$CFs?5with?5no?5message?5at?5?$CFs?6?$AA@ 1003f334     g_target.obj
+ 0002:00005350       ??_C@_0BO@LEKNCJD@You?5have?5found?5a?5secret?5area?4?$AA@ 1003f350     g_target.obj
+ 0002:00005370       __real@c083800000000000    1003f370     g_target.obj
+ 0002:00005378       __real@c0a0000000000000    1003f378     g_target.obj
+ 0002:00005380       __real@4071800000000000    1003f380     g_target.obj
+ 0002:00005388       ??_C@_05PPLLLCP@mine3?$AA@ 1003f388     g_target.obj
+ 0002:00005390       ??_C@_0BA@HCFAMHIH@misc?1secret?4wav?$AA@ 1003f390     g_target.obj
+ 0002:000053a0       ??_C@_01NBENCBCI@?$CK?$AA@ 1003f3a0     g_target.obj
+ 0002:000053a4       ??_C@_0BG@LKJLJPM@?$CFs?5exited?5the?5level?4?6?$AA@ 1003f3a4     g_target.obj
+ 0002:000053bc       ??_C@_0O@KLKOMPAE@fact3$secret1?$AA@ 1003f3bc     g_target.obj
+ 0002:000053cc       ??_C@_05LKMCBBLH@fact3?$AA@ 1003f3cc     g_target.obj
+ 0002:000053d4       ??_C@_05IIPEHDDF@fact1?$AA@ 1003f3d4     g_target.obj
+ 0002:000053dc       ??_C@_0CG@BBJIDEJH@target_changelevel?5with?5no?5map?5a@ 1003f3dc     g_target.obj
+ 0002:00005404       __real@447a0000            1003f404     g_target.obj
+ 0002:00005408       ??_C@_0BD@LMJKLJOH@weapons?1laser2?4wav?$AA@ 1003f408     g_target.obj
+ 0002:0000541c       __real@45000000            1003f41c     g_target.obj
+ 0002:00005420       ??_C@_0BO@JBAPADMO@?$CFs?5at?5?$CFs?3?5?$CFs?5is?5a?5bad?5target?6?$AA@ 1003f420     g_target.obj
+ 0002:00005440       __real@4058400000000000    1003f440     g_target.obj
+ 0002:00005448       ??_C@_0BO@FFPFMLH@?$CFs?5target?5?$CFs?5not?5found?5at?5?$CFs?6?$AA@ 1003f448     g_target.obj
+ 0002:00005468       ??_C@_0CF@BKMMIIM@target?5?$CFs?5?$CI?$CFs?5at?5?$CFs?$CJ?5is?5not?5a?5li@ 1003f468     g_target.obj
+ 0002:00005490       ??_C@_09KNDFEIHO@?$CFs?5at?5?$CFs?5?$AA@ 1003f490     g_target.obj
+ 0002:0000549c       ??_C@_0CK@IIPDCKAA@target_lightramp?5has?5bad?5ramp?5?$CI?$CF@ 1003f49c     g_target.obj
+ 0002:000054c8       __real@4062c00000000000    1003f4c8     g_target.obj
+ 0002:000054d0       ??_C@_0BA@FAAKHJFL@world?1quake?4wav?$AA@ 1003f4d0     g_target.obj
+ 0002:000054e0       ??_C@_0BF@CCKDOAMJ@untargeted?5?$CFs?5at?5?$CFs?6?$AA@ 1003f4e0     g_target.obj
+ 0002:000054f8       ??_C@_0BC@KGOFJPNH@misc?1trigger1?4wav?$AA@ 1003f4f8     g_trigger.obj
+ 0002:0000550c       ??_C@_0CC@IHFKCBLO@fixed?5TRIGGERED?5flag?5on?5?$CFs?5at?5?$CFs@ 1003f50c     g_trigger.obj
+ 0002:00005530       ??_C@_0BA@JJMKFLDF@misc?1keyuse?4wav?$AA@ 1003f530     g_trigger.obj
+ 0002:00005540       ??_C@_0BA@IHADJCPP@misc?1keytry?4wav?$AA@ 1003f540     g_trigger.obj
+ 0002:00005550       ??_C@_0BA@NFEBBKCH@You?5need?5the?5?$CFs?$AA@ 1003f550     g_trigger.obj
+ 0002:00005560       ??_C@_0BI@JOAAKOCK@?$CFs?5at?5?$CFs?5has?5no?5target?6?$AA@ 1003f560     g_trigger.obj
+ 0002:00005578       ??_C@_0CJ@EINKBNFA@item?5?$CFs?5not?5found?5for?5trigger_ke@ 1003f578     g_trigger.obj
+ 0002:000055a4       ??_C@_0CD@IAFIJHIK@no?5key?5item?5for?5trigger_key?5at?5?$CF@ 1003f5a4     g_trigger.obj
+ 0002:000055c8       ??_C@_0BE@EBPNPHOF@Sequence?5completed?$CB?$AA@ 1003f5c8     g_trigger.obj
+ 0002:000055dc       ??_C@_0BB@CIHKMHMM@?$CFi?5more?5to?5go?4?4?4?$AA@ 1003f5dc     g_trigger.obj
+ 0002:000055f0       ??_C@_07JBPBHDIL@grenade?$AA@ 1003f5f0     g_trigger.obj
+ 0002:000055f8       ??_C@_0BB@LLNOHMMO@misc?1windfly?4wav?$AA@ 1003f5f8     g_trigger.obj
+ 0002:0000560c       ??_C@_0BC@PBIONGLI@world?1electro?4wav?$AA@ 1003f60c     g_trigger.obj
+ 0002:00005620       ??_C@_0CL@LPNCJGIK@trigger_gravity?5without?5gravity?5@ 1003f620     g_trigger.obj
+ 0002:0000564c       __real@43b40000            1003f64c     g_trigger.obj
+ 0002:00005650       ??_C@_0CD@HHFHMIIH@G_PickTarget?3?5target?5?$CFs?5not?5foun@ 1003f650     g_utils.obj
+ 0002:00005674       ??_C@_0CK@JOENGKNM@G_PickTarget?5called?5with?5NULL?5ta@ 1003f674     g_utils.obj
+ 0002:000056a0       ??_C@_0CI@HMPHOHE@entity?5was?5removed?5while?5using?5t@ 1003f6a0     g_utils.obj
+ 0002:000056c8       ??_C@_0BO@JIDGNOMJ@WARNING?3?5Entity?5used?5itself?4?6?$AA@ 1003f6c8     g_utils.obj
+ 0002:000056e8       ??_C@_0CM@HNAFLCKA@entity?5was?5removed?5while?5using?5k@ 1003f6e8     g_utils.obj
+ 0002:00005714       ??_C@_0BP@FMIPALGG@Think_Delay?5with?5no?5activator?6?$AA@ 1003f714     g_utils.obj
+ 0002:00005734       ??_C@_0L@JMKEFFDI@DelayedUse?$AA@ 1003f734     g_utils.obj
+ 0002:00005740       ??_C@_0L@OPPGOKFJ@?$CI?$CFi?5?$CFi?5?$CFi?$CJ?$AA@ 1003f740     g_utils.obj
+ 0002:00005750       __real@400921fb54442d18    1003f750     g_utils.obj
+ 0002:00005758       __real@4066800000000000    1003f758     g_utils.obj
+ 0002:00005760       __real@43870000            1003f760     g_utils.obj
+ 0002:00005764       ??_C@_07CBNPCFPB@noclass?$AA@ 1003f764     g_utils.obj
+ 0002:0000576c       ??_C@_0BJ@FNCHIGJN@ED_Alloc?3?5no?5free?5edicts?$AA@ 1003f76c     g_utils.obj
+ 0002:00005788       ??_C@_05FAPHKBON@freed?$AA@ 1003f788     g_utils.obj
+ 0002:00005790       ??_C@_08OCCNMDFI@?$CKbrwater?$AA@ 1003f790     g_weapon.obj
+ 0002:0000579c       __real@46000000            1003f79c     g_weapon.obj
+ 0002:000057a0       ??_C@_04LDPEEFCM@bolt?$AA@ 1003f7a0     g_weapon.obj
+ 0002:000057a8       ??_C@_0BA@DLICHMFN@misc?1lasfly?4wav?$AA@ 1003f7a8     g_weapon.obj
+ 0002:000057b8       ??_C@_0BO@GPCFHBAI@models?1objects?1laser?1tris?4md2?$AA@ 1003f7b8     g_weapon.obj
+ 0002:000057d8       ??_C@_0CA@NNGGGAIN@models?1objects?1grenade?1tris?4md2?$AA@ 1003f7d8     g_weapon.obj
+ 0002:000057f8       __real@bca3d70a            1003f7f8     g_weapon.obj
+ 0002:000057fc       ??_C@_0BF@CAKIGFPJ@weapons?1grenlb1b?4wav?$AA@ 1003f7fc     g_weapon.obj
+ 0002:00005814       ??_C@_0BF@HFMEEACK@weapons?1hgrenb2a?4wav?$AA@ 1003f814     g_weapon.obj
+ 0002:0000582c       ??_C@_0BF@EECMFKLH@weapons?1hgrenb1a?4wav?$AA@ 1003f82c     g_weapon.obj
+ 0002:00005844       ??_C@_0BF@POPIGCBL@weapons?1hgrent1a?4wav?$AA@ 1003f844     g_weapon.obj
+ 0002:0000585c       ??_C@_0BF@OBCCIIH@weapons?1hgrenc1b?4wav?$AA@ 1003f85c     g_weapon.obj
+ 0002:00005874       ??_C@_08PFGBJLPA@hgrenade?$AA@ 1003f874     g_weapon.obj
+ 0002:00005880       ??_C@_0CB@HBCNIKLA@models?1objects?1grenade2?1tris?4md2@ 1003f880     g_weapon.obj
+ 0002:000058a4       ??_C@_06NHDMJEKK@rocket?$AA@ 1003f8a4     g_weapon.obj
+ 0002:000058ac       ??_C@_0BE@NMAMPJPE@weapons?1rockfly?4wav?$AA@ 1003f8ac     g_weapon.obj
+ 0002:000058c0       ??_C@_0BP@BNLCIJEN@models?1objects?1rocket?1tris?4md2?$AA@ 1003f8c0     g_weapon.obj
+ 0002:000058e0       ??_C@_0BD@LDLLBOJF@sprites?1s_bfg3?4sp2?$AA@ 1003f8e0     g_weapon.obj
+ 0002:000058f4       __real@bdcccccd            1003f8f4     g_weapon.obj
+ 0002:000058f8       ??_C@_0BF@BHADIBFK@weapons?1bfg__x1b?4wav?$AA@ 1003f8f8     g_weapon.obj
+ 0002:00005910       __real@43800000            1003f910     g_weapon.obj
+ 0002:00005914       ??_C@_0BF@GJGGMMCF@weapons?1bfg__l1a?4wav?$AA@ 1003f914     g_weapon.obj
+ 0002:0000592c       ??_C@_09HEANOFFE@bfg?5blast?$AA@ 1003f92c     g_weapon.obj
+ 0002:00005938       ??_C@_0BD@POHDLPJO@sprites?1s_bfg1?4sp2?$AA@ 1003f938     g_weapon.obj
+ 0002:00005950       __real@4032000000000000    1003f950     m_move.obj
+ 0002:00005958       __real@4042000000000000    1003f958     m_move.obj
+ 0002:00005960       __real@41900000            1003f960     m_move.obj
+ 0002:00005968       __real@c020000000000000    1003f968     m_move.obj
+ 0002:00005970       __real@4044000000000000    1003f970     m_move.obj
+ 0002:00005978       __real@c066800000000000    1003f978     m_move.obj
+ 0002:00005980       __real@439d8000            1003f980     m_move.obj
+ 0002:00005988       __real@4056800000000000    1003f988     m_move.obj
+ 0002:00005990       __real@43340000            1003f990     m_move.obj
+ 0002:00005998       __real@c024000000000000    1003f998     m_move.obj
+ 0002:000059a0       ??_C@_08MBFLHJIB@security?$AA@ 1003f9a0     p_client.obj
+ 0002:000059ac       __real@439e0000            1003f9ac     p_client.obj
+ 0002:000059b0       __real@437c0000            1003f9b0     p_client.obj
+ 0002:000059b4       ??_C@_05LAIIMDGA@jail3?$AA@ 1003f9b4     p_client.obj
+ 0002:000059bc       __real@42a00000            1003f9bc     p_client.obj
+ 0002:000059c0       __real@c3240000            1003f9c0     p_client.obj
+ 0002:000059c4       __real@42f80000            1003f9c4     p_client.obj
+ 0002:000059c8       ??_C@_06LGJEBFOF@strike?$AA@ 1003f9c8     p_client.obj
+ 0002:000059d0       ??_C@_06IKFGJOIE@power2?$AA@ 1003f9d0     p_client.obj
+ 0002:000059d8       ??_C@_05OLNILLAB@space?$AA@ 1003f9d8     p_client.obj
+ 0002:000059e0       ??_C@_06HFOGKLKK@biggun?$AA@ 1003f9e0     p_client.obj
+ 0002:000059e8       ??_C@_05PJADMOFI@boss1?$AA@ 1003f9e8     p_client.obj
+ 0002:000059f0       ??_C@_03LBJFMAGK@lab?$AA@  1003f9f0     p_client.obj
+ 0002:000059f4       ??_C@_05EALKCNOI@mine4?$AA@ 1003f9f4     p_client.obj
+ 0002:000059fc       ??_C@_05BGOAIKGO@mine2?$AA@ 1003f9fc     p_client.obj
+ 0002:00005a04       ??_C@_05DNMNNJKN@mine1?$AA@ 1003fa04     p_client.obj
+ 0002:00005a0c       ??_C@_05PPMJFFKH@jail4?$AA@ 1003fa0c     p_client.obj
+ 0002:00005a14       ??_C@_05KJJDPCCB@jail2?$AA@ 1003fa14     p_client.obj
+ 0002:00005a20       __real@4078000000000000    1003fa20     p_client.obj
+ 0002:00005a28       ??_C@_09PIPBOPDG@?$CFs?5died?4?6?$AA@ 1003fa28     p_client.obj
+ 0002:00005a34       ??_C@_0M@NLIGKFEM@?$CFs?5?$CFs?5?$CFs?$CFs?6?$AA@ 1003fa34     p_client.obj
+ 0002:00005a40       ??_C@_0L@NILDBNF@?8s?5grapple?$AA@ 1003fa40     p_client.obj
+ 0002:00005a4c       ??_C@_0O@IBMLDOEJ@was?5caught?5by?$AA@ 1003fa4c     p_client.obj
+ 0002:00005a5c       ??_C@_0BC@CJMFGHKA@?8s?5personal?5space?$AA@ 1003fa5c     p_client.obj
+ 0002:00005a70       ??_C@_0BA@CBNEPGEH@tried?5to?5invade?$AA@ 1003fa70     p_client.obj
+ 0002:00005a80       ??_C@_07HFHCECHG@?8s?5pain?$AA@ 1003fa80     p_client.obj
+ 0002:00005a88       ??_C@_05IIGFFFGG@feels?$AA@ 1003fa88     p_client.obj
+ 0002:00005a90       ??_C@_0L@OJBNBIKI@didn?8t?5see?$AA@ 1003fa90     p_client.obj
+ 0002:00005a9c       ??_C@_0P@GEBBPEIP@?8s?5handgrenade?$AA@ 1003fa9c     p_client.obj
+ 0002:00005aac       ??_C@_06IBDBCMGJ@caught?$AA@ 1003faac     p_client.obj
+ 0002:00005ab4       ??_C@_0BD@OONGHABG@couldn?8t?5hide?5from?$AA@ 1003fab4     p_client.obj
+ 0002:00005ac8       ??_C@_0N@LHGMLJPL@?8s?5BFG?5blast?$AA@ 1003fac8     p_client.obj
+ 0002:00005ad8       ??_C@_0BF@NINEGKMK@was?5disintegrated?5by?$AA@ 1003fad8     p_client.obj
+ 0002:00005af0       ??_C@_06NOMMMPPO@?8s?5BFG?$AA@ 1003faf0     p_client.obj
+ 0002:00005af8       ??_C@_0BL@PHCIHJDF@saw?5the?5pretty?5lights?5from?$AA@ 1003faf8     p_client.obj
+ 0002:00005b14       ??_C@_0O@LMMKCAFN@was?5railed?5by?$AA@ 1003fb14     p_client.obj
+ 0002:00005b24       ??_C@_0BA@MNCHNJKO@?8s?5hyperblaster?$AA@ 1003fb24     p_client.obj
+ 0002:00005b34       ??_C@_0O@CLFCHHPJ@was?5melted?5by?$AA@ 1003fb34     p_client.obj
+ 0002:00005b44       ??_C@_0O@JENMCGOI@almost?5dodged?$AA@ 1003fb44     p_client.obj
+ 0002:00005b54       ??_C@_09DEADKGEN@?8s?5rocket?$AA@ 1003fb54     p_client.obj
+ 0002:00005b60       ??_C@_03BGFDOPOL@ate?$AA@  1003fb60     p_client.obj
+ 0002:00005b64       ??_C@_0M@BHBOCILJ@?8s?5shrapnel?$AA@ 1003fb64     p_client.obj
+ 0002:00005b70       ??_C@_0BA@LIKKPCIN@was?5shredded?5by?$AA@ 1003fb70     p_client.obj
+ 0002:00005b80       ??_C@_0L@KPHMDLGC@?8s?5grenade?$AA@ 1003fb80     p_client.obj
+ 0002:00005b8c       ??_C@_0O@LDHHPHEI@was?5popped?5by?$AA@ 1003fb8c     p_client.obj
+ 0002:00005b9c       ??_C@_0M@INHDMJGN@?8s?5chaingun?$AA@ 1003fb9c     p_client.obj
+ 0002:00005ba8       ??_C@_0BD@FECNGOAP@was?5cut?5in?5half?5by?$AA@ 1003fba8     p_client.obj
+ 0002:00005bbc       ??_C@_0BF@PGKPLAEB@was?5machinegunned?5by?$AA@ 1003fbbc     p_client.obj
+ 0002:00005bd4       ??_C@_0BB@GCNIAAFO@?8s?5super?5shotgun?$AA@ 1003fbd4     p_client.obj
+ 0002:00005be8       ??_C@_0BC@BEAIEDOA@was?5blown?5away?5by?$AA@ 1003fbe8     p_client.obj
+ 0002:00005bfc       ??_C@_0BD@MKJCHKPL@was?5gunned?5down?5by?$AA@ 1003fbfc     p_client.obj
+ 0002:00005c10       ??_C@_0P@CIDIINED@was?5blasted?5by?$AA@ 1003fc10     p_client.obj
+ 0002:00005c20       ??_C@_07EJPAKPEC@?$CFs?5?$CFs?4?6?$AA@ 1003fc20     p_client.obj
+ 0002:00005c28       ??_C@_0P@DNKIPMGE@killed?5himself?$AA@ 1003fc28     p_client.obj
+ 0002:00005c38       ??_C@_0P@IIICGFO@killed?5herself?$AA@ 1003fc38     p_client.obj
+ 0002:00005c48       ??_C@_0BP@DBEBPALD@should?5have?5used?5a?5smaller?5gun?$AA@ 1003fc48     p_client.obj
+ 0002:00005c68       ??_C@_0BA@FIENEKJD@blew?5himself?5up?$AA@ 1003fc68     p_client.obj
+ 0002:00005c78       ??_C@_0BA@DBAICHLN@blew?5herself?5up?$AA@ 1003fc78     p_client.obj
+ 0002:00005c88       ??_C@_0BL@BJDCDLDL@tripped?5on?5his?5own?5grenade?$AA@ 1003fc88     p_client.obj
+ 0002:00005ca4       ??_C@_0BL@MBMIHDKJ@tripped?5on?5her?5own?5grenade?$AA@ 1003fca4     p_client.obj
+ 0002:00005cc0       ??_C@_0BN@CKEOLHJO@tried?5to?5put?5the?5pin?5back?5in?$AA@ 1003fcc0     p_client.obj
+ 0002:00005ce0       ??_C@_0BH@GICEGFFN@was?5in?5the?5wrong?5place?$AA@ 1003fce0     p_client.obj
+ 0002:00005cf8       ??_C@_0M@GOENCOLM@got?5blasted?$AA@ 1003fcf8     p_client.obj
+ 0002:00005d04       ??_C@_0O@LCLMFGAB@saw?5the?5light?$AA@ 1003fd04     p_client.obj
+ 0002:00005d14       ??_C@_0BA@PIHDLFPF@found?5a?5way?5out?$AA@ 1003fd14     p_client.obj
+ 0002:00005d24       ??_C@_07IKPJHPIE@blew?5up?$AA@ 1003fd24     p_client.obj
+ 0002:00005d2c       ??_C@_0BP@NAHBLPBA@does?5a?5back?5flip?5into?5the?5lava?$AA@ 1003fd2c     p_client.obj
+ 0002:00005d4c       ??_C@_06CHNJJJKC@melted?$AA@ 1003fd4c     p_client.obj
+ 0002:00005d54       ??_C@_0BB@IPCHCEIC@sank?5like?5a?5rock?$AA@ 1003fd54     p_client.obj
+ 0002:00005d68       ??_C@_0N@JLHEPJHP@was?5squished?$AA@ 1003fd68     p_client.obj
+ 0002:00005d78       ??_C@_08PAHGPPBJ@cratered?$AA@ 1003fd78     p_client.obj
+ 0002:00005d84       ??_C@_08MOEOKJOB@suicides?$AA@ 1003fd84     p_client.obj
+ 0002:00005d90       __real@41b40000            1003fd90     p_client.obj
+ 0002:00005d98       __real@404ca5dc1a63c1f8    1003fd98     p_client.obj
+ 0002:00005da0       ??_C@_0N@OJAOIBLE@?$CKdeath?$CFi?4wav?$AA@ 1003fda0     p_client.obj
+ 0002:00005db0       __real@4b18967f            1003fdb0     p_client.obj
+ 0002:00005db4       ??_C@_0BO@NMKBOMOM@Couldn?8t?5find?5spawn?5point?5?$CFs?6?$AA@ 1003fdb4     p_client.obj
+ 0002:00005dd4       ??_C@_07ILHJIGAO@bodyque?$AA@ 1003fdd4     p_client.obj
+ 0002:00005de0       __real@4048000000000000    1003fde0     p_client.obj
+ 0002:00005de8       ??_C@_0P@NKHNOOID@menu_loadgame?6?$AA@ 1003fde8     p_client.obj
+ 0002:00005df8       __real@43200000            1003fdf8     p_client.obj
+ 0002:00005e00       __real@4064000000000000    1003fe00     p_client.obj
+ 0002:00005e08       ??_C@_03PKBINKFB@fov?$AA@  1003fe08     p_client.obj
+ 0002:00005e0c       ??_C@_0BG@CBIGOLJ@players?1male?1tris?4md2?$AA@ 1003fe0c     p_client.obj
+ 0002:00005e24       ??_C@_06BALNJMNP@player?$AA@ 1003fe24     p_client.obj
+ 0002:00005e2c       ??_C@_0BF@JPEHACCO@?$CFs?5entered?5the?5game?6?$AA@ 1003fe2c     p_client.obj
+ 0002:00005e44       ??_C@_04FANNOMIB@hand?$AA@ 1003fe44     p_client.obj
+ 0002:00005e4c       ??_C@_04MEMAJGDJ@name?$AA@ 1003fe4c     p_client.obj
+ 0002:00005e54       ??_C@_0BO@FGOBLJCL@?2name?2badinfo?2skin?2male?1grunt?$AA@ 1003fe54     p_client.obj
+ 0002:00005e74       ??_C@_0O@CCODMILK@?$CFs?5connected?6?$AA@ 1003fe74     p_client.obj
+ 0002:00005e84       ??_C@_06CHJIBEDB@rejmsg?$AA@ 1003fe84     p_client.obj
+ 0002:00005e8c       ??_C@_0CA@NBCLJLOF@Password?5required?5or?5incorrect?4?$AA@ 1003fe8c     p_client.obj
+ 0002:00005eac       ??_C@_02GIIHKPLE@ip?$AA@   1003feac     p_client.obj
+ 0002:00005eb0       ??_C@_0N@GGGDBMDO@disconnected?$AA@ 1003feb0     p_client.obj
+ 0002:00005ec0       ??_C@_0BB@IHNKPJEE@?$CFs?5disconnected?6?$AA@ 1003fec0     p_client.obj
+ 0002:00005ed4       ??_C@_0O@HDBCCKGH@sv?5?$CF3i?3?$CFi?5?$CFi?6?$AA@ 1003fed4     p_client.obj
+ 0002:00005ee8       __real@3f76800000000000    1003fee8     p_client.obj
+ 0002:00005ef0       ??_C@_0BK@DNHJFCGJ@client?5?$CFi?5?$CFi?5?$CFi?5?$CFi?5?$CFi?5?$CFi?5?$AA@ 1003fef0     p_hud.obj
+ 0002:00005f0c       ??_C@_0BF@HFGDDDLD@xv?5?$CFi?5yv?5?$CFi?5picn?5?$CFs?5?$AA@ 1003ff0c     p_hud.obj
+ 0002:00005f24       ??_C@_04BGPNFHFP@tag2?$AA@ 1003ff24     p_hud.obj
+ 0002:00005f2c       ??_C@_04DNNAAEJM@tag1?$AA@ 1003ff2c     p_hud.obj
+ 0002:00005f38       ??_C@_0OE@DLDMEOHM@xv?532?5yv?58?5picn?5help?5xv?5202?5yv?51@ 1003ff38     p_hud.obj
+ 0002:0000601c       ??_C@_05PGFAHLBE@hard?$CL?$AA@ 1004001c     p_hud.obj
+ 0002:00006024       ??_C@_04EFOBLGJF@hard?$AA@ 10040024     p_hud.obj
+ 0002:0000602c       ??_C@_06HIDOEFBI@medium?$AA@ 1004002c     p_hud.obj
+ 0002:00006034       ??_C@_04EDNPHEAP@easy?$AA@ 10040034     p_hud.obj
+ 0002:00006040       __real@4056c00000000000    10040040     p_hud.obj
+ 0002:00006048       ??_C@_0CB@GHBNMMGL@warning?0?5ent?5already?5has?5a?5menu?6@ 10040048     p_menu.obj
+ 0002:0000606c       ??_C@_0N@EOPFKACL@string?5?$CC?$CFs?$CC?5?$AA@ 1004006c     p_menu.obj
+ 0002:0000607c       ??_C@_0O@EKBELJEH@string2?5?$CC?$CFs?$CC?5?$AA@ 1004007c     p_menu.obj
+ 0002:0000608c       ??_C@_0P@FBOPOFLB@string2?5?$CC?$AN?$CFs?$CC?5?$AA@ 1004008c     p_menu.obj
+ 0002:0000609c       ??_C@_06OMBIGHEH@xv?5?$CFd?5?$AA@ 1004009c     p_menu.obj
+ 0002:000060a4       ??_C@_06EKGPGMPD@yv?5?$CFd?5?$AA@ 100400a4     p_menu.obj
+ 0002:000060ac       ??_C@_0BL@FEEDKACG@xv?532?5yv?58?5picn?5inventory?5?$AA@ 100400ac     p_menu.obj
+ 0002:000060c8       ??_C@_0BL@LPIEJGED@warning?3?5?5ent?5has?5no?5menu?6?$AA@ 100400c8     p_menu.obj
+ 0002:000060e4       ??_C@_0N@MPEIHAJI@player_trail?$AA@ 100400e4     p_trail.obj
+ 0002:000060f8       __real@4049000000000000    100400f8     p_view.obj
+ 0002:00006100       __real@3f19999a            10040100     p_view.obj
+ 0002:00006108       __real@3fe3333333333333    10040108     p_view.obj
+ 0002:00006110       __real@3f847ae147ae147b    10040110     p_view.obj
+ 0002:00006118       ??_C@_0P@JGBAMECG@?$CKpain?$CFi_?$CFi?4wav?$AA@ 10040118     p_view.obj
+ 0002:00006128       __real@c1b00000            10040128     p_view.obj
+ 0002:00006130       __real@c036000000000000    10040130     p_view.obj
+ 0002:00006138       __real@41600000            10040138     p_view.obj
+ 0002:00006140       __real@402c000000000000    10040140     p_view.obj
+ 0002:00006148       __real@c1600000            10040148     p_view.obj
+ 0002:00006150       __real@c02c000000000000    10040150     p_view.obj
+ 0002:00006158       __real@3fd999999999999a    10040158     p_view.obj
+ 0002:00006160       __real@c2340000            10040160     p_view.obj
+ 0002:00006168       __real@c046800000000000    10040168     p_view.obj
+ 0002:00006170       __real@42340000            10040170     p_view.obj
+ 0002:00006178       __real@3f747ae147ae147b    10040178     p_view.obj
+ 0002:00006180       __real@3faeb851eb851eb8    10040180     p_view.obj
+ 0002:00006188       __real@3f59999a            10040188     p_view.obj
+ 0002:0000618c       __real@3d23d70a            1004018c     p_view.obj
+ 0002:00006190       ??_C@_0BD@IGAOBJGB@items?1protect2?4wav?$AA@ 10040190     p_view.obj
+ 0002:000061a4       __real@3da3d70a            100401a4     p_view.obj
+ 0002:000061a8       ??_C@_0BC@EIMMHIFK@items?1damage2?4wav?$AA@ 100401a8     p_view.obj
+ 0002:000061bc       __real@3d4ccccd            100401bc     p_view.obj
+ 0002:000061c0       __real@3e99999a            100401c0     p_view.obj
+ 0002:000061c8       __real@404b800000000000    100401c8     p_view.obj
+ 0002:000061d0       __real@3f1a36e2eb1c432d    100401d0     p_view.obj
+ 0002:000061d8       ??_C@_0BB@BGPDGCEE@player?1burn2?4wav?$AA@ 100401d8     p_view.obj
+ 0002:000061ec       ??_C@_0BB@JAGHBAOK@player?1burn1?4wav?$AA@ 100401ec     p_view.obj
+ 0002:00006200       ??_C@_0BC@HDDNNFAG@player?1drown1?4wav?$AA@ 10040200     p_view.obj
+ 0002:00006218       __real@4026000000000000    10040218     p_view.obj
+ 0002:00006220       ??_C@_0BD@KKBBONCO@player?1lava_in?4wav?$AA@ 10040220     p_view.obj
+ 0002:00006238       __real@406c200000000000    10040238     p_view.obj
+ 0002:00006240       ??_C@_0BE@KOOEJAIL@weapons?1bfg_hum?4wav?$AA@ 10040240     p_view.obj
+ 0002:00006254       __real@3d800000            10040254     p_view.obj
+ 0002:00006258       __real@3e000000            10040258     p_view.obj
+ 0002:00006260       __real@406a400000000000    10040260     p_view.obj
+ 0002:00006268       __real@c076800000000000    10040268     p_view.obj
+ 0002:00006270       ??_C@_07PKBOGMMP@shotgun?$AA@ 10040270     p_weapon.obj
+ 0002:00006278       ??_C@_0O@KNGPPOA@super?5shotgun?$AA@ 10040278     p_weapon.obj
+ 0002:00006288       ??_C@_06DOEJMPPH@shells?$AA@ 10040288     p_weapon.obj
+ 0002:00006290       ??_C@_0L@CFEKEAAE@machinegun?$AA@ 10040290     p_weapon.obj
+ 0002:0000629c       ??_C@_08FEJLBOPJ@chaingun?$AA@ 1004029c     p_weapon.obj
+ 0002:000062a8       ??_C@_07MOKFMADJ@bullets?$AA@ 100402a8     p_weapon.obj
+ 0002:000062b0       ??_C@_0N@BOGLJPHM@hyperblaster?$AA@ 100402b0     p_weapon.obj
+ 0002:000062c0       ??_C@_07CFOFBGNM@railgun?$AA@ 100402c0     p_weapon.obj
+ 0002:000062c8       ??_C@_05IKCCBMEB@slugs?$AA@ 100402c8     p_weapon.obj
+ 0002:000062d0       ??_C@_0BH@PPGJBKNP@Not?5enough?5?$CFs?5for?5?$CFs?4?6?$AA@ 100402d0     p_weapon.obj
+ 0002:000062e8       ??_C@_0P@CMOCNGJL@No?5?$CFs?5for?5?$CFs?4?6?$AA@ 100402e8     p_weapon.obj
+ 0002:000062f8       ??_C@_0BL@ELFODOGI@Can?8t?5drop?5current?5weapon?6?$AA@ 100402f8     p_weapon.obj
+ 0002:00006314       ??_C@_0BC@IDJAKLPP@items?1damage3?4wav?$AA@ 10040314     p_weapon.obj
+ 0002:00006328       __real@4060aaaaaaaaaaab    10040328     p_weapon.obj
+ 0002:00006330       ??_C@_0BF@EMDHCPPK@weapons?1hgrena1b?4wav?$AA@ 10040330     p_weapon.obj
+ 0002:00006348       ??_C@_0BF@BMEALNJG@weapons?1hyprbd1a?4wav?$AA@ 10040348     p_weapon.obj
+ 0002:00006360       __real@c010000000000000    10040360     p_weapon.obj
+ 0002:00006368       ??_C@_0BF@MPKFKGCD@weapons?1hyprbl1a?4wav?$AA@ 10040368     p_weapon.obj
+ 0002:00006380       __real@bff8000000000000    10040380     p_weapon.obj
+ 0002:00006388       __real@3fd6666666666666    10040388     p_weapon.obj
+ 0002:00006390       __real@401c000000000000    10040390     p_weapon.obj
+ 0002:00006398       ??_C@_0BF@GEOCOOGG@weapons?1chngnl1a?4wav?$AA@ 10040398     p_weapon.obj
+ 0002:000063b0       ??_C@_0BF@LHAHPFND@weapons?1chngnd1a?4wav?$AA@ 100403b0     p_weapon.obj
+ 0002:000063c8       ??_C@_0BF@HBGMEGG@weapons?1chngnu1a?4wav?$AA@ 100403c8     p_weapon.obj
+ 0002:000063e0       __real@40e00000            100403e0     p_weapon.obj
+ 0002:000063e4       __real@c0400000            100403e4     p_weapon.obj
+ 0002:000063e8       __real@c2200000            100403e8     p_weapon.obj
+ 0002:000063f0       __real@3f91df46a2529d39    100403f0     q_shared.obj
+ 0002:000063f8       __real@4066c16c16c16c17    100403f8     q_shared.obj
+ 0002:00006400       __real@c7c34f80            10040400     q_shared.obj
+ 0002:00006404       ??_C@_0CD@GIPJKOOD@Com_sprintf?3?5overflow?5of?5?$CFi?5in?5?$CF@ 10040404     q_shared.obj
+ 0002:00006428       ??_C@_01KICIPPFI@?2?$AA@   10040428     q_shared.obj
+ 0002:0000642c       ??_C@_01ICJEACDI@?$DL?$AA@ 1004042c     q_shared.obj
+ 0002:00006430       ??_C@_01BJJEKLCA@?$CC?$AA@ 10040430     q_shared.obj
+ 0002:00006434       ??_C@_0BN@CAOBGKLE@Info?5string?5length?5exceeded?6?$AA@ 10040434     q_shared.obj
+ 0002:00006454       ??_C@_06NELKLDPM@?2?$CFs?2?$CFs?$AA@ 10040454     q_shared.obj
+ 0002:0000645c       ??_C@_0CK@NHFLKFAE@Keys?5and?5values?5must?5be?5?$DM?564?5cha@ 1004045c     q_shared.obj
+ 0002:00006488       ??_C@_0CD@MGFMEBLE@Can?8t?5use?5keys?5or?5values?5with?5a?5@ 10040488     q_shared.obj
+ 0002:000064ac       ??_C@_0CL@JCFAGLFD@Can?8t?5use?5keys?5or?5values?5with?5a?5@ 100404ac     q_shared.obj
+ 0002:000064d8       ??_C@_0CD@JIDDAEOO@Can?8t?5use?5keys?5or?5values?5with?5a?5@ 100404d8     q_shared.obj
+ 0002:000064fc       __pRawDllMain              100404fc     MSVCRTD:crtdll.obj
+ 0002:000064fc       __pDefaultRawDllMain       100404fc     MSVCRTD:crtdll.obj
+ 0002:00006500       ??_C@_0DA@FJPPCPEH@f?3?2dd?2vctools?2crt_bld?2self_x86?2c@ 10040500     MSVCRTD:crtdll.obj
+ 0002:00006538       ?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB 10040538     MSVCRTD:tncleanup.obj
+ 0002:0000653c       ?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB 1004053c     MSVCRTD:tncleanup.obj
+ 0002:00006540       ?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB 10040540     MSVCRTD:tncleanup.obj
+ 0002:00006544       ?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB 10040544     MSVCRTD:tncleanup.obj
+ 0002:00006548       ?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB 10040548     MSVCRTD:tncleanup.obj
+ 0002:00006550       __load_config_used         10040550     MSVCRTD:loadcfg.obj
+ 0002:000065f0       ___safe_se_handler_table   100405f0     <linker-defined>
+ 0002:000065f4       ___rtc_iaa                 100405f4     MSVCRTD:_initsect_.obj
+ 0002:000065f8       ___rtc_izz                 100405f8     MSVCRTD:_initsect_.obj
+ 0002:000065fc       ___rtc_taa                 100405fc     MSVCRTD:_initsect_.obj
+ 0002:00006600       ___rtc_tzz                 10040600     MSVCRTD:_initsect_.obj
+ 0002:0000668c       __IMPORT_DESCRIPTOR_MSVCR90D 1004068c     MSVCRTD:MSVCR90D.dll
+ 0002:000066a0       __IMPORT_DESCRIPTOR_KERNEL32 100406a0     kernel32:KERNEL32.dll
+ 0002:000066b4       __NULL_IMPORT_DESCRIPTOR   100406b4     MSVCRTD:MSVCR90D.dll
+ 0003:00000000       _ctf_statusbar             10041000     g_ctf.obj
+ 0003:00000030       _loc_names                 10041030     g_ctf.obj
+ 0003:000000f8       _creditsmenu               100410f8     g_ctf.obj
+ 0003:000001d0       _joinmenu                  100411d0     g_ctf.obj
+ 0003:000002a8       _nochasemenu               100412a8     g_ctf.obj
+ 0003:00000300       _def_setmenu               10041300     g_ctf.obj
+ 0003:000003a0       _adminmenu                 100413a0     g_ctf.obj
+ 0003:000003f8       _jacketarmor_info          100413f8     g_items.obj
+ 0003:0000040c       _combatarmor_info          1004140c     g_items.obj
+ 0003:00000420       _bodyarmor_info            10041420     g_items.obj
+ 0003:00000438       _itemlist                  10041438     g_items.obj
+ 0003:00001318       _fields                    10042318     g_save.obj
+ 0003:00001608       _savefields                10042608     g_save.obj
+ 0003:000017b8       _levelfields               100427b8     g_save.obj
+ 0003:00001818       _clientfields              10042818     g_save.obj
+ 0003:00001858       _spawns                    10042858     g_spawn.obj
+ 0003:00001b08       _single_statusbar          10042b08     g_spawn.obj
+ 0003:00001b0c       _dm_statusbar              10042b0c     g_spawn.obj
+ 0003:00001b10       _VEC_UP                    10042b10     g_utils.obj
+ 0003:00001b1c       _MOVEDIR_UP                10042b1c     g_utils.obj
+ 0003:00001b28       _VEC_DOWN                  10042b28     g_utils.obj
+ 0003:00001b34       _MOVEDIR_DOWN              10042b34     g_utils.obj
+ 0003:00001cb0       ___security_cookie         10042cb0     MSVCRTD:gs_cookie.obj
+ 0003:00001cb4       ___security_cookie_complement 10042cb4     MSVCRTD:gs_cookie.obj
+ 0003:00001cc0       ___native_dllmain_reason   10042cc0     MSVCRTD:natstart.obj
+ 0003:00001cc4       ___native_vcclrit_reason   10042cc4     MSVCRTD:natstart.obj
+ 0003:00002104       _trail_active              10043104     p_trail.obj
+ 0003:00002994       _vec3_origin               10043994     q_shared.obj
+ 0003:00002ccc       __forceCRTManifestRTM      10043ccc     MSVCRTD:crtmanifestrtm.obj
+ 0003:00002cd0       ?__type_info_root_node@@3U__type_info_node@@A 10043cd0     MSVCRTD:tncleanup.obj
+ 0003:00002cd8       __LittleLong               10043cd8     <common>
+ 0003:00002cdc       _paged_total               10043cdc     <common>
+ 0003:00002ce0       __LittleFloat              10043ce0     <common>
+ 0003:00002d00       _com_token                 10043d00     <common>
+ 0003:00002d80       _i                         10043d80     <common>
+ 0003:00002d84       __LittleShort              10043d84     <common>
+ 0003:00002d88       __BigShort                 10043d88     <common>
+ 0003:00002d8c       __BigLong                  10043d8c     <common>
+ 0003:00002d90       __BigFloat                 10043d90     <common>
+ 0003:00002d94       _bigendien                 10043d94     <common>
+ 0003:00002da0       _corners                   10043da0     <common>
+ 0003:00002db8       _bobfracsin                10043db8     <common>
+ 0003:00002dbc       _xyspeed                   10043dbc     <common>
+ 0003:00002dc0       _bobmove                   10043dc0     <common>
+ 0003:00002dc4       _bobcycle                  10043dc4     <common>
+ 0003:00002dc8       _trail_head                10043dc8     <common>
+ 0003:00002de0       _trail                     10043de0     <common>
+ 0003:00002e00       _pm_passent                10043e00     <common>
+ 0003:00002e04       _c_yes                     10043e04     <common>
+ 0003:00002e08       _c_no                      10043e08     <common>
+ 0003:00002e0c       _obstacle                  10043e0c     <common>
+ 0003:00002e20       _pushed                    10043e20     <common>
+ 0003:0000ae20       _pushed_p                  1004be20     <common>
+ 0003:0000ae24       _dedicated                 1004be24     <common>
+ 0003:0000ae28       _sv_rollangle              1004be28     <common>
+ 0003:0000ae2c       _bob_roll                  1004be2c     <common>
+ 0003:0000ae30       _run_roll                  1004be30     <common>
+ 0003:0000ae34       _bob_pitch                 1004be34     <common>
+ 0003:0000ae38       _fraglimit                 1004be38     <common>
+ 0003:0000ae3c       _snd_fry                   1004be3c     <common>
+ 0003:0000ae40       _game                      1004be40     <common>
+ 0003:0000b45c       _flood_persecond           1004c45c     <common>
+ 0003:0000b460       _sm_meat_index             1004c460     <common>
+ 0003:0000b464       _bob_up                    1004c464     <common>
+ 0003:0000b468       _flood_msgs                1004c468     <common>
+ 0003:0000b46c       _gun_y                     1004c46c     <common>
+ 0003:0000b470       _sv_cheats                 1004c470     <common>
+ 0003:0000b474       _sv_maxvelocity            1004c474     <common>
+ 0003:0000b478       _g_edicts                  1004c478     <common>
+ 0003:0000b47c       _gun_z                     1004c47c     <common>
+ 0003:0000b480       _sv_gravity                1004c480     <common>
+ 0003:0000b484       _sv_rollspeed              1004c484     <common>
+ 0003:0000b488       _capturelimit              1004c488     <common>
+ 0003:0000b48c       _deathmatch                1004c48c     <common>
+ 0003:0000b490       _maxclients                1004c490     <common>
+ 0003:0000b494       _coop                      1004c494     <common>
+ 0003:0000b4a0       _st                        1004c4a0     <common>
+ 0003:0000b4e4       _run_pitch                 1004c4e4     <common>
+ 0003:0000b4e8       _timelimit                 1004c4e8     <common>
+ 0003:0000b4ec       _sv_maplist                1004c4ec     <common>
+ 0003:0000b4f0       _dmflags                   1004c4f0     <common>
+ 0003:0000b4f4       _password                  1004c4f4     <common>
+ 0003:0000b4f8       _instantweap               1004c4f8     <common>
+ 0003:0000b4fc       _skill                     1004c4fc     <common>
+ 0003:0000b500       _meansOfDeath              1004c500     <common>
+ 0003:0000b504       _g_select_empty            1004c504     <common>
+ 0003:0000b508       _flood_waitdelay           1004c508     <common>
+ 0003:0000b520       _globals                   1004c520     <common>
+ 0003:0000b570       _maxentities               1004c570     <common>
+ 0003:0000b580       _gi                        1004c580     <common>
+ 0003:0000b640       _level                     1004c640     <common>
+ 0003:0000b7b0       _gun_x                     1004c7b0     <common>
+ 0003:0000b7b4       _matchlock                 1004c7b4     <common>
+ 0003:0000b7b8       _competition               1004c7b8     <common>
+ 0003:0000b7bc       _matchstarttime            1004c7bc     <common>
+ 0003:0000b7c0       _electpercentage           1004c7c0     <common>
+ 0003:0000b7c4       _ctf_forcejoin             1004c7c4     <common>
+ 0003:0000b7c8       _ctf                       1004c7c8     <common>
+ 0003:0000b7cc       _matchsetuptime            1004c7cc     <common>
+ 0003:0000b7e0       _ctfgame                   1004c7e0     <common>
+ 0003:0000f138       _admin_password            10050138     <common>
+ 0003:0000f13c       _warp_list                 1005013c     <common>
+ 0003:0000f140       _matchtime                 10050140     <common>
+ 0003:0000f144       _enemy_infront             10050144     <common>
+ 0003:0000f148       _enemy_range               10050148     <common>
+ 0003:0000f14c       _enemy_yaw                 1005014c     <common>
+ 0003:0000f150       _enemy_vis                 10050150     <common>
+ 0003:0000f154       __adjust_fdiv              10050154     <common>
+ 0003:0000f158       ___native_startup_state    10050158     <common>
+ 0003:0000f15c       ___native_startup_lock     1005015c     <common>
+ 0003:0000f160       ___onexitend               10050160     <common>
+ 0003:0000f164       ___onexitbegin             10050164     <common>
+ 0003:0000f168       ___sse2_available          10050168     <common>
+ 0003:0000f16c       ___dyn_tls_init_callback   1005016c     <common>
+
+ entry point at        0001:00037a90
+
+ Static symbols
+
+ 0001:00005690       _CheckPowerArmor           10006690 f   g_combat.obj
+ 0001:000058c0       _CheckArmor                100068c0 f   g_combat.obj
+ 0001:00006910       _loc_CanSee                10007910 f   g_ctf.obj
+ 0001:00006a30       _loc_buildboxpoints        10007a30 f   g_ctf.obj
+ 0001:000073d0       _CTFDropFlagTouch          100083d0 f   g_ctf.obj
+ 0001:00007430       _CTFDropFlagThink          10008430 f   g_ctf.obj
+ 0001:00007770       _CTFFlagThink              10008770 f   g_ctf.obj
+ 0001:00008080       _CTFSetIDView              10009080 f   g_ctf.obj
+ 0001:0000a020       _TechThink                 1000b020 f   g_ctf.obj
+ 0001:0000a090       _FindTechSpawn             1000b090 f   g_ctf.obj
+ 0001:0000a240       _SpawnTech                 1000b240 f   g_ctf.obj
+ 0001:0000a4a0       _SpawnTechs                1000b4a0 f   g_ctf.obj
+ 0001:0000b030       _CTFSay_Team_Location      1000c030 f   g_ctf.obj
+ 0001:0000b4f0       _loc_findradius            1000c4f0 f   g_ctf.obj
+ 0001:0000b5d0       _CTFSay_Team_Armor         1000c5d0 f   g_ctf.obj
+ 0001:0000b700       _CTFSay_Team_Health        1000c700 f   g_ctf.obj
+ 0001:0000b750       _CTFSay_Team_Tech          1000c750 f   g_ctf.obj
+ 0001:0000b7f0       _CTFSay_Team_Weapon        1000c7f0 f   g_ctf.obj
+ 0001:0000b840       _CTFSay_Team_Sight         1000c840 f   g_ctf.obj
+ 0001:0000bab0       _misc_ctf_banner_think     1000cab0 f   g_ctf.obj
+ 0001:0000cdf0       _SetLevelName              1000ddf0 f   g_ctf.obj
+ 0001:0000da40       _old_teleporter_touch      1000ea40 f   g_ctf.obj
+ 0001:000165c0       _drop_temp_touch           100175c0 f   g_items.obj
+ 0001:00016600       _drop_make_touchable       10017600 f   g_items.obj
+ 0001:00019230       _light_use                 1001a230 f   g_misc.obj
+ 0001:0001c5b0       _localtime                 1001d5b0 f   g_misc.obj
+ 0001:0001c5d0       _time                      1001d5d0 f   g_misc.obj
+ 0001:0001c5f0       _func_clock_reset          1001d5f0 f   g_misc.obj
+ 0001:0001c670       _func_clock_format_countdown 1001d670 f   g_misc.obj
+ 0001:0001d200       _M_FliesOn                 1001e200 f   g_monster.obj
+ 0001:0001d270       _M_FliesOff                1001e270 f   g_monster.obj
+ 0001:000267a0       _fire_lead                 100277a0 f   g_weapon.obj
+ 0001:00027230       _check_dodge               10028230 f   g_weapon.obj
+ 0001:000275e0       _Grenade_Explode           100285e0 f   g_weapon.obj
+ 0001:000278d0       _Grenade_Touch             100288d0 f   g_weapon.obj
+ 0001:00029e30       _SP_CreateCoopSpots        1002ae30 f   p_client.obj
+ 0001:0002a160       _SP_FixCoopSpots           1002b160 f   p_client.obj
+ 0001:00032990       _Weapon_Generic2           10033990 f   p_weapon.obj
+ 0001:000376f0       _pre_c_init                100386f0 f   MSVCRTD:crtdll.obj
+ 0001:00037ac0       ___DllMainCRTStartup       10038ac0 f   MSVCRTD:crtdll.obj
+ 0001:00037e20       _has_osfxsr_set            10038e20 f   MSVCRTD:cpu_disp.obj

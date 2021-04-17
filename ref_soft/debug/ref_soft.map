@@ -1,0 +1,1508 @@
+ ref_soft
+
+ Timestamp is 607ac44c (Sat Apr 17 23:19:40 2021)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0001b682H .text                   CODE
+ 0002:00000000 00000194H .idata$5                DATA
+ 0002:00000194 00000004H .CRT$XCA                DATA
+ 0002:00000198 00000004H .CRT$XCZ                DATA
+ 0002:0000019c 00000004H .CRT$XIA                DATA
+ 0002:000001a0 00000004H .CRT$XIAA               DATA
+ 0002:000001a4 00000004H .CRT$XIC                DATA
+ 0002:000001a8 00000004H .CRT$XIZ                DATA
+ 0002:000001b0 00002740H .rdata                  DATA
+ 0002:000028f0 0000004aH .rdata$debug            DATA
+ 0002:0000293c 00000004H .rtc$IAA                DATA
+ 0002:00002940 00000004H .rtc$IZZ                DATA
+ 0002:00002944 00000004H .rtc$TAA                DATA
+ 0002:00002948 00000004H .rtc$TZZ                DATA
+ 0002:00002950 00000084H .xdata$x                DATA
+ 0002:000029d4 00000064H .idata$2                DATA
+ 0002:00002a38 00000014H .idata$3                DATA
+ 0002:00002a4c 00000194H .idata$4                DATA
+ 0002:00002be0 000005f4H .idata$6                DATA
+ 0002:000031e0 00000049H .edata                  DATA
+ 0003:00000000 00004048H .data                   DATA
+ 0003:00004060 000f15d4H .bss                    DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       _RotatePointAroundVector   10001000 f   q_shared.obj
+ 0001:00000240       _AngleVectors              10001240 f   q_shared.obj
+ 0001:00000430       _ProjectPointOnPlane       10001430 f   q_shared.obj
+ 0001:000004f0       _PerpendicularVector       100014f0 f   q_shared.obj
+ 0001:000005b0       _R_ConcatRotations         100015b0 f   q_shared.obj
+ 0001:00000760       _R_ConcatTransforms        10001760 f   q_shared.obj
+ 0001:000009b0       _Q_fabs                    100019b0 f   q_shared.obj
+ 0001:000009e0       _Q_ftol                    100019e0 f   q_shared.obj
+ 0001:000009f0       _LerpAngle                 100019f0 f   q_shared.obj
+ 0001:00000a50       _anglemod                  10001a50 f   q_shared.obj
+ 0001:00000a90       _BoxOnPlaneSide2           10001a90 f   q_shared.obj
+ 0001:00000ba0       _BoxOnPlaneSide            10001ba0 f   q_shared.obj
+ 0001:00000e20       _ClearBounds               10001e20 f   q_shared.obj
+ 0001:00000e80       _AddPointToBounds          10001e80 f   q_shared.obj
+ 0001:00000f00       _VectorCompare             10001f00 f   q_shared.obj
+ 0001:00000f60       _VectorNormalize           10001f60 f   q_shared.obj
+ 0001:00001000       _VectorNormalize2          10002000 f   q_shared.obj
+ 0001:000010a0       _VectorMA                  100020a0 f   q_shared.obj
+ 0001:000010f0       __DotProduct               100020f0 f   q_shared.obj
+ 0001:00001130       __VectorSubtract           10002130 f   q_shared.obj
+ 0001:00001180       __VectorAdd                10002180 f   q_shared.obj
+ 0001:000011d0       __VectorCopy               100021d0 f   q_shared.obj
+ 0001:00001210       _CrossProduct              10002210 f   q_shared.obj
+ 0001:00001280       _VectorLength              10002280 f   q_shared.obj
+ 0001:000012e0       _VectorInverse             100022e0 f   q_shared.obj
+ 0001:00001320       _VectorScale               10002320 f   q_shared.obj
+ 0001:00001360       _Q_log2                    10002360 f   q_shared.obj
+ 0001:00001390       _COM_SkipPath              10002390 f   q_shared.obj
+ 0001:000013e0       _COM_StripExtension        100023e0 f   q_shared.obj
+ 0001:00001430       _COM_FileExtension         10002430 f   q_shared.obj
+ 0001:000014d0       _COM_FileBase              100024d0 f   q_shared.obj
+ 0001:00001580       _COM_FilePath              10002580 f   q_shared.obj
+ 0001:000015f0       _COM_DefaultExtension      100025f0 f   q_shared.obj
+ 0001:00001660       _BigShort                  10002660 f   q_shared.obj
+ 0001:00001680       _LittleShort               10002680 f   q_shared.obj
+ 0001:000016a0       _BigLong                   100026a0 f   q_shared.obj
+ 0001:000016c0       _LittleLong                100026c0 f   q_shared.obj
+ 0001:000016e0       _BigFloat                  100026e0 f   q_shared.obj
+ 0001:00001700       _LittleFloat               10002700 f   q_shared.obj
+ 0001:00001720       _ShortSwap                 10002720 f   q_shared.obj
+ 0001:00001760       _ShortNoSwap               10002760 f   q_shared.obj
+ 0001:00001780       _LongSwap                  10002780 f   q_shared.obj
+ 0001:000017f0       _LongNoSwap                100027f0 f   q_shared.obj
+ 0001:00001810       _FloatSwap                 10002810 f   q_shared.obj
+ 0001:00001850       _FloatNoSwap               10002850 f   q_shared.obj
+ 0001:00001870       _Swap_Init                 10002870 f   q_shared.obj
+ 0001:00001920       _va                        10002920 f   q_shared.obj
+ 0001:00001960       _COM_Parse                 10002960 f   q_shared.obj
+ 0001:00001ae0       _Com_PageInMemory          10002ae0 f   q_shared.obj
+ 0001:00001b30       _Q_stricmp                 10002b30 f   q_shared.obj
+ 0001:00001b60       _Q_strncasecmp             10002b60 f   q_shared.obj
+ 0001:00001bf0       _Q_strcasecmp              10002bf0 f   q_shared.obj
+ 0001:00001c20       _Com_sprintf               10002c20 f   q_shared.obj
+ 0001:00001cb0       _Info_ValueForKey          10002cb0 f   q_shared.obj
+ 0001:00001e20       _Info_RemoveKey            10002e20 f   q_shared.obj
+ 0001:00001f80       _Info_Validate             10002f80 f   q_shared.obj
+ 0001:00001fd0       _Info_SetValueForKey       10002fd0 f   q_shared.obj
+ 0001:000021f0       _Hunk_Begin                100031f0 f   q_shwin.obj
+ 0001:00002250       _Hunk_Alloc                10003250 f   q_shwin.obj
+ 0001:00002300       _Hunk_End                  10003300 f   q_shwin.obj
+ 0001:00002330       _Hunk_Free                 10003330 f   q_shwin.obj
+ 0001:00002370       _Sys_Milliseconds          10003370 f   q_shwin.obj
+ 0001:000023c0       _Sys_Mkdir                 100033c0 f   q_shwin.obj
+ 0001:000023e0       _Sys_FindFirst             100033e0 f   q_shwin.obj
+ 0001:000025a0       _Sys_FindNext              100035a0 f   q_shwin.obj
+ 0001:00002640       _Sys_FindClose             10003640 f   q_shwin.obj
+ 0001:00002680       _R_Alias_clip_z            10003680 f   r_aclip.obj
+ 0001:00002780       _R_AliasClip               10003780 f   r_aclip.obj
+ 0001:00002940       _R_AliasClipTriangle       10003940 f   r_aclip.obj
+ 0001:00002cdc       _R_Alias_clip_bottom       10003cdc     r_aclipa.obj
+ 0001:00002d94       _R_Alias_clip_top          10003d94     r_aclipa.obj
+ 0001:00002daa       _R_Alias_clip_right        10003daa     r_aclipa.obj
+ 0001:00002ddc       _R_Alias_clip_left         10003ddc     r_aclipa.obj
+ 0001:00002df0       _R_AliasCheckFrameBBox     10003df0 f   r_alias.obj
+ 0001:00003010       _R_AliasCheckBBox          10004010 f   r_alias.obj
+ 0001:000030c0       _R_AliasTransformVector    100040c0 f   r_alias.obj
+ 0001:00003170       _R_AliasPreparePoints      10004170 f   r_alias.obj
+ 0001:00003520       _R_AliasSetUpTransform     10004520 f   r_alias.obj
+ 0001:000037b0       _R_AliasTransformFinalVerts 100047b0 f   r_alias.obj
+ 0001:00003a40       _R_AliasProjectAndClipTestFinalVert 10004a40 f   r_alias.obj
+ 0001:00003b40       _R_AliasSetupLighting      10004b40 f   r_alias.obj
+ 0001:00003e00       _R_AliasSetupFrames        10004e00 f   r_alias.obj
+ 0001:00003ed0       _R_AliasSetUpLerpData      10004ed0 f   r_alias.obj
+ 0001:00004070       _R_AliasDrawModel          10005070 f   r_alias.obj
+ 0001:00004440       _R_EntityRotate            10005440 f   r_bsp.obj
+ 0001:000044e0       _R_RotateBmodel            100054e0 f   r_bsp.obj
+ 0001:000046d0       _R_RecursiveClipBPoly      100056d0 f   r_bsp.obj
+ 0001:00004b80       _R_DrawSolidClippedSubmodelPolygons 10005b80 f   r_bsp.obj
+ 0001:00004e30       _R_DrawSubmodelPolygons    10005e30 f   r_bsp.obj
+ 0001:00004f20       _R_RecursiveWorldNode      10005f20 f   r_bsp.obj
+ 0001:00005380       _R_RenderWorld             10006380 f   r_bsp.obj
+ 0001:00005440       _Draw_FindPic              10006440 f   r_draw.obj
+ 0001:000054c0       _Draw_InitLocal            100064c0 f   r_draw.obj
+ 0001:000054f0       _Draw_Char                 100064f0 f   r_draw.obj
+ 0001:000056c0       _Draw_GetPicSize           100066c0 f   r_draw.obj
+ 0001:00005710       _Draw_StretchPicImplementation 10006710 f   r_draw.obj
+ 0001:000058c0       _Draw_StretchPic           100068c0 f   r_draw.obj
+ 0001:00005920       _Draw_StretchRaw           10006920 f   r_draw.obj
+ 0001:00005980       _Draw_Pic                  10006980 f   r_draw.obj
+ 0001:00005c90       _Draw_TileClear            10006c90 f   r_draw.obj
+ 0001:00005dd0       _Draw_Fill                 10006dd0 f   r_draw.obj
+ 0001:00005ec0       _Draw_FadeScreen           10006ec0 f   r_draw.obj
+ 0001:00005fbc       _D_DrawSpans16             10006fbc     r_draw16.obj
+ 0001:00006595       Entry2_16                  10007595     r_draw16.obj
+ 0001:0000659f       Entry3_16                  1000759f     r_draw16.obj
+ 0001:000065b6       Entry4_16                  100075b6     r_draw16.obj
+ 0001:000065d3       Entry5_16                  100075d3     r_draw16.obj
+ 0001:000065f0       Entry6_16                  100075f0     r_draw16.obj
+ 0001:0000660d       Entry7_16                  1000760d     r_draw16.obj
+ 0001:0000662a       Entry8_16                  1000762a     r_draw16.obj
+ 0001:00006647       Entry9_16                  10007647     r_draw16.obj
+ 0001:00006664       Entry10_16                 10007664     r_draw16.obj
+ 0001:00006681       Entry11_16                 10007681     r_draw16.obj
+ 0001:0000669e       Entry12_16                 1000769e     r_draw16.obj
+ 0001:000066bb       Entry13_16                 100076bb     r_draw16.obj
+ 0001:000066d8       Entry14_16                 100076d8     r_draw16.obj
+ 0001:000066f2       Entry15_16                 100076f2     r_draw16.obj
+ 0001:0000670a       Entry16_16                 1000770a     r_draw16.obj
+ 0001:00006877       _D_DrawZSpans              10007877     r_draw16.obj
+ 0001:00006a84       _R_ClipEdge                10007a84     r_drawa.obj
+ 0001:00007010       _R_BeginEdgeFrame          10008010 f   r_edge.obj
+ 0001:00007100       _R_CleanupSpan             10008100 f   r_edge.obj
+ 0001:000071a0       _R_LeadingEdgeBackwards    100081a0 f   r_edge.obj
+ 0001:000072e0       _R_TrailingEdge            100082e0 f   r_edge.obj
+ 0001:000073b0       _R_GenerateSpansBackward   100083b0 f   r_edge.obj
+ 0001:00007460       _R_ScanEdges               10008460 f   r_edge.obj
+ 0001:000076f0       _D_MipLevelForScale        100086f0 f   r_edge.obj
+ 0001:00007770       _D_FlatFillSurface         10008770 f   r_edge.obj
+ 0001:000077f0       _D_CalcGradients           100087f0 f   r_edge.obj
+ 0001:00007aa0       _D_BackgroundSurf          10008aa0 f   r_edge.obj
+ 0001:00007b00       _D_TurbulentSurf           10008b00 f   r_edge.obj
+ 0001:00007cd0       _D_SkySurf                 10008cd0 f   r_edge.obj
+ 0001:00007da0       _D_SolidSurf               10008da0 f   r_edge.obj
+ 0001:00007fa0       _D_DrawflatSurfaces        10008fa0 f   r_edge.obj
+ 0001:00008030       _D_DrawSurfaces            10009030 f   r_edge.obj
+ 0001:000081bc       _R_EdgeCodeStart           100091bc     r_edgea.obj
+ 0001:000081bc       _R_InsertNewEdges          100091bc     r_edgea.obj
+ 0001:00008227       _R_RemoveEdges             10009227     r_edgea.obj
+ 0001:0000825a       _R_StepActiveU             1000925a     r_edgea.obj
+ 0001:00008385       _R_GenerateSpans           10009385     r_edgea.obj
+ 0001:0000862f       _R_EdgeCodeEnd             1000962f     r_edgea.obj
+ 0001:00008630       _R_SurfacePatch            10009630     r_edgea.obj
+ 0001:00008650       _R_ImageList_f             10009650 f   r_image.obj
+ 0001:00008790       _LoadPCX                   10009790 f   r_image.obj
+ 0001:00008aa0       _LoadTGA                   10009aa0 f   r_image.obj
+ 0001:00009190       _R_FindFreeImage           1000a190 f   r_image.obj
+ 0001:00009220       _GL_LoadPic                1000a220 f   r_image.obj
+ 0001:00009310       _R_LoadWal                 1000a310 f   r_image.obj
+ 0001:00009480       _R_FindImage               1000a480 f   r_image.obj
+ 0001:00009600       _R_RegisterSkin            1000a600 f   r_image.obj
+ 0001:00009620       _R_FreeUnusedImages        1000a620 f   r_image.obj
+ 0001:000096d0       _R_InitImages              1000a6d0 f   r_image.obj
+ 0001:000096f0       _R_ShutdownImages          1000a6f0 f   r_image.obj
+ 0001:00009760       _R_MarkLights              1000a760 f   r_light.obj
+ 0001:000098e0       _R_PushDlights             1000a8e0 f   r_light.obj
+ 0001:00009960       _RecursiveLightPoint       1000a960 f   r_light.obj
+ 0001:00009db0       _R_LightPoint              1000adb0 f   r_light.obj
+ 0001:00009f50       _R_AddDynamicLights        1000af50 f   r_light.obj
+ 0001:0000a3b0       _R_BuildLightMap           1000b3b0 f   r_light.obj
+ 0001:0000a570       _R_InitTextures            1000b570 f   r_main.obj
+ 0001:0000a6c0       _R_InitTurb                1000b6c0 f   r_main.obj
+ 0001:0000a780       _R_Register                1000b780 f   r_main.obj
+ 0001:0000aaa0       _R_UnRegister              1000baa0 f   r_main.obj
+ 0001:0000aae0       _R_Init                    1000bae0 f   r_main.obj
+ 0001:0000abd0       _R_Shutdown                1000bbd0 f   r_main.obj
+ 0001:0000ac60       _R_NewMap                  1000bc60 f   r_main.obj
+ 0001:0000ad80       _R_MarkLeaves              1000bd80 f   r_main.obj
+ 0001:0000af60       _R_DrawNullModel           1000bf60 f   r_main.obj
+ 0001:0000af70       _R_DrawEntitiesOnList      1000bf70 f   r_main.obj
+ 0001:0000b270       _R_BmodelCheckBBox         1000c270 f   r_main.obj
+ 0001:0000b3e0       _R_FindTopnode             1000c3e0 f   r_main.obj
+ 0001:0000b500       _RotatedBBox               1000c500 f   r_main.obj
+ 0001:0000b720       _R_DrawBEntitiesOnList     1000c720 f   r_main.obj
+ 0001:0000ba10       _R_EdgeDrawing             1000ca10 f   r_main.obj
+ 0001:0000bb60       _R_CalcPalette             1000cb60 f   r_main.obj
+ 0001:0000bd60       _R_SetLightLevel           1000cd60 f   r_main.obj
+ 0001:0000bdd0       _R_RenderFrame             1000cdd0 f   r_main.obj
+ 0001:0000c080       _R_InitGraphics            1000d080 f   r_main.obj
+ 0001:0000c120       _R_BeginFrame              1000d120 f   r_main.obj
+ 0001:0000c290       _R_GammaCorrectAndSetPalette 1000d290 f   r_main.obj
+ 0001:0000c320       _R_CinematicSetPalette     1000d320 f   r_main.obj
+ 0001:0000c4c0       _Draw_BuildGammaTable      1000d4c0 f   r_main.obj
+ 0001:0000c5a0       _R_DrawBeam                1000d5a0 f   r_main.obj
+ 0001:0000c810       _R_SetSky                  1000d810 f   r_main.obj
+ 0001:0000c8e0       _Draw_GetPalette           1000d8e0 f   r_main.obj
+ 0001:0000c9c0       _GetRefAPI                 1000d9c0 f   r_main.obj
+ 0001:0000caa0       _Sys_Error                 1000daa0 f   r_main.obj
+ 0001:0000cb10       _Com_Printf                1000db10 f   r_main.obj
+ 0001:0000cb80       _D_Patch                   1000db80 f   r_misc.obj
+ 0001:0000cbf0       _D_ViewChanged             1000dbf0 f   r_misc.obj
+ 0001:0000cdc0       _R_PrintTimes              1000ddc0 f   r_misc.obj
+ 0001:0000ce30       _R_PrintDSpeeds            1000de30 f   r_misc.obj
+ 0001:0000cf00       _R_PrintAliasStats         1000df00 f   r_misc.obj
+ 0001:0000cf30       _R_TransformFrustum        1000df30 f   r_misc.obj
+ 0001:0000d050       _TransformVector           1000e050 f   r_misc.obj
+ 0001:0000d0c0       _R_TransformPlane          1000e0c0 f   r_misc.obj
+ 0001:0000d120       _R_SetUpFrustumIndexes     1000e120 f   r_misc.obj
+ 0001:0000d1e0       _R_ViewChanged             1000e1e0 f   r_misc.obj
+ 0001:0000d5c0       _R_SetupFrame              1000e5c0 f   r_misc.obj
+ 0001:0000d8d0       _WritePCXfile              1000e8d0 f   r_misc.obj
+ 0001:0000db40       _R_ScreenShot_f            1000eb40 f   r_misc.obj
+ 0001:0000dd10       _Mod_Modellist_f           1000ed10 f   r_model.obj
+ 0001:0000ddc0       _Mod_Init                  1000edc0 f   r_model.obj
+ 0001:0000ddf0       _Mod_ForName               1000edf0 f   r_model.obj
+ 0001:0000e090       _Mod_PointInLeaf           1000f090 f   r_model.obj
+ 0001:0000e150       _Mod_DecompressVis         1000f150 f   r_model.obj
+ 0001:0000e220       _Mod_ClusterPVS            1000f220 f   r_model.obj
+ 0001:0000e270       _Mod_LoadLighting          1000f270 f   r_model.obj
+ 0001:0000e390       _R_NumberLeafs             1000f390 f   r_model.obj
+ 0001:0000e430       _Mod_LoadVisibility        1000f430 f   r_model.obj
+ 0001:0000e550       _Mod_LoadVertexes          1000f550 f   r_model.obj
+ 0001:0000e650       _Mod_LoadSubmodels         1000f650 f   r_model.obj
+ 0001:0000e7d0       _Mod_LoadEdges             1000f7d0 f   r_model.obj
+ 0001:0000e8b0       _Mod_LoadTexinfo           1000f8b0 f   r_model.obj
+ 0001:0000eb50       _CalcSurfaceExtents        1000fb50 f   r_model.obj
+ 0001:0000edc0       _Mod_LoadFaces             1000fdc0 f   r_model.obj
+ 0001:0000f0c0       _Mod_SetParent             100100c0 f   r_model.obj
+ 0001:0000f110       _Mod_LoadNodes             10010110 f   r_model.obj
+ 0001:0000f310       _Mod_LoadLeafs             10010310 f   r_model.obj
+ 0001:0000f4b0       _Mod_LoadMarksurfaces      100104b0 f   r_model.obj
+ 0001:0000f5a0       _Mod_LoadSurfedges         100105a0 f   r_model.obj
+ 0001:0000f660       _Mod_LoadPlanes            10010660 f   r_model.obj
+ 0001:0000f7c0       _Mod_LoadBrushModel        100107c0 f   r_model.obj
+ 0001:0000fa60       _Mod_LoadAliasModel        10010a60 f   r_model.obj
+ 0001:0000fe80       _Mod_LoadSpriteModel       10010e80 f   r_model.obj
+ 0001:00010040       _R_BeginRegistration       10011040 f   r_model.obj
+ 0001:00010100       _R_RegisterModel           10011100 f   r_model.obj
+ 0001:00010250       _R_EndRegistration         10011250 f   r_model.obj
+ 0001:00010300       _Mod_Free                  10011300 f   r_model.obj
+ 0001:00010340       _Mod_FreeAll               10011340 f   r_model.obj
+ 0001:000103a0       _BlendParticle33           100113a0 f   r_part.obj
+ 0001:000103c0       _BlendParticle66           100113c0 f   r_part.obj
+ 0001:000103e0       _BlendParticle100          100113e0 f   r_part.obj
+ 0001:000103f0       _R_DrawParticle            100113f0 f   r_part.obj
+ 0001:00010660       _R_DrawParticles           10011660 f   r_part.obj
+ 0001:000107a0       _R_DrawSpanletOpaque       100117a0 f   r_poly.obj
+ 0001:00010880       _R_DrawSpanletTurbulentStipple33 10011880 f   r_poly.obj
+ 0001:00010a50       _R_DrawSpanletTurbulentStipple66 10011a50 f   r_poly.obj
+ 0001:00010d50       _R_DrawSpanletTurbulentBlended66 10011d50 f   r_poly.obj
+ 0001:00010e60       _R_DrawSpanletTurbulentBlended33 10011e60 f   r_poly.obj
+ 0001:00010f70       _R_DrawSpanlet33           10011f70 f   r_poly.obj
+ 0001:00011050       _R_DrawSpanletConstant33   10012050 f   r_poly.obj
+ 0001:000110e0       _R_DrawSpanlet66           100120e0 f   r_poly.obj
+ 0001:000111d0       _R_DrawSpanlet33Stipple    100121d0 f   r_poly.obj
+ 0001:00011390       _R_DrawSpanlet66Stipple    10012390 f   r_poly.obj
+ 0001:00011600       _R_ClipPolyFace            10012600 f   r_poly.obj
+ 0001:00011960       _R_PolygonDrawSpans        10012960 f   r_poly.obj
+ 0001:00011dd0       _R_PolygonScanLeftEdge     10012dd0 f   r_poly.obj
+ 0001:00011f50       _R_PolygonScanRightEdge    10012f50 f   r_poly.obj
+ 0001:000121b0       _R_ClipAndDrawPoly         100131b0 f   r_poly.obj
+ 0001:000124e0       _R_BuildPolygonFromSurface 100134e0 f   r_poly.obj
+ 0001:00012810       _R_PolygonCalculateGradients 10013810 f   r_poly.obj
+ 0001:00012b60       _R_DrawAlphaSurfaces       10013b60 f   r_poly.obj
+ 0001:00012c40       _R_IMFlatShadedQuad        10013c40 f   r_poly.obj
+ 0001:00012e10       _D_PolysetAff8Start        10013e10     r_polysa.obj
+ 0001:00012e10       _R_PolysetDrawSpans8_Opaque 10013e10     r_polysa.obj
+ 0001:00013354       _D_Aff8Patch               10014354     r_polysa.obj
+ 0001:000133b4       _R_PolysetScanLeftEdge     100143b4     r_polysa.obj
+ 0001:00013520       _R_PolysetUpdateTables     10014520 f   r_polyse.obj
+ 0001:000135a0       _R_DrawTriangle            100145a0 f   r_polyse.obj
+ 0001:00013770       _R_PolysetScanLeftEdge_C   10014770 f   r_polyse.obj
+ 0001:000139e0       _FloorDivMod               100149e0 f   r_polyse.obj
+ 0001:00013ac0       _R_PolysetSetUpForLineScan 10014ac0 f   r_polyse.obj
+ 0001:00013b80       _R_PolysetCalcGradients    10014b80 f   r_polyse.obj
+ 0001:00013eb0       _R_PolysetDrawThreshSpans8 10014eb0 f   r_polyse.obj
+ 0001:00014070       _R_PolysetDrawSpans8_33    10015070 f   r_polyse.obj
+ 0001:00014210       _R_PolysetDrawSpansConstant8_33 10015210 f   r_polyse.obj
+ 0001:00014310       _R_PolysetDrawSpans8_66    10015310 f   r_polyse.obj
+ 0001:000144c0       _R_PolysetDrawSpansConstant8_66 100154c0 f   r_polyse.obj
+ 0001:000145c0       _R_PolysetFillSpans8       100155c0 f   r_polyse.obj
+ 0001:00014640       _R_RasterizeAliasPolySmooth 10015640 f   r_polyse.obj
+ 0001:00014fe0       _R_PolysetSetEdgeTable     10015fe0 f   r_polyse.obj
+ 0001:000150e0       _R_InitSkyBox              100160e0 f   r_rast.obj
+ 0001:000154f0       _R_EmitSkyBox              100164f0 f   r_rast.obj
+ 0001:00015710       _R_EmitCachedEdge          10016710 f   r_rast.obj
+ 0001:000157a0       _R_RenderFace              100167a0 f   r_rast.obj
+ 0001:00015d60       _R_RenderBmodelFace        10016d60 f   r_rast.obj
+ 0001:000160a0       _D_WarpScreen              100170a0 f   r_scan.obj
+ 0001:000162d0       _Turbulent8                100172d0 f   r_scan.obj
+ 0001:000166a0       _NonTurbulent8             100176a0 f   r_scan.obj
+ 0001:00016a50       _D_DrawTurbulent8Span      10017a50     r_scana.obj
+ 0001:00016b48       _D_SpriteDrawSpansXXX      10017b48     r_spr8.obj
+ 0001:000171ac       Spr8Entry2_8               100181ac     r_spr8.obj
+ 0001:000171b9       Spr8Entry3_8               100181b9     r_spr8.obj
+ 0001:000171c4       Spr8Entry4_8               100181c4     r_spr8.obj
+ 0001:000171cf       Spr8Entry5_8               100181cf     r_spr8.obj
+ 0001:000171da       Spr8Entry6_8               100181da     r_spr8.obj
+ 0001:000171e2       Spr8Entry7_8               100181e2     r_spr8.obj
+ 0001:000171e8       Spr8Entry8_8               100181e8     r_spr8.obj
+ 0001:00017370       _R_DrawSprite              10018370 f   r_sprite.obj
+ 0001:000176e0       _R_TextureAnimation        100186e0 f   r_surf.obj
+ 0001:00017740       _R_DrawSurface             10018740 f   r_surf.obj
+ 0001:00017930       _R_InitCaches              10018930 f   r_surf.obj
+ 0001:00017a10       _D_FlushCaches             10018a10 f   r_surf.obj
+ 0001:00017a90       _D_SCAlloc                 10018a90 f   r_surf.obj
+ 0001:00017cd0       _D_SCDump                  10018cd0 f   r_surf.obj
+ 0001:00017d40       _MaskForNum                10018d40 f   r_surf.obj
+ 0001:00017d90       _D_log2                    10018d90 f   r_surf.obj
+ 0001:00017dc0       _D_CacheSurface            10018dc0 f   r_surf.obj
+ 0001:00018018       _R_Surf8Start              10019018     r_surf8.obj
+ 0001:00018018       _R_DrawSurfaceBlock8_mip0  10019018     r_surf8.obj
+ 0001:000181d4       _R_DrawSurfaceBlock8_mip1  100191d4     r_surf8.obj
+ 0001:00018320       _R_DrawSurfaceBlock8_mip2  10019320     r_surf8.obj
+ 0001:0001842c       _R_DrawSurfaceBlock8_mip3  1001942c     r_surf8.obj
+ 0001:0001853a       _R_Surf8End                1001953a     r_surf8.obj
+ 0001:0001853c       _R_Surf8Patch              1001953c     r_surf8.obj
+ 0001:00018560       _DDRAW_Init                10019560 f   rw_ddraw.obj
+ 0001:00018cc0       _DDRAW_SetPalette          10019cc0 f   rw_ddraw.obj
+ 0001:00018da0       _DDRAW_Shutdown            10019da0 f   rw_ddraw.obj
+ 0001:00019770       _DIB_Init                  1001a770 f   rw_dib.obj
+ 0001:00019a60       _DIB_SetPalette            1001aa60 f   rw_dib.obj
+ 0001:00019d40       _DIB_Shutdown              1001ad40 f   rw_dib.obj
+ 0001:00019ec0       _VID_CreateWindow          1001aec0 f   rw_imp.obj
+ 0001:0001a0a0       _SWimp_Init                1001b0a0 f   rw_imp.obj
+ 0001:0001a0d0       _SWimp_EndFrame            1001b0d0 f   rw_imp.obj
+ 0001:0001a2d0       _SWimp_SetMode             1001b2d0 f   rw_imp.obj
+ 0001:0001a490       _SWimp_SetPalette          1001b490 f   rw_imp.obj
+ 0001:0001a4d0       _SWimp_Shutdown            1001b4d0 f   rw_imp.obj
+ 0001:0001a550       _SWimp_AppActivate         1001b550 f   rw_imp.obj
+ 0001:0001a5d0       _Sys_MakeCodeWriteable     1001b5d0 f   rw_imp.obj
+ 0001:0001a610       _Sys_SetFPCW               1001b610 f   rw_imp.obj
+ 0001:0001a662       _timeGetTime@0             1001b662 f   winmm:WINMM.dll
+ 0001:0001a668       _VirtualAlloc@16           1001b668 f   kernel32:KERNEL32.dll
+ 0001:0001a66e       _FormatMessageA@28         1001b66e f   kernel32:KERNEL32.dll
+ 0001:0001a674       _GetLastError@0            1001b674 f   kernel32:KERNEL32.dll
+ 0001:0001a67a       _VirtualFree@12            1001b67a f   kernel32:KERNEL32.dll
+ 0001:0001a680       _GetProcAddress@8          1001b680 f   kernel32:KERNEL32.dll
+ 0001:0001a686       _LoadLibraryA@4            1001b686 f   kernel32:KERNEL32.dll
+ 0001:0001a68c       _FreeLibrary@4             1001b68c f   kernel32:KERNEL32.dll
+ 0001:0001a692       _VirtualProtect@16         1001b692 f   kernel32:KERNEL32.dll
+ 0001:0001a698       _GetDC@4                   1001b698 f   user32:USER32.dll
+ 0001:0001a69e       _ReleaseDC@8               1001b69e f   user32:USER32.dll
+ 0001:0001a6a4       _SetSysColors@12           1001b6a4 f   user32:USER32.dll
+ 0001:0001a6aa       _GetSysColor@4             1001b6aa f   user32:USER32.dll
+ 0001:0001a6b0       _SetFocus@4                1001b6b0 f   user32:USER32.dll
+ 0001:0001a6b6       _SetForegroundWindow@4     1001b6b6 f   user32:USER32.dll
+ 0001:0001a6bc       _UpdateWindow@4            1001b6bc f   user32:USER32.dll
+ 0001:0001a6c2       _ShowWindow@8              1001b6c2 f   user32:USER32.dll
+ 0001:0001a6c8       _CreateWindowExA@48        1001b6c8 f   user32:USER32.dll
+ 0001:0001a6ce       _AdjustWindowRect@12       1001b6ce f   user32:USER32.dll
+ 0001:0001a6d4       _RegisterClassA@4          1001b6d4 f   user32:USER32.dll
+ 0001:0001a6da       _LoadCursorA@8             1001b6da f   user32:USER32.dll
+ 0001:0001a6e0       _UnregisterClassA@8        1001b6e0 f   user32:USER32.dll
+ 0001:0001a6e6       _DestroyWindow@4           1001b6e6 f   user32:USER32.dll
+ 0001:0001a6ec       _SelectObject@8            1001b6ec f   gdi32:GDI32.dll
+ 0001:0001a6f2       _CreateCompatibleDC@4      1001b6f2 f   gdi32:GDI32.dll
+ 0001:0001a6f8       _CreateDIBSection@24       1001b6f8 f   gdi32:GDI32.dll
+ 0001:0001a6fe       _GetDeviceCaps@8           1001b6fe f   gdi32:GDI32.dll
+ 0001:0001a704       _RealizePalette@4          1001b704 f   gdi32:GDI32.dll
+ 0001:0001a70a       _SelectPalette@12          1001b70a f   gdi32:GDI32.dll
+ 0001:0001a710       _CreatePalette@4           1001b710 f   gdi32:GDI32.dll
+ 0001:0001a716       _DeleteObject@4            1001b716 f   gdi32:GDI32.dll
+ 0001:0001a71c       _SetSystemPaletteUse@8     1001b71c f   gdi32:GDI32.dll
+ 0001:0001a722       _SetDIBColorTable@16       1001b722 f   gdi32:GDI32.dll
+ 0001:0001a728       _DeleteDC@4                1001b728 f   gdi32:GDI32.dll
+ 0001:0001a72e       _BitBlt@36                 1001b72e f   gdi32:GDI32.dll
+ 0001:0001a734       _sin                       1001b734 f   MSVCRTD:MSVCR90D.dll
+ 0001:0001a73a       _cos                       1001b73a f   MSVCRTD:MSVCR90D.dll
+ 0001:0001a740       _memset                    1001b740 f   MSVCRTD:MSVCR90D.dll
+ 0001:0001a746       _memcpy                    1001b746 f   MSVCRTD:MSVCR90D.dll
+ 0001:0001a750       _fabs                      1001b750 f   MSVCRTD:MSVCR90D.dll
+ 0001:0001a760       __ftol2_sse                1001b760 f   MSVCRTD:ftol2.obj
+ 0001:0001a769       __ftol2_pentium4           1001b769 f   MSVCRTD:ftol2.obj
+ 0001:0001a77c       __ftol2_sse_excpt          1001b77c f   MSVCRTD:ftol2.obj
+ 0001:0001a796       __ftol2                    1001b796 f   MSVCRTD:ftol2.obj
+ 0001:0001a80c       _sqrt                      1001b80c f   MSVCRTD:MSVCR90D.dll
+ 0001:0001a812       _strncpy                   1001b812 f   MSVCRTD:MSVCR90D.dll
+ 0001:0001a818       _strlen                    1001b818 f   MSVCRTD:MSVCR90D.dll
+ 0001:0001a81e       _strcat                    1001b81e f   MSVCRTD:MSVCR90D.dll
+ 0001:0001a824       _vsprintf                  1001b824 f   MSVCRTD:MSVCR90D.dll
+ 0001:0001a82a       __stricmp                  1001b82a f   MSVCRTD:MSVCR90D.dll
+ 0001:0001a830       @__security_check_cookie@4 1001b830 f   MSVCRTD:secchk.obj
+ 0001:0001a840       __chkstk                   1001b840 f   MSVCRTD:chkstk.obj
+ 0001:0001a840       __alloca_probe             1001b840     MSVCRTD:chkstk.obj
+ 0001:0001a86c       _strcmp                    1001b86c f   MSVCRTD:MSVCR90D.dll
+ 0001:0001a872       _strcpy                    1001b872 f   MSVCRTD:MSVCR90D.dll
+ 0001:0001a878       _strstr                    1001b878 f   MSVCRTD:MSVCR90D.dll
+ 0001:0001a87e       __mkdir                    1001b87e f   MSVCRTD:MSVCR90D.dll
+ 0001:0001a884       __findfirst64i32           1001b884 f   MSVCRTD:MSVCR90D.dll
+ 0001:0001a88a       __findnext64i32            1001b88a f   MSVCRTD:MSVCR90D.dll
+ 0001:0001a890       __findclose                1001b890 f   MSVCRTD:MSVCR90D.dll
+ 0001:0001a896       _free                      1001b896 f   MSVCRTD:MSVCR90D.dll
+ 0001:0001a89c       _malloc                    1001b89c f   MSVCRTD:MSVCR90D.dll
+ 0001:0001a8a2       _abs                       1001b8a2 f   MSVCRTD:MSVCR90D.dll
+ 0001:0001a8a8       _pow                       1001b8a8 f   MSVCRTD:MSVCR90D.dll
+ 0001:0001a8ae       _tan                       1001b8ae f   MSVCRTD:MSVCR90D.dll
+ 0001:0001a8b4       _fclose                    1001b8b4 f   MSVCRTD:MSVCR90D.dll
+ 0001:0001a8ba       _fwrite                    1001b8ba f   MSVCRTD:MSVCR90D.dll
+ 0001:0001a8c0       _fopen                     1001b8c0 f   MSVCRTD:MSVCR90D.dll
+ 0001:0001a8c6       _atoi                      1001b8c6 f   MSVCRTD:MSVCR90D.dll
+ 0001:0001a8cc       _ceil                      1001b8cc f   MSVCRTD:MSVCR90D.dll
+ 0001:0001a8d2       _floor                     1001b8d2 f   MSVCRTD:MSVCR90D.dll
+ 0001:0001a960       __CRT_INIT@12              1001b960 f   MSVCRTD:crtdll.obj
+ 0001:0001ac70       _NtCurrentTeb              1001bc70 f i MSVCRTD:crtdll.obj
+ 0001:0001ac80       __DllMainCRTStartup@12     1001bc80 f   MSVCRTD:crtdll.obj
+ 0001:0001ae80       __get_sse2_info            1001be80 f   MSVCRTD:cpu_disp.obj
+ 0001:0001afb0       ___sse2_available_init     1001bfb0 f   MSVCRTD:cpu_disp.obj
+ 0001:0001afd0       ___report_gsfailure        1001bfd0 f   MSVCRTD:gs_report.obj
+ 0001:0001b0e0       ___clean_type_info_names   1001c0e0 f   MSVCRTD:tncleanup.obj
+ 0001:0001b100       __onexit                   1001c100 f   MSVCRTD:atonexit.obj
+ 0001:0001b210       _atexit                    1001c210 f   MSVCRTD:atonexit.obj
+ 0001:0001b230       __RTC_Initialize           1001c230 f   MSVCRTD:_initsect_.obj
+ 0001:0001b260       __RTC_Terminate            1001c260 f   MSVCRTD:_initsect_.obj
+ 0001:0001b286       __encode_pointer           1001c286 f   MSVCRTD:MSVCR90D.dll
+ 0001:0001b28c       __malloc_dbg               1001c28c f   MSVCRTD:MSVCR90D.dll
+ 0001:0001b292       __free_dbg                 1001c292 f   MSVCRTD:MSVCR90D.dll
+ 0001:0001b298       __encoded_null             1001c298 f   MSVCRTD:MSVCR90D.dll
+ 0001:0001b29e       __decode_pointer           1001c29e f   MSVCRTD:MSVCR90D.dll
+ 0001:0001b2a4       __CrtSetCheckCount         1001c2a4 f   MSVCRTD:MSVCR90D.dll
+ 0001:0001b2b0       __ValidateImageBase        1001c2b0 f   MSVCRTD:pesect.obj
+ 0001:0001b310       __FindPESection            1001c310 f   MSVCRTD:pesect.obj
+ 0001:0001b390       __IsNonwritableInCurrentImage 1001c390 f   MSVCRTD:pesect.obj
+ 0001:0001b4a2       __initterm                 1001c4a2 f   MSVCRTD:MSVCR90D.dll
+ 0001:0001b4a8       __initterm_e               1001c4a8 f   MSVCRTD:MSVCR90D.dll
+ 0001:0001b4ae       __amsg_exit                1001c4ae f   MSVCRTD:MSVCR90D.dll
+ 0001:0001b4c0       ___security_init_cookie    1001c4c0 f   MSVCRTD:gs_support.obj
+ 0001:0001b59c       ___CppXcptFilter           1001c59c f   MSVCRTD:MSVCR90D.dll
+ 0001:0001b5b0       _DllMain@12                1001c5b0 f   MSVCRTD:dllmain.obj
+ 0001:0001b5e0       __except_handler4          1001c5e0 f   MSVCRTD:chandler4gs.obj
+ 0001:0001b60a       __crt_debugger_hook        1001c60a f   MSVCRTD:MSVCR90D.dll
+ 0001:0001b610       ___clean_type_info_names_internal 1001c610 f   MSVCRTD:MSVCR90D.dll
+ 0001:0001b616       __unlock                   1001c616 f   MSVCRTD:MSVCR90D.dll
+ 0001:0001b61c       ___dllonexit               1001c61c f   MSVCRTD:MSVCR90D.dll
+ 0001:0001b622       __lock                     1001c622 f   MSVCRTD:MSVCR90D.dll
+ 0001:0001b628       __except_handler4_common   1001c628 f   MSVCRTD:MSVCR90D.dll
+ 0001:0001b62e       _InterlockedExchange@8     1001c62e f   kernel32:KERNEL32.dll
+ 0001:0001b634       _Sleep@4                   1001c634 f   kernel32:KERNEL32.dll
+ 0001:0001b63a       _InterlockedCompareExchange@12 1001c63a f   kernel32:KERNEL32.dll
+ 0001:0001b640       _TerminateProcess@8        1001c640 f   kernel32:KERNEL32.dll
+ 0001:0001b646       _GetCurrentProcess@0       1001c646 f   kernel32:KERNEL32.dll
+ 0001:0001b64c       _UnhandledExceptionFilter@4 1001c64c f   kernel32:KERNEL32.dll
+ 0001:0001b652       _SetUnhandledExceptionFilter@4 1001c652 f   kernel32:KERNEL32.dll
+ 0001:0001b658       _IsDebuggerPresent@0       1001c658 f   kernel32:KERNEL32.dll
+ 0001:0001b65e       _QueryPerformanceCounter@4 1001c65e f   kernel32:KERNEL32.dll
+ 0001:0001b664       _GetTickCount@0            1001c664 f   kernel32:KERNEL32.dll
+ 0001:0001b66a       _GetCurrentThreadId@0      1001c66a f   kernel32:KERNEL32.dll
+ 0001:0001b670       _GetCurrentProcessId@0     1001c670 f   kernel32:KERNEL32.dll
+ 0001:0001b676       _GetSystemTimeAsFileTime@4 1001c676 f   kernel32:KERNEL32.dll
+ 0001:0001b67c       _DisableThreadLibraryCalls@4 1001c67c f   kernel32:KERNEL32.dll
+ 0002:00000000       __imp__DeleteObject@4      1001d000     gdi32:GDI32.dll
+ 0002:00000004       __imp__CreatePalette@4     1001d004     gdi32:GDI32.dll
+ 0002:00000008       __imp__SelectPalette@12    1001d008     gdi32:GDI32.dll
+ 0002:0000000c       __imp__RealizePalette@4    1001d00c     gdi32:GDI32.dll
+ 0002:00000010       __imp__GetDeviceCaps@8     1001d010     gdi32:GDI32.dll
+ 0002:00000014       __imp__CreateDIBSection@24 1001d014     gdi32:GDI32.dll
+ 0002:00000018       __imp__CreateCompatibleDC@4 1001d018     gdi32:GDI32.dll
+ 0002:0000001c       __imp__SelectObject@8      1001d01c     gdi32:GDI32.dll
+ 0002:00000020       __imp__SetDIBColorTable@16 1001d020     gdi32:GDI32.dll
+ 0002:00000024       __imp__DeleteDC@4          1001d024     gdi32:GDI32.dll
+ 0002:00000028       __imp__BitBlt@36           1001d028     gdi32:GDI32.dll
+ 0002:0000002c       __imp__SetSystemPaletteUse@8 1001d02c     gdi32:GDI32.dll
+ 0002:00000030       \177GDI32_NULL_THUNK_DATA  1001d030     gdi32:GDI32.dll
+ 0002:00000034       __imp__GetTickCount@0      1001d034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__QueryPerformanceCounter@4 1001d038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__IsDebuggerPresent@0 1001d03c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__SetUnhandledExceptionFilter@4 1001d040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__GetCurrentThreadId@0 1001d044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__GetCurrentProcess@0 1001d048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__TerminateProcess@8  1001d04c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__InterlockedCompareExchange@12 1001d050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__Sleep@4             1001d054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__InterlockedExchange@8 1001d058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__GetCurrentProcessId@0 1001d05c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__VirtualProtect@16   1001d060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__FreeLibrary@4       1001d064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp__LoadLibraryA@4      1001d068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__GetProcAddress@8    1001d06c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp__VirtualFree@12      1001d070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__GetLastError@0      1001d074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__FormatMessageA@28   1001d078     kernel32:KERNEL32.dll
+ 0002:0000007c       __imp__VirtualAlloc@16     1001d07c     kernel32:KERNEL32.dll
+ 0002:00000080       __imp__GetSystemTimeAsFileTime@4 1001d080     kernel32:KERNEL32.dll
+ 0002:00000084       __imp__UnhandledExceptionFilter@4 1001d084     kernel32:KERNEL32.dll
+ 0002:00000088       __imp__DisableThreadLibraryCalls@4 1001d088     kernel32:KERNEL32.dll
+ 0002:0000008c       \177KERNEL32_NULL_THUNK_DATA 1001d08c     kernel32:KERNEL32.dll
+ 0002:00000090       __imp___except_handler4_common 1001d090     MSVCRTD:MSVCR90D.dll
+ 0002:00000094       __imp___onexit             1001d094     MSVCRTD:MSVCR90D.dll
+ 0002:00000098       __imp___lock               1001d098     MSVCRTD:MSVCR90D.dll
+ 0002:0000009c       __imp__sin                 1001d09c     MSVCRTD:MSVCR90D.dll
+ 0002:000000a0       __imp__cos                 1001d0a0     MSVCRTD:MSVCR90D.dll
+ 0002:000000a4       __imp__memset              1001d0a4     MSVCRTD:MSVCR90D.dll
+ 0002:000000a8       __imp__memcpy              1001d0a8     MSVCRTD:MSVCR90D.dll
+ 0002:000000ac       __imp__fabs                1001d0ac     MSVCRTD:MSVCR90D.dll
+ 0002:000000b0       __imp__sqrt                1001d0b0     MSVCRTD:MSVCR90D.dll
+ 0002:000000b4       __imp__strncpy             1001d0b4     MSVCRTD:MSVCR90D.dll
+ 0002:000000b8       __imp__strlen              1001d0b8     MSVCRTD:MSVCR90D.dll
+ 0002:000000bc       __imp__strcat              1001d0bc     MSVCRTD:MSVCR90D.dll
+ 0002:000000c0       __imp__vsprintf            1001d0c0     MSVCRTD:MSVCR90D.dll
+ 0002:000000c4       __imp___stricmp            1001d0c4     MSVCRTD:MSVCR90D.dll
+ 0002:000000c8       __imp__strcmp              1001d0c8     MSVCRTD:MSVCR90D.dll
+ 0002:000000cc       __imp__strcpy              1001d0cc     MSVCRTD:MSVCR90D.dll
+ 0002:000000d0       __imp__strstr              1001d0d0     MSVCRTD:MSVCR90D.dll
+ 0002:000000d4       __imp___mkdir              1001d0d4     MSVCRTD:MSVCR90D.dll
+ 0002:000000d8       __imp___findfirst64i32     1001d0d8     MSVCRTD:MSVCR90D.dll
+ 0002:000000dc       __imp___findnext64i32      1001d0dc     MSVCRTD:MSVCR90D.dll
+ 0002:000000e0       __imp___findclose          1001d0e0     MSVCRTD:MSVCR90D.dll
+ 0002:000000e4       __imp__free                1001d0e4     MSVCRTD:MSVCR90D.dll
+ 0002:000000e8       __imp__malloc              1001d0e8     MSVCRTD:MSVCR90D.dll
+ 0002:000000ec       __imp__abs                 1001d0ec     MSVCRTD:MSVCR90D.dll
+ 0002:000000f0       __imp__pow                 1001d0f0     MSVCRTD:MSVCR90D.dll
+ 0002:000000f4       __imp__tan                 1001d0f4     MSVCRTD:MSVCR90D.dll
+ 0002:000000f8       __imp__fclose              1001d0f8     MSVCRTD:MSVCR90D.dll
+ 0002:000000fc       __imp__fwrite              1001d0fc     MSVCRTD:MSVCR90D.dll
+ 0002:00000100       __imp__fopen               1001d100     MSVCRTD:MSVCR90D.dll
+ 0002:00000104       __imp__atoi                1001d104     MSVCRTD:MSVCR90D.dll
+ 0002:00000108       __imp__ceil                1001d108     MSVCRTD:MSVCR90D.dll
+ 0002:0000010c       __imp__floor               1001d10c     MSVCRTD:MSVCR90D.dll
+ 0002:00000110       __imp___encode_pointer     1001d110     MSVCRTD:MSVCR90D.dll
+ 0002:00000114       __imp___malloc_dbg         1001d114     MSVCRTD:MSVCR90D.dll
+ 0002:00000118       __imp___free_dbg           1001d118     MSVCRTD:MSVCR90D.dll
+ 0002:0000011c       __imp___encoded_null       1001d11c     MSVCRTD:MSVCR90D.dll
+ 0002:00000120       __imp___decode_pointer     1001d120     MSVCRTD:MSVCR90D.dll
+ 0002:00000124       __imp___CrtSetCheckCount   1001d124     MSVCRTD:MSVCR90D.dll
+ 0002:00000128       __imp___initterm           1001d128     MSVCRTD:MSVCR90D.dll
+ 0002:0000012c       __imp___initterm_e         1001d12c     MSVCRTD:MSVCR90D.dll
+ 0002:00000130       __imp___amsg_exit          1001d130     MSVCRTD:MSVCR90D.dll
+ 0002:00000134       __imp___adjust_fdiv        1001d134     MSVCRTD:MSVCR90D.dll
+ 0002:00000138       __imp____CppXcptFilter     1001d138     MSVCRTD:MSVCR90D.dll
+ 0002:0000013c       __imp___crt_debugger_hook  1001d13c     MSVCRTD:MSVCR90D.dll
+ 0002:00000140       __imp____clean_type_info_names_internal 1001d140     MSVCRTD:MSVCR90D.dll
+ 0002:00000144       __imp___unlock             1001d144     MSVCRTD:MSVCR90D.dll
+ 0002:00000148       __imp____dllonexit         1001d148     MSVCRTD:MSVCR90D.dll
+ 0002:0000014c       \177MSVCR90D_NULL_THUNK_DATA 1001d14c     MSVCRTD:MSVCR90D.dll
+ 0002:00000150       __imp__DestroyWindow@4     1001d150     user32:USER32.dll
+ 0002:00000154       __imp__UnregisterClassA@8  1001d154     user32:USER32.dll
+ 0002:00000158       __imp__LoadCursorA@8       1001d158     user32:USER32.dll
+ 0002:0000015c       __imp__RegisterClassA@4    1001d15c     user32:USER32.dll
+ 0002:00000160       __imp__AdjustWindowRect@12 1001d160     user32:USER32.dll
+ 0002:00000164       __imp__CreateWindowExA@48  1001d164     user32:USER32.dll
+ 0002:00000168       __imp__ShowWindow@8        1001d168     user32:USER32.dll
+ 0002:0000016c       __imp__UpdateWindow@4      1001d16c     user32:USER32.dll
+ 0002:00000170       __imp__SetForegroundWindow@4 1001d170     user32:USER32.dll
+ 0002:00000174       __imp__SetFocus@4          1001d174     user32:USER32.dll
+ 0002:00000178       __imp__GetSysColor@4       1001d178     user32:USER32.dll
+ 0002:0000017c       __imp__SetSysColors@12     1001d17c     user32:USER32.dll
+ 0002:00000180       __imp__ReleaseDC@8         1001d180     user32:USER32.dll
+ 0002:00000184       __imp__GetDC@4             1001d184     user32:USER32.dll
+ 0002:00000188       \177USER32_NULL_THUNK_DATA 1001d188     user32:USER32.dll
+ 0002:0000018c       __imp__timeGetTime@0       1001d18c     winmm:WINMM.dll
+ 0002:00000190       \177WINMM_NULL_THUNK_DATA  1001d190     winmm:WINMM.dll
+ 0002:00000194       ___xc_a                    1001d194     MSVCRTD:cinitexe.obj
+ 0002:00000198       ___xc_z                    1001d198     MSVCRTD:cinitexe.obj
+ 0002:0000019c       ___xi_a                    1001d19c     MSVCRTD:cinitexe.obj
+ 0002:000001a8       ___xi_z                    1001d1a8     MSVCRTD:cinitexe.obj
+ 0002:000001d0       __real@4066800000000000    1001d1d0     q_shared.obj
+ 0002:000001d8       __real@400921fb54442d18    1001d1d8     q_shared.obj
+ 0002:000001e0       __real@3f800000            1001d1e0     q_shared.obj
+ 0002:000001e8       __real@bff0000000000000    1001d1e8     q_shared.obj
+ 0002:000001f0       __real@3f91df46a2529d39    1001d1f0     q_shared.obj
+ 0002:000001f8       __real@3ff0000000000000    1001d1f8     q_shared.obj
+ 0002:00000200       __real@00000000            1001d200     q_shared.obj
+ 0002:00000208       __real@c066800000000000    1001d208     q_shared.obj
+ 0002:00000210       __real@4076800000000000    1001d210     q_shared.obj
+ 0002:00000218       __real@3f76800000000000    1001d218     q_shared.obj
+ 0002:00000220       __real@4066c16c16c16c17    1001d220     q_shared.obj
+ 0002:00000228       __real@0000000000000000    1001d228     q_shared.obj
+ 0002:00000230       __real@c7c34f80            1001d230     q_shared.obj
+ 0002:00000234       __real@47c34f80            1001d234     q_shared.obj
+ 0002:00000238       ??_C@_00CNPNBAHC@?$AA@     1001d238     q_shared.obj
+ 0002:0000023c       ??_C@_0CD@GIPJKOOD@Com_sprintf?3?5overflow?5of?5?$CFi?5in?5?$CF@ 1001d23c     q_shared.obj
+ 0002:00000260       ??_C@_01KICIPPFI@?2?$AA@   1001d260     q_shared.obj
+ 0002:00000264       ??_C@_01ICJEACDI@?$DL?$AA@ 1001d264     q_shared.obj
+ 0002:00000268       ??_C@_01BJJEKLCA@?$CC?$AA@ 1001d268     q_shared.obj
+ 0002:0000026c       ??_C@_0BN@CAOBGKLE@Info?5string?5length?5exceeded?6?$AA@ 1001d26c     q_shared.obj
+ 0002:0000028c       ??_C@_06NELKLDPM@?2?$CFs?2?$CFs?$AA@ 1001d28c     q_shared.obj
+ 0002:00000294       ??_C@_0CK@NHFLKFAE@Keys?5and?5values?5must?5be?5?$DM?564?5cha@ 1001d294     q_shared.obj
+ 0002:000002c0       ??_C@_0CD@MGFMEBLE@Can?8t?5use?5keys?5or?5values?5with?5a?5@ 1001d2c0     q_shared.obj
+ 0002:000002e4       ??_C@_0CL@JCFAGLFD@Can?8t?5use?5keys?5or?5values?5with?5a?5@ 1001d2e4     q_shared.obj
+ 0002:00000310       ??_C@_0CD@JIDDAEOO@Can?8t?5use?5keys?5or?5values?5with?5a?5@ 1001d310     q_shared.obj
+ 0002:00000334       ??_C@_0BM@IOBNNAMC@VirtualAlloc?5reserve?5failed?$AA@ 1001d334     q_shwin.obj
+ 0002:00000350       ??_C@_0BE@MPENGFPN@Hunk_Alloc?5overflow?$AA@ 1001d350     q_shwin.obj
+ 0002:00000364       ??_C@_0BP@FNEFFEDD@VirtualAlloc?5commit?5failed?4?6?$CFs?$AA@ 1001d364     q_shwin.obj
+ 0002:00000384       ??_C@_05GFOLEBJA@?$CFs?1?$CFs?$AA@ 1001d384     q_shwin.obj
+ 0002:0000038c       ??_C@_0BM@IPGKNLGC@Sys_BeginFind?5without?5close?$AA@ 1001d38c     q_shwin.obj
+ 0002:000003a8       __real@40800000            1001d3a8     r_aclip.obj
+ 0002:000003b0       __real@4010000000000000    1001d3b0     r_aclip.obj
+ 0002:000003b8       __real@406fe00000000000    1001d3b8     r_alias.obj
+ 0002:000003c0       __real@461c3c00            1001d3c0     r_alias.obj
+ 0002:000003c8       __real@4050000000000000    1001d3c8     r_alias.obj
+ 0002:000003d0       __real@3fd554c985f06f69    1001d3d0     r_alias.obj
+ 0002:000003d8       __real@3fe999999999999a    1001d3d8     r_alias.obj
+ 0002:000003e0       __real@401c000000000000    1001d3e0     r_alias.obj
+ 0002:000003e8       __real@3dcccccd            1001d3e8     r_alias.obj
+ 0002:000003f0       __real@3fb999999999999a    1001d3f0     r_alias.obj
+ 0002:000003f8       __real@4062c00000000000    1001d3f8     r_alias.obj
+ 0002:00000400       __real@bf800000            1001d400     r_alias.obj
+ 0002:00000404       ??_C@_0CN@BHFFEOHB@R_AliasSetupFrames?5?$CFs?3?5no?5such?5l@ 1001d404     r_alias.obj
+ 0002:00000434       ??_C@_0CN@KDPHGNN@R_AliasSetupFrames?5?$CFs?3?5no?5such?5t@ 1001d434     r_alias.obj
+ 0002:00000464       __real@4f000000            1001d464     r_alias.obj
+ 0002:00000468       __real@4fc00000            1001d468     r_alias.obj
+ 0002:00000470       __real@3fe51eb851eb851f    1001d470     r_alias.obj
+ 0002:00000478       __real@3fd51eb851eb851f    1001d478     r_alias.obj
+ 0002:00000480       ??_C@_0CG@OBFGOGCI@R_AliasDrawModel?5?$CFs?3?5NULL?5skin?5f@ 1001d480     r_alias.obj
+ 0002:000004a8       __real@4000000000000000    1001d4a8     r_alias.obj
+ 0002:000004b0       ??_C@_0CI@HPPEGLFL@R_AliasSetupSkin?5?$CFs?3?5no?5such?5ski@ 1001d4b0     r_alias.obj
+ 0002:000004d8       ??_C@_0BJ@JBMDBEPK@Out?5of?5edges?5for?5bmodel?6?$AA@ 1001d4d8     r_bsp.obj
+ 0002:000004f8       __real@3f847ae147ae147b    1001d4f8     r_bsp.obj
+ 0002:00000500       __real@bf847ae147ae147b    1001d500     r_bsp.obj
+ 0002:00000508       ??_C@_0M@PANLPOGK@pics?1?$CFs?4pcx?$AA@ 1001d508     r_draw.obj
+ 0002:00000514       ??_C@_08FJIFJEIK@conchars?$AA@ 1001d514     r_draw.obj
+ 0002:00000520       ??_C@_0BK@HHGBKEGL@Draw_Pic?3?5bad?5coordinates?$AA@ 1001d520     r_draw.obj
+ 0002:0000053c       ??_C@_0BE@OMNHMPIK@Can?8t?5find?5pic?3?5?$CFs?6?$AA@ 1001d53c     r_draw.obj
+ 0002:00000550       __real@3fe8a3d70a3d70a4    1001d550     r_edge.obj
+ 0002:00000558       __real@c060000000000000    1001d558     r_edge.obj
+ 0002:00000560       __real@3fd0000000000000    1001d560     r_edge.obj
+ 0002:00000568       __real@3fe0000000000000    1001d568     r_edge.obj
+ 0002:00000570       __real@40f0000000000000    1001d570     r_edge.obj
+ 0002:00000578       __real@bf666666            1001d578     r_edge.obj
+ 0002:0000057c       ??_C@_0BH@GIFOBOEI@Total?5texel?5count?3?5?$CFi?6?$AA@ 1001d57c     r_image.obj
+ 0002:00000594       ??_C@_0P@IBLPFAFD@?5?$CF3i?5?$CF3i?5?3?5?$CFs?6?$AA@ 1001d594     r_image.obj
+ 0002:000005a4       ??_C@_01CLKCMJKC@?5?$AA@   1001d5a4     r_image.obj
+ 0002:000005a8       ??_C@_01EJNLAFE@P?$AA@     1001d5a8     r_image.obj
+ 0002:000005ac       ??_C@_01ELNMCGJD@W?$AA@    1001d5ac     r_image.obj
+ 0002:000005b0       ??_C@_01CPLAODJH@S?$AA@    1001d5b0     r_image.obj
+ 0002:000005b4       ??_C@_01PLPBNMEI@M?$AA@    1001d5b4     r_image.obj
+ 0002:000005b8       ??_C@_0BE@OPHJAJHM@?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?6?$AA@ 1001d5b8     r_image.obj
+ 0002:000005cc       ??_C@_0BK@PFOMPPID@PCX?5file?5?$CFs?5was?5malformed?$AA@ 1001d5cc     r_image.obj
+ 0002:000005e8       ??_C@_0BB@MNGGHIGI@Bad?5pcx?5file?5?$CFs?6?$AA@ 1001d5e8     r_image.obj
+ 0002:000005fc       ??_C@_0DM@DMKLIHNL@LoadTGA?3?5Only?532?5or?524?5bit?5image@ 1001d5fc     r_image.obj
+ 0002:00000638       ??_C@_0DI@MGBHFPOC@LoadTGA?3?5Only?5type?52?5and?510?5targ@ 1001d638     r_image.obj
+ 0002:00000670       ??_C@_0BB@NLGCNDMP@Bad?5tga?5file?5?$CFs?6?$AA@ 1001d670     r_image.obj
+ 0002:00000684       ??_C@_0M@MLMJIMNI@MAX_RIMAGES?$AA@ 1001d684     r_image.obj
+ 0002:00000690       ??_C@_0BP@BAIICHHM@Draw_LoadPic?3?5?$CC?$CFs?$CC?5is?5too?5long?$AA@ 1001d690     r_image.obj
+ 0002:000006b0       ??_C@_0BK@KBGAMAKC@R_LoadWal?3?5can?8t?5load?5?$CFs?6?$AA@ 1001d6b0     r_image.obj
+ 0002:000006cc       ??_C@_04JCAPCJAP@?4tga?$AA@ 1001d6cc     r_image.obj
+ 0002:000006d4       ??_C@_04DBJJIEBO@?4wal?$AA@ 1001d6d4     r_image.obj
+ 0002:000006dc       ??_C@_04IBGELPJM@?4pcx?$AA@ 1001d6dc     r_image.obj
+ 0002:000006e8       __real@3f70101010101010    1001d6e8     r_light.obj
+ 0002:000006f0       __real@3f70000000000000    1001d6f0     r_light.obj
+ 0002:000006f8       __real@40a0000000000000    1001d6f8     r_light.obj
+ 0002:00000700       __real@4070000000000000    1001d700     r_light.obj
+ 0002:00000708       __real@42000000            1001d708     r_light.obj
+ 0002:0000070c       ??_C@_02LEBOADDI@dn?$AA@   1001d70c     r_main.obj
+ 0002:00000710       ??_C@_02HNLLPFKA@up?$AA@   1001d710     r_main.obj
+ 0002:00000714       ??_C@_02HLHCNIN@ft?$AA@    1001d714     r_main.obj
+ 0002:00000718       ??_C@_02HCNENIII@lf?$AA@   1001d718     r_main.obj
+ 0002:0000071c       ??_C@_02MNOEILMP@bk?$AA@   1001d71c     r_main.obj
+ 0002:00000720       ??_C@_02BMJICGCB@rt?$AA@   1001d720     r_main.obj
+ 0002:00000728       __real@4008000000000000    1001d728     r_main.obj
+ 0002:00000730       __real@4120000000000000    1001d730     r_main.obj
+ 0002:00000738       __real@4020000000000000    1001d738     r_main.obj
+ 0002:00000740       __real@4060000000000000    1001d740     r_main.obj
+ 0002:00000748       __real@400921f9f01b866e    1001d748     r_main.obj
+ 0002:00000750       ??_C@_0L@OPKPEGLM@sw_lockpvs?$AA@ 1001d750     r_main.obj
+ 0002:0000075c       ??_C@_09JBMKNKFJ@imagelist?$AA@ 1001d75c     r_main.obj
+ 0002:00000768       ??_C@_0L@CMHOPIGK@screenshot?$AA@ 1001d768     r_main.obj
+ 0002:00000774       ??_C@_09EOKHBMCA@modellist?$AA@ 1001d774     r_main.obj
+ 0002:00000780       ??_C@_09NCNICOOC@vid_gamma?$AA@ 1001d780     r_main.obj
+ 0002:0000078c       ??_C@_03HLLJOCDO@1?40?$AA@ 1001d78c     r_main.obj
+ 0002:00000790       ??_C@_0P@FCNOGOEH@vid_fullscreen?$AA@ 1001d790     r_main.obj
+ 0002:000007a0       ??_C@_07IFOJIEEJ@r_novis?$AA@ 1001d7a0     r_main.obj
+ 0002:000007a8       ??_C@_0N@ENJPFKKA@r_lerpmodels?$AA@ 1001d7a8     r_main.obj
+ 0002:000007b8       ??_C@_0N@NHDPNION@r_lightlevel?$AA@ 1001d7b8     r_main.obj
+ 0002:000007c8       ??_C@_09NHMHJDHI@r_dspeeds?$AA@ 1001d7c8     r_main.obj
+ 0002:000007d4       ??_C@_0M@BIOFCHNF@r_drawworld?$AA@ 1001d7d4     r_main.obj
+ 0002:000007e0       ??_C@_0P@JAKGJBEE@r_drawentities?$AA@ 1001d7e0     r_main.obj
+ 0002:000007f0       ??_C@_0N@JEFJGNMG@r_fullbright?$AA@ 1001d7f0     r_main.obj
+ 0002:00000800       ??_C@_08ILOBJANK@r_speeds?$AA@ 1001d800     r_main.obj
+ 0002:0000080c       ??_C@_04FANNOMIB@hand?$AA@ 1001d80c     r_main.obj
+ 0002:00000814       ??_C@_07DJKGEKNF@sw_mode?$AA@ 1001d814     r_main.obj
+ 0002:0000081c       ??_C@_0N@BEPANKDL@sw_waterwarp?$AA@ 1001d81c     r_main.obj
+ 0002:0000082c       ??_C@_0BF@BAKIFDOB@sw_surfcacheoverride?$AA@ 1001d82c     r_main.obj
+ 0002:00000844       ??_C@_0BA@JEJEKNEK@sw_stipplealpha?$AA@ 1001d844     r_main.obj
+ 0002:00000854       ??_C@_0BB@OPMDHLGB@sw_reportsurfout?$AA@ 1001d854     r_main.obj
+ 0002:00000868       ??_C@_0BB@IAAFDNEP@sw_reportedgeout?$AA@ 1001d868     r_main.obj
+ 0002:0000087c       ??_C@_0M@EPOBLCFL@sw_mipscale?$AA@ 1001d87c     r_main.obj
+ 0002:00000888       ??_C@_09GKDOPFBA@sw_mipcap?$AA@ 1001d888     r_main.obj
+ 0002:00000894       ??_C@_0M@BDOIENNL@sw_maxsurfs?$AA@ 1001d894     r_main.obj
+ 0002:000008a0       ??_C@_0M@POGGALJL@sw_maxedges?$AA@ 1001d8a0     r_main.obj
+ 0002:000008ac       ??_C@_01FJMABOPO@x?$AA@    1001d8ac     r_main.obj
+ 0002:000008b0       ??_C@_0N@OCBHJFLM@sw_draworder?$AA@ 1001d8b0     r_main.obj
+ 0002:000008c0       ??_C@_0M@PJCABLPP@sw_drawflat?$AA@ 1001d8c0     r_main.obj
+ 0002:000008cc       ??_C@_0O@PIPNFMLG@sw_clearcolor?$AA@ 1001d8cc     r_main.obj
+ 0002:000008dc       ??_C@_01FDFGLJHB@2?$AA@    1001d8dc     r_main.obj
+ 0002:000008e0       ??_C@_0P@PONDFOLB@sw_allow_modex?$AA@ 1001d8e0     r_main.obj
+ 0002:000008f0       ??_C@_01HIHLOKLC@1?$AA@    1001d8f0     r_main.obj
+ 0002:000008f4       ??_C@_0BC@HDIKMCNG@sw_polymodelstats?$AA@ 1001d8f4     r_main.obj
+ 0002:00000908       ??_C@_01GBGANLPD@0?$AA@    1001d908     r_main.obj
+ 0002:0000090c       ??_C@_0BN@IDFIAFCA@ref_soft?5version?3?5SOFT?50?401?6?$AA@ 1001d90c     r_main.obj
+ 0002:0000092c       __real@3f000000            1001d92c     r_main.obj
+ 0002:00000930       __real@43160000            1001d930     r_main.obj
+ 0002:00000934       ??_C@_0BI@COFFOEBN@Short?5roughly?5?$CFd?5edges?6?$AA@ 1001d934     r_main.obj
+ 0002:0000094c       ??_C@_0BD@JLMOKLFE@Short?5?$CFd?5surfaces?6?$AA@ 1001d94c     r_main.obj
+ 0002:00000960       ??_C@_0BO@DGOFMMLP@R_RenderView?3?5NULL?5worldmodel?$AA@ 1001d960     r_main.obj
+ 0002:00000980       ??_C@_0DN@FCIKBAAA@ref_soft?3?3R_BeginFrame?$CI?$CJ?5?9?5catas@ 1001d980     r_main.obj
+ 0002:000009c0       ??_C@_0EA@EKIGODLA@ref_soft?3?3R_BeginFrame?$CI?$CJ?5?9?5fulls@ 1001d9c0     r_main.obj
+ 0002:00000a00       ??_C@_0CP@MMGDJPGO@ref_soft?3?3R_BeginFrame?$CI?$CJ?5?9?5could@ 1001da00     r_main.obj
+ 0002:00000a30       __real@406ff00000000000    1001da30     r_main.obj
+ 0002:00000a38       __real@404e000000000000    1001da38     r_main.obj
+ 0002:00000a40       ??_C@_0N@MIMGCAHO@env?1?$CFs?$CFs?4pcx?$AA@ 1001da40     r_main.obj
+ 0002:00000a50       ??_C@_0CA@NBMJDFHB@Couldn?8t?5load?5pics?1colormap?4pcx?$AA@ 1001da50     r_main.obj
+ 0002:00000a70       ??_C@_0BC@EHLLIPJL@pics?1colormap?4pcx?$AA@ 1001da70     r_main.obj
+ 0002:00000a84       ??_C@_02DKCKIIND@?$CFs?$AA@ 1001da84     r_main.obj
+ 0002:00000a88       __real@4074000000000000    1001da88     r_misc.obj
+ 0002:00000a90       __real@4054000000000000    1001da90     r_misc.obj
+ 0002:00000a98       ??_C@_0CC@LPLCAJDF@?$CF5i?5ms?5?$CF3i?1?$CF3i?1?$CF3i?5poly?5?$CF3i?5surf@ 1001da98     r_misc.obj
+ 0002:00000abc       ??_C@_0CD@NFMABKIK@?$CF3i?5?$CF2ip?5?$CF2iw?5?$CF2ib?5?$CF2is?5?$CF2ie?5?$CF2i@ 1001dabc     r_misc.obj
+ 0002:00000ae0       ??_C@_0BJ@CGIIAEGL@?$CF3i?5polygon?5model?5drawn?6?$AA@ 1001dae0     r_misc.obj
+ 0002:00000b00       __real@3fefae147ae147ae    1001db00     r_misc.obj
+ 0002:00000b08       ??_C@_0BG@FLJOHHFB@Failed?5to?5open?5to?5?$CFs?6?$AA@ 1001db08     r_misc.obj
+ 0002:00000b20       ??_C@_02GMLFBBN@wb?$AA@    1001db20     r_misc.obj
+ 0002:00000b24       ??_C@_09CKEIHHKG@Wrote?5?$CFs?6?$AA@ 1001db24     r_misc.obj
+ 0002:00000b30       ??_C@_0CG@IOBADCPH@R_ScreenShot_f?3?5Couldn?8t?5create?5@ 1001db30     r_misc.obj
+ 0002:00000b58       ??_C@_01KDCPPGHE@r?$AA@    1001db58     r_misc.obj
+ 0002:00000b5c       ??_C@_0P@MACCKGNK@?$CFs?1scrnshot?1?$CFs?$AA@ 1001db5c     r_misc.obj
+ 0002:00000b6c       ??_C@_0M@NIAIMBND@quake00?4pcx?$AA@ 1001db6c     r_misc.obj
+ 0002:00000b78       ??_C@_0M@ELFFHLKL@?$CFs?1scrnshot?$AA@ 1001db78     r_misc.obj
+ 0002:00000b84       ??_C@_0BE@FOMELIJC@Total?5resident?3?5?$CFi?6?$AA@ 1001db84     r_model.obj
+ 0002:00000b98       ??_C@_09HPGFNFJL@?$CF8i?5?3?5?$CFs?6?$AA@ 1001db98     r_model.obj
+ 0002:00000ba4       ??_C@_0BA@DJOLALAK@Loaded?5models?3?6?$AA@ 1001dba4     r_model.obj
+ 0002:00000bb4       ??_C@_0CG@BNPACAKH@Mod_NumForName?3?5unknown?5fileid?5f@ 1001dbb4     r_model.obj
+ 0002:00000bdc       ??_C@_0BN@PEPGFLHC@Mod_NumForName?3?5?$CFs?5not?5found?$AA@ 1001dbdc     r_model.obj
+ 0002:00000bfc       ??_C@_0BO@GDFNPAKE@mod_numknown?5?$DN?$DN?5MAX_MOD_KNOWN?$AA@ 1001dbfc     r_model.obj
+ 0002:00000c1c       ??_C@_0BI@IINIEINJ@bad?5inline?5model?5number?$AA@ 1001dc1c     r_model.obj
+ 0002:00000c34       ??_C@_0BH@DOAPJICG@Mod_ForName?3?5NULL?5name?$AA@ 1001dc34     r_model.obj
+ 0002:00000c4c       ??_C@_0BL@DENKLHGN@Mod_PointInLeaf?3?5bad?5model?$AA@ 1001dc4c     r_model.obj
+ 0002:00000c68       ??_C@_0CG@HDLMKPIA@MOD_LoadBmodel?3?5funny?5lump?5size?5@ 1001dc68     r_model.obj
+ 0002:00000c90       ??_C@_0BA@BGLHLDJN@textures?1?$CFs?4wal?$AA@ 1001dc90     r_model.obj
+ 0002:00000ca0       __real@40000000            1001dca0     r_model.obj
+ 0002:00000ca4       __real@40400000            1001dca4     r_model.obj
+ 0002:00000ca8       __real@3fdf5c28f5c28f5c    1001dca8     r_model.obj
+ 0002:00000cb0       __real@3fd47ae147ae147b    1001dcb0     r_model.obj
+ 0002:00000cb8       ??_C@_0BE@NCNAOELO@Bad?5surface?5extents?$AA@ 1001dcb8     r_model.obj
+ 0002:00000cd0       __real@4030000000000000    1001dcd0     r_model.obj
+ 0002:00000cd8       __real@497423f0            1001dcd8     r_model.obj
+ 0002:00000cdc       ??_C@_0BG@MBCMBLKA@Surface?5with?5?$CFs?5edges?$AA@ 1001dcdc     r_model.obj
+ 0002:00000cf4       ??_C@_0CK@LEMFNKHC@Mod_ParseMarksurfaces?3?5bad?5surfa@ 1001dcf4     r_model.obj
+ 0002:00000d20       ??_C@_0CC@JDMOCOHD@Inline?5model?5?$CFi?5has?5bad?5firstnod@ 1001dd20     r_model.obj
+ 0002:00000d48       ??_C@_0EC@OOLDCOMK@Mod_LoadBrushModel?3?5?$CFs?5has?5wrong@ 1001dd48     r_model.obj
+ 0002:00000d8c       ??_C@_0CF@NKMNMIAA@Loaded?5a?5brush?5model?5after?5the?5w@ 1001dd8c     r_model.obj
+ 0002:00000db4       ??_C@_0BH@NCBCHPB@model?5?$CFs?5has?5no?5frames?$AA@ 1001ddb4     r_model.obj
+ 0002:00000dcc       ??_C@_0BK@NBONDBAB@model?5?$CFs?5has?5no?5triangles?$AA@ 1001ddcc     r_model.obj
+ 0002:00000de8       ??_C@_0BM@CGAIHGCB@model?5?$CFs?5has?5no?5st?5vertices?$AA@ 1001dde8     r_model.obj
+ 0002:00000e04       ??_C@_0BP@MPDGGDGL@model?5?$CFs?5has?5too?5many?5vertices?$AA@ 1001de04     r_model.obj
+ 0002:00000e24       ??_C@_0BJ@NPBLFOJF@model?5?$CFs?5has?5no?5vertices?$AA@ 1001de24     r_model.obj
+ 0002:00000e40       ??_C@_0CD@ECBJANFE@model?5?$CFs?5has?5a?5skin?5taller?5than?5@ 1001de40     r_model.obj
+ 0002:00000e64       ??_C@_0CO@NCACHBLI@?$CFs?5has?5wrong?5version?5number?5?$CI?$CFi?5@ 1001de64     r_model.obj
+ 0002:00000e94       ??_C@_0CB@IPONMOOM@?$CFs?5has?5too?5many?5frames?5?$CI?$CFi?5?$DO?5?$CFi?$CJ@ 1001de94     r_model.obj
+ 0002:00000eb8       ??_C@_08IEAJONNL@flushmap?$AA@ 1001deb8     r_model.obj
+ 0002:00000ec4       ??_C@_0M@DKNJHPLK@maps?1?$CFs?4bsp?$AA@ 1001dec4     r_model.obj
+ 0002:00000ed0       __real@40e0000000000000    1001ded0     r_poly.obj
+ 0002:00000ed8       __real@4034000000000000    1001ded8     r_poly.obj
+ 0002:00000ee0       __real@3c23d70a            1001dee0     r_poly.obj
+ 0002:00000ee4       ??_C@_0CH@MAKNGIJF@R_ClipAndDrawPoly?3?5too?5many?5poin@ 1001dee4     r_poly.obj
+ 0002:00000f0c       __real@c97423fe            1001df0c     r_poly.obj
+ 0002:00000f10       __real@497423fe            1001df10     r_poly.obj
+ 0002:00000f14       __real@3e99999a            1001df14     r_poly.obj
+ 0002:00000f18       __real@3f19999a            1001df18     r_poly.obj
+ 0002:00000f1c       ??_C@_0BJ@HDADNBPL@InitSkyBox?3?5map?5overflow?$AA@ 1001df1c     r_rast.obj
+ 0002:00000f38       ??_C@_0BD@DOEGKBLB@?$CFik?5surface?5cache?6?$AA@ 1001df38     r_surf.obj
+ 0002:00000f4c       ??_C@_0CB@DNFBNNGN@D_SCAlloc?3?5hit?5the?5end?5of?5memory@ 1001df4c     r_surf.obj
+ 0002:00000f70       ??_C@_0CB@ILMOMBED@D_SCAlloc?3?5?$CFi?5?$DO?5cache?5size?5of?5?$CFi@ 1001df70     r_surf.obj
+ 0002:00000f94       ??_C@_0BO@KEMJGJH@D_SCAlloc?3?5bad?5cache?5size?5?$CFd?6?$AA@ 1001df94     r_surf.obj
+ 0002:00000fb4       ??_C@_0BP@HPPHGIOB@D_SCAlloc?3?5bad?5cache?5width?5?$CFd?6?$AA@ 1001dfb4     r_surf.obj
+ 0002:00000fd4       ??_C@_0BM@MDKBNCPK@?$CFp?5?3?5?$CFi?5bytes?5?5?5?5?5?$CFi?5width?6?$AA@ 1001dfd4     r_surf.obj
+ 0002:00000ff0       ??_C@_07MHEOKCIL@ROVER?3?6?$AA@ 1001dff0     r_surf.obj
+ 0002:00000ff8       _GUID_MAX_POWER_SAVINGS    1001dff8     rw_ddraw.obj
+ 0002:00001008       _GUID_MIN_POWER_SAVINGS    1001e008     rw_ddraw.obj
+ 0002:00001018       _GUID_TYPICAL_POWER_SAVINGS 1001e018     rw_ddraw.obj
+ 0002:00001028       _NO_SUBGROUP_GUID          1001e028     rw_ddraw.obj
+ 0002:00001038       _ALL_POWERSCHEMES_GUID     1001e038     rw_ddraw.obj
+ 0002:00001048       _GUID_POWERSCHEME_PERSONALITY 1001e048     rw_ddraw.obj
+ 0002:00001058       _GUID_ACTIVE_POWERSCHEME   1001e058     rw_ddraw.obj
+ 0002:00001068       _GUID_VIDEO_SUBGROUP       1001e068     rw_ddraw.obj
+ 0002:00001078       _GUID_VIDEO_POWERDOWN_TIMEOUT 1001e078     rw_ddraw.obj
+ 0002:00001088       _GUID_VIDEO_ADAPTIVE_POWERDOWN 1001e088     rw_ddraw.obj
+ 0002:00001098       _GUID_MONITOR_POWER_ON     1001e098     rw_ddraw.obj
+ 0002:000010a8       _GUID_DISK_SUBGROUP        1001e0a8     rw_ddraw.obj
+ 0002:000010b8       _GUID_DISK_POWERDOWN_TIMEOUT 1001e0b8     rw_ddraw.obj
+ 0002:000010c8       _GUID_DISK_ADAPTIVE_POWERDOWN 1001e0c8     rw_ddraw.obj
+ 0002:000010d8       _GUID_SLEEP_SUBGROUP       1001e0d8     rw_ddraw.obj
+ 0002:000010e8       _GUID_SLEEP_IDLE_THRESHOLD 1001e0e8     rw_ddraw.obj
+ 0002:000010f8       _GUID_STANDBY_TIMEOUT      1001e0f8     rw_ddraw.obj
+ 0002:00001108       _GUID_HIBERNATE_TIMEOUT    1001e108     rw_ddraw.obj
+ 0002:00001118       _GUID_HIBERNATE_FASTS4_POLICY 1001e118     rw_ddraw.obj
+ 0002:00001128       _GUID_CRITICAL_POWER_TRANSITION 1001e128     rw_ddraw.obj
+ 0002:00001138       _GUID_SYSTEM_AWAYMODE      1001e138     rw_ddraw.obj
+ 0002:00001148       _GUID_ALLOW_AWAYMODE       1001e148     rw_ddraw.obj
+ 0002:00001158       _GUID_ALLOW_STANDBY_STATES 1001e158     rw_ddraw.obj
+ 0002:00001168       _GUID_ALLOW_RTC_WAKE       1001e168     rw_ddraw.obj
+ 0002:00001178       _GUID_SYSTEM_BUTTON_SUBGROUP 1001e178     rw_ddraw.obj
+ 0002:00001188       _GUID_POWERBUTTON_ACTION   1001e188     rw_ddraw.obj
+ 0002:00001198       _GUID_POWERBUTTON_ACTION_FLAGS 1001e198     rw_ddraw.obj
+ 0002:000011a8       _GUID_SLEEPBUTTON_ACTION   1001e1a8     rw_ddraw.obj
+ 0002:000011b8       _GUID_SLEEPBUTTON_ACTION_FLAGS 1001e1b8     rw_ddraw.obj
+ 0002:000011c8       _GUID_USERINTERFACEBUTTON_ACTION 1001e1c8     rw_ddraw.obj
+ 0002:000011d8       _GUID_LIDCLOSE_ACTION      1001e1d8     rw_ddraw.obj
+ 0002:000011e8       _GUID_LIDCLOSE_ACTION_FLAGS 1001e1e8     rw_ddraw.obj
+ 0002:000011f8       _GUID_LIDOPEN_POWERSTATE   1001e1f8     rw_ddraw.obj
+ 0002:00001208       _GUID_BATTERY_SUBGROUP     1001e208     rw_ddraw.obj
+ 0002:00001218       _GUID_BATTERY_DISCHARGE_ACTION_0 1001e218     rw_ddraw.obj
+ 0002:00001228       _GUID_BATTERY_DISCHARGE_LEVEL_0 1001e228     rw_ddraw.obj
+ 0002:00001238       _GUID_BATTERY_DISCHARGE_FLAGS_0 1001e238     rw_ddraw.obj
+ 0002:00001248       _GUID_BATTERY_DISCHARGE_ACTION_1 1001e248     rw_ddraw.obj
+ 0002:00001258       _GUID_BATTERY_DISCHARGE_LEVEL_1 1001e258     rw_ddraw.obj
+ 0002:00001268       _GUID_BATTERY_DISCHARGE_FLAGS_1 1001e268     rw_ddraw.obj
+ 0002:00001278       _GUID_BATTERY_DISCHARGE_ACTION_2 1001e278     rw_ddraw.obj
+ 0002:00001288       _GUID_BATTERY_DISCHARGE_LEVEL_2 1001e288     rw_ddraw.obj
+ 0002:00001298       _GUID_BATTERY_DISCHARGE_FLAGS_2 1001e298     rw_ddraw.obj
+ 0002:000012a8       _GUID_BATTERY_DISCHARGE_ACTION_3 1001e2a8     rw_ddraw.obj
+ 0002:000012b8       _GUID_BATTERY_DISCHARGE_LEVEL_3 1001e2b8     rw_ddraw.obj
+ 0002:000012c8       _GUID_BATTERY_DISCHARGE_FLAGS_3 1001e2c8     rw_ddraw.obj
+ 0002:000012d8       _GUID_PROCESSOR_SETTINGS_SUBGROUP 1001e2d8     rw_ddraw.obj
+ 0002:000012e8       _GUID_PROCESSOR_THROTTLE_POLICY 1001e2e8     rw_ddraw.obj
+ 0002:000012f8       _GUID_PROCESSOR_THROTTLE_MAXIMUM 1001e2f8     rw_ddraw.obj
+ 0002:00001308       _GUID_PROCESSOR_THROTTLE_MINIMUM 1001e308     rw_ddraw.obj
+ 0002:00001318       _GUID_PROCESSOR_IDLESTATE_POLICY 1001e318     rw_ddraw.obj
+ 0002:00001328       _GUID_PROCESSOR_PERFSTATE_POLICY 1001e328     rw_ddraw.obj
+ 0002:00001338       _GUID_SYSTEM_COOLING_POLICY 1001e338     rw_ddraw.obj
+ 0002:00001348       _GUID_LOCK_CONSOLE_ON_WAKE 1001e348     rw_ddraw.obj
+ 0002:00001358       _GUID_ACDC_POWER_SOURCE    1001e358     rw_ddraw.obj
+ 0002:00001368       _GUID_LIDSWITCH_STATE_CHANGE 1001e368     rw_ddraw.obj
+ 0002:00001378       _GUID_BATTERY_PERCENTAGE_REMAINING 1001e378     rw_ddraw.obj
+ 0002:00001388       _GUID_IDLE_BACKGROUND_TASK 1001e388     rw_ddraw.obj
+ 0002:00001398       _GUID_BACKGROUND_TASK_NOTIFICATION 1001e398     rw_ddraw.obj
+ 0002:000013a8       _GUID_APPLAUNCH_BUTTON     1001e3a8     rw_ddraw.obj
+ 0002:000013b8       _GUID_PCIEXPRESS_SETTINGS_SUBGROUP 1001e3b8     rw_ddraw.obj
+ 0002:000013c8       _GUID_PCIEXPRESS_ASPM_POLICY 1001e3c8     rw_ddraw.obj
+ 0002:000013d8       _PPM_PERFSTATE_CHANGE_GUID 1001e3d8     rw_ddraw.obj
+ 0002:000013e8       _PPM_PERFSTATE_DOMAIN_CHANGE_GUID 1001e3e8     rw_ddraw.obj
+ 0002:000013f8       _PPM_IDLESTATE_CHANGE_GUID 1001e3f8     rw_ddraw.obj
+ 0002:00001408       _PPM_PERFSTATES_DATA_GUID  1001e408     rw_ddraw.obj
+ 0002:00001418       _PPM_IDLESTATES_DATA_GUID  1001e418     rw_ddraw.obj
+ 0002:00001428       _PPM_IDLE_ACCOUNTING_GUID  1001e428     rw_ddraw.obj
+ 0002:00001438       _PPM_THERMALCONSTRAINT_GUID 1001e438     rw_ddraw.obj
+ 0002:00001448       _PPM_PERFMON_PERFSTATE_GUID 1001e448     rw_ddraw.obj
+ 0002:00001458       _PPM_THERMAL_POLICY_CHANGE_GUID 1001e458     rw_ddraw.obj
+ 0002:00001468       _GUID_DEVINTERFACE_DISK    1001e468     rw_ddraw.obj
+ 0002:00001478       _GUID_DEVINTERFACE_CDROM   1001e478     rw_ddraw.obj
+ 0002:00001488       _GUID_DEVINTERFACE_PARTITION 1001e488     rw_ddraw.obj
+ 0002:00001498       _GUID_DEVINTERFACE_TAPE    1001e498     rw_ddraw.obj
+ 0002:000014a8       _GUID_DEVINTERFACE_WRITEONCEDISK 1001e4a8     rw_ddraw.obj
+ 0002:000014b8       _GUID_DEVINTERFACE_VOLUME  1001e4b8     rw_ddraw.obj
+ 0002:000014c8       _GUID_DEVINTERFACE_MEDIUMCHANGER 1001e4c8     rw_ddraw.obj
+ 0002:000014d8       _GUID_DEVINTERFACE_FLOPPY  1001e4d8     rw_ddraw.obj
+ 0002:000014e8       _GUID_DEVINTERFACE_CDCHANGER 1001e4e8     rw_ddraw.obj
+ 0002:000014f8       _GUID_DEVINTERFACE_STORAGEPORT 1001e4f8     rw_ddraw.obj
+ 0002:00001508       _GUID_DEVINTERFACE_COMPORT 1001e508     rw_ddraw.obj
+ 0002:00001518       _GUID_DEVINTERFACE_SERENUM_BUS_ENUMERATOR 1001e518     rw_ddraw.obj
+ 0002:00001528       _IID_IPrintDialogCallback  1001e528     rw_ddraw.obj
+ 0002:00001538       _IID_IPrintDialogServices  1001e538     rw_ddraw.obj
+ 0002:00001548       _CLSID_DirectDraw          1001e548     rw_ddraw.obj
+ 0002:00001558       _CLSID_DirectDraw7         1001e558     rw_ddraw.obj
+ 0002:00001568       _CLSID_DirectDrawClipper   1001e568     rw_ddraw.obj
+ 0002:00001578       _IID_IDirectDraw           1001e578     rw_ddraw.obj
+ 0002:00001588       _IID_IDirectDraw2          1001e588     rw_ddraw.obj
+ 0002:00001598       _IID_IDirectDraw4          1001e598     rw_ddraw.obj
+ 0002:000015a8       _IID_IDirectDraw7          1001e5a8     rw_ddraw.obj
+ 0002:000015b8       _IID_IDirectDrawSurface    1001e5b8     rw_ddraw.obj
+ 0002:000015c8       _IID_IDirectDrawSurface2   1001e5c8     rw_ddraw.obj
+ 0002:000015d8       _IID_IDirectDrawSurface3   1001e5d8     rw_ddraw.obj
+ 0002:000015e8       _IID_IDirectDrawSurface4   1001e5e8     rw_ddraw.obj
+ 0002:000015f8       _IID_IDirectDrawSurface7   1001e5f8     rw_ddraw.obj
+ 0002:00001608       _IID_IDirectDrawPalette    1001e608     rw_ddraw.obj
+ 0002:00001618       _IID_IDirectDrawClipper    1001e618     rw_ddraw.obj
+ 0002:00001628       _IID_IDirectDrawColorControl 1001e628     rw_ddraw.obj
+ 0002:00001638       _IID_IDirectDrawGammaControl 1001e638     rw_ddraw.obj
+ 0002:00001648       ??_C@_0BM@JEKIOOHA@?$CK?$CK?$CK?5DDraw?5init?5failure?5?$CK?$CK?$CK?6?$AA@ 1001e648     rw_ddraw.obj
+ 0002:00001664       ??_C@_0BI@BHMMJJCN@?4?4?4locking?5backbuffer?3?5?$AA@ 1001e664     rw_ddraw.obj
+ 0002:0000167c       ??_C@_0BF@KLOBPKBI@?4?4?4setting?5palette?3?5?$AA@ 1001e67c     rw_ddraw.obj
+ 0002:00001694       ??_C@_0BG@IOOEJEO@?4?4?4creating?5palette?3?5?$AA@ 1001e694     rw_ddraw.obj
+ 0002:000016ac       ??_C@_0BP@IHHICJNA@?4?4?4creating?5offscreen?5buffer?3?5?$AA@ 1001e6ac     rw_ddraw.obj
+ 0002:000016cc       ??_C@_0BK@GPOOBBDJ@?4?4?4creating?5back?5buffer?3?5?$AA@ 1001e6cc     rw_ddraw.obj
+ 0002:000016e8       ??_C@_0BA@LCAIFEBB@?4?4?4using?5ModeX?6?$AA@ 1001e6e8     rw_ddraw.obj
+ 0002:000016f8       ??_C@_0BL@CLKAPPIH@?4?4?4creating?5front?5buffer?3?5?$AA@ 1001e6f8     rw_ddraw.obj
+ 0002:00001714       ??_C@_0BB@LEKHNGLE@failed?5SDM?5?9?5?$CFs?6?$AA@ 1001e714     rw_ddraw.obj
+ 0002:00001728       ??_C@_0BB@BMGMLLOD@failed?5SCL?5?9?5?$CFs?6?$AA@ 1001e728     rw_ddraw.obj
+ 0002:0000173c       ??_C@_0BO@JFAAADMH@?4?4?4attempting?5ModeX?5320x240?3?5?$AA@ 1001e73c     rw_ddraw.obj
+ 0002:0000175c       ??_C@_0BJ@MGEONDHP@?4?4?4setting?5linear?5mode?3?5?$AA@ 1001e75c     rw_ddraw.obj
+ 0002:00001778       ??_C@_0BJ@EMMMJCAF@?4?4?4finding?5display?5mode?6?$AA@ 1001e778     rw_ddraw.obj
+ 0002:00001794       ??_C@_0BM@MIILICNO@?4?4?4setting?5exclusive?5mode?3?5?$AA@ 1001e794     rw_ddraw.obj
+ 0002:000017b0       ??_C@_0N@MBIHNLIP@failed?5?9?5?$CFs?6?$AA@ 1001e7b0     rw_ddraw.obj
+ 0002:000017c0       ??_C@_0CA@KCOKAAOH@?4?4?4creating?5DirectDraw?5object?3?5?$AA@ 1001e7c0     rw_ddraw.obj
+ 0002:000017e0       ??_C@_0CC@OINBMGBD@?$CK?$CK?$CK?5DirectDrawCreate?5?$DN?$DN?5NULL?5?$CK?$CK?$CK@ 1001e7e0     rw_ddraw.obj
+ 0002:00001804       ??_C@_0BB@BNCGIPPP@DirectDrawCreate?$AA@ 1001e804     rw_ddraw.obj
+ 0002:00001818       ??_C@_03DJDALPN@ok?6?$AA@  1001e818     rw_ddraw.obj
+ 0002:0000181c       ??_C@_07GLGIIGGC@failed?6?$AA@ 1001e81c     rw_ddraw.obj
+ 0002:00001824       ??_C@_09FCFFOIDA@ddraw?4dll?$AA@ 1001e824     rw_ddraw.obj
+ 0002:00001830       ??_C@_0BH@CNECBPGN@?4?4?4loading?5DDRAW?4DLL?3?5?$AA@ 1001e830     rw_ddraw.obj
+ 0002:00001848       ??_C@_0BJ@HAEMBOHL@Initializing?5DirectDraw?6?$AA@ 1001e848     rw_ddraw.obj
+ 0002:00001864       ??_C@_0CI@JDJNNLLP@DDRAW_SetPalette?$CI?$CJ?5?9?5SetEntries?5@ 1001e864     rw_ddraw.obj
+ 0002:0000188c       ??_C@_0BE@GFEAIDCH@?4?4?4freeing?5library?6?$AA@ 1001e88c     rw_ddraw.obj
+ 0002:000018a0       ??_C@_0BL@PHLMCCDN@?4?4?4releasing?5lpDirectDraw?6?$AA@ 1001e8a0     rw_ddraw.obj
+ 0002:000018bc       ??_C@_0BP@GCLHMAPP@?4?4?4restoring?5normal?5coop?5mode?6?$AA@ 1001e8bc     rw_ddraw.obj
+ 0002:000018dc       ??_C@_0BL@ODPBDNEB@?4?4?4restoring?5display?5mode?6?$AA@ 1001e8dc     rw_ddraw.obj
+ 0002:000018f8       ??_C@_0BG@EOBLFPLF@?4?4?4releasing?5palette?6?$AA@ 1001e8f8     rw_ddraw.obj
+ 0002:00001910       ??_C@_0BL@KACENKHO@?4?4?4releasing?5front?5buffer?6?$AA@ 1001e910     rw_ddraw.obj
+ 0002:0000192c       ??_C@_0BK@BGOGANJN@?4?4?4releasing?5back?5buffer?6?$AA@ 1001e92c     rw_ddraw.obj
+ 0002:00001948       ??_C@_0BP@NMFBEKLA@?4?4?4releasing?5offscreen?5buffer?6?$AA@ 1001e948     rw_ddraw.obj
+ 0002:00001968       ??_C@_08JIAHCNGB@UNKNOWN?$AA?$AA@ 1001e968     rw_ddraw.obj
+ 0002:00001978       ??_C@_0EH@BIIPFBHO@Rectangle?5provided?5was?5not?5horiz@ 1001e978     rw_ddraw.obj
+ 0002:000019c0       ??_C@_0EO@MEOLPDIP@This?5surface?5can?5not?5be?5restored@ 1001e9c0     rw_ddraw.obj
+ 0002:00001a10       ??_C@_0BG@PNJKHKJC@DDERR_WASSTILLDRAWING?$AA@ 1001ea10     rw_ddraw.obj
+ 0002:00001a28       ??_C@_0CA@DEHMOBOC@Vertical?5blank?5is?5in?5progress?4?$AA?$AA@ 1001ea28     rw_ddraw.obj
+ 0002:00001a48       ??_C@_0EF@KICGNIJL@Bitmask?5in?5the?5pixel?5format?5requ@ 1001ea48     rw_ddraw.obj
+ 0002:00001a90       ??_C@_0DH@GDFPFJGK@FOURCC?5format?5requested?5is?5unsup@ 1001ea90     rw_ddraw.obj
+ 0002:00001ac8       ??_C@_0BC@LLCNADOP@DDERR_UNSUPPORTED?$AA@ 1001eac8     rw_ddraw.obj
+ 0002:00001adc       ??_C@_0CN@EOPCHOPL@Width?5requested?5by?5DirectDraw?5is@ 1001eadc     rw_ddraw.obj
+ 0002:00001b10       ??_C@_0FI@OBINNKD@Size?5requested?5by?5DirectDraw?5is?5@ 1001eb10     rw_ddraw.obj
+ 0002:00001b68       ??_C@_0CO@GGJHLNAL@Height?5requested?5by?5DirectDraw?5i@ 1001eb68     rw_ddraw.obj
+ 0002:00001b98       ??_C@_0BJ@DMNBOKFJ@DDERR_SURFACENOTATTACHED?$AA@ 1001eb98     rw_ddraw.obj
+ 0002:00001bb4       ??_C@_0BC@OOFFFAGE@DDERR_SURFACELOST?$AA@ 1001ebb4     rw_ddraw.obj
+ 0002:00001bc8       ??_C@_0DM@LCAFGFJK@Access?5to?5surface?5refused?5becaus@ 1001ebc8     rw_ddraw.obj
+ 0002:00001c04       ??_C@_0BC@NLGPCHLD@DDERR_SURFACEBUSY?$AA@ 1001ec04     rw_ddraw.obj
+ 0002:00001c18       ??_C@_0BO@HOHOGLO@DDERR_SURFACEALREADYDEPENDENT?$AA@ 1001ec18     rw_ddraw.obj
+ 0002:00001c38       ??_C@_0BN@DLNFLDJF@DDERR_SURFACEALREADYATTACHED?$AA@ 1001ec38     rw_ddraw.obj
+ 0002:00001c58       ??_C@_0DF@JJLOJIFF@Region?5passed?5to?5Clipper?3?3GetCli@ 1001ec58     rw_ddraw.obj
+ 0002:00001c90       ??_C@_0CC@FKFBEMJC@DDERR_PRIMARYSURFACEALREADYEXIST@ 1001ec90     rw_ddraw.obj
+ 0002:00001cb4       ??_C@_0BC@CEBGFCJL@DDERR_PALETTEBUSY?$AA@ 1001ecb4     rw_ddraw.obj
+ 0002:00001cc8       ??_C@_0EB@IDOALOBB@Returned?5when?5GetOverlayPosition@ 1001ecc8     rw_ddraw.obj
+ 0002:00001d0c       ??_C@_0DO@JEADCLHP@Can?5only?5have?5ony?5color?5key?5acti@ 1001ed0c     rw_ddraw.obj
+ 0002:00001d4c       ??_C@_0DB@MGEAAIMA@The?5hardware?5does?5not?5support?5cl@ 1001ed4c     rw_ddraw.obj
+ 0002:00001d80       ??_C@_0BH@IHGJFMGH@DDERR_OUTOFVIDEOMEMORY?$AA@ 1001ed80     rw_ddraw.obj
+ 0002:00001d98       ??_C@_0BC@JFAMHJIL@DDERR_OUTOFMEMORY?$AA@ 1001ed98     rw_ddraw.obj
+ 0002:00001db0       ??_C@_0EN@OKJBPBLK@The?5hardware?5needed?5for?5the?5requ@ 1001edb0     rw_ddraw.obj
+ 0002:00001e00       ??_C@_0HP@HNOKGKBM@Overlay?5surfaces?5could?5not?5be?5z?5@ 1001ee00     rw_ddraw.obj
+ 0002:00001e80       ??_C@_0FP@KBPHGODG@Operation?5could?5not?5be?5carried?5o@ 1001ee80     rw_ddraw.obj
+ 0002:00001ee0       ??_C@_0BA@PAPKELJP@DDERR_NOVSYNCHW?$AA@ 1001eee0     rw_ddraw.obj
+ 0002:00001ef0       ??_C@_0BE@FGMGOELL@DDERR_NOTPALETTIZED?$AA@ 1001eef0     rw_ddraw.obj
+ 0002:00001f04       ??_C@_0BA@KCNFHPNM@DDERR_NOTLOCKED?$AA@ 1001ef04     rw_ddraw.obj
+ 0002:00001f14       ??_C@_0P@IIGPDCF@DDERR_NOTFOUND?$AA@ 1001ef14     rw_ddraw.obj
+ 0002:00001f24       ??_C@_0BD@FOFDLEGO@DDERR_NOTFLIPPABLE?$AA@ 1001ef24     rw_ddraw.obj
+ 0002:00001f38       ??_C@_0GH@JPMMIFC@Operation?5could?5not?5be?5carried?5o@ 1001ef38     rw_ddraw.obj
+ 0002:00001fa0       ??_C@_0EG@MOEIOJFM@Returned?5when?5an?5overlay?5member?5@ 1001efa0     rw_ddraw.obj
+ 0002:00001fe8       ??_C@_0BD@FHDGHNGM@DDERR_NOT8BITCOLOR?$AA@ 1001efe8     rw_ddraw.obj
+ 0002:00002000       ??_C@_0HH@DBNLCAKA@DirectDrawSurface?5is?5not?5in?54?5bi@ 1001f000     rw_ddraw.obj
+ 0002:00002078       ??_C@_0GL@OANNBPJP@DirectDrawSurface?5is?5not?5in?54?5bi@ 1001f078     rw_ddraw.obj
+ 0002:000020e8       ??_C@_0FJ@JIHAHGAL@Operation?5could?5not?5be?5carried?5o@ 1001f0e8     rw_ddraw.obj
+ 0002:00002148       ??_C@_0GA@JBPHAMPH@Operation?5could?5not?5be?5carried?5o@ 1001f148     rw_ddraw.obj
+ 0002:000021a8       ??_C@_0GN@EDPEHNGO@Operation?5could?5not?5be?5carried?5o@ 1001f1a8     rw_ddraw.obj
+ 0002:00002218       ??_C@_0BC@GEADEPGN@DDERR_NOPALETTEHW?$AA@ 1001f218     rw_ddraw.obj
+ 0002:0000222c       ??_C@_0BI@KBKHCNLK@DDERR_NOPALETTEATTACHED?$AA@ 1001f22c     rw_ddraw.obj
+ 0002:00002244       ??_C@_0BC@JKHLHDPI@DDERR_NOOVERLAYHW?$AA@ 1001f244     rw_ddraw.obj
+ 0002:00002258       ??_C@_0BE@JKKEKLOE@DDERR_NOOVERLAYDEST?$AA@ 1001f258     rw_ddraw.obj
+ 0002:0000226c       ??_C@_0BB@MNGJGGOP@DDERR_NOMIRRORHW?$AA@ 1001f26c     rw_ddraw.obj
+ 0002:00002280       ??_C@_0N@EOPEBNEI@DDERR_NOHWND?$AA@ 1001f280     rw_ddraw.obj
+ 0002:00002290       ??_C@_0M@IIGNACND@DDERR_NOGDI?$AA@ 1001f290     rw_ddraw.obj
+ 0002:0000229c       ??_C@_0P@IEKAGFBG@DDERR_NOFLIPHW?$AA@ 1001f29c     rw_ddraw.obj
+ 0002:000022ac       ??_C@_0BG@DHFIFBBC@DDERR_NOEXCLUSIVEMODE?$AA@ 1001f2ac     rw_ddraw.obj
+ 0002:000022c4       ??_C@_0BC@DCFOAKAL@DDERR_NOEMULATION?$AA@ 1001f2c4     rw_ddraw.obj
+ 0002:000022d8       ??_C@_0BF@NOEHEIDL@DDERR_NODIRECTDRAWHW?$AA@ 1001f2d8     rw_ddraw.obj
+ 0002:000022f0       ??_C@_0BB@BPILLDBG@DDERR_NODDROPSHW?$AA@ 1001f2f0     rw_ddraw.obj
+ 0002:00002304       ??_C@_0L@CHFPOEHC@DDERR_NODC?$AA@ 1001f304     rw_ddraw.obj
+ 0002:00002310       ??_C@_0BM@PMEMMDPI@DDERR_NOCOOPERATIVELEVELSET?$AA@ 1001f310     rw_ddraw.obj
+ 0002:0000232c       ??_C@_0BD@BAAPAKEL@DDERR_NOCOLORKEYHW?$AA@ 1001f32c     rw_ddraw.obj
+ 0002:00002340       ??_C@_0BB@GIFHLHNH@DDERR_NOCOLORKEY?$AA@ 1001f340     rw_ddraw.obj
+ 0002:00002354       ??_C@_0BE@PDOMLOPD@DDERR_NOCOLORCONVHW?$AA@ 1001f354     rw_ddraw.obj
+ 0002:00002368       ??_C@_0BI@BGMBBEJL@DDERR_NOCLIPPERATTACHED?$AA@ 1001f368     rw_ddraw.obj
+ 0002:00002380       ??_C@_0BB@JOLMGPDK@DDERR_NOCLIPLIST?$AA@ 1001f380     rw_ddraw.obj
+ 0002:00002394       ??_C@_0O@NKGDNEG@DDERR_NOBLTHW?$AA@ 1001f394     rw_ddraw.obj
+ 0002:000023a4       ??_C@_0BA@BFFEPDGJ@DDERR_NOALPHAHW?$AA@ 1001f3a4     rw_ddraw.obj
+ 0002:000023b4       ??_C@_0L@DJKAAMGA@DDERR_NO3D?$AA@ 1001f3b4     rw_ddraw.obj
+ 0002:000023c0       ??_C@_0BF@MAGKOGBC@DDERR_LOCKEDSURFACES?$AA@ 1001f3c0     rw_ddraw.obj
+ 0002:000023d8       ??_C@_0BC@LAEFCIAI@DDERR_INVALIDRECT?$AA@ 1001f3d8     rw_ddraw.obj
+ 0002:000023ec       ??_C@_0BG@OMJGFIHE@DDERR_INVALIDPOSITION?$AA@ 1001f3ec     rw_ddraw.obj
+ 0002:00002404       ??_C@_0BJ@PEGADMFO@DDERR_INVALIDPIXELFORMAT?$AA@ 1001f404     rw_ddraw.obj
+ 0002:00002420       ??_C@_0BE@CCPBMIBD@DDERR_INVALIDPARAMS?$AA@ 1001f420     rw_ddraw.obj
+ 0002:00002434       ??_C@_0BE@KPNOKGED@DDERR_INVALIDOBJECT?$AA@ 1001f434     rw_ddraw.obj
+ 0002:00002448       ??_C@_0BC@GLNOPNKK@DDERR_INVALIDMODE?$AA@ 1001f448     rw_ddraw.obj
+ 0002:0000245c       ??_C@_0BM@LMDGBJFD@DDERR_INVALIDDIRECTDRAWGUID?$AA@ 1001f45c     rw_ddraw.obj
+ 0002:00002478       ??_C@_0BG@OFKCMNHM@DDERR_INVALIDCLIPLIST?$AA@ 1001f478     rw_ddraw.obj
+ 0002:00002490       ??_C@_0BC@DDIGIKID@DDERR_INVALIDCAPS?$AA@ 1001f490     rw_ddraw.obj
+ 0002:000024a4       ??_C@_0BK@HJOPGIGH@DDERR_INCOMPATIBLEPRIMARY?$AA@ 1001f4a4     rw_ddraw.obj
+ 0002:000024c0       ??_C@_0BI@NLHHKHEN@DDERR_IMPLICITLYCREATED?$AA@ 1001f4c0     rw_ddraw.obj
+ 0002:000024d8       ??_C@_0BF@MAFLBECE@DDERR_HWNDSUBCLASSED?$AA@ 1001f4d8     rw_ddraw.obj
+ 0002:000024f0       ??_C@_0BF@LGLNHCHJ@DDERR_HWNDALREADYSET?$AA@ 1001f4f0     rw_ddraw.obj
+ 0002:00002508       ??_C@_0BC@FNNCOGNH@DDERR_HEIGHTALIGN?$AA@ 1001f508     rw_ddraw.obj
+ 0002:0000251c       ??_C@_0O@MGEMDJJH@DDERR_GENERIC?$AA@ 1001f51c     rw_ddraw.obj
+ 0002:0000252c       ??_C@_0BO@GMCKLDPA@DDERR_EXCLUSIVEMODEALREADYSET?$AA@ 1001f52c     rw_ddraw.obj
+ 0002:0000254c       ??_C@_0BA@MEDIIHJ@DDERR_EXCEPTION?$AA@ 1001f54c     rw_ddraw.obj
+ 0002:0000255c       ??_C@_0BP@CFDPGCFK@DDERR_DIRECTDRAWALREADYCREATED?$AA@ 1001f55c     rw_ddraw.obj
+ 0002:0000257c       ??_C@_0BI@CPFFLGJD@DDERR_CURRENTLYNOTAVAIL?$AA@ 1001f57c     rw_ddraw.obj
+ 0002:00002594       ??_C@_0BF@HOAOBBGM@DDERR_COLORKEYNOTSET?$AA@ 1001f594     rw_ddraw.obj
+ 0002:000025ac       ??_C@_0BG@BIHHGCDA@DDER_CLIPPERUSINGHWND?$AA@ 1001f5ac     rw_ddraw.obj
+ 0002:000025c4       ??_C@_0BD@MLEKFHMB@DDER_CANTDUPLICATE?$AA@ 1001f5c4     rw_ddraw.obj
+ 0002:000025d8       ??_C@_0BD@PBNGJMBK@DDERR_CANTCREATEDC?$AA@ 1001f5d8     rw_ddraw.obj
+ 0002:000025ec       ??_C@_0BK@FMONFDPK@DDERR_CANNOTDETACHSURFACE?$AA@ 1001f5ec     rw_ddraw.obj
+ 0002:00002608       ??_C@_0BJ@OPFMHIEN@DDER_CANNOTATTACHSURFACE?$AA@ 1001f608     rw_ddraw.obj
+ 0002:00002624       ??_C@_0BG@HLNKGEOE@DDERR_BLTFASTCANTCLIP?$AA@ 1001f624     rw_ddraw.obj
+ 0002:0000263c       ??_C@_0BJ@LAEIKKJF@DDERR_ALREADYINITIALIZED?$AA@ 1001f63c     rw_ddraw.obj
+ 0002:00002658       ??_C@_05IMKCKLGI@DD_OK?$AA@ 1001f658     rw_ddraw.obj
+ 0002:00002660       ??_C@_0CC@GKLKLNME@DIB_Init?$CI?$CJ?5?9?5SelectObject?5failed@ 1001f660     rw_dib.obj
+ 0002:00002684       ??_C@_0CI@PPMDEAFG@DIB_Init?$CI?$CJ?5?9?5CreateCompatibleDC?5@ 1001f684     rw_dib.obj
+ 0002:000026ac       ??_C@_0CG@DEOHIJGJ@DIB_Init?$CI?$CJ?5?9?5CreateDIBSection?5fa@ 1001f6ac     rw_dib.obj
+ 0002:000026d4       ??_C@_0DC@INIGBEF@DIB_SetPalette?$CI?$CJ?5?9?5RealizePalett@ 1001f6d4     rw_dib.obj
+ 0002:00002708       ??_C@_0CN@OCCINMJM@DIB_SetPalette?$CI?$CJ?5?9?5SelectPalette@ 1001f708     rw_dib.obj
+ 0002:00002738       ??_C@_0CN@JFFJEBFL@DIB_SetPalette?$CI?$CJ?5?9?5CreatePalette@ 1001f738     rw_dib.obj
+ 0002:00002768       ??_C@_0DB@MAAEHKGI@DIB_SetPalette?$CI?$CJ?5?9?5SetSystemPale@ 1001f768     rw_dib.obj
+ 0002:0000279c       ??_C@_0CM@LFILAOCF@DIB_SetPalette?$CI?$CJ?5?9?5SetDIBColorTa@ 1001f79c     rw_dib.obj
+ 0002:000027c8       ??_C@_0BH@GEFOGILD@Couldn?8t?5create?5window?$AA@ 1001f7c8     rw_imp.obj
+ 0002:000027e0       ??_C@_0BP@FFHGFDAJ@Couldn?8t?5register?5window?5class?$AA@ 1001f7e0     rw_imp.obj
+ 0002:00002800       ??_C@_07EJIOKDEB@Quake?52?$AA@ 1001f800     rw_imp.obj
+ 0002:00002808       ??_C@_08PKOLMEA@vid_ypos?$AA@ 1001f808     rw_imp.obj
+ 0002:00002814       ??_C@_08DCMOJFPA@vid_xpos?$AA@ 1001f814     rw_imp.obj
+ 0002:00002820       ??_C@_0L@LHPMKOFC@?5?$CFd?5?$CFd?5?$CFs?6?$AA@ 1001f820     rw_imp.obj
+ 0002:0000282c       ??_C@_0P@CDOCDADM@?5invalid?5mode?6?$AA@ 1001f82c     rw_imp.obj
+ 0002:0000283c       ??_C@_0BB@PMAPEIAI@setting?5mode?5?$CFd?3?$AA@ 1001f83c     rw_imp.obj
+ 0002:00002850       ??_C@_02OFDPNJAI@FS?$AA@   1001f850     rw_imp.obj
+ 0002:00002854       ??_C@_0BG@IPNGMJMJ@?4?4?4destroying?5window?6?$AA@ 1001f854     rw_imp.obj
+ 0002:0000286c       ??_C@_0BG@CEGEDLFG@Shutting?5down?5SW?5imp?6?$AA@ 1001f86c     rw_imp.obj
+ 0002:00002884       ??_C@_0BK@BCJGFNDC@Protection?5change?5failed?6?$AA@ 1001f884     rw_imp.obj
+ 0002:000028a0       __pRawDllMain              1001f8a0     MSVCRTD:crtdll.obj
+ 0002:000028a0       __pDefaultRawDllMain       1001f8a0     MSVCRTD:crtdll.obj
+ 0002:000028a4       ??_C@_0DA@FJPPCPEH@f?3?2dd?2vctools?2crt_bld?2self_x86?2c@ 1001f8a4     MSVCRTD:crtdll.obj
+ 0002:000028dc       ?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB 1001f8dc     MSVCRTD:tncleanup.obj
+ 0002:000028e0       ?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB 1001f8e0     MSVCRTD:tncleanup.obj
+ 0002:000028e4       ?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB 1001f8e4     MSVCRTD:tncleanup.obj
+ 0002:000028e8       ?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB 1001f8e8     MSVCRTD:tncleanup.obj
+ 0002:000028ec       ?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB 1001f8ec     MSVCRTD:tncleanup.obj
+ 0002:0000293c       ___rtc_iaa                 1001f93c     MSVCRTD:_initsect_.obj
+ 0002:00002940       ___rtc_izz                 1001f940     MSVCRTD:_initsect_.obj
+ 0002:00002944       ___rtc_taa                 1001f944     MSVCRTD:_initsect_.obj
+ 0002:00002948       ___rtc_tzz                 1001f948     MSVCRTD:_initsect_.obj
+ 0002:000029d4       __IMPORT_DESCRIPTOR_WINMM  1001f9d4     winmm:WINMM.dll
+ 0002:000029e8       __IMPORT_DESCRIPTOR_KERNEL32 1001f9e8     kernel32:KERNEL32.dll
+ 0002:000029fc       __IMPORT_DESCRIPTOR_USER32 1001f9fc     user32:USER32.dll
+ 0002:00002a10       __IMPORT_DESCRIPTOR_GDI32  1001fa10     gdi32:GDI32.dll
+ 0002:00002a24       __IMPORT_DESCRIPTOR_MSVCR90D 1001fa24     MSVCRTD:MSVCR90D.dll
+ 0002:00002a38       __NULL_IMPORT_DESCRIPTOR   1001fa38     winmm:WINMM.dll
+ 0003:00000008       _r_avertexnormals          10021008     r_alias.obj
+ 0003:0000083c       _r_viewlighting            1002183c     r_main.obj
+ 0003:00000848       _r_aliasuvscale            10021848     r_main.obj
+ 0003:0000084c       _r_framecount              1002184c     r_main.obj
+ 0003:00000850       _suf                       10021850     r_main.obj
+ 0003:00000868       _r_skysideimage            10021868     r_main.obj
+ 0003:000008e0       _rand1k                    100218e0     r_polyse.obj
+ 0003:000018e0       _edgetables                100228e0     r_polyse.obj
+ 0003:00003a90       _irtable                   10024a90     r_polyse.obj
+ 0003:00003b98       _skybox_planes             10024b98     r_rast.obj
+ 0003:00003bc8       _box_surfedges             10024bc8     r_rast.obj
+ 0003:00003c28       _box_edges                 10024c28     r_rast.obj
+ 0003:00003c88       _box_faces                 10024c88     r_rast.obj
+ 0003:00003ca0       _box_vecs                  10024ca0     r_rast.obj
+ 0003:00003d30       _box_verts                 10024d30     r_rast.obj
+ 0003:00003e24       float_0                    10024e24     r_varsa.obj
+ 0003:00003e28       float_1                    10024e28     r_varsa.obj
+ 0003:00003e2c       float_minus_1              10024e2c     r_varsa.obj
+ 0003:00003e30       float_particle_z_clip      10024e30     r_varsa.obj
+ 0003:00003e34       float_point5               10024e34     r_varsa.obj
+ 0003:00003e38       fp_1m                      10024e38     r_varsa.obj
+ 0003:00003e3c       fp_1m_minus_1              10024e3c     r_varsa.obj
+ 0003:00003e40       fp_64k                     10024e40     r_varsa.obj
+ 0003:00003e44       fp_8                       10024e44     r_varsa.obj
+ 0003:00003e48       fp_16                      10024e48     r_varsa.obj
+ 0003:00003e4c       fp_64kx64k                 10024e4c     r_varsa.obj
+ 0003:00003e50       FloatZero                  10024e50     r_varsa.obj
+ 0003:00003e54       Float2ToThe31nd            10024e54     r_varsa.obj
+ 0003:00003e58       FloatMinus2ToThe31nd       10024e58     r_varsa.obj
+ 0003:00003e5c       _r_bmodelactive            10024e5c     r_varsa.obj
+ 0003:00003e60       _d_sdivzstepu              10024e60     r_varsa.obj
+ 0003:00003e64       _d_tdivzstepu              10024e64     r_varsa.obj
+ 0003:00003e68       _d_zistepu                 10024e68     r_varsa.obj
+ 0003:00003e6c       _d_sdivzstepv              10024e6c     r_varsa.obj
+ 0003:00003e70       _d_tdivzstepv              10024e70     r_varsa.obj
+ 0003:00003e74       _d_zistepv                 10024e74     r_varsa.obj
+ 0003:00003e78       _d_sdivzorigin             10024e78     r_varsa.obj
+ 0003:00003e7c       _d_tdivzorigin             10024e7c     r_varsa.obj
+ 0003:00003e80       _d_ziorigin                10024e80     r_varsa.obj
+ 0003:00003e84       _sadjust                   10024e84     r_varsa.obj
+ 0003:00003e88       _tadjust                   10024e88     r_varsa.obj
+ 0003:00003e8c       _bbextents                 10024e8c     r_varsa.obj
+ 0003:00003e90       _bbextentt                 10024e90     r_varsa.obj
+ 0003:00003e94       _cacheblock                10024e94     r_varsa.obj
+ 0003:00003e98       _cachewidth                10024e98     r_varsa.obj
+ 0003:00003e9c       _d_viewbuffer              10024e9c     r_varsa.obj
+ 0003:00003ea0       _d_pzbuffer                10024ea0     r_varsa.obj
+ 0003:00003ea4       _d_zrowbytes               10024ea4     r_varsa.obj
+ 0003:00003ea8       _d_zwidth                  10024ea8     r_varsa.obj
+ 0003:00003eac       izi                        10024eac     r_varsa.obj
+ 0003:00003eb0       s                          10024eb0     r_varsa.obj
+ 0003:00003eb4       t                          10024eb4     r_varsa.obj
+ 0003:00003eb8       snext                      10024eb8     r_varsa.obj
+ 0003:00003ebc       tnext                      10024ebc     r_varsa.obj
+ 0003:00003ec0       sfracf                     10024ec0     r_varsa.obj
+ 0003:00003ec4       tfracf                     10024ec4     r_varsa.obj
+ 0003:00003ec8       pbase                      10024ec8     r_varsa.obj
+ 0003:00003ecc       zi8stepu                   10024ecc     r_varsa.obj
+ 0003:00003ed0       sdivz8stepu                10024ed0     r_varsa.obj
+ 0003:00003ed4       tdivz8stepu                10024ed4     r_varsa.obj
+ 0003:00003ed8       zi16stepu                  10024ed8     r_varsa.obj
+ 0003:00003edc       sdivz16stepu               10024edc     r_varsa.obj
+ 0003:00003ee0       tdivz16stepu               10024ee0     r_varsa.obj
+ 0003:00003ee4       spancountminus1            10024ee4     r_varsa.obj
+ 0003:00003ee8       pz                         10024ee8     r_varsa.obj
+ 0003:00003eec       izistep                    10024eec     r_varsa.obj
+ 0003:00003ef0       reciprocal_table_16        10024ef0     r_varsa.obj
+ 0003:00003f28       entryvec_table_16          10024f28     r_varsa.obj
+ 0003:00003f68       DP_Count                   10024f68     r_varsa.obj
+ 0003:00003f6c       DP_u                       10024f6c     r_varsa.obj
+ 0003:00003f70       DP_v                       10024f70     r_varsa.obj
+ 0003:00003f74       DP_32768                   10024f74     r_varsa.obj
+ 0003:00003f78       DP_Color                   10024f78     r_varsa.obj
+ 0003:00003f7c       DP_Pix                     10024f7c     r_varsa.obj
+ 0003:00003f80       advancetable               10024f80     r_varsa.obj
+ 0003:00003f88       sstep                      10024f88     r_varsa.obj
+ 0003:00003f8c       tstep                      10024f8c     r_varsa.obj
+ 0003:00003f90       pspantemp                  10024f90     r_varsa.obj
+ 0003:00003f94       counttemp                  10024f94     r_varsa.obj
+ 0003:00003f98       jumptemp                   10024f98     r_varsa.obj
+ 0003:00003f9c       reciprocal_table           10024f9c     r_varsa.obj
+ 0003:00003fb4       spr8entryvec_table         10024fb4     r_varsa.obj
+ 0003:00004030       ___security_cookie         10025030     MSVCRTD:gs_cookie.obj
+ 0003:00004034       ___security_cookie_complement 10025034     MSVCRTD:gs_cookie.obj
+ 0003:00004040       ___native_dllmain_reason   10025040     MSVCRTD:natstart.obj
+ 0003:00004044       ___native_vcclrit_reason   10025044     MSVCRTD:natstart.obj
+ 0003:000048ac       _vec3_origin               100258ac     q_shared.obj
+ 0003:00006c4c       _rand1k_index              10027c4c     r_polyse.obj
+ 0003:00006c50       _iractive                  10027c50     r_polyse.obj
+ 0003:00009fdc       __forceCRTManifestRTM      1002afdc     MSVCRTD:crtmanifestrtm.obj
+ 0003:00009fe0       ?__type_info_root_node@@3U__type_info_node@@A 1002afe0     MSVCRTD:tncleanup.obj
+ 0003:00009fe8       _fpu_chop_cw               1002afe8     <common>
+ 0003:00009fec       _fpu_full_cw               1002afec     <common>
+ 0003:00009ff0       _fpu_pushed_cw             1002aff0     <common>
+ 0003:00009ff4       _fpu_sp24_cw               1002aff4     <common>
+ 0003:00009ff8       _fpu_ceil_cw               1002aff8     <common>
+ 0003:00009ffc       _fpu_sp24_ceil_cw          1002affc     <common>
+ 0003:0000a000       _sww_state                 1002b000     <common>
+ 0003:0000a098       _fpu_cw                    1002b098     <common>
+ 0003:0000a09c       _lightleftstep             1002b09c     <common>
+ 0003:0000a0a0       _r_lightptr                1002b0a0     <common>
+ 0003:0000a0c0       _r_drawsurf                1002b0c0     <common>
+ 0003:0000a0ec       _sourcesstep               1002b0ec     <common>
+ 0003:0000a0f0       _sc_rover                  1002b0f0     <common>
+ 0003:0000a0f4       _sourcetstep               1002b0f4     <common>
+ 0003:0000a0f8       _lightrightstep            1002b0f8     <common>
+ 0003:0000a0fc       _lightdelta                1002b0fc     <common>
+ 0003:0000a100       _r_lightwidth              1002b100     <common>
+ 0003:0000a104       _surfscale                 1002b104     <common>
+ 0003:0000a108       _sc_size                   1002b108     <common>
+ 0003:0000a10c       _blockdivshift             1002b10c     <common>
+ 0003:0000a110       _blocksize                 1002b110     <common>
+ 0003:0000a114       _lightright                1002b114     <common>
+ 0003:0000a118       _r_source                  1002b118     <common>
+ 0003:0000a11c       _blockdivmask              1002b11c     <common>
+ 0003:0000a120       _r_sourcemax               1002b120     <common>
+ 0003:0000a124       _r_numhblocks              1002b124     <common>
+ 0003:0000a128       _r_stepback                1002b128     <common>
+ 0003:0000a12c       _surfrowbytes              1002b12c     <common>
+ 0003:0000a130       _r_cache_thrash            1002b130     <common>
+ 0003:0000a134       _pbasesource               1002b134     <common>
+ 0003:0000a138       _prowdestbase              1002b138     <common>
+ 0003:0000a13c       _r_numvblocks              1002b13c     <common>
+ 0003:0000a140       _lightleft                 1002b140     <common>
+ 0003:0000a144       _lightdeltastep            1002b144     <common>
+ 0003:0000a148       _sc_base                   1002b148     <common>
+ 0003:0000a14c       _r_turb_sstep              1002b14c     <common>
+ 0003:0000a150       _r_turb_tstep              1002b150     <common>
+ 0003:0000a154       _r_turb_t                  1002b154     <common>
+ 0003:0000a158       _r_turb_pbase              1002b158     <common>
+ 0003:0000a15c       _r_turb_spancount          1002b15c     <common>
+ 0003:0000a160       _r_turb_pdest              1002b160     <common>
+ 0003:0000a164       _r_turb_turb               1002b164     <common>
+ 0003:0000a168       _r_turb_s                  1002b168     <common>
+ 0003:0000a16c       _r_pedge                   1002b16c     <common>
+ 0003:0000a170       _c_faceclip                1002b170     <common>
+ 0003:0000a174       _r_emitted                 1002b174     <common>
+ 0003:0000a180       _intsintable               1002b180     <common>
+ 0003:0000b580       _r_ceilv1                  1002c580     <common>
+ 0003:0000b584       _cacheoffset               1002c584     <common>
+ 0003:0000b588       _r_nearzi                  1002c588     <common>
+ 0003:0000b590       _r_leftenter               1002c590     <common>
+ 0003:0000b5a0       _r_rightenter              1002c5a0     <common>
+ 0003:0000b5c0       _r_skytexinfo              1002c5c0     <common>
+ 0003:0000b6f8       _r_lastvertvalid           1002c6f8     <common>
+ 0003:0000b700       _r_skyplanes               1002c700     <common>
+ 0003:0000b778       _r_v1                      1002c778     <common>
+ 0003:0000b77c       _r_rightclipped            1002c77c     <common>
+ 0003:0000b780       _r_rightexit               1002c780     <common>
+ 0003:0000b78c       _r_leftclipped             1002c78c     <common>
+ 0003:0000b790       _r_leftexit                1002c790     <common>
+ 0003:0000b7a0       _view_clipplanes           1002c7a0     <common>
+ 0003:0000b800       _r_lzi1                    1002c800     <common>
+ 0003:0000b804       _r_u1                      1002c804     <common>
+ 0003:0000b808       _r_skyframe                1002c808     <common>
+ 0003:0000b820       _sintable                  1002c820     <common>
+ 0003:0000cc20       _r_skyedges                1002dc20     <common>
+ 0003:0000cc40       _blanktable                1002dc40     <common>
+ 0003:0000e040       _r_nearzionly              1002f040     <common>
+ 0003:0000e060       _world_clipplanes          1002f060     <common>
+ 0003:0000e1e0       _r_skyfaces                1002f1e0     <common>
+ 0003:0000e1e4       _entity_clipplanes         1002f1e4     <common>
+ 0003:0000e1e8       _r_skyverts                1002f1e8     <common>
+ 0003:0000e1ec       _r_skysurfedges            1002f1ec     <common>
+ 0003:0000e1f0       _skinwidth                 1002f1f0     <common>
+ 0003:0000e1f4       _d_tfracextrastep          1002f1f4     <common>
+ 0003:0000e1f8       _r_zistepy                 1002f1f8     <common>
+ 0003:0000e1fc       _a_spans                   1002f1fc     <common>
+ 0003:0000e200       _r_sstepy                  1002f200     <common>
+ 0003:0000e204       _d_countextrastep          1002f204     <common>
+ 0003:0000e208       _r_tstepx                  1002f208     <common>
+ 0003:0000e20c       _d_ptexextrastep           1002f20c     <common>
+ 0003:0000e210       _d_lightbasestep           1002f210     <common>
+ 0003:0000e214       _d_pzbasestep              1002f214     <common>
+ 0003:0000e218       _r_tstepy                  1002f218     <common>
+ 0003:0000e21c       _a_sstepxfrac              1002f21c     <common>
+ 0003:0000e220       _skintable                 1002f220     <common>
+ 0003:0000e9a0       _d_ziextrastep             1002f9a0     <common>
+ 0003:0000e9a4       _d_sfracbasestep           1002f9a4     <common>
+ 0003:0000e9a8       _d_lightextrastep          1002f9a8     <common>
+ 0003:0000e9ac       _d_pcolormap               1002f9ac     <common>
+ 0003:0000e9b0       _a_ststepxwhole            1002f9b0     <common>
+ 0003:0000e9b4       _d_xdenom                  1002f9b4     <common>
+ 0003:0000e9b8       _r_lstepx                  1002f9b8     <common>
+ 0003:0000e9bc       _a_tstepxfrac              1002f9bc     <common>
+ 0003:0000e9c0       _r_p1                      1002f9c0     <common>
+ 0003:0000e9d8       _d_zibasestep              1002f9d8     <common>
+ 0003:0000e9dc       _d_ptex                    1002f9dc     <common>
+ 0003:0000e9e0       _d_pedgespanpackage        1002f9e0     <common>
+ 0003:0000e9e4       _r_lstepy                  1002f9e4     <common>
+ 0003:0000ea00       _r_p0                      1002fa00     <common>
+ 0003:0000ea18       _d_tfrac                   1002fa18     <common>
+ 0003:0000ea1c       _r_zistepx                 1002fa1c     <common>
+ 0003:0000ea20       _aliastriangleparms        1002fa20     <common>
+ 0003:0000ea2c       _d_aflatcolor              1002fa2c     <common>
+ 0003:0000ea30       _r_sstepx                  1002fa30     <common>
+ 0003:0000ea34       _d_pzextrastep             1002fa34     <common>
+ 0003:0000ea38       _pedgetable                1002fa38     <common>
+ 0003:0000ea3c       _d_ptexbasestep            1002fa3c     <common>
+ 0003:0000ea40       _skinstart                 1002fa40     <common>
+ 0003:0000ea44       _d_tfracbasestep           1002fa44     <common>
+ 0003:0000ea48       _d_sfracextrastep          1002fa48     <common>
+ 0003:0000ea4c       _d_zi                      1002fa4c     <common>
+ 0003:0000ea50       _d_aspancount              1002fa50     <common>
+ 0003:0000ea54       _d_light                   1002fa54     <common>
+ 0003:0000ea58       _d_pdestextrastep          1002fa58     <common>
+ 0003:0000ea5c       _d_pdestbasestep           1002fa5c     <common>
+ 0003:0000ea60       _d_pdest                   1002fa60     <common>
+ 0003:0000ea64       _d_pdrawspans              1002fa64     <common>
+ 0003:0000ea68       _d_pz                      1002fa68     <common>
+ 0003:0000ea80       _r_p2                      1002fa80     <common>
+ 0003:0000ea98       _d_sfrac                   1002fa98     <common>
+ 0003:0000eaa0       _r_polydesc                1002faa0     <common>
+ 0003:0000eaf8       _r_alpha_surfaces          1002faf8     <common>
+ 0003:0000eb00       _s_spanletvars             1002fb00     <common>
+ 0003:0000eb40       _r_clip_verts              1002fb40     <common>
+ 0003:0000f630       _r_pright                  10030630     <common>
+ 0003:0000f640       _r_pup                     10030640     <common>
+ 0003:0000f650       _r_ppn                     10030650     <common>
+ 0003:0000f660       _mod_known                 10030660     <common>
+ 0003:00026660       _mod_novis                 10047660     <common>
+ 0003:00028660       _registration_sequence     10049660     <common>
+ 0003:00028680       _loadname                  10049680     <common>
+ 0003:000286a0       _r_vistoleaf               100496a0     <common>
+ 0003:000686a0       _mod_numknown              100896a0     <common>
+ 0003:000686a4       _r_numvisleafs             100896a4     <common>
+ 0003:000686a8       _loadmodel                 100896a8     <common>
+ 0003:000686ac       _mod_base                  100896ac     <common>
+ 0003:000686c0       _mod_inline                100896c0     <common>
+ 0003:0007f6c0       _modfilelen                100a06c0     <common>
+ 0003:0007f6e0       _r_leaftovis               100a06e0     <common>
+ 0003:000bf6e0       _d_pix_min                 100e06e0     <common>
+ 0003:000bf6e4       _d_pix_max                 100e06e4     <common>
+ 0003:000bf6e8       _sw_mipscale               100e06e8     <common>
+ 0003:000bf6ec       _alias_colormap            100e06ec     <common>
+ 0003:000bf6f0       _d_vrectx                  100e06f0     <common>
+ 0003:000bf6f4       _sw_mipcap                 100e06f4     <common>
+ 0003:000bf6f8       _d_vrecty                  100e06f8     <common>
+ 0003:000bf700       _d_scalemip                100e0700     <common>
+ 0003:000bf70c       _d_roverwrapped            100e070c     <common>
+ 0003:000bf720       _zspantable                100e0720     <common>
+ 0003:000c09e0       _d_pix_shift               100e19e0     <common>
+ 0003:000c0a00       _d_scantable               100e1a00     <common>
+ 0003:000c1cc0       _d_vrectright_particle     100e2cc0     <common>
+ 0003:000c1cc4       _d_minmip                  100e2cc4     <common>
+ 0003:000c1cc8       _d_initial_rover           100e2cc8     <common>
+ 0003:000c1ccc       _d_vrectbottom_particle    100e2ccc     <common>
+ 0003:000c1ce0       _r_refdef                  100e2ce0     <common>
+ 0003:000c1d6c       _r_surfsonstack            100e2d6c     <common>
+ 0003:000c1d70       _vright                    100e2d70     <common>
+ 0003:000c1d7c       _sw_waterwarp              100e2d7c     <common>
+ 0003:000c1d80       _r_newrefdef               100e2d80     <common>
+ 0003:000c1de8       _aliasycenter              100e2de8     <common>
+ 0003:000c1dec       _r_pcurrentvertbase        100e2dec     <common>
+ 0003:000c1e00       _r_frustum_indexes         100e2e00     <common>
+ 0003:000c1e60       _r_drawentities            100e2e60     <common>
+ 0003:000c1e64       _r_visframecount           100e2e64     <common>
+ 0003:000c1e80       _sw_state                  100e2e80     <common>
+ 0003:000c2390       _viewlightvec              100e3390     <common>
+ 0003:000c239c       _sw_draworder              100e339c     <common>
+ 0003:000c23a0       _sky_images                100e33a0     <common>
+ 0003:000c23b8       _r_clipflags               100e33b8     <common>
+ 0003:000c23bc       _rw_time1                  100e33bc     <common>
+ 0003:000c23c0       _aliasxscale               100e33c0     <common>
+ 0003:000c23c4       _yOrigin                   100e33c4     <common>
+ 0003:000c23c8       _xcenter                   100e33c8     <common>
+ 0003:000c23cc       _sw_lockpvs                100e33cc     <common>
+ 0003:000c23d0       _se_time2                  100e33d0     <common>
+ 0003:000c23d4       _sw_reportedgeout          100e33d4     <common>
+ 0003:000c23e0       _base_vup                  100e33e0     <common>
+ 0003:000c23ec       _r_worldmodel              100e33ec     <common>
+ 0003:000c23f0       _r_lightlevel              100e33f0     <common>
+ 0003:000c23f4       _sw_maxedges               100e33f4     <common>
+ 0003:000c2400       _pfrustum_indexes          100e3400     <common>
+ 0003:000c2410       _da_time2                  100e3410     <common>
+ 0003:000c2414       _r_maxsurfsseen            100e3414     <common>
+ 0003:000c2418       _verticalFieldOfView       100e3418     <common>
+ 0003:000c241c       _r_drawworld               100e341c     <common>
+ 0003:000c2420       _d_8to24table              100e3420     <common>
+ 0003:000c2820       _sw_clearcolor             100e3820     <common>
+ 0003:000c2824       _aliasxcenter              100e3824     <common>
+ 0003:000c2828       _r_outofedges              100e3828     <common>
+ 0003:000c282c       _vid_gamma                 100e382c     <common>
+ 0003:000c2830       _de_time1                  100e3830     <common>
+ 0003:000c2834       _r_fullbright              100e3834     <common>
+ 0003:000c2838       _r_screenwidth             100e3838     <common>
+ 0003:000c2840       _ri                        100e3840     <common>
+ 0003:000c2880       _r_dowarp                  100e3880     <common>
+ 0003:000c2884       _xOrigin                   100e3884     <common>
+ 0003:000c2888       _sw_stipplealpha           100e3888     <common>
+ 0003:000c288c       _dp_time2                  100e388c     <common>
+ 0003:000c2890       _ycenter                   100e3890     <common>
+ 0003:000c28a0       _vid                       100e38a0     <common>
+ 0003:000c28c0       _base_vpn                  100e38c0     <common>
+ 0003:000c28cc       _r_notexture_mip           100e38cc     <common>
+ 0003:000c28d0       _rw_time2                  100e38d0     <common>
+ 0003:000c28d4       _sw_drawflat               100e38d4     <common>
+ 0003:000c28d8       _r_drawnpolycount          100e38d8     <common>
+ 0003:000c28dc       _sw_allow_modex            100e38dc     <common>
+ 0003:000c28e0       _r_origin                  100e38e0     <common>
+ 0003:000c28ec       _currentmodel              100e38ec     <common>
+ 0003:000c28f0       _vup                       100e38f0     <common>
+ 0003:000c2900       _skyaxis                   100e3900     <common>
+ 0003:000c290c       _r_viewleaf                100e390c     <common>
+ 0003:000c2910       _base_vright               100e3910     <common>
+ 0003:000c291c       _sw_maxsurfs               100e391c     <common>
+ 0003:000c2920       _yscaleshrink              100e3920     <common>
+ 0003:000c2924       _r_viewcluster             100e3924     <common>
+ 0003:000c2928       _vid_fullscreen            100e3928     <common>
+ 0003:000c292c       _db_time2                  100e392c     <common>
+ 0003:000c2930       _r_novis                   100e3930     <common>
+ 0003:000c2940       _r_worldentity             100e3940     <common>
+ 0003:000c2988       _db_time1                  100e3988     <common>
+ 0003:000c298c       _r_lefthand                100e398c     <common>
+ 0003:000c2990       _xscaleinv                 100e3990     <common>
+ 0003:000c2994       _dp_time1                  100e3994     <common>
+ 0003:000c2998       _xscaleshrink              100e3998     <common>
+ 0003:000c299c       _xscale                    100e399c     <common>
+ 0003:000c29a0       _r_wholepolycount          100e39a0     <common>
+ 0003:000c29a4       _r_numallocatededges       100e39a4     <common>
+ 0003:000c29a8       _r_oldviewcluster          100e39a8     <common>
+ 0003:000c29ac       _sw_aliasstats             100e39ac     <common>
+ 0003:000c29b0       _r_polycount               100e39b0     <common>
+ 0003:000c29b4       _r_lerpmodels              100e39b4     <common>
+ 0003:000c29b8       _r_speeds                  100e39b8     <common>
+ 0003:000c29bc       _de_time2                  100e39bc     <common>
+ 0003:000c29c0       _r_maxedgesseen            100e39c0     <common>
+ 0003:000c29c4       _r_outofsurfaces           100e39c4     <common>
+ 0003:000c29c8       _yscaleinv                 100e39c8     <common>
+ 0003:000c29e0       _skyname                   100e39e0     <common>
+ 0003:000c2a20       _se_time1                  100e3a20     <common>
+ 0003:000c2a40       _r_notexture_buffer        100e3a40     <common>
+ 0003:000c2e40       _sw_surfcacheoverride      100e3e40     <common>
+ 0003:000c2e44       _d_spanpixcount            100e3e44     <common>
+ 0003:000c2e50       _vpn                       100e3e50     <common>
+ 0003:000c2e5c       _c_surf                    100e3e5c     <common>
+ 0003:000c2e60       _r_dspeeds                 100e3e60     <common>
+ 0003:000c2e64       _da_time1                  100e3e64     <common>
+ 0003:000c2e68       _sw_mode                   100e3e68     <common>
+ 0003:000c2e80       _screenedge                100e3e80     <common>
+ 0003:000c2ed0       _r_time1                   100e3ed0     <common>
+ 0003:000c2ed4       _aliasyscale               100e3ed4     <common>
+ 0003:000c2ed8       _skyrotate                 100e3ed8     <common>
+ 0003:000c2edc       _yscale                    100e3edc     <common>
+ 0003:000c2ee0       _r_warpbuffer              100e3ee0     <common>
+ 0003:000d5ae0       _sw_reportsurfout          100f6ae0     <common>
+ 0003:000d5ae4       _r_cnumsurfs               100f6ae4     <common>
+ 0003:000d5ae8       _colormap                  100f6ae8     <common>
+ 0003:000d5aec       _lightplane                100f6aec     <common>
+ 0003:000d5af0       _r_dlightframecount        100f6af0     <common>
+ 0003:000d5b00       _pointcolor                100f6b00     <common>
+ 0003:000d5b20       _blocklights               100f6b20     <common>
+ 0003:000d6b20       _lightspot                 100f7b20     <common>
+ 0003:000d6b2c       _numr_images               100f7b2c     <common>
+ 0003:000d6b40       _r_images                  100f7b40     <common>
+ 0003:000efb40       _erroradjustdown           10110b40     <common>
+ 0003:000efb44       _auxedges                  10110b44     <common>
+ 0003:000efb60       _removeedges               10110b60     <common>
+ 0003:000f0e20       _edge_max                  10111e20     <common>
+ 0003:000f0e40       _edge_aftertail            10111e40     <common>
+ 0003:000f0e60       _transformed_modelorg      10111e60     <common>
+ 0003:000f0e6c       _max_span_p                10111e6c     <common>
+ 0003:000f0e70       _fv                        10111e70     <common>
+ 0003:000f0e74       _ubasestep                 10111e74     <common>
+ 0003:000f0e80       _edge_sentinel             10111e80     <common>
+ 0003:000f0ea0       _edge_p                    10111ea0     <common>
+ 0003:000f0ea4       _surfaces                  10111ea4     <common>
+ 0003:000f0ec0       _edge_head                 10111ec0     <common>
+ 0003:000f0ee0       _span_p                    10111ee0     <common>
+ 0003:000f0ee4       _surf_max                  10111ee4     <common>
+ 0003:000f0f00       _edge_tail                 10111f00     <common>
+ 0003:000f0f20       _pface                     10111f20     <common>
+ 0003:000f0f24       _edge_head_u_shift20       10111f24     <common>
+ 0003:000f0f28       _current_iv                10111f28     <common>
+ 0003:000f0f2c       _scale_for_mip             10111f2c     <common>
+ 0003:000f0f30       _surface_p                 10111f30     <common>
+ 0003:000f0f40       _newedges                  10111f40     <common>
+ 0003:000f2200       _errorterm                 10113200     <common>
+ 0003:000f2210       _local_modelorg            10113210     <common>
+ 0003:000f221c       _r_currentkey              1011321c     <common>
+ 0003:000f2220       _world_transformed_modelorg 10113220     <common>
+ 0003:000f222c       _erroradjustup             1011322c     <common>
+ 0003:000f2230       _r_edges                   10113230     <common>
+ 0003:000f2234       _pcurrentcache             10113234     <common>
+ 0003:000f2238       _edge_tail_u_shift20       10113238     <common>
+ 0003:000f223c       _draw_chars                1011323c     <common>
+ 0003:000f2240       _c_drawnode                10113240     <common>
+ 0003:000f2244       _r_currentbkey             10113244     <common>
+ 0003:000f2248       _currententity             10113248     <common>
+ 0003:000f2260       _entity_rotation           10113260     <common>
+ 0003:000f2290       _modelorg                  10113290     <common>
+ 0003:000f22a0       _r_entorigin               101132a0     <common>
+ 0003:000f22ac       _insubmodel                101132ac     <common>
+ 0003:000f22b0       _r_shadelight              101132b0     <common>
+ 0003:000f22c0       _r_plightvec               101132c0     <common>
+ 0003:000f22cc       _s_pmdl                    101132cc     <common>
+ 0003:000f22d0       _r_aliasblendcolor         101132d0     <common>
+ 0003:000f22e0       _aliastransform            101132e0     <common>
+ 0003:000f2320       _aliasworldtransform       10113320     <common>
+ 0003:000f2350       _r_lastframe               10113350     <common>
+ 0003:000f2360       _aliasoldworldtransform    10113360     <common>
+ 0003:000f2390       _aliasbatchedtransformdata 10113390     <common>
+ 0003:000f23a0       _r_lerp_move               101133a0     <common>
+ 0003:000f23ac       _r_thisframe               101133ac     <common>
+ 0003:000f23b0       _r_lerp_backv              101133b0     <common>
+ 0003:000f23c0       _r_lerped                  101133c0     <common>
+ 0003:000f53c0       _r_ambientlight            101163c0     <common>
+ 0003:000f53d0       _r_lerp_frontv             101163d0     <common>
+ 0003:000f53e0       _r_affinetridesc           101163e0     <common>
+ 0003:000f540c       _r_amodels_drawn           1011640c     <common>
+ 0003:000f5410       _hunkcount                 10116410     <common>
+ 0003:000f5414       _findhandle                10116414     <common>
+ 0003:000f5418       _cursize                   10116418     <common>
+ 0003:000f5420       _findbase                  10116420     <common>
+ 0003:000f54a0       _curtime                   101164a0     <common>
+ 0003:000f54c0       _findpath                  101164c0     <common>
+ 0003:000f5540       _membase                   10116540     <common>
+ 0003:000f5544       _hunkmaxsize               10116544     <common>
+ 0003:000f5548       __LittleLong               10116548     <common>
+ 0003:000f554c       _paged_total               1011654c     <common>
+ 0003:000f5550       __LittleFloat              10116550     <common>
+ 0003:000f5560       _com_token                 10116560     <common>
+ 0003:000f55e0       _i                         101165e0     <common>
+ 0003:000f55e4       __LittleShort              101165e4     <common>
+ 0003:000f55e8       __BigShort                 101165e8     <common>
+ 0003:000f55ec       __BigLong                  101165ec     <common>
+ 0003:000f55f0       __BigFloat                 101165f0     <common>
+ 0003:000f55f4       _bigendien                 101165f4     <common>
+ 0003:000f5600       _corners                   10116600     <common>
+ 0003:000f5618       __adjust_fdiv              10116618     <common>
+ 0003:000f561c       ___native_startup_state    1011661c     <common>
+ 0003:000f5620       ___native_startup_lock     10116620     <common>
+ 0003:000f5624       ___onexitend               10116624     <common>
+ 0003:000f5628       ___onexitbegin             10116628     <common>
+ 0003:000f562c       ___sse2_available          1011662c     <common>
+ 0003:000f5630       ___dyn_tls_init_callback   10116630     <common>
+
+ entry point at        0001:0001ac80
+
+ Static symbols
+
+ 0001:000024b0       _CompareAttributes         100034b0 f   q_shwin.obj
+ 0001:00004380       _R_AliasSetupSkin          10005380 f   r_alias.obj
+ 0001:00012a00       _R_DrawPoly                10013a00 f   r_poly.obj
+ 0001:00018f60       _DDrawError                10019f60 f   rw_ddraw.obj
+ 0001:00019e40       _DIB_RestoreSystemColors   1001ae40 f   rw_dib.obj
+ 0001:00019e70       _DIB_SaveSystemColors      1001ae70 f   rw_dib.obj
+ 0001:0001a3f0       _SWimp_InitGraphics        1001b3f0 f   rw_imp.obj
+ 0001:0001a8e0       _pre_c_init                1001b8e0 f   MSVCRTD:crtdll.obj
+ 0001:0001acb0       ___DllMainCRTStartup       1001bcb0 f   MSVCRTD:crtdll.obj
+ 0001:0001af00       _has_osfxsr_set            1001bf00 f   MSVCRTD:cpu_disp.obj
